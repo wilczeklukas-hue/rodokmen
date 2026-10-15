@@ -14,7 +14,8 @@ git push -q
 echo "Čekám na GitHub Pages…"
 ok=0
 for i in $(seq 1 40); do
-  if curl -fsSL "$URL?nocache=$RANDOM$RANDOM" 2>/dev/null | grep -q "content=\"$BUILD_ID\""; then ok=1; break; fi
+  page=$(curl -fsSL "$URL?nocache=$RANDOM$RANDOM" 2>/dev/null || true)
+  if [[ "$page" == *"content=\"$BUILD_ID\""* ]]; then ok=1; break; fi
   sleep 15
 done
 if [ $ok = 1 ]; then echo "Pages servíruje nové sestavení ($BUILD_ID): $URL"; else echo "VAROVÁNÍ: Pages zatím nevrací nové sestavení ($BUILD_ID)"; exit 1; fi
