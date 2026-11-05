@@ -99,10 +99,12 @@ window.RODOKMEN = {
    "maiden": "",
    "cert": "R",
    "notes": [
+    "Pohřben na hřbitově Urnový háj Karviná-Mizerov (rodinná paměť).",
     "Datum a místo narození zatím neznámé (rok je odhad podle syna)."
    ],
    "sources": [
-    "Rodinná paměť – sdělení Lukáše Wilczka (15. 10. 2026)"
+    "Rodinná paměť – sdělení Lukáše Wilczka (15. 10. 2026)",
+    "Rodinná paměť – sdělení Lukáše Wilczka (5. 11. 2026): úmrtí a místo pohřbu"
    ],
    "scans": [],
    "id": "frantisekW",
@@ -113,6 +115,9 @@ window.RODOKMEN = {
     "year": 1926,
     "place": "",
     "approx": true
+   },
+   "d": {
+    "date": "konec 80. let nebo začátek 90. let (rodinná paměť)"
    }
   },
   {
