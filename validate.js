@@ -84,6 +84,19 @@ for (const c of d.people) {
   const f = byId.get(c.father), m = byId.get(c.mother);
   if (f && m && marriageYear(f) && marriageYear(m) && marriageYear(f) !== marriageYear(m)) say('WARN', `marriage year differs: ${f.id} ${marriageYear(f)} vs ${m.id} ${marriageYear(m)}`);
 }
+for (const p of d.people) {
+  const my = marriageYear(p);
+  if (my && p.b && p.b.year && !p.b.approx && my - p.b.year < 14) say('ERROR', `${p.id}: married at ${my - p.b.year} (marriage ${my}, born ${p.b.year})`);
+}
+
+// values the page can compute must not be hard-coded in texts (they go stale with the next find)
+const COMPUTED = /nejstarší dolož|nejvzdálenější|od roku \d{4}|celkem \d+|\d+\s+(osob|generac)/i;
+const texts = [
+  ...(d.story || []).map(s => [`story '${s.title}'`, s.text]),
+  ...(d.timeline || []).map(t => ['timeline', t.t || t.text]),
+  ...d.people.flatMap(p => (p.notes || []).map(n => [`${p.id} note`, n]))
+];
+for (const [where, t] of texts) if (COMPUTED.test(t || '')) say('WARN', `${where}: hard-coded computable value "${(t.match(COMPUTED) || [])[0]}" – let the page compute it`);
 
 for (const lvl of ['ERROR', 'WARN', 'INFO']) for (const m of out[lvl]) console.log(`${lvl}: ${m}`);
 console.log(`validate: ${d.people.length} people, ${out.ERROR.length} errors, ${out.WARN.length} warnings, ${out.INFO.length} info`);
