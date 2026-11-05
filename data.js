@@ -19,8 +19,13 @@ window.RODOKMEN = {
   },
   {
    "id": "matusinsky",
-   "name": "Matusinský",
+   "name": "Matušinský",
    "color": "#8a5bb0"
+  },
+  {
+   "id": "grzonka",
+   "name": "Grzonka",
+   "color": "#b0863a"
   }
  ],
  "people": [
@@ -148,9 +153,11 @@ window.RODOKMEN = {
    }
   },
   {
-   "maiden": "Matusinská",
+   "maiden": "Matušinská",
    "cert": "R",
-   "notes": [],
+   "notes": [
+    "Rodiče Evžen a Natálie podle rodiny (R). Totožnost rodičů v matrice doložena shodou obou dat narození s rodinnou pamětí; zápis o narození Anny zatím nepřečten. Rodina uvádí původ z Petrovic u Karviné, Závady."
+   ],
    "sources": [
     "Rodinná paměť – sdělení Lukáše Wilczka (15. 10. 2026)"
    ],
@@ -168,41 +175,171 @@ window.RODOKMEN = {
   },
   {
    "maiden": "",
-   "cert": "R",
-   "notes": [],
-   "sources": [
-    "Rodinná paměť – sdělení Lukáše Wilczka (15. 10. 2026)"
+   "cert": "M",
+   "notes": [
+    "V oddacím zápise 1934 psán Matuszyński (čtení ?), bydliště Závada č. 69. Přípisem z 3. 3. 1937 podle výnosu zemského úřadu v Brně z 2. 3. 1937 opraven způsob psaní příjmení na „Matušinský“."
    ],
-   "scans": [],
+   "sources": [
+    "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F VIII 18, inv. 18470, O Petrovice u Karviné, Prstná, Závada 1859–1949, snímek 239, sňatek 18. 11. 1934 (digi.archives.cz)"
+   ],
+   "scans": [
+    {
+     "f": "img/1934_snatek_evzen_natalie.jpg",
+     "t": "Sňatek Evžena Matušinského a Natálie Grzonkové, 18. 11. 1934"
+    }
+   ],
    "id": "evzenM",
-   "name": "Evžen Matusinský",
+   "name": "Evžen Matušinský",
    "line": "matusinsky",
    "alive": false,
    "b": {
     "date": "9. 5. 1908",
     "year": 1908,
-    "place": ""
-   }
+    "place": "Doubrava"
+   },
+   "marriage": "18. 11. 1934, Závada (farnost Petrovice u Karviné) – s Natálií Grzonkovou",
+   "father": "janM",
+   "mother": "albinaD"
   },
   {
-   "maiden": "",
-   "cert": "R",
+   "maiden": "Grzonková",
+   "cert": "M",
    "notes": [
-    "Rodné příjmení zatím neznámé."
+    "Při sňatku 1934 při domácnosti, bydliště Závada č. 54. Rodné příjmení v zápise čteno Grzonková (?)."
    ],
    "sources": [
-    "Rodinná paměť – sdělení Lukáše Wilczka (15. 10. 2026)"
+    "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F VIII 18, inv. 18470, O Petrovice u Karviné, Prstná, Závada 1859–1949, snímek 239, sňatek 18. 11. 1934 (digi.archives.cz)"
    ],
-   "scans": [],
+   "scans": [
+    {
+     "f": "img/1934_snatek_evzen_natalie.jpg",
+     "t": "Sňatek Evžena Matušinského a Natálie Grzonkové, 18. 11. 1934"
+    }
+   ],
    "id": "natalieM",
-   "name": "Natálie Matusinská",
+   "name": "Natálie Matušinská",
    "line": "matusinsky",
    "alive": false,
    "b": {
     "date": "21. 8. 1912",
     "year": 1912,
-    "place": ""
-   }
+    "place": "Závada, Petrovice u Karviné"
+   },
+   "marriage": "18. 11. 1934, Závada (farnost Petrovice u Karviné) – s Evženem Matušinským",
+   "father": "antoninG",
+   "mother": "ludmilaS"
+  },
+  {
+   "id": "janM",
+   "name": "Jan Matušinský",
+   "maiden": "",
+   "line": "matusinsky",
+   "cert": "D",
+   "alive": false,
+   "b": {
+    "date": "",
+    "year": 1878,
+    "place": "",
+    "approx": true
+   },
+   "occ": "chalupník, horník, v roce 1934 na penzi",
+   "notes": [
+    "Otec Evžena. V zápise 1934 psán Matuszyński (čtení ?), bydliště Závada č. 69. Rok narození je odhad podle narození syna."
+   ],
+   "sources": [
+    "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F VIII 18, inv. 18470, O Petrovice u Karviné, Prstná, Závada 1859–1949, snímek 239, sňatek 18. 11. 1934 (digi.archives.cz)"
+   ],
+   "scans": [
+    {
+     "f": "img/1934_snatek_evzen_natalie.jpg",
+     "t": "Sňatek Evžena Matušinského a Natálie Grzonkové, 18. 11. 1934"
+    }
+   ]
+  },
+  {
+   "id": "albinaD",
+   "name": "Albína Matušinská",
+   "maiden": "Drapková",
+   "line": "matusinsky",
+   "cert": "D",
+   "alive": false,
+   "b": {
+    "date": "",
+    "year": 1882,
+    "place": "",
+    "approx": true
+   },
+   "notes": [
+    "Matka Evžena, „z rodu Drapka“ (čtení ?). Rok narození je odhad podle narození syna."
+   ],
+   "sources": [
+    "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F VIII 18, inv. 18470, O Petrovice u Karviné, Prstná, Závada 1859–1949, snímek 239, sňatek 18. 11. 1934 (digi.archives.cz)"
+   ],
+   "scans": [
+    {
+     "f": "img/1934_snatek_evzen_natalie.jpg",
+     "t": "Sňatek Evžena Matušinského a Natálie Grzonkové, 18. 11. 1934"
+    }
+   ]
+  },
+  {
+   "id": "antoninG",
+   "name": "Antonín Grzonka",
+   "maiden": "",
+   "line": "grzonka",
+   "cert": "D",
+   "alive": false,
+   "b": {
+    "date": "",
+    "year": 1885,
+    "place": "",
+    "approx": true
+   },
+   "d": {
+    "date": "před 18. 11. 1934",
+    "year": 1934,
+    "place": "",
+    "approx": true
+   },
+   "occ": "železniční zřízenec",
+   "notes": [
+    "Otec Natálie, v zápise 1934 označen křížkem jako zemřelý, Závada č. 54. Příjmení čteno Grzonka (?). Rok narození je odhad podle narození dcery."
+   ],
+   "sources": [
+    "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F VIII 18, inv. 18470, O Petrovice u Karviné, Prstná, Závada 1859–1949, snímek 239, sňatek 18. 11. 1934 (digi.archives.cz)"
+   ],
+   "scans": [
+    {
+     "f": "img/1934_snatek_evzen_natalie.jpg",
+     "t": "Sňatek Evžena Matušinského a Natálie Grzonkové, 18. 11. 1934"
+    }
+   ]
+  },
+  {
+   "id": "ludmilaS",
+   "name": "Ludmila Grzonková",
+   "maiden": "Stadeczková (?)",
+   "line": "grzonka",
+   "cert": "D",
+   "alive": false,
+   "b": {
+    "date": "",
+    "year": 1888,
+    "place": "",
+    "approx": true
+   },
+   "notes": [
+    "Matka Natálie, „z rodu Stadeczek“ (čtení ?). Rok narození je odhad podle narození dcery."
+   ],
+   "sources": [
+    "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F VIII 18, inv. 18470, O Petrovice u Karviné, Prstná, Závada 1859–1949, snímek 239, sňatek 18. 11. 1934 (digi.archives.cz)"
+   ],
+   "scans": [
+    {
+     "f": "img/1934_snatek_evzen_natalie.jpg",
+     "t": "Sňatek Evžena Matušinského a Natálie Grzonkové, 18. 11. 1934"
+    }
+   ]
   }
  ],
  "places": [],
@@ -219,8 +356,8 @@ window.RODOKMEN = {
   },
   {
    "line": "matusinsky",
-   "title": "Matusinští",
-   "text": "Rodina babičky Anny (nar. 1941 v Karviné): Evžen Matusinský (nar. 1908) a Natálie (nar. 1912)."
+   "title": "Matušinští",
+   "text": "Rodina babičky Anny (nar. 1941). Evžen, nar. 9. 5. 1908 v Doubravě, syn horníka Jana ze Závady, se 18. 11. 1934 oženil s Natálií Grzonkovou, nar. 21. 8. 1912 v Závadě, dcerou železničního zřízence Antonína. Příjmení psané v zápise polsky bylo roku 1937 úředně upraveno na Matušinský."
   }
  ],
  "timeline": [],
