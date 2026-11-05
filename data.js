@@ -51,14 +51,24 @@ window.RODOKMEN = {
   },
   {
    "maiden": "",
-   "cert": "R",
+   "cert": "D",
    "notes": [
-    "Místo narození podle rodiny „asi Karviná“ – ověřit."
+    "Místo úmrtí je podle veřejných zdrojů adresa nemocnice v Karviné-Ráji (Vydmuchov 399/5)."
    ],
    "sources": [
-    "Rodinná paměť – sdělení Lukáše Wilczka (15. 10. 2026)"
+    "Rodinná paměť – sdělení Lukáše Wilczka (15. 10. 2026)",
+    "Úmrtní list, MÚ Karviná, kniha úmrtí, sv. 41, r. 2021, str. 130, poř. č. 984, vydán 16. 11. 2021"
    ],
-   "scans": [],
+   "scans": [
+    {
+     "f": "img/2021_umrti_alois_wilczek.jpg",
+     "t": "Úmrtní list 2021 (citlivé údaje začerněny)"
+    },
+    {
+     "f": "img/1995_hrob_adela_wilczkova.jpg",
+     "t": "Hrob matky Adely Wilczkové a její sestry Anny Drozdowé"
+    }
+   ],
    "id": "aloisW",
    "name": "Alois Wilczek",
    "line": "wilczek",
@@ -66,12 +76,12 @@ window.RODOKMEN = {
    "b": {
     "date": "4. 4. 1954",
     "year": 1954,
-    "place": "Karviná (?)"
+    "place": "Karviná"
    },
    "d": {
     "date": "9. 11. 2021",
     "year": 2021,
-    "place": ""
+    "place": "Karviná, část Ráj č.p. 399"
    },
    "father": "frantisekW",
    "mother": "adelaD"
@@ -106,7 +116,12 @@ window.RODOKMEN = {
     "Rodinná paměť – sdělení Lukáše Wilczka (15. 10. 2026)",
     "Rodinná paměť – sdělení Lukáše Wilczka (5. 11. 2026): úmrtí a místo pohřbu"
    ],
-   "scans": [],
+   "scans": [
+    {
+     "f": "img/2021_umrti_alois_wilczek.jpg",
+     "t": "Úmrtní list syna Aloise 2021 (citlivé údaje začerněny)"
+    }
+   ],
    "id": "frantisekW",
    "name": "František Wilczek",
    "line": "wilczek",
@@ -122,23 +137,42 @@ window.RODOKMEN = {
   },
   {
    "maiden": "Drozdová",
-   "cert": "R",
+   "cert": "D",
    "notes": [
-    "Datum a místo narození zatím neznámé (rok je odhad podle syna)."
+    "Data z náhrobku; rok narození je na fotce špatně čitelný (1929, možná 1923). Místo narození neznámé: podle rodiny pohraničí Těšínska, možná Polsko či Prusko.",
+    "Pochována se sestrou Annou Drozdowou (náhrobek; sestra podle rodiny). Hřbitov zatím neupřesněn."
    ],
    "sources": [
-    "Rodinná paměť – sdělení Lukáše Wilczka (15. 10. 2026)"
+    "Rodinná paměť – sdělení Lukáše Wilczka (15. 10. 2026)",
+    "Náhrobek Anna Drozdowa a Adela Wilczková, foto od Lukáše Wilczka (1. 11. 2026)"
    ],
-   "scans": [],
+   "scans": [
+    {
+     "f": "img/1995_hrob_adela_wilczkova.jpg",
+     "t": "Náhrobek: Anna Drozdowa a Adela Wilczková"
+    },
+    {
+     "f": "img/2021_umrti_alois_wilczek.jpg",
+     "t": "Úmrtní list syna Aloise 2021 (citlivé údaje začerněny)"
+    }
+   ],
    "id": "adelaD",
    "name": "Adela Wilczková",
    "line": "drozd",
    "b": {
-    "date": "",
-    "year": 1928,
+    "date": "5. 5. 1929 (?)",
+    "year": 1929,
     "place": "",
     "approx": true
-   }
+   },
+   "d": {
+    "date": "25. 11. 1995",
+    "year": 1995,
+    "place": ""
+   },
+   "siblings": [
+    "Anna Drozdowa, 23. 7. 1924 (?) – 1. 6. 1969 (?), podle náhrobku; den narození špatně čitelný"
+   ]
   },
   {
    "maiden": "",
