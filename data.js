@@ -140,11 +140,13 @@ window.RODOKMEN = {
    "cert": "D",
    "notes": [
     "Data z náhrobku; rok narození je na fotce špatně čitelný (1929, možná 1923). Místo narození neznámé: podle rodiny pohraničí Těšínska, možná Polsko či Prusko.",
-    "Pochována se sestrou Annou Drozdowou (náhrobek; sestra podle rodiny). Hřbitov zatím neupřesněn."
+    "Pochována se sestrou Annou Drozdowou (náhrobek; sestra podle rodiny). Hrob je v Urnovém háji Karviná-Mizerov (rodinná paměť).",
+    "KANDIDÁT: na stejném hřbitově je společný náhrobek Franz a Emilie? Drozd (BillionGraves, data nepřepsána) – možní rodiče Adely a Anny, vazba nedoložena."
    ],
    "sources": [
     "Rodinná paměť – sdělení Lukáše Wilczka (15. 10. 2026)",
-    "Náhrobek Anna Drozdowa a Adela Wilczková, foto od Lukáše Wilczka (1. 11. 2026)"
+    "Náhrobek Anna Drozdowa a Adela Wilczková, foto od Lukáše Wilczka (1. 11. 2026)",
+    "Rodinná paměť – sdělení Lukáše Wilczka (6. 11. 2026): hrob v Urnovém háji Karviná-Mizerov"
    ],
    "scans": [
     {
