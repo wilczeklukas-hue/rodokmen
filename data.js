@@ -31,10 +31,11 @@ window.RODOKMEN = {
  "people": [
   {
    "maiden": "",
-   "cert": "R",
+   "cert": "D",
    "notes": [],
    "sources": [
-    "Rodinná paměť – sdělení Lukáše Wilczka (15. 10. 2026)"
+    "Rodinná paměť – sdělení Lukáše Wilczka (15. 10. 2026)",
+    "Rodný list dcery Anny, MÚ Karviná, sv. 61/2014, str. 20, poř. č. 187: otec Lukáš Wilczek, nar. 28. 10. 1983 Bohumín"
    ],
    "scans": [],
    "id": "lukasW",
@@ -51,15 +52,21 @@ window.RODOKMEN = {
   },
   {
    "maiden": "",
-   "cert": "D",
+   "cert": "M",
    "notes": [
-    "Místo úmrtí je podle veřejných zdrojů adresa nemocnice v Karviné-Ráji (Vydmuchov 399/5)."
+    "Místo úmrtí je podle veřejných zdrojů adresa nemocnice v Karviné-Ráji (Vydmuchov 399/5).",
+    "Rodiče v roce 1954 bydleli v Karviné 6 – Stalingrad č. 1181 (?)."
    ],
    "sources": [
+    "Zápis o narození Aloise Wilczka, MÚ Karviná, kniha narození 1954, poř. č. 460 (kopie zápisu zaslaná úřadem, 11. 11. 2026)",
     "Rodinná paměť – sdělení Lukáše Wilczka (15. 10. 2026)",
     "Úmrtní list, MÚ Karviná, kniha úmrtí, sv. 41, r. 2021, str. 130, poř. č. 984, vydán 16. 11. 2021"
    ],
    "scans": [
+    {
+     "f": "img/1954_narozeni_alois_wilczek.jpg",
+     "t": "Zápis o narození 4. 4. 1954, Karviná"
+    },
     {
      "f": "img/2021_umrti_alois_wilczek.jpg",
      "t": "Úmrtní list 2021 (citlivé údaje začerněny)"
@@ -76,7 +83,7 @@ window.RODOKMEN = {
    "b": {
     "date": "4. 4. 1954",
     "year": 1954,
-    "place": "Karviná"
+    "place": "Karviná, část Doly (Karviná 1), státní nemocnice"
    },
    "d": {
     "date": "9. 11. 2021",
@@ -107,16 +114,21 @@ window.RODOKMEN = {
   },
   {
    "maiden": "",
-   "cert": "R",
+   "cert": "D",
    "notes": [
-    "Pohřben na hřbitově Urnový háj Karviná-Mizerov (rodinná paměť).",
-    "Datum a místo narození zatím neznámé (rok je odhad podle syna)."
+    "Datum a místo narození ze zápisu o narození syna Aloise (1954); vlastní křestní zápis zatím nehledán.",
+    "Pohřben na hřbitově Urnový háj Karviná-Mizerov (rodinná paměť)."
    ],
    "sources": [
+    "Zápis o narození Aloise Wilczka, MÚ Karviná, kniha narození 1954, poř. č. 460 (kopie zápisu zaslaná úřadem, 11. 11. 2026)",
     "Rodinná paměť – sdělení Lukáše Wilczka (15. 10. 2026)",
     "Rodinná paměť – sdělení Lukáše Wilczka (5. 11. 2026): úmrtí a místo pohřbu"
    ],
    "scans": [
+    {
+     "f": "img/1954_narozeni_alois_wilczek.jpg",
+     "t": "Zápis o narození syna Aloise 1954"
+    },
     {
      "f": "img/2021_umrti_alois_wilczek.jpg",
      "t": "Úmrtní list syna Aloise 2021 (citlivé údaje začerněny)"
@@ -126,29 +138,36 @@ window.RODOKMEN = {
    "name": "František Wilczek",
    "line": "wilczek",
    "b": {
-    "date": "",
-    "year": 1926,
-    "place": "",
-    "approx": true
+    "date": "24. 3. 1927",
+    "year": 1927,
+    "place": "Karviná, Karviná 1 – město"
    },
    "d": {
     "date": "konec 80. let nebo začátek 90. let (rodinná paměť)"
-   }
+   },
+   "occ": "horník (1954)",
+   "father": "frantisekW1",
+   "mother": "ruzenaN"
   },
   {
    "maiden": "Drozdová",
    "cert": "D",
    "notes": [
-    "Data z náhrobku; rok narození je na fotce špatně čitelný (1929, možná 1923). Místo narození neznámé: podle rodiny pohraničí Těšínska, možná Polsko či Prusko.",
+    "Narozena 5. 5. 1929 podle zápisu o narození syna Aloise (1954), shodně s náhrobkem. Rodiště čteno „Sosnova (?)“, okres „Bědzin (?)“ – nejspíš polské Zagłębie (Będzin, Sosnowiec), čtení nejisté.",
     "Pochována se sestrou Annou Drozdowou (náhrobek; sestra podle rodiny). Hrob je v Urnovém háji Karviná-Mizerov (rodinná paměť).",
-    "KANDIDÁT: na stejném hřbitově je společný náhrobek Franz a Emilie? Drozd (BillionGraves, data nepřepsána) – možní rodiče Adely a Anny, vazba nedoložena."
+    "Otec František Drozd byl v roce 1954 už mrtev. Na hřbitově Urnový háj Karviná-Mizerov je náhrobek Franz a Emilie? Drozd (BillionGraves) – možná jeho hrob, nedoloženo."
    ],
    "sources": [
+    "Zápis o narození Aloise Wilczka, MÚ Karviná, kniha narození 1954, poř. č. 460 (kopie zápisu zaslaná úřadem, 11. 11. 2026)",
     "Rodinná paměť – sdělení Lukáše Wilczka (15. 10. 2026)",
     "Náhrobek Anna Drozdowa a Adela Wilczková, foto od Lukáše Wilczka (1. 11. 2026)",
     "Rodinná paměť – sdělení Lukáše Wilczka (6. 11. 2026): hrob v Urnovém háji Karviná-Mizerov"
    ],
    "scans": [
+    {
+     "f": "img/1954_narozeni_alois_wilczek.jpg",
+     "t": "Zápis o narození syna Aloise 1954"
+    },
     {
      "f": "img/1995_hrob_adela_wilczkova.jpg",
      "t": "Náhrobek: Anna Drozdowa a Adela Wilczková"
@@ -162,10 +181,9 @@ window.RODOKMEN = {
    "name": "Adela Wilczková",
    "line": "drozd",
    "b": {
-    "date": "5. 5. 1929 (?)",
+    "date": "5. 5. 1929",
     "year": 1929,
-    "place": "",
-    "approx": true
+    "place": "Sosnova (?), okres Bědzin (?)"
    },
    "d": {
     "date": "25. 11. 1995",
@@ -174,7 +192,10 @@ window.RODOKMEN = {
    },
    "siblings": [
     "Anna Drozdowa, 23. 7. 1924 (?) – 1. 6. 1969 (?), podle náhrobku; den narození špatně čitelný"
-   ]
+   ],
+   "occ": "v domácnosti (1954)",
+   "father": "frantisekD",
+   "mother": "aloisieK"
   },
   {
    "maiden": "",
@@ -381,6 +402,114 @@ window.RODOKMEN = {
      "t": "Sňatek Evžena Matušinského a Natálie Grzonkové, 18. 11. 1934"
     }
    ]
+  },
+  {
+   "alive": false,
+   "notes": [
+    "Otec Františka (nar. 1927), uveden jako prarodič v zápisu o narození vnuka Aloise 1954. Rok narození je odhad podle syna."
+   ],
+   "sources": [
+    "Zápis o narození Aloise Wilczka, MÚ Karviná, kniha narození 1954, poř. č. 460 (kopie zápisu zaslaná úřadem, 11. 11. 2026)"
+   ],
+   "scans": [
+    {
+     "f": "img/1954_narozeni_alois_wilczek.jpg",
+     "t": "Zápis o narození vnuka Aloise 1954"
+    }
+   ],
+   "id": "frantisekW1",
+   "name": "František Wilczek",
+   "maiden": "",
+   "line": "wilczek",
+   "cert": "D",
+   "b": {
+    "date": "",
+    "year": 1900,
+    "place": "",
+    "approx": true
+   }
+  },
+  {
+   "alive": false,
+   "notes": [
+    "Matka Františka (nar. 1927), v zápisu 1954 „Růžena rozená Nosková“ (čtení ?, možná Nasková). Rok narození je odhad podle syna."
+   ],
+   "sources": [
+    "Zápis o narození Aloise Wilczka, MÚ Karviná, kniha narození 1954, poř. č. 460 (kopie zápisu zaslaná úřadem, 11. 11. 2026)"
+   ],
+   "scans": [
+    {
+     "f": "img/1954_narozeni_alois_wilczek.jpg",
+     "t": "Zápis o narození vnuka Aloise 1954"
+    }
+   ],
+   "id": "ruzenaN",
+   "name": "Růžena Wilczková",
+   "maiden": "Nosková (?)",
+   "line": "wilczek",
+   "cert": "D",
+   "b": {
+    "date": "",
+    "year": 1902,
+    "place": "",
+    "approx": true
+   }
+  },
+  {
+   "alive": false,
+   "notes": [
+    "Otec Adely, v zápisu 1954 označen křížkem (zemřel před rokem 1954). Rok narození je odhad podle dcer.",
+    "KANDIDÁT na hrob: Franz Drozd, Urnový háj Karviná-Mizerov (BillionGraves 18437711), se ženou Emilie? – jméno manželky nesedí s Aloisií, vazba nedoložena."
+   ],
+   "sources": [
+    "Zápis o narození Aloise Wilczka, MÚ Karviná, kniha narození 1954, poř. č. 460 (kopie zápisu zaslaná úřadem, 11. 11. 2026)"
+   ],
+   "scans": [
+    {
+     "f": "img/1954_narozeni_alois_wilczek.jpg",
+     "t": "Zápis o narození vnuka Aloise 1954"
+    }
+   ],
+   "id": "frantisekD",
+   "name": "František Drozd",
+   "maiden": "",
+   "line": "drozd",
+   "cert": "D",
+   "b": {
+    "date": "",
+    "year": 1898,
+    "place": "",
+    "approx": true
+   },
+   "d": {
+    "date": "před dubnem 1954 (podle zápisu vnuka)"
+   }
+  },
+  {
+   "alive": false,
+   "notes": [
+    "Matka Adely, v zápisu 1954 „Aloisie rozená Kurzerová“ (čtení ?). Rok narození je odhad podle dcer."
+   ],
+   "sources": [
+    "Zápis o narození Aloise Wilczka, MÚ Karviná, kniha narození 1954, poř. č. 460 (kopie zápisu zaslaná úřadem, 11. 11. 2026)"
+   ],
+   "scans": [
+    {
+     "f": "img/1954_narozeni_alois_wilczek.jpg",
+     "t": "Zápis o narození vnuka Aloise 1954"
+    }
+   ],
+   "id": "aloisieK",
+   "name": "Aloisie Drozdová",
+   "maiden": "Kurzerová (?)",
+   "line": "drozd",
+   "cert": "D",
+   "b": {
+    "date": "",
+    "year": 1900,
+    "place": "",
+    "approx": true
+   }
   }
  ],
  "places": [],
@@ -388,7 +517,7 @@ window.RODOKMEN = {
   {
    "line": "wilczek",
    "title": "Wilczkovi",
-   "text": "Otcova větev. Alois Wilczek (1954–2021), syn Františka Wilczka a Adely roz. Drozdové. Starší generace zatím nedohledány."
+   "text": "Otcova větev. Alois Wilczek (1954–2021) se narodil v Karviné, syn horníka Františka Wilczka (nar. 1927 v Karviné) a Adely roz. Drozdové (nar. 1929, rodiště snad v polském Zagłębí). Dědovi rodiče: František Wilczek a Růžena roz. Nosková (?); Adeliny rodiče: František Drozd a Aloisie roz. Kurzerová (?)."
   },
   {
    "line": "opiol",
