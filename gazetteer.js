@@ -1,6 +1,7 @@
 // Places used in data.js: name -> coordinates. Matching in the web strips " (?)" and everything after a comma.
 // Add every new place here (validate.js reports missing ones as INFO).
 window.GAZETTEER = {
+  'Łódź': { lat: 51.759, lon: 19.456, region: 'Polsko, woj. łódzkie' },
   'Doubrava': { lat: 49.859, lon: 18.478, region: 'okr. Karviná', note: 'poloha přibližná' },
   'Závada': { lat: 49.891, lon: 18.527, region: 'Petrovice u Karviné, okr. Karviná', note: 'poloha přibližná' },
   'Bohumín': { lat: 49.904, lon: 18.357, region: 'okr. Karviná' },
