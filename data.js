@@ -2368,10 +2368,12 @@ window.RODOKMEN = {
    },
    "occ": "sedlák (Bauer) v Dětmarovicích",
    "notes": [
-    "Otec Matyáše Hanuška (sňatek syna 1776; psáno „Hanusser“). Rok narození je odhad."
+    "Otec Matyáše Hanuška (sňatek syna 1776; psáno „Hanusser“). Rok narození je odhad.",
+    "Stopa K: křest 25. 3. (?) 1741 Dětmarovice – Marina, dcera Georgia Hanuska a Magdaleny (F I 2, inv. 2698, sn. 78 L); stav ani č. d. neuvedeny, ztotožnění s naším Jiřím nedoloženo. Křest syna Matyáše (*~1742) v X 1741 – IX 1742 není (zao_r28)."
    ],
    "sources": [
-    "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F I 11, inv. 2707, O Věřňovice 1728–1792, snímek 109, pravá strana (fol. 107), „In Februario“ 1776, 3. zápis (digi.archives.cz; rejstřík F I 48 sn. 11 P)"
+    "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F I 11, inv. 2707, O Věřňovice 1728–1792, snímek 109, pravá strana (fol. 107), „In Februario“ 1776, 3. zápis (digi.archives.cz; rejstřík F I 48 sn. 11 P)",
+    "ZA Opava, NAD 165, sign. F I 2, inv. 2698, N Věřňovice 1728–1753, snímek 78 (digi.archives.cz)"
    ],
    "scans": [
     {
