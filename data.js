@@ -2066,21 +2066,29 @@ window.RODOKMEN = {
    "alive": false,
    "b": {
     "date": "",
-    "year": 1775,
+    "year": 1785,
     "place": "Dětmarovice (?)",
     "approx": true
    },
    "notes": [
-    "Otec Terezie Antończykové (sňatek vnuka 1854). Rok narození je odhad.",
+    "Sňatek 9. 1. 1804, Dětmarovice č. 12: „Joseph des Johann Kionka Häuslers und Schmidts (?) Sohn von Dittmansdorf“, 19 let (nar. ~1784/85), svobodný × „Rosina nach verstorbenem Mathias Hanußek gewesenem Ackerbauers hinterbliebene Tochter von Dittmansdorf“, 22 let, svobodná. Svědci Mathias Kania, sedlák z Dětmarovic; Johann Kuznik (?) z Dombrau (?).",
+    "Otec Terezie Antończykové (sňatek vnuka 1854). Rok narození z věku při sňatku.",
     "Sňatek dcery Terezie 1827. Manželka Rosina roz. Hanusek (?) (křest dcery 1808)."
    ],
    "sources": [
+    "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F I 12, inv. 2708, O Věřňovice 1793–1823, oddíl Dětmarovice, snímek 37, levá strana (fol. 80), 2. zápis, sňatek 9. 1. 1804 (digi.archives.cz)",
     "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F I 25, inv. 2721, O Věřňovice 1846–1875, oddíl Dětmarovice, snímek 45, pravá strana (pag. 11), 3. zápis, sňatek 29. 5. 1854 (digi.archives.cz)",
     "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F I 13, inv. 2709, O Věřňovice 1824–1845, oddíl Dětmarovice, snímek 41, levá strana (pag. 6), 2. zápis, sňatek 26. 6. 1827 (digi.archives.cz; nalezeno přes rejstřík F I 27 sn. 2 P)",
     "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F I 6, inv. 2702, N Věřňovice 1804–1823, oddíl Dětmarovice, snímek 75, levá strana (fol. 26), 5. zápis, křest 1808 (digi.archives.cz)"
    ],
-   "scans": [],
-   "occ": "sedlák (Ackerbauer) v Dětmarovicích"
+   "scans": [
+    {
+     "f": "img/1804_snatek_kionka_hanusek.jpg",
+     "t": "Sňatek Joseph Kionka × Rosina Hanußek, Dětmarovice 9. 1. 1804"
+    }
+   ],
+   "occ": "sedlák (Ackerbauer) v Dětmarovicích",
+   "father": "johannKionka"
   },
   {
    "id": "georgSurma",
@@ -2112,26 +2120,92 @@ window.RODOKMEN = {
   {
    "id": "rosinaHanusek",
    "name": "Rosina Kionková",
-   "maiden": "Hanusková (Hanußek ?)",
+   "maiden": "Hanušková (Hanußek)",
    "line": "grzonka",
    "cert": "M",
    "alive": false,
    "b": {
     "date": "",
-    "year": 1780,
-    "place": "",
+    "year": 1782,
+    "place": "Dětmarovice (?)",
     "approx": true
    },
    "notes": [
-    "Matka Terezie Antończykové: „Rosina gebohrne Hanußek (?)“ (křest 1808); v přípisu u sňatku dcery 1827 „Anna Hamrozek (?)“. Křestní jméno Rosina jisté, příjmení nejisté (Hanusek / Hamrusek). Rok narození je odhad."
+    "Sňatek 9. 1. 1804 v Dětmarovicích (22 let, nar. ~1781/82, svobodná): pozůstalá dcera zemřelého sedláka Matyáše Hanuška (M). Matka Terezie Antończykové (křest 1808 „Rosina gebohrne Hanußek“); v přípisu u sňatku dcery 1827 chybně „Anna Hamrozek“."
    ],
    "sources": [
+    "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F I 12, inv. 2708, O Věřňovice 1793–1823, oddíl Dětmarovice, snímek 37, levá strana (fol. 80), 2. zápis, sňatek 9. 1. 1804 (digi.archives.cz)",
     "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F I 6, inv. 2702, N Věřňovice 1804–1823, oddíl Dětmarovice, snímek 75, levá strana (fol. 26), 5. zápis, křest 1808 (digi.archives.cz)"
    ],
    "scans": [
     {
+     "f": "img/1804_snatek_kionka_hanusek.jpg",
+     "t": "Sňatek Joseph Kionka × Rosina Hanußek, Dětmarovice 9. 1. 1804"
+    },
+    {
      "f": "img/1808_krest_terezie_kionka.jpg",
      "t": "Křest Terezie Kionkové, 25. 9. 1808, Dětmarovice"
+    }
+   ],
+   "father": "mathiasHanusek"
+  },
+  {
+   "id": "johannKionka",
+   "name": "Jan (Johann) Kionka",
+   "maiden": "",
+   "line": "grzonka",
+   "cert": "M",
+   "alive": false,
+   "b": {
+    "date": "",
+    "year": 1755,
+    "place": "Dětmarovice (?)",
+    "approx": true
+   },
+   "occ": "domkář a kovář (?) v Dětmarovicích č. 12",
+   "notes": [
+    "Otec Josefa Kionky (sňatek syna 1804; povolání „und Schmidts“ je vsuvka nad řádkem – K). Rok narození je odhad."
+   ],
+   "sources": [
+    "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F I 12, inv. 2708, O Věřňovice 1793–1823, oddíl Dětmarovice, snímek 37, levá strana (fol. 80), 2. zápis, sňatek 9. 1. 1804 (digi.archives.cz)"
+   ],
+   "scans": [
+    {
+     "f": "img/1804_snatek_kionka_hanusek.jpg",
+     "t": "Sňatek Joseph Kionka × Rosina Hanußek, Dětmarovice 9. 1. 1804"
+    }
+   ]
+  },
+  {
+   "id": "mathiasHanusek",
+   "name": "Matyáš (Mathias) Hanušek",
+   "maiden": "",
+   "line": "grzonka",
+   "cert": "M",
+   "alive": false,
+   "b": {
+    "date": "",
+    "year": 1750,
+    "place": "Dětmarovice (?)",
+    "approx": true
+   },
+   "d": {
+    "date": "",
+    "year": 1804,
+    "place": "",
+    "before": true
+   },
+   "occ": "sedlák (Ackerbauer) v Dětmarovicích",
+   "notes": [
+    "Otec Rosiny Kionkové; v I 1804 už nežil („nach verstorbenem Mathias Hanußek gewesenem Ackerbauers“). Rok narození je odhad."
+   ],
+   "sources": [
+    "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F I 12, inv. 2708, O Věřňovice 1793–1823, oddíl Dětmarovice, snímek 37, levá strana (fol. 80), 2. zápis, sňatek 9. 1. 1804 (digi.archives.cz)"
+   ],
+   "scans": [
+    {
+     "f": "img/1804_snatek_kionka_hanusek.jpg",
+     "t": "Sňatek Joseph Kionka × Rosina Hanußek, Dětmarovice 9. 1. 1804"
     }
    ]
   }
