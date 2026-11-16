@@ -605,7 +605,8 @@ window.RODOKMEN = {
     "place": "Łódź, Polsko"
    },
    "notes": [
-    "Rodina pochází z Łodže a okolí Spały (rodinná paměť)."
+    "Rodina pochází z Łodže a okolí Spały (rodinná paměť).",
+    "Podle uživatele (16. 11. 2026): celým jménem Beata Borysławska Wilczek, rozená Szymańska. Rodiče Szymańští pocházejí z okolí města Piła (Polsko); otec byl major, matka v domácnosti (R). Jména a data zatím nezjištěna."
    ],
    "sources": [
     "Rodný list Anny Wilczek, MÚ Karviná, kniha narození sv. 61, r. 2014, str. 20, poř. č. 187, vydán 7. 4. 2014",
