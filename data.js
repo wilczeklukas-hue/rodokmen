@@ -244,11 +244,13 @@ window.RODOKMEN = {
    "maiden": "",
    "cert": "M",
    "notes": [
+    "Křest: narozen 9. 5. 1908, pokřtěn 17. 5. 1908 v Doubravě (fol. 337), dům č. 369, jméno „Eugen“, manželský. Kmotři: Franz Matuszyński, svobodný tovární dělník v Hrušově; Francisca Drapka, svobodná chalupnická dcera v Závadě. Přípis na okraji: oddán v Petrovicích 18. 11. 1934 s Natálií Grzonkovou.",
     "V oddacím zápise 1934 psán Matuszyński (čtení ?), bydliště Závada č. 69. Přípisem z 3. 3. 1937 podle výnosu zemského úřadu v Brně z 2. 3. 1937 opraven způsob psaní příjmení na „Matušinský“."
    ],
    "sources": [
     "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F VIII 18, inv. 18470, O Petrovice u Karviné, Prstná, Závada 1859–1949, snímek 239, sňatek 18. 11. 1934 (digi.archives.cz)",
-    "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F VIII 18, inv. 18470, O Petrovice u Karviné, Prstná, Závada 1859–1949, snímek 223, sňatek 9. 7. 1907 Jan Matuszyński × Albína Drapková (digi.archives.cz)"
+    "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F VIII 18, inv. 18470, O Petrovice u Karviné, Prstná, Závada 1859–1949, snímek 223, sňatek 9. 7. 1907 Jan Matuszyński × Albína Drapková (digi.archives.cz)",
+    "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F III 6, inv. 11851, N Doubrava 1898–1910, snímek 179, fol. 337, křest Eugena Matuszyńského 1908 (digi.archives.cz)"
    ],
    "scans": [
     {
@@ -258,6 +260,10 @@ window.RODOKMEN = {
     {
      "f": "img/1907_snatek_jan_matuszynski_albina_drapka.jpg",
      "t": "Sňatek rodičů Jana a Albíny, 9. 7. 1907"
+    },
+    {
+     "f": "img/1908_krest_evzen_matusinsky.jpg",
+     "t": "Křest Evžena (Eugen Matuszyński), Doubrava, 9./17. 5. 1908"
     }
    ],
    "id": "evzenM",
@@ -267,7 +273,7 @@ window.RODOKMEN = {
    "b": {
     "date": "9. 5. 1908",
     "year": 1908,
-    "place": "Doubrava"
+    "place": "Doubrava č. 369"
    },
    "marriage": "18. 11. 1934, Závada (farnost Petrovice u Karviné) – s Natálií Grzonkovou",
    "father": "janM",
@@ -314,19 +320,21 @@ window.RODOKMEN = {
    "cert": "M",
    "alive": false,
    "b": {
-    "date": "",
-    "year": 1883,
-    "place": "Chybie (?), Těšínsko (PL)",
-    "approx": false
+    "date": "27. 9. 1882",
+    "year": 1882,
+    "place": "Chybie (?), Těšínsko (PL)"
    },
    "occ": "horník (Bergarbeiter) v Doubravě 1907; v roce 1934 chalupník, horník na penzi",
    "notes": [
     "Oddací zápis 9. 7. 1907: „Johann Matuszyński, Bergarbeiter in Dombrau“, Doubrava č. 375, syn † Franze Matuszyńského, chalupníka v Chybí (?), a † Marianny roz. Knopp (dcery Johanna Knoppa). Narozen v Chybí (?), září 1883 (den nečitelný, opravovaný), svobodný, katolík.",
-    "V oddacím zápise syna 1934 psán Matuszyński (čtení ?), bydliště Závada č. 69."
+    "V oddacím zápise syna 1934 psán Matuszyński (čtení ?), bydliště Závada č. 69.",
+    "ROZPOR data narození: křest syna 1908 uvádí 27. 9. 1882, oddací zápis 1907 „2?/9 1883“ (den opravovaný). Platí zatím 1882 (čitelnější), ověřit křtem v Chybi (?).",
+    "Kmotr syna 1908 Franz Matuszyński, svobodný tovární dělník v Hrušově – nejspíš bratr (otec se jmenoval také Franz), NEDOLOŽENO."
    ],
    "sources": [
     "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F VIII 18, inv. 18470, O Petrovice u Karviné, Prstná, Závada 1859–1949, snímek 239, sňatek 18. 11. 1934 (digi.archives.cz)",
-    "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F VIII 18, inv. 18470, O Petrovice u Karviné, Prstná, Závada 1859–1949, snímek 223, sňatek 9. 7. 1907 Jan Matuszyński × Albína Drapková (digi.archives.cz)"
+    "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F VIII 18, inv. 18470, O Petrovice u Karviné, Prstná, Závada 1859–1949, snímek 223, sňatek 9. 7. 1907 Jan Matuszyński × Albína Drapková (digi.archives.cz)",
+    "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F III 6, inv. 11851, N Doubrava 1898–1910, snímek 179, fol. 337, křest Eugena Matuszyńského 1908 (digi.archives.cz)"
    ],
    "scans": [
     {
@@ -336,6 +344,10 @@ window.RODOKMEN = {
     {
      "f": "img/1907_snatek_jan_matuszynski_albina_drapka.jpg",
      "t": "Sňatek Jana Matuszyńského a Albíny Drapkové, 9. 7. 1907, Závada"
+    },
+    {
+     "f": "img/1908_krest_evzen_matusinsky.jpg",
+     "t": "Křest syna Evžena, 1908"
     }
    ],
    "marriage": "9. 7. 1907, Závada (farnost Petrovice u Karviné) – s Albínou Drapkovou"
@@ -353,11 +365,13 @@ window.RODOKMEN = {
     "place": "Závada, Petrovice u Karviné"
    },
    "notes": [
-    "Oddací zápis 9. 7. 1907: „Albina Drapka“, Závada č. 48, dcera Franze Drapky, chalupníka v Závadě, a Anny roz. Prochasek (dcery Franze Prochaska). Narozena v Závadě 9. 7. 1881, svobodná, katolička. Svědci: Wincenz Halatek (?), Dittmannsdorf; Franz Skrzecki (?), chalupník v Závadě."
+    "Oddací zápis 9. 7. 1907: „Albina Drapka“, Závada č. 48, dcera Franze Drapky, chalupníka v Závadě, a Anny roz. Prochasek (dcery Franze Prochaska). Narozena v Závadě 9. 7. 1881, svobodná, katolička. Svědci: Wincenz Halatek (?), Dittmannsdorf; Franz Skrzecki (?), chalupník v Závadě.",
+    "Křest syna 1908 potvrzuje: Albina roz. Franz Drapka, nar. 9. 7. 1881, sňatek 9. 7. 1907. Kmotra Francisca Drapka, svobodná chalupnická dcera v Závadě – nejspíš sestra, NEDOLOŽENO."
    ],
    "sources": [
     "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F VIII 18, inv. 18470, O Petrovice u Karviné, Prstná, Závada 1859–1949, snímek 239, sňatek 18. 11. 1934 (digi.archives.cz)",
-    "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F VIII 18, inv. 18470, O Petrovice u Karviné, Prstná, Závada 1859–1949, snímek 223, sňatek 9. 7. 1907 Jan Matuszyński × Albína Drapková (digi.archives.cz)"
+    "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F VIII 18, inv. 18470, O Petrovice u Karviné, Prstná, Závada 1859–1949, snímek 223, sňatek 9. 7. 1907 Jan Matuszyński × Albína Drapková (digi.archives.cz)",
+    "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F III 6, inv. 11851, N Doubrava 1898–1910, snímek 179, fol. 337, křest Eugena Matuszyńského 1908 (digi.archives.cz)"
    ],
    "scans": [
     {
@@ -367,6 +381,10 @@ window.RODOKMEN = {
     {
      "f": "img/1907_snatek_jan_matuszynski_albina_drapka.jpg",
      "t": "Sňatek Jana Matuszyńského a Albíny Drapkové, 9. 7. 1907, Závada"
+    },
+    {
+     "f": "img/1908_krest_evzen_matusinsky.jpg",
+     "t": "Křest syna Evžena, 1908"
     }
    ],
    "marriage": "9. 7. 1907, Závada (farnost Petrovice u Karviné) – s Janem Matuszyńským"
