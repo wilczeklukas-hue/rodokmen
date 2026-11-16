@@ -11,4 +11,5 @@ window.GAZETTEER = {
   'Zaborze': { lat: 49.885, lon: 18.796, region: 'Polsko, woj. śląskie (Těšínsko), farnost Pierściec', note: 'poloha přibližná' },
   'Godów': { lat: 49.921, lon: 18.477, region: 'Polsko, woj. śląskie (Těšínsko)' },
   'Karviná-Ráj': { lat: 49.845, lon: 18.565, region: 'okr. Karviná', note: 'poloha části obce přibližná' },
+  'Dětmarovice': { lat: 49.894, lon: 18.461, region: 'okr. Karviná' },
 };
