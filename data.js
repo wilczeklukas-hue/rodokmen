@@ -1040,24 +1040,32 @@ window.RODOKMEN = {
    "cert": "M",
    "alive": false,
    "b": {
-    "date": "",
-    "year": 1825,
-    "place": "Dětmarovice (?)",
-    "approx": true
+    "date": "24. 2. 1831",
+    "year": 1831,
+    "place": "Dětmarovice"
    },
    "notes": [
+    "Sňatek 29. 5. 1854, Dětmarovice č. 64: „Antończik Josef, Ackerbauerssohn, Sohn nach Valentin Antończik hiesigem Ackerbauer und der Terezie gebornen Josef Kionka“, 23 let, svobodný; datum narození 24. 2. 1831 Dětmarovice je přípis (VI, 2) – D. Nevěsta Marianna, vdova po Andreasi Niebrojovi. Svědci Georg Niebroj, Georg Plechaczek.",
     "Sedlák v Dětmarovicích (č. 19/24/64, od 1861 č. 29); manželka Marianna roz. Benda. Děti (křty Dětmarovice, M): Johanna 12. 4. 1855, Ferdinand Josef 31. 5. 1857, Marianna 19. 10. 1858, Karolina Philomena Valentina 12. 2. 1860, Magdalena 16. 6. 1861, Filomena Franziska 8. 1. 1863, Francisca 2. 4. 1864, Franz Josef 2. 10. 1865, Theresia 15. 9. 1867. Kmotr už 1854. Rok narození je odhad.",
     "Ferdinand (nar. 1857) je nejspíš rolník Ferdinand Antończyk z Dětmarovic, jehož manželka byla 1889 kmotrou vnučky Angely.",
     "Hypotéza (D): přiženil se kolem 1854 na č. 29 k vdově Marianně Niebrojové roz. Bendové (dcera Theresia Niebroj 1853, otec Andreas Niebroj). Ověřit sňatek ~1854 a úmrtí Andrease Niebroje."
    ],
    "sources": [
+    "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F I 25, inv. 2721, O Věřňovice 1846–1875, oddíl Dětmarovice, snímek 45, pravá strana (pag. 11), 3. zápis, sňatek 29. 5. 1854 (digi.archives.cz)",
     "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F VIII 10, inv. 2797, N Závada (fara Petrovice u Karviné) 1859–1909, snímek 271 (digi.archives.cz)",
     "FamilySearch, Dětmarovice řk. křty 1840–1868 (vol. 2722), DGS 5387458, snímky 41, 44, 49, 54, 59 – https://www.familysearch.org/ark:/61903/3:1:3QSQ-G9MW-M98F-W",
     "FamilySearch, Dětmarovice řk. křty 1840–1868 (SOA Opava, vol. 2722), DGS 5387458, snímky 41–94 – https://www.familysearch.org/ark:/61903/3:1:3QSQ-G9MW-M98C-Q",
     "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F II 6, inv. 13234, O Dětmarovice 1863–1913, snímek 76, levá strana (pag. 150), 2. zápis, sňatek 27. 11. 1888 (digi.archives.cz)"
    ],
-   "scans": [],
-   "occ": "sedlák (Ackerbauer) v Dětmarovicích č. 29"
+   "scans": [
+    {
+     "f": "img/1854_snatek_antonczyk_benda.jpg",
+     "t": "Sňatek Josef Antończyk × Marianna vd. Niebroj roz. Benda, Dětmarovice 29. 5. 1854"
+    }
+   ],
+   "occ": "sedlák (Ackerbauer) v Dětmarovicích č. 29",
+   "father": "valentinAntonczyk",
+   "mother": "terezieKionka"
   },
   {
    "id": "laurenzM",
@@ -1365,44 +1373,36 @@ window.RODOKMEN = {
    "b": {
     "date": "",
     "year": 1830,
-    "place": "Dětmarovice (?)",
+    "place": "Závada (?)",
     "approx": true
    },
-   "father": "georgBenda",
+   "father": "georgBendaZ",
    "notes": [
-    "Matka Terezie (1867) a dalších osmi dětí Josefa Antończyka (1855–1867), Dětmarovice č. 29; v křtech vždy „Marianna geb. Benda Georg“. Možná vdova po Andreasi Niebrojovi (dcera Theresia 1853) – NEDOLOŽENO. Rok narození je odhad."
+    "1. sňatek 22. 6. 1852 v Závadě: „Marianna des Georg Benda Bauers und der Susanna (?) geb. Surma (?) Tochter aus Zawada“, 16 let, svobodná × Andreas Niebroj, sedlák, 26 let, syn Andrease Niebroje (M). Dcera Theresia Niebroj *22. 8. 1853, Dětmarovice č. 29.",
+    "2. sňatek 29. 5. 1854 v Dětmarovicích č. 29: „Marianna Witwe nach Andreas Niebroj hiesigem Ackerbauer und Tochter nach Georg Benda Ackerbauer in Zawada“ × Josef Antończyk (M). Věk 16 (1852) × 2? (1854) si odporuje – rozhodne křest. Jméno matky (Susanna Surma × Johanna Smurna u sestry Johanny 1860) – tatáž žena D.",
+    "Matka Terezie (1867) a dalších osmi dětí Josefa Antończyka (1855–1867), Dětmarovice č. 29; v křtech vždy „Marianna geb. Benda Georg“. Rok narození je odhad."
    ],
    "sources": [
+    "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F VIII 11, inv. 10218, O Petrovice u Karviné 1836–1858, oddíl Závada, snímek 26, levá strana (pag. 25), sňatek 22. 6. 1852 (digi.archives.cz)",
+    "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F I 25, inv. 2721, O Věřňovice 1846–1875, oddíl Dětmarovice, snímek 45, pravá strana (pag. 11), 3. zápis, sňatek 29. 5. 1854 (digi.archives.cz)",
     "FamilySearch, Dětmarovice řk. křty 1840–1868 (SOA Opava, vol. 2722), DGS 5387458, snímky 37–94 – https://www.familysearch.org/ark:/61903/3:1:3QSQ-G9MW-M98C-Q",
     "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F II 6, inv. 13234, O Dětmarovice 1863–1913, snímek 76, levá strana (pag. 150), 2. zápis, sňatek 27. 11. 1888 (digi.archives.cz)"
    ],
    "scans": [
     {
+     "f": "img/1854_snatek_antonczyk_benda.jpg",
+     "t": "Sňatek Josef Antończyk × Marianna vd. Niebroj roz. Benda, Dětmarovice 29. 5. 1854"
+    },
+    {
+     "f": "img/1852_snatek_niebroj_benda.jpg",
+     "t": "Sňatek Andreas Niebroj × Marianna Benda, Závada 22. 6. 1852 (rodiče nevěsty)"
+    },
+    {
      "f": "img/1867_krest_terezie_antonczyk.jpg",
      "t": "Křest dcery Terezie, 1867"
     }
-   ]
-  },
-  {
-   "id": "georgBenda",
-   "name": "Georg (Jiří) Benda",
-   "maiden": "",
-   "line": "grzonka",
-   "cert": "M",
-   "alive": false,
-   "b": {
-    "date": "",
-    "year": 1800,
-    "place": "Dětmarovice (?)",
-    "approx": true
-   },
-   "notes": [
-    "Otec Marianny Antończykové; uveden jen jménem v křtech jejích dětí 1855–1867 („Marianna geb. Benda Georg“). Rok narození je odhad."
    ],
-   "sources": [
-    "FamilySearch, Dětmarovice řk. křty 1840–1868 (SOA Opava, vol. 2722), DGS 5387458, snímky 41–94 – https://www.familysearch.org/ark:/61903/3:1:3QSQ-G9MW-M98C-Q"
-   ],
-   "scans": []
+   "mother": "johannaSmurna"
   },
   {
    "id": "laurenzStadeczek",
@@ -1458,7 +1458,7 @@ window.RODOKMEN = {
    },
    "notes": [
     "Sňatek 27. 11. 1860 v Závadě: „Johanna Benda aus Zawada, Tochter des Georg Benda Bauers u. der Johanna geb. Georg Smurna“, Závada č. 5, 16 let, svobodná; souhlas otce Georga Bendy (nezletilá). Datum narození 29. 4. 1844 je modrý přípis (II/83) – D. Svědci Josef Muron, Josef Cyron.",
-    "Její otec Georg Benda, sedlák v Závadě, je možná totožný s Georgem Bendou, otcem Marianny Antończykové z Dětmarovic (obě „geb. Benda Georg“; církevní dispens při sňatku jejich dětí 1888) – NEDOLOŽENO, vedeni odděleně."
+    "Sestra Marianny Antończykové (D – stejný otec Georg Benda, sedlák v Závadě)."
    ],
    "sources": [
     "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F VIII 18, inv. 18470, O Petrovice u Karviné, Prstná, Závada 1859–1949, snímek 196, levá strana, 2. zápis, sňatek 27. 11. 1860 (digi.archives.cz)",
@@ -1568,21 +1568,29 @@ window.RODOKMEN = {
    "alive": false,
    "b": {
     "date": "",
-    "year": 1810,
+    "year": 1805,
     "place": "Závada (?)",
     "approx": true
    },
    "occ": "sedlák (Bauer) v Závadě",
    "notes": [
-    "Otec Johanny Stadeczkové (sňatek dcery 1860, dal souhlas). Možná totožný s Georgem Bendou, otcem Marianny Antończykové – NEDOLOŽENO. Rok narození je odhad."
+    "Sedlák v Závadě. Otec Johanny Stadeczkové (*1844; sňatek 1860, dal souhlas) i Marianny Antończykové (sňatky 1852 a 1854: „Tochter nach Georg Benda Ackerbauer in Zawada“) – tatáž osoba (M). Manželka Johanna (1860) / Susanna (?) (1852) roz. Smurna / Surma (?). Rok narození je odhad.",
+    "Pedigree collapse: vnučka Terezie Antończyk (*1867, dcera Marianny) si 1888 vzala Antona Stadeczka (*1867, syn Johanny) – byli to bratranec a sestřenice."
    ],
    "sources": [
-    "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F VIII 18, inv. 18470, O Petrovice u Karviné, Prstná, Závada 1859–1949, snímek 196, levá strana, 2. zápis, sňatek 27. 11. 1860 (digi.archives.cz)"
+    "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F VIII 18, inv. 18470, O Petrovice u Karviné, Prstná, Závada 1859–1949, snímek 196, levá strana, 2. zápis, sňatek 27. 11. 1860 (digi.archives.cz)",
+    "FamilySearch, Dětmarovice řk. křty 1840–1868 (SOA Opava, vol. 2722), DGS 5387458, snímky 41–94 – https://www.familysearch.org/ark:/61903/3:1:3QSQ-G9MW-M98C-Q",
+    "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F VIII 11, inv. 10218, O Petrovice u Karviné 1836–1858, oddíl Závada, snímek 26, levá strana (pag. 25), sňatek 22. 6. 1852 (digi.archives.cz)",
+    "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F I 25, inv. 2721, O Věřňovice 1846–1875, oddíl Dětmarovice, snímek 45, pravá strana (pag. 11), 3. zápis, sňatek 29. 5. 1854 (digi.archives.cz)"
    ],
    "scans": [
     {
      "f": "img/1860_snatek_stadeczek_benda.jpg",
      "t": "Sňatek Laurenz Stadeczek × Johanna Benda, Závada 27. 11. 1860"
+    },
+    {
+     "f": "img/1852_snatek_niebroj_benda.jpg",
+     "t": "Sňatek Andreas Niebroj × Marianna Benda, Závada 22. 6. 1852 (rodiče nevěsty)"
     }
    ]
   },
@@ -1600,10 +1608,12 @@ window.RODOKMEN = {
     "approx": true
    },
    "notes": [
-    "Matka Johanny Stadeczkové: „Johanna geb. Georg Smurna“ – dcera Jiřího Smurny (sňatek dcery 1860). Rok narození je odhad."
+    "Matka Johanny Stadeczkové: „Johanna geb. Georg Smurna“ – dcera Jiřího Smurny (sňatek dcery 1860). Rok narození je odhad.",
+    "V oddacím zápisu dcery Marianny 1852 zapsána jako „Susanna (?) geb. Surma (?)“ – křestní jméno nejisté (D)."
    ],
    "sources": [
-    "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F VIII 18, inv. 18470, O Petrovice u Karviné, Prstná, Závada 1859–1949, snímek 196, levá strana, 2. zápis, sňatek 27. 11. 1860 (digi.archives.cz)"
+    "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F VIII 18, inv. 18470, O Petrovice u Karviné, Prstná, Závada 1859–1949, snímek 196, levá strana, 2. zápis, sňatek 27. 11. 1860 (digi.archives.cz)",
+    "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F VIII 11, inv. 10218, O Petrovice u Karviné 1836–1858, oddíl Závada, snímek 26, levá strana (pag. 25), sňatek 22. 6. 1852 (digi.archives.cz)"
    ],
    "scans": [
     {
@@ -1954,6 +1964,81 @@ window.RODOKMEN = {
      "t": "Sňatek Paulus Schottek (Schittek) × Anna Kalužová, Závada 29. 1. 1799"
     }
    ]
+  },
+  {
+   "id": "valentinAntonczyk",
+   "name": "Valentin Antończyk",
+   "maiden": "",
+   "line": "grzonka",
+   "cert": "M",
+   "alive": false,
+   "b": {
+    "date": "",
+    "year": 1800,
+    "place": "Dětmarovice (?)",
+    "approx": true
+   },
+   "occ": "sedlák (Ackerbauer) v Dětmarovicích",
+   "notes": [
+    "Otec Josefa Antończyka (sňatek syna 1854). Rok narození je odhad."
+   ],
+   "sources": [
+    "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F I 25, inv. 2721, O Věřňovice 1846–1875, oddíl Dětmarovice, snímek 45, pravá strana (pag. 11), 3. zápis, sňatek 29. 5. 1854 (digi.archives.cz)"
+   ],
+   "scans": [
+    {
+     "f": "img/1854_snatek_antonczyk_benda.jpg",
+     "t": "Sňatek Josef Antończyk × Marianna vd. Niebroj roz. Benda, Dětmarovice 29. 5. 1854"
+    }
+   ]
+  },
+  {
+   "id": "terezieKionka",
+   "name": "Terezie Antończyková",
+   "maiden": "Kionková",
+   "line": "grzonka",
+   "cert": "M",
+   "alive": false,
+   "b": {
+    "date": "",
+    "year": 1805,
+    "place": "Dětmarovice (?)",
+    "approx": true
+   },
+   "father": "josefKionka",
+   "notes": [
+    "Matka Josefa Antończyka: „Terezie geborne Josef Kionka“ (sňatek syna 1854). Rok narození je odhad."
+   ],
+   "sources": [
+    "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F I 25, inv. 2721, O Věřňovice 1846–1875, oddíl Dětmarovice, snímek 45, pravá strana (pag. 11), 3. zápis, sňatek 29. 5. 1854 (digi.archives.cz)"
+   ],
+   "scans": [
+    {
+     "f": "img/1854_snatek_antonczyk_benda.jpg",
+     "t": "Sňatek Josef Antończyk × Marianna vd. Niebroj roz. Benda, Dětmarovice 29. 5. 1854"
+    }
+   ]
+  },
+  {
+   "id": "josefKionka",
+   "name": "Josef Kionka",
+   "maiden": "",
+   "line": "grzonka",
+   "cert": "M",
+   "alive": false,
+   "b": {
+    "date": "",
+    "year": 1775,
+    "place": "Dětmarovice (?)",
+    "approx": true
+   },
+   "notes": [
+    "Otec Terezie Antończykové (sňatek vnuka 1854). Rok narození je odhad."
+   ],
+   "sources": [
+    "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F I 25, inv. 2721, O Věřňovice 1846–1875, oddíl Dětmarovice, snímek 45, pravá strana (pag. 11), 3. zápis, sňatek 29. 5. 1854 (digi.archives.cz)"
+   ],
+   "scans": []
   }
  ],
  "places": [],
