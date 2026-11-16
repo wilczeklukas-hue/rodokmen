@@ -2028,18 +2028,24 @@ window.RODOKMEN = {
    "b": {
     "date": "25. 9. 1808",
     "year": 1808,
-    "place": "Dětmarovice"
+    "place": "Dětmarovice, č. 19 (?)"
    },
    "father": "josefKionka",
    "notes": [
-    "Sňatek 26. 6. 1827 (19 let, svobodná): „Theresia Tochter des Joseph Kionka Ackerbauers zu Dittmansdorf“; datum narození 25. 9. 1808 je tužkový přípis (B. IV 26) – D. Jinou rukou připsáno „Anna Hamrozek (?)“ – snad matka nevěsty (K, nezapsána jako osoba).",
+    "Křest: narozena a pokřtěna 25. 9. 1808, Dětmarovice č. 19 (?), manželská; otec Joseph Kionka, sedlák; matka Rosina roz. Hanußek (?). Kmotři Andreas Staniczek (?), sedlák z Dětmarovic; Barbara, podruhyně (?).",
+    "Sňatek 26. 6. 1827 (19 let, svobodná): „Theresia Tochter des Joseph Kionka Ackerbauers zu Dittmansdorf“; jinou rukou připsáno „Anna Hamrozek (?)“ – křestní jméno matky chybně (viz křest).",
     "Matka Josefa Antończyka: „Terezie geborne Josef Kionka“ (sňatek syna 1854). Rok narození je odhad."
    ],
    "sources": [
+    "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F I 6, inv. 2702, N Věřňovice 1804–1823, oddíl Dětmarovice, snímek 75, levá strana (fol. 26), 5. zápis, křest 1808 (digi.archives.cz)",
     "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F I 13, inv. 2709, O Věřňovice 1824–1845, oddíl Dětmarovice, snímek 41, levá strana (pag. 6), 2. zápis, sňatek 26. 6. 1827 (digi.archives.cz; nalezeno přes rejstřík F I 27 sn. 2 P)",
     "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F I 25, inv. 2721, O Věřňovice 1846–1875, oddíl Dětmarovice, snímek 45, pravá strana (pag. 11), 3. zápis, sňatek 29. 5. 1854 (digi.archives.cz)"
    ],
    "scans": [
+    {
+     "f": "img/1808_krest_terezie_kionka.jpg",
+     "t": "Křest Terezie Kionkové, 25. 9. 1808, Dětmarovice"
+    },
     {
      "f": "img/1827_snatek_antonczyk_kionka.jpg",
      "t": "Sňatek Valentin Antończyk × Theresia Kionka, Dětmarovice 26. 6. 1827"
@@ -2048,7 +2054,8 @@ window.RODOKMEN = {
      "f": "img/1854_snatek_antonczyk_benda.jpg",
      "t": "Sňatek Josef Antończyk × Marianna vd. Niebroj roz. Benda, Dětmarovice 29. 5. 1854"
     }
-   ]
+   ],
+   "mother": "rosinaHanusek"
   },
   {
    "id": "josefKionka",
@@ -2065,11 +2072,12 @@ window.RODOKMEN = {
    },
    "notes": [
     "Otec Terezie Antończykové (sňatek vnuka 1854). Rok narození je odhad.",
-    "Sňatek dcery Terezie 1827. Manželka snad Anna Hamrozek (?) – přípis v zápisu 1827 (K)."
+    "Sňatek dcery Terezie 1827. Manželka Rosina roz. Hanusek (?) (křest dcery 1808)."
    ],
    "sources": [
     "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F I 25, inv. 2721, O Věřňovice 1846–1875, oddíl Dětmarovice, snímek 45, pravá strana (pag. 11), 3. zápis, sňatek 29. 5. 1854 (digi.archives.cz)",
-    "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F I 13, inv. 2709, O Věřňovice 1824–1845, oddíl Dětmarovice, snímek 41, levá strana (pag. 6), 2. zápis, sňatek 26. 6. 1827 (digi.archives.cz; nalezeno přes rejstřík F I 27 sn. 2 P)"
+    "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F I 13, inv. 2709, O Věřňovice 1824–1845, oddíl Dětmarovice, snímek 41, levá strana (pag. 6), 2. zápis, sňatek 26. 6. 1827 (digi.archives.cz; nalezeno přes rejstřík F I 27 sn. 2 P)",
+    "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F I 6, inv. 2702, N Věřňovice 1804–1823, oddíl Dětmarovice, snímek 75, levá strana (fol. 26), 5. zápis, křest 1808 (digi.archives.cz)"
    ],
    "scans": [],
    "occ": "sedlák (Ackerbauer) v Dětmarovicích"
@@ -2098,6 +2106,32 @@ window.RODOKMEN = {
     {
      "f": "img/1844_krest_johanna_benda.jpg",
      "t": "Křest dvojčat Johanny a Antona Bendových, 29. 4. 1844, Závada"
+    }
+   ]
+  },
+  {
+   "id": "rosinaHanusek",
+   "name": "Rosina Kionková",
+   "maiden": "Hanusková (Hanußek ?)",
+   "line": "grzonka",
+   "cert": "M",
+   "alive": false,
+   "b": {
+    "date": "",
+    "year": 1780,
+    "place": "",
+    "approx": true
+   },
+   "notes": [
+    "Matka Terezie Antończykové: „Rosina gebohrne Hanußek (?)“ (křest 1808); v přípisu u sňatku dcery 1827 „Anna Hamrozek (?)“. Křestní jméno Rosina jisté, příjmení nejisté (Hanusek / Hamrusek). Rok narození je odhad."
+   ],
+   "sources": [
+    "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F I 6, inv. 2702, N Věřňovice 1804–1823, oddíl Dětmarovice, snímek 75, levá strana (fol. 26), 5. zápis, křest 1808 (digi.archives.cz)"
+   ],
+   "scans": [
+    {
+     "f": "img/1808_krest_terezie_kionka.jpg",
+     "t": "Křest Terezie Kionkové, 25. 9. 1808, Dětmarovice"
     }
    ]
   }
