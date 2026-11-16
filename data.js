@@ -2164,10 +2164,12 @@ window.RODOKMEN = {
    },
    "occ": "domkář a kovář (?) v Dětmarovicích č. 12",
    "notes": [
-    "Otec Josefa Kionky (sňatek syna 1804; povolání „und Schmidts“ je vsuvka nad řádkem – K). Rok narození je odhad."
+    "Otec Josefa Kionky (sňatek syna 1804; povolání „und Schmidts“ je vsuvka nad řádkem – K). Rok narození je odhad.",
+    "Křest syna Jakuba Jana 1. 7. 1785, Dětmarovice č. 17: „Kionka Johann ein Häusler und Schmid | Marianna des verstorb. Martin Kuznik (?) Tochter“ (M; příjmení matky K). Povolání „Häusler und Schmid“ shodné se sňatkem syna Josefa 1804 – tatáž rodina (D); svědek 1804 Johann Kuznik nejspíš příbuzný. Zda je Marianna i matkou Josefa (*≤ X 1784), NEDOLOŽENO – Josefův křest v Dětmarovicích XI 1784 – XII 1785 není, hledat 1783 – X 1784."
    ],
    "sources": [
-    "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F I 12, inv. 2708, O Věřňovice 1793–1823, oddíl Dětmarovice, snímek 37, levá strana (fol. 80), 2. zápis, sňatek 9. 1. 1804 (digi.archives.cz)"
+    "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F I 12, inv. 2708, O Věřňovice 1793–1823, oddíl Dětmarovice, snímek 37, levá strana (fol. 80), 2. zápis, sňatek 9. 1. 1804 (digi.archives.cz)",
+    "ZA Opava, NAD 165, sign. F I 4, inv. 2700, N Věřňovice 1782–1803, oddíl Dětmarovice, snímek 78, levá strana, křest 1. 7. 1785 (digi.archives.cz)"
    ],
    "scans": [
     {
