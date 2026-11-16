@@ -989,7 +989,7 @@ window.RODOKMEN = {
    "notes": [
     "Křest: narozena 15. 9., pokřtěna 17. 9. 1867, Dětmarovice č. 29, manželská. Otec Josef Antończyk, sedlák (Ackerbauer); matka Marianna roz. Benda, dcera Georga. Křtil Philipp Quitta, kurát; kmotři František Niebroj, sedlák, a Marianna Kijonka, sedlačka. Bez okrajových poznámek.",
     "Sňatek 27. 11. 1888 Dětmarovice s Antonem Stadeczkem: „Theresia Witwe nach dem † Strzeletz Joseph Grundbesitzer in Dittmannsdorf, Tochter des Antończyk Joseph Grundbesitzers in Dittmannsdorf und der Marianna geb. Benda Georg, geb. 15/9 1867“, 21 3/12 roku; podepsán otec Josef Antończyk. Totožnost s křtem 1867 a s matkou Angely (1889) DOLOŽENA.",
-    "1. sňatek 25. 5. 1886 Dětmarovice (19 let) s Josefem Strzeletzem, rolníkem v Dětmarovicích, vdovcem, nar. 25. 2. 1843, synem Matthäuse Strzeletze a Marianny roz. Poppek; Josef zemřel před XI 1888.",
+    "1. sňatek 25. 5. 1886 Dětmarovice (19 let) s Josefem Strzeletzem, rolníkem v Dětmarovicích, vdovcem, nar. 25. 2. 1843, synem Matthäuse Strzeletze a Marianny roz. Poppek; Terezie ovdověla před XI 1888.",
     "V r. 1853 na tomtéž č. 29 pokřtěna jiná Theresia, otec Andreas Niebroj, matka Marianna roz. Benda – nejspíš dcera z 1. manželství matky (NEDOLOŽENO); nevlastní sestra."
    ],
    "father": "josefAntonczyk",
