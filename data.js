@@ -1994,18 +1994,24 @@ window.RODOKMEN = {
    "alive": false,
    "b": {
     "date": "",
-    "year": 1800,
+    "year": 1797,
     "place": "Dětmarovice (?)",
     "approx": true
    },
    "occ": "sedlák (Ackerbauer) v Dětmarovicích",
    "notes": [
+    "Sňatek 26. 6. 1827 v Dětmarovicích: „Valentin Antończyk Ackerbauer zu Dittmansdorf“, 31 let, svobodný (tužkou 1797) × Theresia, dcera sedláka Josefa Kionky z Dětmarovic, 19 let. Svědci Simon Kosielny (?), výměnkář; Ignaz Grabiec (?), domkář. Oddával kaplan Thomas Dostal.",
     "Otec Josefa Antończyka (sňatek syna 1854). Rok narození je odhad."
    ],
    "sources": [
+    "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F I 13, inv. 2709, O Věřňovice 1824–1845, oddíl Dětmarovice, snímek 41, levá strana (pag. 6), 2. zápis, sňatek 26. 6. 1827 (digi.archives.cz; nalezeno přes rejstřík F I 27 sn. 2 P)",
     "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F I 25, inv. 2721, O Věřňovice 1846–1875, oddíl Dětmarovice, snímek 45, pravá strana (pag. 11), 3. zápis, sňatek 29. 5. 1854 (digi.archives.cz)"
    ],
    "scans": [
+    {
+     "f": "img/1827_snatek_antonczyk_kionka.jpg",
+     "t": "Sňatek Valentin Antończyk × Theresia Kionka, Dětmarovice 26. 6. 1827"
+    },
     {
      "f": "img/1854_snatek_antonczyk_benda.jpg",
      "t": "Sňatek Josef Antończyk × Marianna vd. Niebroj roz. Benda, Dětmarovice 29. 5. 1854"
@@ -2020,19 +2026,24 @@ window.RODOKMEN = {
    "cert": "M",
    "alive": false,
    "b": {
-    "date": "",
-    "year": 1805,
-    "place": "Dětmarovice (?)",
-    "approx": true
+    "date": "25. 9. 1808",
+    "year": 1808,
+    "place": "Dětmarovice"
    },
    "father": "josefKionka",
    "notes": [
+    "Sňatek 26. 6. 1827 (19 let, svobodná): „Theresia Tochter des Joseph Kionka Ackerbauers zu Dittmansdorf“; datum narození 25. 9. 1808 je tužkový přípis (B. IV 26) – D. Jinou rukou připsáno „Anna Hamrozek (?)“ – snad matka nevěsty (K, nezapsána jako osoba).",
     "Matka Josefa Antończyka: „Terezie geborne Josef Kionka“ (sňatek syna 1854). Rok narození je odhad."
    ],
    "sources": [
+    "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F I 13, inv. 2709, O Věřňovice 1824–1845, oddíl Dětmarovice, snímek 41, levá strana (pag. 6), 2. zápis, sňatek 26. 6. 1827 (digi.archives.cz; nalezeno přes rejstřík F I 27 sn. 2 P)",
     "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F I 25, inv. 2721, O Věřňovice 1846–1875, oddíl Dětmarovice, snímek 45, pravá strana (pag. 11), 3. zápis, sňatek 29. 5. 1854 (digi.archives.cz)"
    ],
    "scans": [
+    {
+     "f": "img/1827_snatek_antonczyk_kionka.jpg",
+     "t": "Sňatek Valentin Antończyk × Theresia Kionka, Dětmarovice 26. 6. 1827"
+    },
     {
      "f": "img/1854_snatek_antonczyk_benda.jpg",
      "t": "Sňatek Josef Antończyk × Marianna vd. Niebroj roz. Benda, Dětmarovice 29. 5. 1854"
@@ -2053,12 +2064,15 @@ window.RODOKMEN = {
     "approx": true
    },
    "notes": [
-    "Otec Terezie Antończykové (sňatek vnuka 1854). Rok narození je odhad."
+    "Otec Terezie Antończykové (sňatek vnuka 1854). Rok narození je odhad.",
+    "Sňatek dcery Terezie 1827. Manželka snad Anna Hamrozek (?) – přípis v zápisu 1827 (K)."
    ],
    "sources": [
-    "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F I 25, inv. 2721, O Věřňovice 1846–1875, oddíl Dětmarovice, snímek 45, pravá strana (pag. 11), 3. zápis, sňatek 29. 5. 1854 (digi.archives.cz)"
+    "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F I 25, inv. 2721, O Věřňovice 1846–1875, oddíl Dětmarovice, snímek 45, pravá strana (pag. 11), 3. zápis, sňatek 29. 5. 1854 (digi.archives.cz)",
+    "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F I 13, inv. 2709, O Věřňovice 1824–1845, oddíl Dětmarovice, snímek 41, levá strana (pag. 6), 2. zápis, sňatek 26. 6. 1827 (digi.archives.cz; nalezeno přes rejstřík F I 27 sn. 2 P)"
    ],
-   "scans": []
+   "scans": [],
+   "occ": "sedlák (Ackerbauer) v Dětmarovicích"
   },
   {
    "id": "georgSurma",
