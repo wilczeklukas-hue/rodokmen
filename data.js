@@ -2065,17 +2065,18 @@ window.RODOKMEN = {
    "cert": "M",
    "alive": false,
    "b": {
-    "date": "",
-    "year": 1785,
-    "place": "Dětmarovice (?)",
-    "approx": true
+    "date": "8. 3. 1784",
+    "year": 1784,
+    "place": "Dětmarovice, č. 17"
    },
    "notes": [
+    "Křest: 8. 3. 1784, Dětmarovice č. 17, katolík, křtil Josef Palarczik; otec „Kionka Johann ein Häusler und Schmid“, matka „Marina des verstorb. Martin Kußnik (?) … herrschaftl. Schmieds in Deutsch[leuten?] Tochter“. Kmotři Joseph Olma, kolář; Anna, manželka Matouše Macury.",
     "Sňatek 9. 1. 1804, Dětmarovice č. 12: „Joseph des Johann Kionka Häuslers und Schmidts (?) Sohn von Dittmansdorf“, 19 let (nar. ~1784/85), svobodný × „Rosina nach verstorbenem Mathias Hanußek gewesenem Ackerbauers hinterbliebene Tochter von Dittmansdorf“, 22 let, svobodná. Svědci Mathias Kania, sedlák z Dětmarovic; Johann Kuznik (?) z Dombrau (?).",
-    "Otec Terezie Antończykové (sňatek vnuka 1854). Rok narození z věku při sňatku.",
+    "Otec Terezie Antończykové (sňatek vnuka 1854).",
     "Sňatek dcery Terezie 1827. Manželka Rosina roz. Hanusek (?) (křest dcery 1808)."
    ],
    "sources": [
+    "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F I 4, inv. 2700, N Věřňovice 1782–1803, snímek 12, pravá strana, „In Martio“ 4. zápis, křest 1784 (digi.archives.cz)",
     "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F I 12, inv. 2708, O Věřňovice 1793–1823, oddíl Dětmarovice, snímek 37, levá strana (fol. 80), 2. zápis, sňatek 9. 1. 1804 (digi.archives.cz)",
     "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F I 25, inv. 2721, O Věřňovice 1846–1875, oddíl Dětmarovice, snímek 45, pravá strana (pag. 11), 3. zápis, sňatek 29. 5. 1854 (digi.archives.cz)",
     "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F I 13, inv. 2709, O Věřňovice 1824–1845, oddíl Dětmarovice, snímek 41, levá strana (pag. 6), 2. zápis, sňatek 26. 6. 1827 (digi.archives.cz; nalezeno přes rejstřík F I 27 sn. 2 P)",
@@ -2083,12 +2084,17 @@ window.RODOKMEN = {
    ],
    "scans": [
     {
+     "f": "img/1784_krest_josef_kionka.jpg",
+     "t": "Křest Josefa Kionky, 8. 3. 1784, Dětmarovice"
+    },
+    {
      "f": "img/1804_snatek_kionka_hanusek.jpg",
      "t": "Sňatek Joseph Kionka × Rosina Hanußek, Dětmarovice 9. 1. 1804"
     }
    ],
    "occ": "sedlák (Ackerbauer) v Dětmarovicích",
-   "father": "johannKionka"
+   "father": "johannKionka",
+   "mother": "marinaKusnik"
   },
   {
    "id": "georgSurma",
@@ -2125,19 +2131,24 @@ window.RODOKMEN = {
    "cert": "M",
    "alive": false,
    "b": {
-    "date": "",
-    "year": 1782,
-    "place": "Dětmarovice (?)",
-    "approx": true
+    "date": "29. 5. (?) 1781",
+    "year": 1781,
+    "place": "Dětmarovice, č. 13"
    },
    "notes": [
+    "Křest: 29. [5.?] 1781, Dětmarovice č. 13, katolička, křtil Josef Palarczik; otec „Mathias Hanussek ein Ackerbauer“, matka „Marina gebohrne Manin (?)“ (agent četl Kanin – nejisté). Kmotři Matouš Chrobáček, podruh; Rosina, manželka sedláka Michala Parteyky (?). Měsíc podle polohy zápisu nad „In Junio“ (K).",
     "Sňatek 9. 1. 1804 v Dětmarovicích (22 let, nar. ~1781/82, svobodná): dcera sedláka Matyáše Hanuška, tehdy už nežijícího (M). Matka Terezie Antończykové (křest 1808 „Rosina gebohrne Hanußek“); v přípisu u sňatku dcery 1827 chybně „Anna Hamrozek“."
    ],
    "sources": [
+    "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F I 3, inv. 2699, N Věřňovice 1754–1781, snímek 136, pravá strana, zápis nad „In Junio“, křest 1781 (digi.archives.cz)",
     "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F I 12, inv. 2708, O Věřňovice 1793–1823, oddíl Dětmarovice, snímek 37, levá strana (fol. 80), 2. zápis, sňatek 9. 1. 1804 (digi.archives.cz)",
     "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F I 6, inv. 2702, N Věřňovice 1804–1823, oddíl Dětmarovice, snímek 75, levá strana (fol. 26), 5. zápis, křest 1808 (digi.archives.cz)"
    ],
    "scans": [
+    {
+     "f": "img/1781_krest_rosina_hanusek.jpg",
+     "t": "Křest Rosiny Hanuškové, 29. 5. (?) 1781, Dětmarovice"
+    },
     {
      "f": "img/1804_snatek_kionka_hanusek.jpg",
      "t": "Sňatek Joseph Kionka × Rosina Hanußek, Dětmarovice 9. 1. 1804"
@@ -2147,7 +2158,8 @@ window.RODOKMEN = {
      "t": "Křest Terezie Kionkové, 25. 9. 1808, Dětmarovice"
     }
    ],
-   "father": "mathiasHanusek"
+   "father": "mathiasHanusek",
+   "mother": "marinaManin"
   },
   {
    "id": "johannKionka",
@@ -2165,7 +2177,7 @@ window.RODOKMEN = {
    "occ": "domkář a kovář (?) v Dětmarovicích č. 12",
    "notes": [
     "Otec Josefa Kionky (sňatek syna 1804; povolání „und Schmidts“ je vsuvka nad řádkem – K). Rok narození je odhad.",
-    "Křest syna Jakuba Jana 1. 7. 1785, Dětmarovice č. 17: „Kionka Johann ein Häusler und Schmid | Marianna des verstorb. Martin Kuznik (?) Tochter“ (M; příjmení matky K). Povolání „Häusler und Schmid“ shodné se sňatkem syna Josefa 1804 – tatáž rodina (D); svědek 1804 Johann Kuznik nejspíš příbuzný. Zda je Marianna i matkou Josefa (*≤ X 1784), NEDOLOŽENO – Josefův křest v Dětmarovicích XI 1784 – XII 1785 není, hledat 1783 – X 1784."
+    "Křest syna Jakuba Jana 1. 7. 1785, Dětmarovice č. 17: „Kionka Johann ein Häusler und Schmid | Marianna des verstorb. Martin Kuznik (?) Tochter“ (M; příjmení matky K). Povolání „Häusler und Schmid“ shodné se sňatkem syna Josefa 1804 – tatáž rodina (D); svědek 1804 Johann Kuznik nejspíš příbuzný. Marina/Marianna je i matkou Josefa (křest 1784)."
    ],
    "sources": [
     "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F I 12, inv. 2708, O Věřňovice 1793–1823, oddíl Dětmarovice, snímek 37, levá strana (fol. 80), 2. zápis, sňatek 9. 1. 1804 (digi.archives.cz)",
@@ -2199,15 +2211,104 @@ window.RODOKMEN = {
    },
    "occ": "sedlák (Ackerbauer) v Dětmarovicích",
    "notes": [
-    "Otec Rosiny Kionkové; v I 1804 už nežil („nach verstorbenem Mathias Hanußek gewesenem Ackerbauers“). Rok narození je odhad."
+    "Otec Rosiny Kionkové; v I 1804 už nežil („nach verstorbenem Mathias Hanußek gewesenem Ackerbauers“). Rok narození je odhad.",
+    "Sedlák v Dětmarovicích č. 13 (1781); manželka Marina roz. Manin / Kanin (?)."
    ],
    "sources": [
-    "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F I 12, inv. 2708, O Věřňovice 1793–1823, oddíl Dětmarovice, snímek 37, levá strana (fol. 80), 2. zápis, sňatek 9. 1. 1804 (digi.archives.cz)"
+    "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F I 12, inv. 2708, O Věřňovice 1793–1823, oddíl Dětmarovice, snímek 37, levá strana (fol. 80), 2. zápis, sňatek 9. 1. 1804 (digi.archives.cz)",
+    "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F I 3, inv. 2699, N Věřňovice 1754–1781, snímek 136, pravá strana, zápis nad „In Junio“, křest 1781 (digi.archives.cz)"
    ],
    "scans": [
     {
      "f": "img/1804_snatek_kionka_hanusek.jpg",
      "t": "Sňatek Joseph Kionka × Rosina Hanußek, Dětmarovice 9. 1. 1804"
+    }
+   ]
+  },
+  {
+   "id": "marinaKusnik",
+   "name": "Marina (Marianna) Kionková",
+   "maiden": "Kušniková (Kußnik ?)",
+   "line": "grzonka",
+   "cert": "M",
+   "alive": false,
+   "b": {
+    "date": "",
+    "year": 1760,
+    "place": "",
+    "approx": true
+   },
+   "father": "martinKusnik",
+   "notes": [
+    "Matka Josefa (1784) a Jakuba Jana (1785) Kionky: dcera zemřelého Martina Kušnika (?), vrchnostenského kováře. Příjmení nejisté (Kußnik / Kuznik); svědek Johann Kuznik 1804 nejspíš její bratr. Rok narození je odhad."
+   ],
+   "sources": [
+    "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F I 4, inv. 2700, N Věřňovice 1782–1803, snímek 12, pravá strana, „In Martio“ 4. zápis, křest 1784 (digi.archives.cz)",
+    "ZA Opava, F I 4, snímek 78, křest syna 1785 (digi.archives.cz)"
+   ],
+   "scans": [
+    {
+     "f": "img/1784_krest_josef_kionka.jpg",
+     "t": "Křest Josefa Kionky, 8. 3. 1784, Dětmarovice"
+    }
+   ]
+  },
+  {
+   "id": "martinKusnik",
+   "name": "Martin Kušnik (?)",
+   "maiden": "",
+   "line": "grzonka",
+   "cert": "M",
+   "alive": false,
+   "b": {
+    "date": "",
+    "year": 1730,
+    "place": "",
+    "approx": true
+   },
+   "d": {
+    "date": "",
+    "year": 1784,
+    "place": "",
+    "before": true
+   },
+   "occ": "vrchnostenský kovář (herrschaftlicher Schmied), snad v Dolní Lutyni (Deutschleuten)",
+   "notes": [
+    "Otec Mariny Kionkové; v III 1784 už nežil („des verstorb. Martin Kußnik … herrschaftl. Schmieds in Deutsch…“). Příjmení i místo nejisté. Rok narození je odhad."
+   ],
+   "sources": [
+    "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F I 4, inv. 2700, N Věřňovice 1782–1803, snímek 12, pravá strana, „In Martio“ 4. zápis, křest 1784 (digi.archives.cz)"
+   ],
+   "scans": [
+    {
+     "f": "img/1784_krest_josef_kionka.jpg",
+     "t": "Křest Josefa Kionky, 8. 3. 1784, Dětmarovice"
+    }
+   ]
+  },
+  {
+   "id": "marinaManin",
+   "name": "Marina Hanušková",
+   "maiden": "Manin / Kanin (?)",
+   "line": "grzonka",
+   "cert": "M",
+   "alive": false,
+   "b": {
+    "date": "",
+    "year": 1755,
+    "place": "",
+    "approx": true
+   },
+   "notes": [
+    "Matka Rosiny Kionkové: „Marina gebohrne Manin (?)“ (křest 1781). Rodné příjmení nejisté – Manin / Kanin (snad Kania). Rok narození je odhad."
+   ],
+   "sources": [
+    "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F I 3, inv. 2699, N Věřňovice 1754–1781, snímek 136, pravá strana, zápis nad „In Junio“, křest 1781 (digi.archives.cz)"
+   ],
+   "scans": [
+    {
+     "f": "img/1781_krest_rosina_hanusek.jpg",
+     "t": "Křest Rosiny Hanuškové, 29. 5. (?) 1781, Dětmarovice"
     }
    ]
   }
