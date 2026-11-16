@@ -763,11 +763,13 @@ window.RODOKMEN = {
    "notes": [
     "Úmrtní zápis: „František Drapka, havíř ve výslužbě, narozen v Závadě dne 13. 4. 1852“, zemřel 25. 8. 1933 ve věku 81 let, Závada č. 1.",
     "Otec Albíny (křest 1881: Franz Drapka, chalupník; matka Anna roz. Prochasek). Vazba doložena shodou jmen obou rodičů v křtu Albíny a v úmrtním zápise manželky Anny.",
-    "Aloisie roz. Drapka, matka Antonína Grzonky (nar. 1883), byla podle zápisů dcerou jiného (staršího) Franze Drapky – s tímto Františkem (nar. 1852) nemůže jít o otce; příbuzenství obou rodin Drapka NEDOLOŽENO."
+    "Křest: narozen 13. 4., pokřtěn 14. 4. 1852, Závada č. 4, manželský. Otec Franz Drapka, podruh (Inmann); matka Johanna roz. Cyron. Kmotři Andreas Schittek, domkář; Magdalena Schittek (?). Den narození se shoduje s úmrtním zápisem 1933.",
+    "Sestra Aloisie (nar. 1849, provdaná Grzonková) je babičkou Natálie Grzonkové – rody Matušinský a Grzonka jsou tak pokrevně spřízněné: Evžen Matušinský a Natálie Grzonková (sňatek 1934) byli vzdálení příbuzní (Natáliina prababička Johanna Cyron je i Evženova prababička)."
    ],
    "sources": [
     "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F VIII 21, inv. 18473, Z Petrovice u Karviné, Prstná, Závada 1859–1949, snímek 185 (Závada 1933–1934), úmrtí Františka Drapky 25. 8. 1933 (digi.archives.cz)",
-    "ZA Opava, F VIII 10, snímek 258, křest dcery Albíny 1881 (digi.archives.cz)"
+    "ZA Opava, F VIII 10, snímek 258, křest dcery Albíny 1881 (digi.archives.cz)",
+    "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F VIII 5, inv. 2792, N Petrovice u Karviné 1836–1859, oddíl Závada, snímek 66, levá strana (Pag. 20), křest 1852 (digi.archives.cz)"
    ],
    "scans": [
     {
@@ -777,8 +779,14 @@ window.RODOKMEN = {
     {
      "f": "img/1881_krest_albina_drapka.jpg",
      "t": "Křest dcery Albíny, 1881"
+    },
+    {
+     "f": "img/1852_krest_frantisek_drapka.jpg",
+     "t": "Křest Františka Drapky, 13./14. 4. 1852, Závada"
     }
-   ]
+   ],
+   "father": "franzDrapkaSt",
+   "mother": "johannaCyron"
   },
   {
    "id": "annaPr",
@@ -846,23 +854,29 @@ window.RODOKMEN = {
    "cert": "M",
    "alive": false,
    "b": {
-    "date": "11. 5. 1838",
+    "date": "14. 10. 1838",
     "year": 1838,
-    "place": "Závada, Petrovice u Karviné"
+    "place": "Závada, č. 36, Petrovice u Karviné"
    },
    "occ": "domkář (Häusler), chalupník v Závadě",
    "notes": [
     "Otec Antonína (křest 1883), Závada č. 14. Rok narození je odhad podle syna.",
-    "Sňatek 10. 2. 1874 v Závadě: „Johann Grzonka Knecht aus Zawada, Sohn des Mathias Grzonka Lehrbauers u. der Barbara geb. Schoitek (?)“, Závada č. 26, katolík, 36 let, svobodný. Datum narození 11. 5. 1838 Závada je modrý přípis s odkazem na křestní knihu (B. IV/13) – D, ověřit v N Závada. Svědci: Anton Benda, sedlák (Bauer); … Kulas, domkář."
+    "Sňatek 10. 2. 1874 v Závadě: „Johann Grzonka Knecht aus Zawada, Sohn des Mathias Grzonka Lehrbauers u. der Barbara geb. Schoitek (?)“, Závada č. 26, katolík, 36 let, svobodný. Modrý přípis „11.V.1838 B. IV/13“ v oddacím zápise je chybný – křest je 14. 10. 1838. Svědci: Anton Benda, sedlák (Bauer); … Kulas, domkář.",
+    "Křest: narozen 14. 10., pokřtěn 15. 10. 1838, Závada č. 36, rodiče Matthäus Grzonka, sedlák (Bauer), a Barbara roz. Schittek. Kmotři Franz Gorzyl (?), čeledín ze Závady; Josefa, manželka Franze Schitteka (?). Věk 36 při sňatku 1874 sedí."
    ],
    "sources": [
     "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F VIII 10, inv. 2797, N Závada (fara Petrovice u Karviné) 1859–1909, snímek 260 (digi.archives.cz)",
-    "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F VIII 18, O Petrovice u Karviné, Prstná, Závada 1859–1949, snímek 204, levá strana, 3. zápis, sňatek 10. 2. 1874 (digi.archives.cz)"
+    "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F VIII 18, O Petrovice u Karviné, Prstná, Závada 1859–1949, snímek 204, levá strana, 3. zápis, sňatek 10. 2. 1874 (digi.archives.cz)",
+    "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F VIII 5, inv. 2792, N Petrovice u Karviné 1836–1859, oddíl Závada, snímek 57, pravá strana (Pag. 3), křest 1838 (digi.archives.cz)"
    ],
    "scans": [
     {
      "f": "img/1874_snatek_grzonka_drapka.jpg",
      "t": "Sňatek Johann Grzonka × Aloisie Drapka, Závada 10. 2. 1874"
+    },
+    {
+     "f": "img/1838_krest_johann_grzonka.jpg",
+     "t": "Křest Johanna Grzonky, 14./15. 10. 1838, Závada"
     }
    ],
    "father": "mathiasGrzonka",
@@ -876,24 +890,30 @@ window.RODOKMEN = {
    "cert": "M",
    "alive": false,
    "b": {
-    "date": "6. 5. 1849",
+    "date": "6. 10. 1849",
     "year": 1849,
-    "place": "Závada, Petrovice u Karviné"
+    "place": "Závada, č. 4, Petrovice u Karviné"
    },
    "notes": [
     "Matka Antonína (křest 1883): „Aloisia Tochter des Franz Drapka Zawada“. Kmotra dcer Františka Drapky (1880, 1881, 1889) – úzké příbuzenství, přesný vztah NEDOLOŽEN. Rok narození je odhad.",
-    "Sňatek 10. 2. 1874: „Aloisia Drapka, Tochter des Franz Drapka Inmanns und der Johanna geb. Cyron, wohnhaft in Zawada“, Závada č. 4, katolička, 25 let, svobodná. Datum narození 6. 5. 1849 Závada je modrý přípis (III/17; původně omylem zapsáno 11. 5. 1838 a přeškrtnuto) – D.",
-    "Sestry (stejní rodiče Franz Drapka × Johanna Cyron): Theresia (nar. ~1846, sňatek 1868 s Johannem Niezychelem z Dětmarovic, sn. 201) a Josefa (nar. ~1853, sňatek XI 1877 s Josefem Spałkem ze Závady, sn. 205) – D."
+    "Sňatek 10. 2. 1874: „Aloisia Drapka, Tochter des Franz Drapka Inmanns und der Johanna geb. Cyron, wohnhaft in Zawada“, Závada č. 4, katolička, 25 let, svobodná. Modrý přípis „6.X.1849 III/17“ odkazuje na křestní knihu F VIII 5, Pag. 17.",
+    "Sestry (stejní rodiče Franz Drapka × Johanna Cyron): Theresia (nar. ~1846, sňatek 1868 s Johannem Niezychelem z Dětmarovic, sn. 201) a Josefa (nar. ~1853, sňatek XI 1877 s Josefem Spałkem ze Závady, sn. 205) – D.",
+    "Křest: narozena 6. 10., pokřtěna 7. 10. 1849, Závada č. 4, rodiče Franz Drapka, podruh, a Johanna roz. Cyron; kmotři Andreas Schittek, domkář, a Magdalena Schittek (?)."
    ],
    "father": "franzDrapkaSt",
    "sources": [
     "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F VIII 10, inv. 2797, N Závada (fara Petrovice u Karviné) 1859–1909, snímky 257, 258, 260, 270 (digi.archives.cz)",
-    "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F VIII 18, O Petrovice u Karviné, Prstná, Závada 1859–1949, snímek 204, levá strana, 3. zápis, sňatek 10. 2. 1874 (digi.archives.cz)"
+    "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F VIII 18, O Petrovice u Karviné, Prstná, Závada 1859–1949, snímek 204, levá strana, 3. zápis, sňatek 10. 2. 1874 (digi.archives.cz)",
+    "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F VIII 5, inv. 2792, N Petrovice u Karviné 1836–1859, oddíl Závada, snímek 64, pravá strana (Pag. 17), 4. zápis, křest 1849 (digi.archives.cz)"
    ],
    "scans": [
     {
      "f": "img/1874_snatek_grzonka_drapka.jpg",
      "t": "Sňatek Johann Grzonka × Aloisie Drapka, Závada 10. 2. 1874"
+    },
+    {
+     "f": "img/1849_krest_aloisie_drapka.jpg",
+     "t": "Křest Aloisie Drapkové, 6./7. 10. 1849, Závada"
     }
    ],
    "mother": "johannaCyron"
@@ -912,12 +932,13 @@ window.RODOKMEN = {
     "approx": true
    },
    "notes": [
-    "Otec Aloisie Grzonkové (sňatek 1874: Franz Drapka, podruh, × Johanna roz. Cyron), dále dcer Theresie (~1846) a Josefy (~1853). Rok narození je odhad.",
-    "Vztah k Františku Drapkovi (nar. 1852, otec Albíny): HYPOTÉZA K – byl by jeho synem (Aloisie, kmotra všech Albíniných sourozenců, by byla jeho sestrou). Zatím NEDOLOŽENO – rozhodne křest Františka 13. 4. 1852 v Závadě."
+    "Podruh (Inmann) v Závadě č. 4; manželka Johanna roz. Cyron. Děti: Johanna (23. 2. 1844, D), Theresia (~1846), Aloisie (6. 10. 1849), František (13. 4. 1852), Josefa (~1853). Rok narození je odhad.",
+    "Otcovství Františka (nar. 1852, otec Albíny) DOLOŽENO křtem 1852 – předchozí hypotéza potvrzena."
    ],
    "sources": [
     "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F VIII 10, inv. 2797, N Závada (fara Petrovice u Karviné) 1859–1909, snímek 260 (digi.archives.cz)",
-    "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F VIII 18, O Petrovice u Karviné, Prstná, Závada 1859–1949, snímek 204, levá strana, 3. zápis, sňatek 10. 2. 1874 (digi.archives.cz)"
+    "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F VIII 18, O Petrovice u Karviné, Prstná, Závada 1859–1949, snímek 204, levá strana, 3. zápis, sňatek 10. 2. 1874 (digi.archives.cz)",
+    "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F VIII 5, inv. 2792, N Petrovice u Karviné 1836–1859, oddíl Závada, snímky 61, 64, 66 (digi.archives.cz)"
    ],
    "scans": [],
    "occ": "podruh (Inmann) v Závadě 1874; výměnkář (Ausgedingler ?) 1868"
@@ -1164,7 +1185,8 @@ window.RODOKMEN = {
     "Matka Aloisie Grzonkové (sňatek dcery 1874). Rod Cyron žil v Závadě (Josef Cyron, domkář, kmotr 1883). Rok narození je odhad."
    ],
    "sources": [
-    "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F VIII 18, O Petrovice u Karviné, Prstná, Závada 1859–1949, snímek 204, levá strana, 3. zápis, sňatek 10. 2. 1874 (digi.archives.cz)"
+    "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F VIII 18, O Petrovice u Karviné, Prstná, Závada 1859–1949, snímek 204, levá strana, 3. zápis, sňatek 10. 2. 1874 (digi.archives.cz)",
+    "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F VIII 5, inv. 2792, N Petrovice u Karviné 1836–1859, oddíl Závada, snímky 64, 66 (digi.archives.cz)"
    ],
    "scans": [
     {
@@ -1175,7 +1197,7 @@ window.RODOKMEN = {
   },
   {
    "id": "mathiasGrzonka",
-   "name": "Mathias Grzonka",
+   "name": "Matthäus (Mathias) Grzonka",
    "maiden": "",
    "line": "grzonka",
    "cert": "M",
@@ -1186,12 +1208,14 @@ window.RODOKMEN = {
     "place": "Závada (?)",
     "approx": true
    },
-   "occ": "sedlák (Lehrbauer) v Závadě",
+   "occ": "sedlák (Bauer, Lehrbauer) v Závadě č. 36",
    "notes": [
-    "Otec Johanna Grzonky (sňatek syna 1874: „Mathias Grzonka Lehrbauer“). Rok narození je odhad."
+    "Otec Johanna Grzonky (sňatek syna 1874: „Mathias Grzonka Lehrbauer“). Rok narození je odhad.",
+    "V křtu syna 1838 „Matthäus Grzonka Bauer“, Závada č. 36."
    ],
    "sources": [
-    "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F VIII 18, O Petrovice u Karviné, Prstná, Závada 1859–1949, snímek 204, levá strana, 3. zápis, sňatek 10. 2. 1874 (digi.archives.cz)"
+    "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F VIII 18, O Petrovice u Karviné, Prstná, Závada 1859–1949, snímek 204, levá strana, 3. zápis, sňatek 10. 2. 1874 (digi.archives.cz)",
+    "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F VIII 5, inv. 2792, N Petrovice u Karviné 1836–1859, oddíl Závada, snímek 57 (digi.archives.cz)"
    ],
    "scans": [
     {
@@ -1203,7 +1227,7 @@ window.RODOKMEN = {
   {
    "id": "barbaraSchoitek",
    "name": "Barbara Grzonková",
-   "maiden": "Schoitek (?)",
+   "maiden": "Schittek (Szittek)",
    "line": "grzonka",
    "cert": "M",
    "alive": false,
@@ -1214,10 +1238,11 @@ window.RODOKMEN = {
     "approx": true
    },
    "notes": [
-    "Matka Johanna Grzonky (sňatek syna 1874: „Barbara geb. Schoitek“ – čtení příjmení nejisté, snad Szojdek/Schojtek). Rok narození je odhad."
+    "Matka Johanna Grzonky: křest 1838 „Barbara geb. Schittek“ (M); v oddacím zápise syna 1874 psáno „Schoitek“. Rod Schittek v Závadě – kmotři dětí Franze Drapky (Andreas, Magdalena) – možná příbuzenská vazba Grzonka–Drapka, NEDOLOŽENO. Rok narození je odhad."
    ],
    "sources": [
-    "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F VIII 18, O Petrovice u Karviné, Prstná, Závada 1859–1949, snímek 204, levá strana, 3. zápis, sňatek 10. 2. 1874 (digi.archives.cz)"
+    "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F VIII 18, O Petrovice u Karviné, Prstná, Závada 1859–1949, snímek 204, levá strana, 3. zápis, sňatek 10. 2. 1874 (digi.archives.cz)",
+    "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F VIII 5, inv. 2792, N Petrovice u Karviné 1836–1859, oddíl Závada, snímek 57 (digi.archives.cz)"
    ],
    "scans": [
     {
