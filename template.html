@@ -200,6 +200,12 @@ footer.note { color: var(--muted); font-size: 12px; padding: 8px 16px 20px; max-
   const isApprox = p => !(p.b && p.b.year) || !!p.b.approx;
   const chain = (start, rel) => { const s = new Set(); let p = byId.get(start); while (p) { s.add(p.id); p = byId.get(p[rel]); } return s; };
   const PAT = chain(D.root, 'father'), MAT = chain(D.root, 'mother');
+  // Tree shows the root on top and ancestors below. Descendants of the root (and partners linked
+  // only through them) stay in the data and in the detail panel, but are not drawn in the tree.
+  const DESC = new Set();
+  (function down(id) { for (const c of children.get(id) || []) if (!DESC.has(c.id)) { DESC.add(c.id); down(c.id); } })(D.root);
+  const onlyViaDesc = p => { const ch = children.get(p.id) || []; return ch.length > 0 && ch.every(c => DESC.has(c.id)) && !p.father && !p.mother; };
+  const TP = D.people.filter(p => !DESC.has(p.id) && !onlyViaDesc(p));
   const lifespan = p => {
     const y = yearOf(p);
     const b = y ? (isApprox(p) ? '~' + y : y) : '?';
@@ -237,22 +243,23 @@ footer.note { color: var(--muted); font-size: 12px; padding: 8px 16px 20px; max-
     };
     visit(D.root);
     // everybody else: next to a placed relative, otherwise in a new slot
-    let guard = 0, todo = D.people.filter(p => !X.has(p.id));
+    let guard = 0, todo = TP.filter(p => !X.has(p.id));
     while (todo.length && guard++ < 50) {
       for (const p of todo) {
         const rel = [p.father, p.mother].filter(i => X.has(i)).concat((children.get(p.id) || []).map(c => c.id).filter(i => X.has(i)));
         if (rel.length) X.set(p.id, X.get(rel[0]) + (CW + GAP) * 0.6);
       }
-      const left = D.people.filter(p => !X.has(p.id));
+      const left = TP.filter(p => !X.has(p.id));
       if (left.length === todo.length) { X.set(left[0].id, slot++ * (CW + GAP)); }
-      todo = D.people.filter(p => !X.has(p.id));
+      todo = TP.filter(p => !X.has(p.id));
     }
-    const ys = D.people.map(p => yearOf(p)).filter(Boolean);
+    const ys = TP.map(p => yearOf(p)).filter(Boolean);
     const y0 = Math.floor((Math.min(...ys) - 6) / 10) * 10;
-    const y1 = Math.max(...ys, new Date().getFullYear() - 10) + 8;
-    for (const p of D.people) Y.set(p.id, ((yearOf(p) || y1) - y0) * PXY);
+    const y1 = Math.max(...ys) + 8;
+    // inverted axis: youngest (root) on top, oldest ancestors at the bottom
+    for (const p of TP) Y.set(p.id, (y1 - (yearOf(p) || y0)) * PXY);
     // resolve overlaps: push later cards right
-    const ids = D.people.map(p => p.id).sort((a, b) => Y.get(a) - Y.get(b) || X.get(a) - X.get(b));
+    const ids = TP.map(p => p.id).sort((a, b) => Y.get(a) - Y.get(b) || X.get(a) - X.get(b));
     for (let i = 0; i < ids.length; i++) for (let j = 0; j < i; j++) {
       const a = ids[j], b = ids[i];
       if (Math.abs(X.get(a) - X.get(b)) < CW + 8 && Math.abs(Y.get(a) - Y.get(b)) < CH + 6) { X.set(b, X.get(a) + CW + 12); j = -1; }
@@ -270,17 +277,18 @@ footer.note { color: var(--muted); font-size: 12px; padding: 8px 16px 20px; max-
     // decade grid + scale
     svg += '<g class="scale">';
     for (let y = Math.ceil(world.y0 / 10) * 10; y <= world.y1; y += 10) {
-      const py = (y - world.y0) * PXY;
+      const py = (world.y1 - y) * PXY;
       svg += `<line x1="0" x2="${scaleX + 10}" y1="${py}" y2="${py}" stroke="var(--grid)"/>` +
         `<text x="${scaleX + 14}" y="${py + 4}">${y}</text>`;
     }
     svg += '</g><g class="events">';
     let lastLabel = -1e9;
-    const evs = (D.events || []).slice().sort((a, b) => (a.from || a.year) - (b.from || b.year));
+    const evs = (D.events || []).filter(e => (e.to || e.year) >= world.y0 && (e.from || e.year) <= world.y1)
+      .sort((a, b) => (b.to || b.year) - (a.to || a.year));
     for (const e of evs) {
-      const ya = ((e.from || e.year) - world.y0) * PXY;
+      const ya = (world.y1 - (e.to || e.year)) * PXY;
       if (e.war) {
-        const yb = (e.to - world.y0) * PXY;
+        const yb = (world.y1 - e.from) * PXY;
         svg += `<rect x="0" y="${ya}" width="${evX + 4}" height="${yb - ya}" fill="var(--war)"/>`;
       } else {
         svg += `<circle cx="${evX}" cy="${ya}" r="3.5" fill="var(--dot)"/>`;
@@ -290,17 +298,18 @@ footer.note { color: var(--muted); font-size: 12px; padding: 8px 16px 20px; max-
       svg += `<text x="${evX + 10}" y="${ly}">${esc((e.from ? e.from + '–' + e.to : e.year) + ' ' + e.t)}</text>`;
     }
     svg += '</g><g fill="none" stroke-width="2">';
-    for (const c of D.people) for (const r of ['father', 'mother']) {
+    for (const c of TP) for (const r of ['father', 'mother']) {
       const p = byId.get(c[r]);
-      if (!p) continue;
-      const x1 = X.get(p.id) + CW / 2, y1 = Y.get(p.id) + CH, x2 = X.get(c.id) + CW / 2, y2 = Y.get(c.id);
+      if (!p || !Y.has(p.id)) continue;
+      // child above, parent below: from the child's bottom edge to the parent's top edge
+      const x1 = X.get(c.id) + CW / 2, y1 = Y.get(c.id) + CH, x2 = X.get(p.id) + CW / 2, y2 = Y.get(p.id);
       const col = PAT.has(p.id) && PAT.has(c.id) ? 'var(--pat)' : MAT.has(p.id) && MAT.has(c.id) ? 'var(--mat)' : 'var(--edge)';
       const my = (y1 + y2) / 2;
       svg += `<path d="M${x1},${y1} C${x1},${my} ${x2},${my} ${x2},${y2}" stroke="${col}"${isApprox(p) || isApprox(c) ? ' stroke-dasharray="5 4"' : ''}/>`;
     }
     svg += '</g></svg>';
     let html = svg;
-    for (const p of D.people) {
+    for (const p of TP) {
       const l = lineOf.get(p.line) || { color: '#888' };
       const cls = ['card', p.id === D.root ? 'root' : PAT.has(p.id) ? 'pat' : MAT.has(p.id) ? 'mat' : ''].join(' ');
       const cert = CERT[p.cert] || ['', ''];
