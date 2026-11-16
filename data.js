@@ -1873,7 +1873,7 @@ window.RODOKMEN = {
    "notes": [
     "Sňatek 29. 1. 1799, Závada č. 11: „Paulus Schottek Ackerbauer“, 23 let (nar. ~1776), svobodný × „Anna geborene Kalußin des Johannes“, 22 let, svobodná. Svědci Joseph Solik, fojt z Dětmarovic; Johann Mazurek, domkář. Oddával Adam Sosna, lokální kaplan petrovický. Rodiče ženicha neuvedeni.",
     "Sedlák v Závadě č. 11; manželka Anna roz. Kalluza (?). Křest dcery Barbory 1809 a její sňatek 1834. Rod Schittek – kmotři Drapků (Andreas). Rok narození je odhad.",
-    "V únoru 1799 zemřela v č. 11 Anna, 8letá dcera sedláka Johanna Schottka – Johann je nejspíš Pavlův otec nebo bratr (K, nezapsán)."
+    "Úmrtní matrika 1799 uvádí v č. 11 i sedláka Johanna Schottka (zápis o jeho 8leté dceři Anně) – Johann je nejspíš Pavlův otec nebo bratr (K, nezapsán)."
    ],
    "sources": [
     "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F VIII 6, inv. 2793, O Petrovice u Karviné 1797–1858, oddíl Závada, snímek 61, pravá strana (pag. 1), 1. zápis, sňatek 29. 1. 1799 (digi.archives.cz)",
