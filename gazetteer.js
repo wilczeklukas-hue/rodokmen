@@ -6,5 +6,6 @@ window.GAZETTEER = {
   'Závada': { lat: 49.891, lon: 18.527, region: 'Petrovice u Karviné, okr. Karviná', note: 'poloha přibližná' },
   'Bohumín': { lat: 49.904, lon: 18.357, region: 'okr. Karviná' },
   'Karviná': { lat: 49.854, lon: 18.542, region: 'okr. Karviná' },
+  'Chybie': { lat: 49.902, lon: 18.829, region: 'Polsko, woj. śląskie (Těšínsko)', note: 'v zápisu 1907 „Chybi“, ztotožnění nejisté' },
   'Karviná-Ráj': { lat: 49.845, lon: 18.565, region: 'okr. Karviná', note: 'poloha části obce přibližná' },
 };
