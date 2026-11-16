@@ -9,5 +9,6 @@ window.GAZETTEER = {
   'Chybie': { lat: 49.902, lon: 18.829, region: 'Polsko, woj. śląskie (Těšínsko)', note: 'v zápisu 1907 „Chybi“, ztotožnění nejisté' },
   'Pruchna': { lat: 49.843, lon: 18.678, region: 'Polsko, woj. śląskie (Těšínsko)' },
   'Zaborze': { lat: 49.885, lon: 18.796, region: 'Polsko, woj. śląskie (Těšínsko), farnost Pierściec', note: 'poloha přibližná' },
+  'Godów': { lat: 49.921, lon: 18.477, region: 'Polsko, woj. śląskie (Těšínsko)' },
   'Karviná-Ráj': { lat: 49.845, lon: 18.565, region: 'okr. Karviná', note: 'poloha části obce přibližná' },
 };

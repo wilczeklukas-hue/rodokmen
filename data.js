@@ -294,7 +294,8 @@ window.RODOKMEN = {
     "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F VIII 18, inv. 18470, O Petrovice u Karviné, Prstná, Závada 1859–1949, snímek 239, sňatek 18. 11. 1934 (digi.archives.cz)",
     "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F VIII 18, inv. 18470, O Petrovice u Karviné, Prstná, Závada 1859–1949, snímek 224, sňatek 28. 9. 1909 Antonín Grzonka × Stadeczková (digi.archives.cz)",
     "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F VIII 10, inv. 2797, N Petrovice u Karviné, Prstná, Závada 1859–1909, oddíl Závada, snímek 260, křest Antonína Grzonky 1883 (digi.archives.cz)",
-    "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F VIII 10, inv. 2797, N Petrovice u Karviné, Prstná, Závada 1859–1909, oddíl Závada, snímek 271, křest Angely Stadeczkové 1889 (digi.archives.cz)"
+    "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F VIII 10, inv. 2797, N Petrovice u Karviné, Prstná, Závada 1859–1909, oddíl Závada, snímek 271, křest Angely Stadeczkové 1889 (digi.archives.cz)",
+    "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F VIII 21, inv. 18473, Z Petrovice u Karviné, Prstná, Závada 1859–1949, snímek 185 (Závada 1933–1934), úmrtí otce Antonína 1934 (digi.archives.cz)"
    ],
    "scans": [
     {
@@ -312,6 +313,10 @@ window.RODOKMEN = {
     {
      "f": "img/1889_krest_angela_stadeczek.jpg",
      "t": "Křest matky Angely, 1889"
+    },
+    {
+     "f": "img/1934_umrti_antonin_grzonka.jpg",
+     "t": "Úmrtí otce Antonína, 9. 9. 1934"
     }
    ],
    "id": "natalieM",
@@ -411,7 +416,9 @@ window.RODOKMEN = {
      "t": "Křest Albíny Drapkové, Závada 9./10. 7. 1881"
     }
    ],
-   "marriage": "9. 7. 1907, Závada (farnost Petrovice u Karviné) – s Janem Matuszyńským"
+   "marriage": "9. 7. 1907, Závada (farnost Petrovice u Karviné) – s Janem Matuszyńským",
+   "father": "frantisekDr",
+   "mother": "annaPr"
   },
   {
    "id": "antoninG",
@@ -426,8 +433,8 @@ window.RODOKMEN = {
     "place": "Závada, č. 14, Petrovice u Karviné"
    },
    "d": {
-    "date": "9. 9. 1937",
-    "year": 1937,
+    "date": "9. 9. 1934",
+    "year": 1934,
     "place": "Závada"
    },
    "occ": "horník (Bergmann) 1909; železniční zřízenec 1934",
@@ -435,12 +442,13 @@ window.RODOKMEN = {
     "Křest: narozen 23. 5., pokřtěn 24. 5. 1883, Závada č. 14. Otec Johann Grzonka, chalupník; matka Aloisie, dcera Franze Drapky ze Závady. Kmotři Josef Cyron (chalupník, Závada) a Franziska, dcera Johanna Rychlého (?), Dětmarovice. Přípis na okraji: † 9. 9. 1937 v Závadě.",
     "Oddací zápis 28. 9. 1909: „Grzonka Anton, Bergmann“, Závada č. 14, syn Johanna Grzonky, chalupníka v Závadě, a Aloisie roz. Drapka (dcery Franze Drapky). Narozen v Závadě 23. 5. 1883, svobodný, katolík.",
     "Matka Aloisie byla dcerou Franze Drapky – stejné jméno otce jako u Albíny Drapkové (sňatek 1907); zda jde o sestry, NEDOLOŽENO.",
-    "ROZPOR: přípis u křtu uvádí úmrtí 9. 9. 1937, oddací zápis dcery Natálie 18. 11. 1934 jej ale už označuje křížkem jako zemřelého. Čtení roku 1937 ověřit (F VIII 21)."
+    "Úmrtní zápis: „Antonín Grzonka, železniční zřízenec, narozen v Závadě dne 23. 5. 1883“, zemřel 9. 9. 1934 ve věku 51 let 4 měsíců. Přípis u křtu „† 9. 9. 193?“ je tedy rok 1934 (dříve čteno 1937); souhlasí s oddacím zápisem dcery 18. 11. 1934."
    ],
    "sources": [
     "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F VIII 18, inv. 18470, O Petrovice u Karviné, Prstná, Závada 1859–1949, snímek 239, sňatek 18. 11. 1934 (digi.archives.cz)",
     "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F VIII 18, inv. 18470, O Petrovice u Karviné, Prstná, Závada 1859–1949, snímek 224, sňatek 28. 9. 1909 Antonín Grzonka × Stadeczková (digi.archives.cz)",
-    "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F VIII 10, inv. 2797, N Petrovice u Karviné, Prstná, Závada 1859–1909, oddíl Závada, snímek 260, křest Antonína Grzonky 1883 (digi.archives.cz)"
+    "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F VIII 10, inv. 2797, N Petrovice u Karviné, Prstná, Závada 1859–1909, oddíl Závada, snímek 260, křest Antonína Grzonky 1883 (digi.archives.cz)",
+    "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F VIII 21, inv. 18473, Z Petrovice u Karviné, Prstná, Závada 1859–1949, snímek 185 (Závada 1933–1934), úmrtí Antonína Grzonky 9. 9. 1934 (digi.archives.cz)"
    ],
    "scans": [
     {
@@ -454,6 +462,10 @@ window.RODOKMEN = {
     {
      "f": "img/1883_krest_anton_grzonka.jpg",
      "t": "Křest Antonína Grzonky, Závada 23./24. 5. 1883"
+    },
+    {
+     "f": "img/1934_umrti_antonin_grzonka.jpg",
+     "t": "Úmrtí Antonína Grzonky, Závada 9. 9. 1934"
     }
    ],
    "marriage": "28. 9. 1909, Závada (farnost Petrovice u Karviné) – s nevěstou roz. Stadeczkovou"
@@ -715,6 +727,80 @@ window.RODOKMEN = {
     {
      "f": "img/1907_snatek_jan_matuszynski_albina_drapka.jpg",
      "t": "Sňatek syna Jana, 9. 7. 1907"
+    }
+   ]
+  },
+  {
+   "id": "frantisekDr",
+   "name": "František Drapka",
+   "maiden": "",
+   "line": "matusinsky",
+   "cert": "M",
+   "alive": false,
+   "b": {
+    "date": "13. 4. 1852",
+    "year": 1852,
+    "place": "Závada, Petrovice u Karviné"
+   },
+   "d": {
+    "date": "25. 8. 1933",
+    "year": 1933,
+    "place": "Závada"
+   },
+   "occ": "chalupník (1881), havíř ve výslužbě (1933)",
+   "notes": [
+    "Úmrtní zápis: „František Drapka, havíř ve výslužbě, narozen v Závadě dne 13. 4. 1852“, zemřel 25. 8. 1933 ve věku 81 let, Závada č. 1.",
+    "Otec Albíny (křest 1881: Franz Drapka, chalupník; matka Anna roz. Prochasek). Vazba doložena shodou jmen obou rodičů v křtu Albíny a v úmrtním zápise manželky Anny.",
+    "Aloisie roz. Drapka, matka Antonína Grzonky (nar. 1883), byla podle zápisů dcerou jiného (staršího) Franze Drapky – s tímto Františkem (nar. 1852) nemůže jít o otce; příbuzenství obou rodin Drapka NEDOLOŽENO."
+   ],
+   "sources": [
+    "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F VIII 21, inv. 18473, Z Petrovice u Karviné, Prstná, Závada 1859–1949, snímek 185 (Závada 1933–1934), úmrtí Františka Drapky 25. 8. 1933 (digi.archives.cz)",
+    "ZA Opava, F VIII 10, snímek 258, křest dcery Albíny 1881 (digi.archives.cz)"
+   ],
+   "scans": [
+    {
+     "f": "img/1933_umrti_frantisek_drapka.jpg",
+     "t": "Úmrtí Františka Drapky, Závada 25. 8. 1933"
+    },
+    {
+     "f": "img/1881_krest_albina_drapka.jpg",
+     "t": "Křest dcery Albíny, 1881"
+    }
+   ]
+  },
+  {
+   "id": "annaPr",
+   "name": "Anna Drapková",
+   "maiden": "Procházková",
+   "line": "matusinsky",
+   "cert": "M",
+   "alive": false,
+   "b": {
+    "date": "26. 7. 1855",
+    "year": 1855,
+    "place": "Godów, Těšínsko (PL)"
+   },
+   "d": {
+    "date": "27. 1. 1934",
+    "year": 1934,
+    "place": "Závada"
+   },
+   "notes": [
+    "Úmrtní zápis: „Anna Drapková rozená Procházková, vdova po † Františku Drapkovi, havíři na penzi, nar. 26. 7. 1855 v Godově“, zemřela 27. 1. 1934 ve věku 78 let, Závada č. 1.",
+    "Křest dcery Albíny 1881: „Anna geb. Franz Prochasek“, místo čteno Gollowic (?) – úmrtní zápis uvádí Godov (Godów); ověřit."
+   ],
+   "sources": [
+    "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F VIII 21, inv. 18473, Z Petrovice u Karviné, Prstná, Závada 1859–1949, snímek 185 (Závada 1933–1934), úmrtí Anny Drapkové 27. 1. 1934 (digi.archives.cz)",
+    "ZA Opava, F VIII 10, snímek 258, křest dcery Albíny 1881 (digi.archives.cz)"
+   ],
+   "scans": [
+    {
+     "f": "img/1934_umrti_anna_drapkova.jpg",
+     "t": "Úmrtí Anny Drapkové, Závada 27. 1. 1934"
+    },
+    {
+     "f": "img/1881_krest_albina_drapka.jpg",
+     "t": "Křest dcery Albíny, 1881"
     }
    ]
   }
