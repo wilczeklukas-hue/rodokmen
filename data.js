@@ -2240,7 +2240,7 @@ window.RODOKMEN = {
    },
    "father": "martinKusnik",
    "notes": [
-    "Matka Josefa (1784) a Jakuba Jana (1785) Kionky: dcera zemřelého Martina Kušnika (?), vrchnostenského kováře. Příjmení nejisté (Kußnik / Kuznik); svědek Johann Kuznik 1804 nejspíš její bratr. Rok narození je odhad."
+    "Matka Josefa (1784) a Jakuba Jana (1785) Kionky: dcera Martina Kušnika (?), tehdy už nežijícího, vrchnostenského kováře. Příjmení nejisté (Kußnik / Kuznik); svědek Johann Kuznik 1804 nejspíš její bratr. Rok narození je odhad."
    ],
    "sources": [
     "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F I 4, inv. 2700, N Věřňovice 1782–1803, snímek 12, pravá strana, „In Martio“ 4. zápis, křest 1784 (digi.archives.cz)",
