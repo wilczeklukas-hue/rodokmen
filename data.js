@@ -2131,7 +2131,7 @@ window.RODOKMEN = {
     "approx": true
    },
    "notes": [
-    "Sňatek 9. 1. 1804 v Dětmarovicích (22 let, nar. ~1781/82, svobodná): pozůstalá dcera zemřelého sedláka Matyáše Hanuška (M). Matka Terezie Antończykové (křest 1808 „Rosina gebohrne Hanußek“); v přípisu u sňatku dcery 1827 chybně „Anna Hamrozek“."
+    "Sňatek 9. 1. 1804 v Dětmarovicích (22 let, nar. ~1781/82, svobodná): dcera sedláka Matyáše Hanuška, tehdy už nežijícího (M). Matka Terezie Antończykové (křest 1808 „Rosina gebohrne Hanußek“); v přípisu u sňatku dcery 1827 chybně „Anna Hamrozek“."
    ],
    "sources": [
     "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F I 12, inv. 2708, O Věřňovice 1793–1823, oddíl Dětmarovice, snímek 37, levá strana (fol. 80), 2. zápis, sňatek 9. 1. 1804 (digi.archives.cz)",
