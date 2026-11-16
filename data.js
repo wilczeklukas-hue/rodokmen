@@ -1301,7 +1301,7 @@ window.RODOKMEN = {
     "place": "Závada, Petrovice u Karviné"
    },
    "notes": [
-    "Sňatek 1. 7. 1834: „Barbara nach dem Bauern Paul (?) Schittek ehliche Tochter, Mutter Anna geborne Kaluzza (?)“, 25 let, svobodná; datum narození 27. 11. 1809 Závada je přípis (B. II/16) – D. Zemřela mezi X 1838 a VIII 1844 (manžel se znovu oženil).",
+    "Sňatek 1. 7. 1834: „Barbara nach dem Bauern Paul (?) Schittek ehliche Tochter, Mutter Anna geborne Kaluzza (?)“, 25 let, svobodná; datum narození 27. 11. 1809 Závada je přípis (B. II/16) – D. Manžel se v VIII 1844 znovu oženil – Barbora tedy nežila nejpozději od 1844.",
     "Matka Johanna Grzonky: křest 1838 „Barbara geb. Schittek“ (M); v oddacím zápise syna 1874 psáno „Schoitek“. Rod Schittek v Závadě – kmotři dětí Franze Drapky (Andreas, Magdalena) – možná příbuzenská vazba Grzonka–Drapka, NEDOLOŽENO. Rok narození je odhad."
    ],
    "sources": [
@@ -1742,7 +1742,7 @@ window.RODOKMEN = {
    "b": {
     "date": "",
     "year": 1780,
-    "place": "Petrovice (?)",
+    "place": "Petrovice u Karviné (?)",
     "approx": true
    },
    "notes": [
