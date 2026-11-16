@@ -7,5 +7,7 @@ window.GAZETTEER = {
   'Bohumín': { lat: 49.904, lon: 18.357, region: 'okr. Karviná' },
   'Karviná': { lat: 49.854, lon: 18.542, region: 'okr. Karviná' },
   'Chybie': { lat: 49.902, lon: 18.829, region: 'Polsko, woj. śląskie (Těšínsko)', note: 'v zápisu 1907 „Chybi“, ztotožnění nejisté' },
+  'Pruchna': { lat: 49.843, lon: 18.678, region: 'Polsko, woj. śląskie (Těšínsko)' },
+  'Zaborze': { lat: 49.885, lon: 18.796, region: 'Polsko, woj. śląskie (Těšínsko), farnost Pierściec', note: 'poloha přibližná' },
   'Karviná-Ráj': { lat: 49.845, lon: 18.565, region: 'okr. Karviná', note: 'poloha části obce přibližná' },
 };
