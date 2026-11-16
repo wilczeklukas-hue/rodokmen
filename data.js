@@ -928,14 +928,15 @@ window.RODOKMEN = {
    "b": {
     "date": "",
     "year": 1813,
-    "place": "…bersdorf (?) – snad Seibersdorf / Zebrzydowice",
+    "place": "Zebrzydowice (?)",
     "approx": true
    },
    "notes": [
     "Podruh (Inmann) v Závadě č. 4; manželka Johanna roz. Cyron. Děti: Johanna (23. 2. 1844, D), Theresia (~1846), Aloisie (6. 10. 1849), František (13. 4. 1852), Josefa (~1853). Rok narození je odhad.",
     "Otcovství Františka (nar. 1852, otec Albíny) DOLOŽENO křtem 1852 – předchozí hypotéza potvrzena.",
     "Sňatek 27. 8. 1837 v Závadě č. 7: „Drazza Franz Knecht in Zawada von …bersdorf gebürtig, Sohn des … verstorbenen Paul Drazza u. Theresia Miczek (?)“, 24 let, svobodný × „Johanna des Ackerbauers Paul Cirón u. Magdalena geb. Dzięgiel“, 23 let; s vrchnostenským souhlasem z 10. 8. 1837. Sken jen v nízkém rozlišení (D).",
-    "Ztotožnění (D): křest dcery Karoliny 20. 1. 1840, Závada č. 4 – „Franz Drazka/Drapka Inmann, Anna geb. Paul Cyron“, kmotr Andreas Schittek (stálý kmotr Drapků 1844–1852). Příjmení se v zápisech vyvíjí: 1837 Drazza, 1840 Drazka, od 1844 Drapka. Rok narození (~1813) je z věku při sňatku."
+    "Ztotožnění (D): křest dcery Karoliny 20. 1. 1840, Závada č. 4 – „Franz Drazka/Drapka Inmann, Anna geb. Paul Cyron“, kmotr Andreas Schittek (stálý kmotr Drapků 1844–1852). Příjmení se v zápisech vyvíjí: 1837 Drazza, 1840 Drazka, od 1844 Drapka. Rok narození (~1813) je z věku při sňatku.",
+    "Místo narození v oddacím zápise 1837 „von …bersdorf gebürtig“ – snad Seibersdorf = Zebrzydowice (Těšínsko, PL), čtení nejisté."
    ],
    "sources": [
     "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F VIII 10, inv. 2797, N Závada (fara Petrovice u Karviné) 1859–1909, snímek 260 (digi.archives.cz)",
@@ -1442,7 +1443,7 @@ window.RODOKMEN = {
    },
    "occ": "mlynář (Müller) v Závadě",
    "notes": [
-    "Mlynář v Závadě č. 17. 1. manželka Barbara roz. Koczwara (dcera Jana; syn Laurenz 1836, žije ještě 1839), zemřela mezi 1839 a VII 1841.",
+    "Mlynář v Závadě č. 17. 1. manželka Barbara roz. Koczwara (dcera Jana; syn Laurenz 1836, žije ještě 1839), v VII 1841 už nežila (mezi 1839 a 1841).",
     "2. sňatek 27. 7. 1841 v Závadě: „Simon Stadeczek Müller von Zawada, Sohn des Laurenz Stadeczek u. der Marianna geb. Fijałek (?)“, 41 let (nar. ~1800), vdovec × Barbara, dcera † Pavla Stanika (?), domkáře z Gołkowic (D; jména rodičů K–D). Od 1842 u dětí matka „Barbara geb. Paul Stanik (?)“. Rodiče Laurenz Stadeczek × Marianna Fijałek (?) zatím nezapsáni jako osoby."
    ],
    "sources": [
@@ -1546,11 +1547,11 @@ window.RODOKMEN = {
    "b": {
     "date": "",
     "year": 1785,
-    "place": "…bersdorf (?)",
+    "place": "Zebrzydowice (?)",
     "approx": true
    },
    "notes": [
-    "Otec Franze Drazzy/Drapky podle oddacího zápisu 1837 (již zemřelý; čtení „dortigen Ge… verstorbenen“ nejisté). Sken v nízkém rozlišení – D. Rok narození je odhad."
+    "Otec Franze Drazzy/Drapky podle oddacího zápisu 1837, v té době již nežil (čtení „dortigen Ge… verstorbenen“ nejisté). Sken v nízkém rozlišení – D. Rok narození je odhad."
    ],
    "sources": [
     "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F VIII 11, inv. 10218, O Petrovice u Karviné 1836–1858, oddíl Závada, snímek 22, levá strana, 4. zápis, sňatek 27. 8. 1837 (digi.archives.cz)"
@@ -1560,7 +1561,13 @@ window.RODOKMEN = {
      "f": "img/1837_snatek_drazza_cyron.jpg",
      "t": "Sňatek Franz Drazza (Drapka) × Johanna Cyron, Závada 27. 8. 1837"
     }
-   ]
+   ],
+   "d": {
+    "date": "",
+    "year": 1837,
+    "place": "",
+    "before": true
+   }
   },
   {
    "id": "theresiaMiczek",

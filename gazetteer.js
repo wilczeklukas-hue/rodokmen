@@ -12,4 +12,5 @@ window.GAZETTEER = {
   'Godów': { lat: 49.921, lon: 18.477, region: 'Polsko, woj. śląskie (Těšínsko)' },
   'Karviná-Ráj': { lat: 49.845, lon: 18.565, region: 'okr. Karviná', note: 'poloha části obce přibližná' },
   'Dětmarovice': { lat: 49.894, lon: 18.461, region: 'okr. Karviná' },
+  'Zebrzydowice': { lat: 49.878, lon: 18.611, region: 'Polsko, woj. śląskie (Těšínsko), něm. Seibersdorf', note: 'ztotožnění z „…bersdorf“ nejisté' },
 };
