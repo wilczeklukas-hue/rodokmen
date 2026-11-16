@@ -1331,7 +1331,8 @@ window.RODOKMEN = {
      "t": "Sňatek Matthäus Grzonka × Barbara Schittek, Závada 1. 7. 1834"
     }
    ],
-   "father": "paulSchittek"
+   "father": "paulSchittek",
+   "mother": "annaKaluza"
   },
   {
    "id": "mariannaBenda",
@@ -1813,12 +1814,14 @@ window.RODOKMEN = {
     "approx": true
    },
    "notes": [
-    "Matka Matouše: v sňatcích syna 1834 a 1844 „Marianna geb. Kaschik (?)“; v křtu Matouše 1802 „Maryna gebohrene“ bez příjmení. Křest Joannese (~VII 1801, sn. 163) uvádí u rodičů „Joannes Grzonek (?) Häusler, Maryna geb. Wacławik (?)“ – je-li to táž rodina, rozpor Kaschik × Wacławik zůstává OTEVŘENÝ. Rok narození je odhad."
+    "Matka Matouše: v sňatcích syna 1834 a 1844 „Marianna geb. Kaschik (?)“; v křtu Matouše 1802 „Maryna gebohrene“ bez příjmení. Křest Joannese (~VII 1801, sn. 163) uvádí u rodičů „Joannes Grzonek (?) Häusler, Maryna geb. Wacławik (?)“ – je-li to táž rodina, rozpor Kaschik × Wacławik zůstává OTEVŘENÝ. Rok narození je odhad.",
+    "ZA Opava r12 (K, nerozhodnuto): domkář Johann Grzonka v Závadě č. 15 má 1. 3. 1798 syna Josepha s matkou „Anna gebohrene“ (bez příjmení). Jiná rodina Johann „Arznwky/Grzonky (?)“ (č. 3/19) – sňatek 19. 2. 1794 s vdovou Marinou (32 let), děti Marina 1794 a Mathias 1799, matka „Marina geb. Pustalnik (?)“. Matouš 1802 má číslo domu první a jméno matky druhé rodiny. „Kaschik“ se v zápisech 1794–1799 nevyskytuje."
    ],
    "sources": [
     "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F VIII 6, inv. 2793, O Petrovice u Karviné 1797–1858, oddíl Závada, snímek 68, pravá strana (pag. 15), sňatek 1. 7. 1834 (digi.archives.cz)",
     "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F VIII 6, inv. 2793, O Petrovice u Karviné 1797–1858, oddíl Závada, snímek 72, pravá strana (pag. 23), sňatek 27. 8. 1844 (digi.archives.cz)",
-    "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F VIII 4, inv. 2791, N Petrovice u Karviné 1797–1852, oddíl Závada, snímky 163–164 (digi.archives.cz)"
+    "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F VIII 4, inv. 2791, N Petrovice u Karviné 1797–1852, oddíl Závada, snímky 163–164 (digi.archives.cz)",
+    "ZA Opava, F VIII 3 (inv. 2790) sn. 7, 12; F VIII 4 sn. 161–162 (digi.archives.cz)"
    ],
    "scans": [
     {
@@ -1836,22 +1839,82 @@ window.RODOKMEN = {
    "alive": false,
    "b": {
     "date": "",
-    "year": 1780,
-    "place": "Závada (?)",
+    "year": 1776,
+    "place": "",
     "approx": true
    },
    "occ": "sedlák (Bauer) v Závadě",
    "notes": [
+    "Sňatek 29. 1. 1799, Závada č. 11: „Paulus Schottek Ackerbauer“, 23 let (nar. ~1776), svobodný × „Anna geborene Kalußin des Johannes“, 22 let, svobodná. Svědci Joseph Solik, fojt z Dětmarovic; Johann Mazurek, domkář. Oddával Adam Sosna, lokální kaplan petrovický. Rodiče ženicha neuvedeni.",
     "Sedlák v Závadě č. 11; manželka Anna roz. Kalluza (?). Křest dcery Barbory 1809 a její sňatek 1834. Rod Schittek – kmotři Drapků (Andreas). Rok narození je odhad."
    ],
    "sources": [
+    "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F VIII 6, inv. 2793, O Petrovice u Karviné 1797–1858, oddíl Závada, snímek 61, pravá strana (pag. 1), 1. zápis, sňatek 29. 1. 1799 (digi.archives.cz)",
     "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F VIII 6, inv. 2793, O Petrovice u Karviné 1797–1858, oddíl Závada, snímek 68, pravá strana (pag. 15), sňatek 1. 7. 1834 (digi.archives.cz)",
     "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F VIII 4, inv. 2791, N Petrovice u Karviné 1797–1852, oddíl Závada, snímek 169 (digi.archives.cz)"
    ],
    "scans": [
     {
+     "f": "img/1799_snatek_schittek_kaluza.jpg",
+     "t": "Sňatek Paulus Schottek (Schittek) × Anna Kalužová, Závada 29. 1. 1799"
+    },
+    {
      "f": "img/1834_snatek_grzonka_schittek.jpg",
      "t": "Sňatek Matthäus Grzonka × Barbara Schittek, Závada 1. 7. 1834"
+    }
+   ]
+  },
+  {
+   "id": "annaKaluza",
+   "name": "Anna Schittková",
+   "maiden": "Kalužová (Kalluza)",
+   "line": "grzonka",
+   "cert": "M",
+   "alive": false,
+   "b": {
+    "date": "",
+    "year": 1777,
+    "place": "",
+    "approx": true
+   },
+   "father": "johannKaluza",
+   "notes": [
+    "Sňatek 29. 1. 1799 s Pavlem Schittkem, 22 let (nar. ~1777), dcera Jana Kalužy. Matka Barbory (křest 1809 „Anna geb. Kalluza“). Rok narození z věku."
+   ],
+   "sources": [
+    "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F VIII 6, inv. 2793, O Petrovice u Karviné 1797–1858, oddíl Závada, snímek 61, pravá strana (pag. 1), 1. zápis, sňatek 29. 1. 1799 (digi.archives.cz)",
+    "ZA Opava, F VIII 4, snímek 169, křest dcery Barbory 1809 (digi.archives.cz)"
+   ],
+   "scans": [
+    {
+     "f": "img/1799_snatek_schittek_kaluza.jpg",
+     "t": "Sňatek Paulus Schottek (Schittek) × Anna Kalužová, Závada 29. 1. 1799"
+    }
+   ]
+  },
+  {
+   "id": "johannKaluza",
+   "name": "Jan (Johannes) Kaluža",
+   "maiden": "",
+   "line": "grzonka",
+   "cert": "M",
+   "alive": false,
+   "b": {
+    "date": "",
+    "year": 1750,
+    "place": "",
+    "approx": true
+   },
+   "notes": [
+    "Otec Anny Schittkové podle oddacího zápisu 1799 („Kalußin des Johannes“). Rok narození je odhad."
+   ],
+   "sources": [
+    "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F VIII 6, inv. 2793, O Petrovice u Karviné 1797–1858, oddíl Závada, snímek 61, pravá strana (pag. 1), 1. zápis, sňatek 29. 1. 1799 (digi.archives.cz)"
+   ],
+   "scans": [
+    {
+     "f": "img/1799_snatek_schittek_kaluza.jpg",
+     "t": "Sňatek Paulus Schottek (Schittek) × Anna Kalužová, Závada 29. 1. 1799"
     }
    ]
   }
