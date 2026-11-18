@@ -3276,7 +3276,8 @@ window.RODOKMEN = {
    "occ": "sedlák (Ackerbauer)",
    "notes": [
     "Otec Pavla Cyrona: „Paul des Simon Ciron Ackerbauers Sohn“ (sňatek 1. 1. 1803, Závada; M). Ztotožnění Pavla 1803 = Pavel 1817/1839 je D, proto D. Rok narození je odhad.",
-    "zao_r61 (K): 27. 12. 1777 pokřtěn v Darkově Jan, syn „Simon Cyron Häusler & Anna“ (F IV 5, inv. 2733, sn51 L) – snad týž Šimon (manželka Anna); jen podle jména."
+    "zao_r61 (K): 27. 12. 1777 pokřtěn v Darkově Jan, syn „Simon Cyron Häusler & Anna“ (F IV 5, inv. 2733, sn51 L) – snad týž Šimon (manželka Anna); jen podle jména.",
+    "zao_r62 (D): 18. 10. 1775 kmotr „Simon Gyron ex Sowada Anbauer“ (F IV 5 sn35 L, Koukolná) a 16. 9. 1773 „Simon Giron … Anbauer“ (sn19 P) – Šimon Cyron, sedlák ze Závady, doložen 1773–75. Křest syna Pavla v N Fryštát VII 1773 – XII 1775 není; nečteno IX 1771 – VI 1773."
    ],
    "sources": [
     "ZA Opava, fara Petrovice, O 1797–1858 (sign. F VIII 6, inv. 2793), oddíl Závada, 1803, pag. 3 – snímek 62 vpravo"
