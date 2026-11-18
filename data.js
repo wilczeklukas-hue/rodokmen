@@ -2551,7 +2551,7 @@ window.RODOKMEN = {
    "alive": false,
    "b": {
     "date": "",
-    "year": 1685,
+    "year": 1680,
     "place": "Dětmarovice (?)",
     "approx": true
    },
@@ -2563,16 +2563,23 @@ window.RODOKMEN = {
    },
    "notes": [
     "Otec Jiřího Hanuska; při synově sňatku XI 1737 již zemřelý („defuncti Gregorij Hanusek“). Dcera Magdalena ∞ 1741 Šimon Jordan. Rok narození je odhad.",
-    "Děti doložené sňatky (F I 11): Jiří (∞ 1737), Magdalena (∞ 1741 Šimon Jordan), Pavel (∞ 1746)."
+    "Děti doložené sňatky (F I 11): Jiří (∞ 1737), Magdalena (∞ 1741 Šimon Jordan), Pavel (∞ 1746).",
+    "Sňatek 3. 2. 1705 (Dětmarovice, fara Dolní Lutyně): „Copulavi honestum Juvenem Gregorium Hanusek cum honesta puella Anna filia Andreae Gura molitoris Gerwinensis(?)“ – svobodný Řehoř Hanusek × panna Anna, dcera Ondřeje Gury, mlynáře z „Gerwin…“(?); svědci Jiří Kotyřena, Jiří Kazek(?), Marina Kotyřenka, Anna Olmbek(?), všichni z Dětmarovic. Čtení M (místo mlýna K); ztotožnění s otcem Jiřího (∞ 1737) D. Otec ženicha neuveden. Zda je Anna matkou našeho Jiřího, rozhodne jeho křest (~1706–16) – zatím nezapsána jako předek.",
+    "1705 kmotr a svědek v Dětmarovicích; tamtéž hospodář Valentin Hanusek (1705, s čeledí) – možný otec Řehoře (K)."
    ],
    "sources": [
     "ZA Opava, fara Dolní Lutyně, O 1728–1792 (sign. F I 11, inv. 2707), XI 1737, 1. zápis – FamilySearch DGS 5387443, snímek 31 vlevo",
-    "ZA Opava, F I 11, VI 1741 – FamilySearch DGS 5387443, snímek 39 vlevo"
+    "ZA Opava, F I 11, VI 1741 – FamilySearch DGS 5387443, snímek 39 vlevo",
+    "ZA Opava, fara Dolní Lutyně, smíšená matrika 1672–1728 (inv. 2697), sňatky 3. 2. 1705 – FamilySearch DGS 5393677, snímek 290 vlevo"
    ],
    "scans": [
     {
      "f": "img/1737_snatek_hanusek_kotyrzyna.png",
      "t": "Sňatek Jiří Hanusek × Magdalena Kotyrzynová, Dětmarovice XI 1737"
+    },
+    {
+     "f": "img/1705_snatek_hanusek_gura.png",
+     "t": "Sňatek Řehoř Hanusek × Anna Gurová, Dětmarovice 3. 2. 1705"
     }
    ]
   },
