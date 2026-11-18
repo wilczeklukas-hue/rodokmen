@@ -2111,7 +2111,8 @@ window.RODOKMEN = {
     "Křest: 8. 3. 1784, Dětmarovice č. 17, katolík, křtil Josef Palarczik; otec „Kionka Johann ein Häusler und Schmid“, matka „Marina des verstorb. Martin Kußnik (?) … herrschaftl. Schmieds in Deutsch[leuten?] Tochter“. Kmotři Joseph Olma, kolář; Anna, manželka Matouše Macury.",
     "Sňatek 9. 1. 1804, Dětmarovice č. 12: „Joseph des Johann Kionka Häuslers und Schmidts (?) Sohn von Dittmansdorf“, 19 let (nar. ~1784/85), svobodný × „Rosina nach verstorbenem Mathias Hanußek gewesenem Ackerbauers hinterbliebene Tochter von Dittmansdorf“, 22 let, svobodná. Svědci Mathias Kania, sedlák z Dětmarovic; Johann Kuznik (?) z Dombrau (?).",
     "Otec Terezie Antończykové (sňatek vnuka 1854).",
-    "Sňatek dcery Terezie 1827. Manželka Rosina roz. Hanusek (?) (křest dcery 1808)."
+    "Sňatek dcery Terezie 1827. Manželka Rosina roz. Hanusek (?) (křest dcery 1808).",
+    "Úmrtí Dětmarovice IV 1828 – X 1831 není; rejstřík I-Z (DGS 5387453) odkazuje „Kionka Joseph Dittm. 80“ – strana 80 není v knize 1833–64 → asi pozdější kniha (Z 1865+). Manželka Rosina snad † 19. 3. 1831 na č. 13 (D)."
    ],
    "sources": [
     "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F I 4, inv. 2700, N Věřňovice 1782–1803, snímek 12, pravá strana, „In Martio“ 4. zápis, křest 1784 (digi.archives.cz)",
@@ -2175,7 +2176,8 @@ window.RODOKMEN = {
    },
    "notes": [
     "Křest: 29. [5.?] 1781, Dětmarovice č. 13, katolička, křtil Josef Palarczik; otec „Mathias Hanussek ein Ackerbauer“, matka „Marina gebohrne Manin (?)“ (agent četl Kanin – nejisté). Kmotři Matouš Chrobáček, podruh; Rosina, manželka sedláka Michala Parteyky (?). Měsíc podle polohy zápisu nad „In Junio“ (K).",
-    "Sňatek 9. 1. 1804 v Dětmarovicích (22 let, nar. ~1781/82, svobodná): dcera sedláka Matyáše Hanuška, tehdy už nežijícího (M). Matka Terezie Antończykové (křest 1808 „Rosina gebohrne Hanußek“); v přípisu u sňatku dcery 1827 chybně „Anna Hamrozek“."
+    "Sňatek 9. 1. 1804 v Dětmarovicích (22 let, nar. ~1781/82, svobodná): dcera sedláka Matyáše Hanuška, tehdy už nežijícího (M). Matka Terezie Antończykové (křest 1808 „Rosina gebohrne Hanußek“); v přípisu u sňatku dcery 1827 chybně „Anna Hamrozek“.",
+    "KANDIDÁT úmrtí (D): 19. 3. 1831 (pohřeb 22. 3.), Dětmarovice č. 13: „Rosina Eheweib des Joseph Kionka Ausgedinglers(?)“, 43 let, zápal plic (FS DGS 5387451 sn66 L). Jméno a manžel sedí, ale věk 43 (očekáváno ~50) a dům č. 13 (dům Andrease Kionky, sedláka – Josef snad na výměnku) – do pole úmrtí nezapsáno."
    ],
    "sources": [
     "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F I 3, inv. 2699, N Věřňovice 1754–1781, snímek 136, pravá strana, zápis nad „In Junio“, křest 1781 (digi.archives.cz)",
