@@ -1588,7 +1588,8 @@ window.RODOKMEN = {
    "occ": "sedlák v Závadě č. 2 / č. 5; rychtář (Richter) 1839–1841",
    "notes": [
     "Sedlák v Závadě. Otec Johanny Stadeczkové (*1844; sňatek 1860, dal souhlas) i Marianny Antończykové (sňatky 1852 a 1854: „Tochter nach Georg Benda Ackerbauer in Zawada“) – tatáž osoba (M). Manželka Zuzana (Susanna) roz. Surmová (křty dětí 1831–1844). Rok narození je odhad.",
-    "Pedigree collapse: vnučka Terezie Antończyk (*1867, dcera Marianny) si 1888 vzala Antona Stadeczka (*1867, syn Johanny) – byli to bratranec a sestřenice."
+    "Pedigree collapse: vnučka Terezie Antończyk (*1867, dcera Marianny) si 1888 vzala Antona Stadeczka (*1867, syn Johanny) – byli to bratranec a sestřenice.",
+    "zao_r30b: sňatek s Zuzanou Surmovou není v oddílu Prstná F VIII 6 sn49 (1828 – II 1830; jistota D, nízké rozlišení). Petrovice 1829–30 v F VIII 6 ještě nenalezeny (sn26–32 = 1843–52, hledat sn10–25)."
    ],
    "sources": [
     "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F VIII 18, inv. 18470, O Petrovice u Karviné, Prstná, Závada 1859–1949, snímek 196, levá strana, 2. zápis, sňatek 27. 11. 1860 (digi.archives.cz)",
@@ -2336,7 +2337,8 @@ window.RODOKMEN = {
    "notes": [
     "Sňatek II 1776 s Matyášem Hanuškem: „Jungfrau Marina des Georg Kania Bauers Tochter“ (M). V křtu dcery Rosiny 1781 „Marina gebohrne Kanin“ (ženská forma Kania).",
     "Úmrtí 8. 5. 1791, Dětmarovice č. 13: „Marina des Mathias Hanußek Bauers Eheweib, versehen vom Joseph Palartschik“, 43 let (nar. ~1748), Gefraiß (M). Rok narození z věku.",
-    "Křest v Dětmarovicích XII 1745 – V 1750 NENÍ (F I 2 sn. 96–110; zao_r28/r29) – hledat 1744–45, 1739–41 nebo mimo faru."
+    "Křest v Dětmarovicích XII 1745 – V 1750 NENÍ (F I 2 sn. 96–110; zao_r28/r29) – hledat 1744–45, 1739–41 nebo mimo faru.",
+    "zao_r30b: křest není ani V 1743 – IX 1745 (F I 2 sn88–95). Jediná blízká Marina: 29. 6. 1744 „Marinam Georgi Kyenkia matris Susannae“, Dětmarovice (sn92 P) – příjmení spíš Kionka, věk 1791 by byl 46–47 místo 43 → K−, nepřijato. 8. 3. 1745 Marina dcera Jakuba Kani (Teutoleuten) – jiný otec. Nečteno: I 1739 – IV 1743 (sn74–87 kromě 78–85 již dříve?)."
    ],
    "sources": [
     "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F I 11, inv. 2707, O Věřňovice 1728–1792, snímek 109, pravá strana (fol. 107), „In Februario“ 1776, 3. zápis (digi.archives.cz; rejstřík F I 48 sn. 11 P)",
