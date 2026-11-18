@@ -3278,7 +3278,8 @@ window.RODOKMEN = {
     "Otec Pavla Cyrona: „Paul des Simon Ciron Ackerbauers Sohn“ (sňatek 1. 1. 1803, Závada; M). Ztotožnění Pavla 1803 = Pavel 1817/1839 je D, proto D. Rok narození je odhad.",
     "zao_r61 (K): 27. 12. 1777 pokřtěn v Darkově Jan, syn „Simon Cyron Häusler & Anna“ (F IV 5, inv. 2733, sn51 L) – snad týž Šimon (manželka Anna); jen podle jména.",
     "zao_r62 (D): 18. 10. 1775 kmotr „Simon Gyron ex Sowada Anbauer“ (F IV 5 sn35 L, Koukolná) a 16. 9. 1773 „Simon Giron … Anbauer“ (sn19 P) – Šimon Cyron, sedlák ze Závady, doložen 1773–75. Křest syna Pavla v N Fryštát VII 1773 – XII 1775 není; nečteno IX 1771 – VI 1773.",
-    "zao_r63: křest Pavla, syna Šimona, v N Fryštát IV 1771 – III 1778 není (K–D). Jiný(?) Šimon Cyron, podruh × Marina, Dolní předměstí: syn Ondřej 6. 11. 1772 (kmotři stejní jako u Jana 1777 – K). Kmotr X 1772 „Paul Gyron … von Zowada“ (dospělý; otec či bratr Šimona? K)."
+    "zao_r63: křest Pavla, syna Šimona, v N Fryštát IV 1771 – III 1778 není (K–D). Jiný(?) Šimon Cyron, podruh × Marina, Dolní předměstí: syn Ondřej 6. 11. 1772 (kmotři stejní jako u Jana 1777 – K). Kmotr X 1772 „Paul Gyron … von Zowada“ (dospělý; otec či bratr Šimona? K).",
+    "zao_r64: křest Pavla v N Fryštát (F IV 4) V 1768 – XI 1770 není (kromě nečteného II–IV 1770). Kmotr 4. 6. 1770 „Paulus Giron … ex Zovada“ (M) – dospělý Pavel Cyron ze Závady (1770, 1772), snad otec/bratr Šimona (K)."
    ],
    "sources": [
     "ZA Opava, fara Petrovice, O 1797–1858 (sign. F VIII 6, inv. 2793), oddíl Závada, 1803, pag. 3 – snímek 62 vpravo"
