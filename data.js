@@ -2535,7 +2535,8 @@ window.RODOKMEN = {
     "Sestra Magdalena, dcera † Řehoře Hanuska, ∞ VI 1741 Šimon Jordan, Dětmarovice (DGS 5387443 sn39 L).",
     "fs_old2: 7. 7. 1749 se v Dětmarovicích oženil „Viduus Georgius Hanussek“ se Žofií, dcerou † Jiřího Hanuska(?) (K – snad tentýž Jiří po smrti Magdaleny, †~1749). Náš Matyáš (*13. 1. 1743, † 1798 ve věku 56) je ale z 1. manželství s Magdalenou. Bratr Pavel, syn † Řehoře Hanuska, ∞ I 1746 Anna Pawlik(?) (D).",
     "fs_old19: první žena Magdalena † 17. 5. 1749 → sňatek „viduus Georgius Hanussek“ × Žofie 7. 7. 1749 je téměř jistě jeho (D). Pohřby dětí: Josef VI 1748 (5 týdnů), Magdalena II 1749.",
-    "fs_old33 (K–D, neověřeno výřezem): 4. 5. 1765 „Georgius Hanußek Colonus Dittmansdorff. catholicus anno 49 … Sepultus Dittmansdorff“ (DGS 5387446 sn89 P). Věk 49 nesedí na křest 1710 (55) – ověřit."
+    "fs_old33 (K–D, neověřeno výřezem): 4. 5. 1765 „Georgius Hanußek Colonus Dittmansdorff. catholicus anno 49 … Sepultus Dittmansdorff“ (DGS 5387446 sn89 P). Věk 49 nesedí na křest 1710 (55) – ověřit.",
+    "fs_old35: pohřeb 4. 5. 1765 „Georgius Hanußek, Colonus Dittmansdorff … anno 49“ – věk jednoznačně 49 (→ ~1716); náš Jiří pokř. 1710 by měl 55 → ztotožnění jen K, nezapsáno."
    ],
    "sources": [
     "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F I 11, inv. 2707, O Věřňovice 1728–1792, snímek 109, pravá strana (fol. 107), „In Februario“ 1776, 3. zápis (digi.archives.cz; rejstřík F I 48 sn. 11 P)",
