@@ -2357,7 +2357,8 @@ window.RODOKMEN = {
     "Zemřel před II 1827 (manželka Marina 1827 „Wittwe nach + Johann Kionka gewesenen Häusler“). V úmrtích Dětmarovic I 1824 – II 1827 není → nejspíš zemřel před 1824 (F I 17, 1804–23).",
     "fs_old44 (K): v Dětmarovicích č. 36 zemřel 12. 10. 1782 „Johann Kionka ein Häusler“, 45 let, a 6. 12. 1782 jeho vdova Marina, 45 let (DGS 5387447 sn19) – možná rodiče ženicha z 3. 2. 1783 (sňatek 4 měsíce po smrti otce); jen podle jména, neověřeno. fs_old45: zápisy přečteny při zvětšení – „Johann Kionka ein Häusler oder Robot Gärtner“, 45, a „Marina nach dem verstorbenen Johann Kionka Robot Gärtner nachgebliebene Wittib“, 45 (M); kovář NENÍ uveden.",
     "fs_old45: křest v DGS 5387437 (N 1754–81) nenalezen ve výsecích V 1757 – III 1758, VIII–IX 1759, IV–VII 1760; nečteno 1754 – IV 1757 a další roky.",
-    "fs_old46: křest Joannese Kionky/Kijenky není v souvislém úseku 2. I 1754 – 28. III 1758 (DGS 5387437 sn2–26). Otcové Kijenka v Dětmarovicích 1754–57: Šimon × Anna/Rosina, Matěj × Hedvika, Řehoř × Anna."
+    "fs_old46: křest Joannese Kionky/Kijenky není v souvislém úseku 2. I 1754 – 28. III 1758 (DGS 5387437 sn2–26). Otcové Kijenka v Dětmarovicích 1754–57: Šimon × Anna/Rosina, Matěj × Hedvika, Řehoř × Anna.",
+    "fs_old47 – kandidátní křty (K, jen jméno a obec): 18. 6. 1759 „Joes Patris Mathiae Kijenka Dom. Dittm. Matris Marinae“ a 7. 6. 1761 „Joannes – Mathiae Kionka, Matris Rosinae“, Dětmarovice (DGS 5387437 sn32 L, sn43 L; čtení M). Rozhodne věk při úmrtí (~1824–27)."
    ],
    "sources": [
     "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F I 11, inv. 2707, O Věřňovice 1728–1792, snímek 126, levá strana, „Anno 1783 In Februario“, 1. zápis; duplikát sn. 125 P (digi.archives.cz; rejstřík F I 48 sn. 16 L)",
@@ -2504,7 +2505,8 @@ window.RODOKMEN = {
    "notes": [
     "Otec Mariny Kionkové; v III 1784 už nežil („des verstorb. Martin Kußnik … herrschaftl. Schmieds in Deutsch…“). Příjmení i místo nejisté. Rok narození je odhad.",
     "fs_old44: pohřeb v I 1779 – 17. XII 1782 (DGS 5387447 sn2–19) není; zbývá XII 1782 – II 1783 a léta před 1779.",
-    "fs_old45: pohřeb není ani XII 1782 – III 1783 → celkový negativ I 1779 – III 1783; zemřel před 1779 nebo jinde."
+    "fs_old45: pohřeb není ani XII 1782 – III 1783 → celkový negativ I 1779 – III 1783; zemřel před 1779 nebo jinde.",
+    "fs_old47 (K): v Německé Lutyni křtí 1758–60 „Martin Kuźnik × Marina (Marianna)“ děti Johanna 1758, Joannes 1759, Franciscus 1760; povolání 1758 snad „Faber aerarius“ (kovář?, K). Možná naše rodina – dcera Marina ~1757 nehledána."
    ],
    "sources": [
     "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F I 4, inv. 2700, N Věřňovice 1782–1803, snímek 12, pravá strana, „In Martio“ 4. zápis, křest 1784 (digi.archives.cz)"
