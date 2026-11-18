@@ -2622,7 +2622,8 @@ window.RODOKMEN = {
     "Děti s Annou (křty, DGS 5393677): Marina 3. 6. 1708 (sn161 L), Jiří 4. 4. 1710 (sn167 P).",
     "Úmrtí 30. 6. 1737: „Item obiit Gregorius Hanusek omnibus SS. provisus 50 Ann.; Dittm.“ (M; ztotožnění D–M – jediný Řehoř Hanusek, sedí rozmezí XI 1735 – XI 1737). Věk 50 → nar. ~1687 (věky bývají zaokrouhlené). Týž den zemřela „Anna Hanusczyno“ (Hanuščina), 45 let – patrně jeho žena Anna (K; věk 45 by při sňatku 1705 dával jen 13 let, tedy věk nepřesný, nebo jiná Anna).",
     "fs_old9: dcera Magdalena pokř. V 1716 (po 12. 5.), „Magdalenam Paren: Gregorij Hanusek et Anna“, Dětmarovice (DGS 5393677 sn182 P; M) – patrně ta, která se 1741 vdala za Šimona Jordana.",
-    "fs_old8: křest Řehoře nenalezen v VII 1687 – VIII 1688 (DGS 5393677 sn60–65; sn61–62 vybledlé). Valentin Hanusek × Dorota(?), Dětmarovice, dítě 27. 6. 1688 (sn65 L, D/K) a kmotr 1687 – časově sedí jako Řehořův otec (K)."
+    "fs_old8: křest Řehoře nenalezen v VII 1687 – VIII 1688 (DGS 5393677 sn60–65; sn61–62 vybledlé). Valentin Hanusek × Dorota(?), Dětmarovice, dítě 27. 6. 1688 (sn65 L, D/K) a kmotr 1687 – časově sedí jako Řehořův otec (K).",
+    "fs_old11: křest Řehoře nenalezen ani VI 1686 – VI 1687 a IX 1688 – IV 1690 (sn55–59, 66–74; některé úseky vybledlé). Valentin Hanusek × Dorota: dcera Dorota pokř. IV 1687 (sn59 L, D), syn Petr(?) VI 1688 → Řehoř by u nich spadal spíš před 1686. Nečteno 1683 – VI 1686 (sn43–54)."
    ],
    "sources": [
     "ZA Opava, fara Dolní Lutyně, O 1728–1792 (sign. F I 11, inv. 2707), XI 1737, 1. zápis – FamilySearch DGS 5387443, snímek 31 vlevo",
