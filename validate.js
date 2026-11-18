@@ -98,6 +98,27 @@ const texts = [
 ];
 for (const [where, t] of texts) if (COMPUTED.test(t || '')) say('WARN', `${where}: hard-coded computable value "${(t.match(COMPUTED) || [])[0]}" – let the page compute it`);
 
+// historical events (events.js): shape, year order, no big gaps on the time axis
+const evFile = path.join(__dirname, 'events.js');
+if (fs.existsSync(evFile)) {
+  const ev = {};
+  try { vm.runInNewContext(fs.readFileSync(evFile, 'utf8'), { window: ev }); } catch (e) { say('ERROR', `events.js: ${e.message}`); }
+  const E = ev.RODOKMEN_EVENTS;
+  if (!Array.isArray(E)) say('ERROR', 'events.js must define window.RODOKMEN_EVENTS = [...]');
+  else {
+    const now = new Date().getFullYear();
+    E.forEach((e, i) => {
+      const at = `events.js[${i}] (${e && e.y})`;
+      if (!e || !Number.isInteger(e.y) || e.y < 1000 || e.y > now) say('ERROR', `${at}: invalid year y`);
+      if (e && e.y2 !== undefined && !(Number.isInteger(e.y2) && e.y2 > e.y && e.y2 <= now)) say('ERROR', `${at}: y2 must be a year after y`);
+      if (!e || !e.t || typeof e.t !== 'string') say('ERROR', `${at}: missing text t`);
+      if (i && E[i - 1] && e && E[i - 1].y > e.y) say('WARN', `${at}: events not sorted by year`);
+    });
+    const ys = E.map(e => e.y).sort((a, b) => a - b);
+    for (let i = 1; i < ys.length; i++) if (ys[i] - ys[i - 1] > 60) say('INFO', `events.js: no event between ${ys[i - 1]} and ${ys[i]}`);
+  }
+} else say('INFO', 'events.js missing – the page falls back to events in data.js');
+
 for (const lvl of ['ERROR', 'WARN', 'INFO']) for (const m of out[lvl]) console.log(`${lvl}: ${m}`);
 console.log(`validate: ${d.people.length} people, ${out.ERROR.length} errors, ${out.WARN.length} warnings, ${out.INFO.length} info`);
 process.exit(out.ERROR.length || out.WARN.length ? 1 : 0);

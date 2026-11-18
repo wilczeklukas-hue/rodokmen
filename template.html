@@ -9,64 +9,99 @@
 <style>
 :root {
   --bg: #f6f4ef; --panel: #ffffff; --ink: #1f2328; --muted: #6b6f76; --line: #d8d4ca;
-  --card: #ffffff; --grid: #e7e3da; --war: rgba(180, 60, 50, .10); --dot: #9a5b2e;
+  --card: #ffffff; --grid: #e7e3da; --war: rgba(180, 60, 50, .08); --dot: #9a5b2e;
   --pat: #2f6fb3; --mat: #c0392b; --edge: #a9a49a; --accent: #2f6fb3; --shadow: 0 1px 3px rgba(0,0,0,.12);
   --land: #ece8de; --land2: #e2ddd0; --water: #f6f4ef;
+  --band: rgba(154, 91, 46, .14); --band-edge: rgba(154, 91, 46, .45);
+  --rw: 52px; --evw: 200px;
 }
 @media (prefers-color-scheme: dark) {
   :root {
     --bg: #15171a; --panel: #1d2024; --ink: #e8e6e1; --muted: #9aa0a6; --line: #34383e;
-    --card: #23272c; --grid: #24282d; --war: rgba(220, 90, 80, .14); --dot: #d39a63;
+    --card: #23272c; --grid: #24282d; --war: rgba(220, 90, 80, .10); --dot: #d39a63;
     --pat: #6aa5e8; --mat: #ec7063; --edge: #5b6068; --accent: #6aa5e8; --shadow: 0 1px 3px rgba(0,0,0,.5);
     --land: #24282d; --land2: #2b3036; --water: #15171a;
+    --band: rgba(211, 154, 99, .14); --band-edge: rgba(211, 154, 99, .45);
   }
 }
 * { box-sizing: border-box; }
+[hidden] { display: none !important; }
 html, body { margin: 0; height: 100%; background: var(--bg); color: var(--ink);
   font: 14px/1.45 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
 body { display: flex; flex-direction: column; overflow: hidden; }
+button { font: inherit; }
 header { padding: 10px 16px 0; background: var(--panel); border-bottom: 1px solid var(--line); flex: none; }
-.top { display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: baseline; justify-content: space-between; }
+.top { display: flex; flex-wrap: wrap; gap: 4px 16px; align-items: baseline; justify-content: space-between; }
 h1 { font-size: 20px; margin: 0; letter-spacing: .2px; }
 .stats { color: var(--muted); font-size: 12.5px; }
 .stats b { color: var(--ink); font-weight: 600; }
-.bar2 { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; justify-content: space-between; margin-top: 8px; }
-.tabs { display: flex; gap: 2px; }
-.tabs button { border: 0; background: none; color: var(--muted); padding: 8px 12px; font: inherit; cursor: pointer;
+.plink { border: 0; background: none; padding: 0; color: var(--accent); cursor: pointer; font: inherit; text-align: left; }
+.plink:hover { text-decoration: underline; }
+.bar2 { display: flex; flex-wrap: wrap; gap: 4px 8px; align-items: center; justify-content: space-between; margin-top: 6px; }
+.tabs { display: flex; gap: 2px; overflow-x: auto; max-width: 100%; }
+.tabs button { border: 0; background: none; color: var(--muted); padding: 8px 12px; cursor: pointer; white-space: nowrap;
   border-bottom: 2px solid transparent; }
 .tabs button[aria-selected="true"] { color: var(--ink); border-bottom-color: var(--accent); font-weight: 600; }
-.search { position: relative; margin-bottom: 6px; }
-.search input { width: 220px; max-width: 60vw; padding: 6px 10px; border: 1px solid var(--line); border-radius: 6px;
+.tools { display: flex; gap: 6px; align-items: center; margin-bottom: 6px; }
+.tools > button { border: 1px solid var(--line); background: var(--bg); color: var(--ink); border-radius: 6px; padding: 5px 10px; cursor: pointer; white-space: nowrap; }
+.search { position: relative; }
+.search input { width: 220px; max-width: 52vw; padding: 6px 10px; border: 1px solid var(--line); border-radius: 6px;
   background: var(--bg); color: var(--ink); font: inherit; }
-.results { position: absolute; right: 0; top: 34px; z-index: 30; min-width: 240px; background: var(--panel);
+.results { position: absolute; right: 0; top: 34px; z-index: 30; min-width: 240px; max-width: calc(100vw - 32px); background: var(--panel);
   border: 1px solid var(--line); border-radius: 6px; box-shadow: var(--shadow); display: none; }
 .results div { padding: 7px 10px; cursor: pointer; }
 .results div:hover, .results div.on { background: var(--grid); }
-.legend { display: flex; flex-wrap: wrap; gap: 4px 14px; font-size: 12px; color: var(--muted); padding: 6px 0 8px; }
+.legend { display: flex; flex-wrap: wrap; gap: 6px 14px; align-items: center; font-size: 12px; color: var(--muted); padding: 4px 0 8px; }
 .legend i { display: inline-block; width: 10px; height: 10px; border-radius: 2px; margin-right: 5px; vertical-align: -1px; }
-main { flex: 1; position: relative; min-height: 0; }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.chip { display: inline-flex; align-items: center; gap: 6px; border: 1px solid var(--line); border-radius: 999px; padding: 2px 10px;
+  background: var(--card); color: var(--ink); font-size: 12px; cursor: pointer; }
+.chip .sw { width: 10px; height: 10px; border-radius: 2px; }
+.chip .n { color: var(--muted); }
+.chip[aria-pressed="true"] { border-color: var(--ink); box-shadow: inset 0 0 0 1px var(--ink); }
+.keys { display: flex; flex-wrap: wrap; gap: 4px 14px; }
+main { flex: 1; position: relative; min-height: 0; overflow: hidden; }
 .view { position: absolute; inset: 0; display: none; }
 .view.on { display: block; }
-#vp { position: absolute; inset: 0; overflow: hidden; touch-action: none; cursor: grab; user-select: none; -webkit-user-select: none; }
+#vp { position: absolute; left: 0; top: 0; bottom: 0; right: calc(var(--rw) + var(--evw)); overflow: hidden; touch-action: none; cursor: grab;
+  user-select: none; -webkit-user-select: none; }
+#treeview.noev { --evw: 0px; }
 #vp.drag { cursor: grabbing; }
 #world { position: absolute; left: 0; top: 0; transform-origin: 0 0; }
 #world svg { position: absolute; left: 0; top: 0; overflow: visible; }
 .card { position: absolute; width: 180px; height: 62px; background: var(--card); border: 1px solid var(--line);
-  border-radius: 7px; box-shadow: var(--shadow); padding: 6px 8px 6px 12px; cursor: pointer; overflow: hidden; }
+  border-radius: 7px; box-shadow: var(--shadow); padding: 6px 8px 6px 12px; cursor: pointer; overflow: hidden; transition: opacity .15s; }
 .card::before { content: ""; position: absolute; left: 0; top: 0; bottom: 0; width: 5px; background: var(--lc); }
 .card.pat { border: 2px solid var(--pat); }
 .card.mat { border: 2px solid var(--mat); }
 .card.root { border: 2px solid var(--ink); }
 .card.sel { outline: 3px solid var(--accent); outline-offset: 2px; }
+.card.dim { opacity: .22; }
 .card .n { font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .card .m { color: var(--muted); font-size: 12px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .cert { position: absolute; right: 6px; top: 5px; font-size: 11px; color: var(--muted); }
-.scale text, .events text { fill: var(--muted); font-size: 12px; }
-.zoombar { position: absolute; left: 50%; bottom: max(12px, env(safe-area-inset-bottom)); transform: translateX(-50%);
+/* year ruler + historical events: pinned to the right edge, positions follow pan & zoom of the tree */
+#axis { position: absolute; top: 0; bottom: 0; right: 0; width: calc(var(--rw) + var(--evw)); display: flex; z-index: 5;
+  touch-action: none; user-select: none; -webkit-user-select: none; }
+#ruler { position: relative; flex: none; width: var(--rw); overflow: hidden; background: var(--bg); border-left: 1px solid var(--line); }
+#events { position: relative; flex: none; width: var(--evw); overflow: hidden; background: var(--panel); border-left: 1px solid var(--line); }
+#treeview.noev #events { display: none; }
+.tick { position: absolute; right: 8px; font-size: 11.5px; color: var(--muted); font-variant-numeric: tabular-nums; transform: translateY(-50%); }
+.tick.century { color: var(--ink); font-weight: 600; }
+.evdot { position: absolute; left: 5px; width: 7px; height: 7px; border-radius: 50%; background: var(--muted); transform: translateY(-50%); }
+.evdot.major { background: var(--dot); width: 9px; height: 9px; left: 4px; }
+.evband { position: absolute; left: 0; width: 13px; background: var(--band); border-top: 1px solid var(--band-edge); border-bottom: 1px solid var(--band-edge); }
+.evband.major { width: 100%; }
+.evl { position: absolute; left: 17px; right: 4px; font-size: 11px; line-height: 1.25; color: var(--ink); cursor: pointer; }
+.evl.major { font-weight: 600; }
+.evl b { font-variant-numeric: tabular-nums; color: var(--muted); font-weight: 600; margin-right: 3px; }
+.evl .s { display: none; }
+.zoombar { position: absolute; left: calc((100% - var(--rw) - var(--evw)) / 2); bottom: max(12px, env(safe-area-inset-bottom)); transform: translateX(-50%);
   display: flex; gap: 6px; align-items: center; background: var(--panel); border: 1px solid var(--line); border-radius: 8px;
   padding: 5px 8px; box-shadow: var(--shadow); z-index: 10; max-width: calc(100vw - 24px); }
 .zoombar button { border: 1px solid var(--line); background: var(--bg); color: var(--ink); border-radius: 5px;
-  min-width: 30px; height: 28px; font: inherit; cursor: pointer; padding: 0 8px; white-space: nowrap; }
+  min-width: 30px; height: 28px; cursor: pointer; padding: 0 8px; white-space: nowrap; }
+.zoombar button[aria-pressed="true"] { border-color: var(--accent); color: var(--accent); }
 .zoombar input { width: 120px; }
 .zoombar .pct { min-width: 44px; text-align: right; color: var(--muted); font-size: 12px; }
 #detail { position: absolute; right: 0; top: 0; bottom: 0; width: 380px; max-width: 100%; background: var(--panel);
@@ -79,47 +114,94 @@ main { flex: 1; position: relative; min-height: 0; }
   font-size: 22px; cursor: pointer; line-height: 1; }
 #detail dl { display: grid; grid-template-columns: 96px 1fr; gap: 4px 10px; margin: 8px 0 12px; }
 #detail dt { color: var(--muted); }
-#detail dd { margin: 0; }
+#detail dd { margin: 0; overflow-wrap: anywhere; }
 #detail h3 { font-size: 13px; text-transform: uppercase; letter-spacing: .5px; color: var(--muted); margin: 16px 0 6px; }
-#detail ul { margin: 0; padding-left: 18px; }
-#detail a.p { color: var(--accent); cursor: pointer; text-decoration: none; }
-#detail a.p:hover { text-decoration: underline; }
+#detail ul { margin: 0; padding-left: 18px; overflow-wrap: anywhere; }
+#detail ul.life { list-style: none; padding: 0; font-size: 13px; }
+#detail ul.life li { display: grid; grid-template-columns: 74px 1fr; gap: 6px; padding: 2px 0; }
+#detail ul.life span { color: var(--muted); font-variant-numeric: tabular-nums; }
+a.p { color: var(--accent); cursor: pointer; text-decoration: none; }
+a.p:hover { text-decoration: underline; }
 .unk { color: var(--muted); font-style: italic; }
 .badge { display: inline-block; font-size: 11.5px; padding: 1px 7px; border-radius: 10px; color: #fff; margin-right: 6px; }
 .scans { display: flex; flex-wrap: wrap; gap: 8px; }
 .scans figure { margin: 0; width: 104px; cursor: zoom-in; }
 .scans img { width: 104px; height: 78px; object-fit: cover; border: 1px solid var(--line); border-radius: 4px; }
 .scans figcaption { font-size: 11px; color: var(--muted); }
-#lightbox { position: fixed; inset: 0; background: rgba(0,0,0,.85); display: none; z-index: 50; align-items: center;
-  justify-content: center; cursor: zoom-out; padding: 20px; }
-#lightbox.on { display: flex; }
-#lightbox img { max-width: 100%; max-height: 100%; }
-#mapview { overflow-y: auto; }
+/* scan viewer: fit to screen, click or button toggles full resolution */
+#viewer { position: fixed; inset: 0; background: rgba(8,12,15,.94); display: flex; flex-direction: column; z-index: 50; }
+#viewer .bar { display: flex; justify-content: space-between; align-items: center; gap: 12px; color: #e6ecef; padding: 10px 16px; font-size: 13px; }
+#viewer .bar button { background: transparent; color: #e6ecef; border: 1px solid #5a6b74; border-radius: 6px; padding: 4px 10px; cursor: pointer; }
+#viewer .pane { flex: 1; overflow: auto; cursor: zoom-out; min-height: 0; }
+#viewer .pane img { display: block; max-width: none; }
+#viewer .pane.fit { display: flex; cursor: zoom-in; padding: 0 16px 16px; }
+#viewer .pane.fit img { max-width: 100%; max-height: 100%; margin: auto; }
+/* wider family circle */
+#wideview, #mapview { overflow-y: auto; }
+.wide { max-width: 980px; margin: 0 auto; padding: 16px; }
+.wintro { color: var(--muted); margin: 0 0 10px; }
+.wtools { display: flex; flex-wrap: wrap; gap: 8px 18px; margin-bottom: 8px; }
+.wtools select { font: inherit; background: var(--panel); color: var(--ink); border: 1px solid var(--line); border-radius: 5px; padding: 3px 6px; }
+.wide h3 { font-size: 16px; margin: 22px 0 8px; border-bottom: 1px solid var(--line); padding-bottom: 4px; }
+.fam { background: var(--panel); border: 1px solid var(--line); border-left: 4px solid var(--c, var(--line)); border-radius: 8px; padding: 10px 14px; margin: 0 0 10px; }
+.fam .fh { font-weight: 600; margin-bottom: 2px; }
+.fam .fm { color: var(--muted); font-size: 13px; margin-bottom: 6px; }
+.fam ul { margin: 0; padding-left: 20px; }
+.fam li { margin: 2px 0; }
+.fam li.direct { font-weight: 600; }
+.fam .tag { font-size: 12px; font-weight: 400; color: var(--muted); margin-left: 6px; }
+.fam .none { color: var(--muted); font-style: italic; font-size: 13px; }
+/* map tab */
 .mapwrap { max-width: 1100px; margin: 0 auto; padding: 16px; display: grid; grid-template-columns: minmax(0, 3fr) minmax(0, 2fr); gap: 20px; }
-#map { width: 100%; height: auto; background: var(--water); border: 1px solid var(--line); border-radius: 8px; }
-#map .land { fill: var(--land); stroke: var(--edge); stroke-width: .6; }
+.mapbox { position: relative; }
+#map { display: block; width: 100%; height: auto; background: var(--water); border: 1px solid var(--line); border-radius: 8px; touch-action: pan-x pan-y; }
+#map.drag { cursor: grabbing; }
+#map .land { fill: var(--land); stroke: var(--edge); stroke-width: .6; vector-effect: non-scaling-stroke; }
 #map .cz { fill: var(--land2); }
-#map .cname { fill: var(--muted); font-size: 11px; text-anchor: middle; opacity: .8; }
-#map .pt { fill: var(--accent); stroke: var(--panel); stroke-width: 1.5; }
-#map .plab { fill: var(--ink); font-size: 12px; paint-order: stroke; stroke: var(--water); stroke-width: 3px; }
+#map line { vector-effect: non-scaling-stroke; }
+#map .cname { fill: var(--muted); font-size: calc(11px * var(--k, 1)); text-anchor: middle; opacity: .8; }
+#map .pt { fill: var(--accent); stroke: var(--panel); stroke-width: 1.5; vector-effect: non-scaling-stroke; r: calc(5px * var(--k, 1)); }
+#map .plab { fill: var(--ink); font-size: calc(12px * var(--k, 1)); paint-order: stroke; stroke: var(--water); stroke-width: calc(3px * var(--k, 1)); }
+.mapzoom { position: absolute; right: 8px; top: 8px; display: flex; gap: 4px; }
+.mapzoom button { border: 1px solid var(--line); background: var(--panel); color: var(--ink); border-radius: 5px; min-width: 28px; height: 28px; cursor: pointer; padding: 0 8px; }
+.cap { color: var(--muted); font-size: 12px; margin: 6px 0 0; }
+.moves { margin: 10px 0 0; padding-left: 18px; font-size: 13px; }
 .stories h3, .tl h3 { margin: 0 0 8px; font-size: 15px; }
 .story { border-left: 4px solid var(--lc); padding: 4px 0 4px 10px; margin-bottom: 12px; }
 .story b { display: block; }
+.story .facts { color: var(--muted); font-size: 12.5px; margin: 2px 0 4px; }
+.tl { margin-top: 18px; }
 .tl ul { list-style: none; padding: 0; margin: 0; }
 .tl li { display: grid; grid-template-columns: 48px 1fr; gap: 8px; padding: 3px 0; border-bottom: 1px solid var(--grid); }
 .tl li span { color: var(--muted); font-variant-numeric: tabular-nums; }
+.tl li.hist { color: var(--muted); }
+.tl li.hist.major { color: var(--ink); }
+.tl li.anc { font-weight: 600; }
 footer.note { color: var(--muted); font-size: 12px; padding: 8px 16px 20px; max-width: 1100px; margin: 0 auto; }
 @media (max-width: 720px) {
+  :root { --rw: 40px; --evw: 100px; }
+  .evl { font-size: 10.5px; left: 15px; overflow-wrap: break-word; hyphens: auto; }
+  .zoombar { left: 50%; }
+  .legend { flex-wrap: nowrap; overflow-x: auto; }
+  .chips, .keys { flex-wrap: nowrap; white-space: nowrap; }
+  .evl .l { display: none; }
+  .evl .s { display: inline; }
+  .evl.full .l { display: inline; }
+  .evl.full .s { display: none; }
+  .tick { right: 5px; font-size: 10.5px; }
   .mapwrap { grid-template-columns: 1fr; }
   #detail { top: auto; height: 72vh; width: 100%; border-left: 0; border-top: 1px solid var(--line);
     transform: translateY(105%); border-radius: 12px 12px 0 0; }
   #detail.on { transform: none; }
   .zoombar { gap: 4px; padding: 4px 6px; }
-  .zoombar input { width: 56px; }
+  .zoombar input { width: 48px; }
   .zoombar button { padding: 0 6px; min-width: 28px; }
-  .zoombar .pct { min-width: 36px; }
-  .search input { width: 160px; }
+  .zoombar .pct { display: none; }
+  #z100 { display: none; }
+  .search input { width: 150px; }
+  #detail dl { grid-template-columns: 84px 1fr; }
 }
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
 </style>
 </head>
 <body>
@@ -130,32 +212,59 @@ footer.note { color: var(--muted); font-size: 12px; padding: 8px 16px 20px; max-
   </div>
   <div class="bar2">
     <div class="tabs" role="tablist">
-      <button role="tab" aria-selected="true" data-view="treeview">Strom</button>
+      <button role="tab" aria-selected="true" data-view="treeview">Rodokmen</button>
+      <button role="tab" aria-selected="false" data-view="wideview">Širší okruh</button>
       <button role="tab" aria-selected="false" data-view="mapview">Odkud jsme</button>
     </div>
-    <div class="search">
-      <input id="q" type="search" placeholder="Hledat osobu…" autocomplete="off" aria-label="Hledat osobu">
-      <div class="results" id="results"></div>
+    <div class="tools">
+      <div class="search">
+        <input id="q" type="search" placeholder="Hledat osobu…" autocomplete="off" aria-label="Hledat osobu">
+        <div class="results" id="results"></div>
+      </div>
+      <button id="home" type="button" title="Zpět na začátek stromu"></button>
     </div>
   </div>
-  <div class="legend" id="legend"></div>
+  <div class="legend" id="legend"><div class="chips" id="chips" role="group" aria-label="Zvýraznit větev"></div><div class="keys" id="keys"></div></div>
 </header>
 <main>
   <section class="view on" id="treeview">
     <div id="vp"><div id="world"></div></div>
+    <div id="axis"><div id="ruler" aria-hidden="true"></div><div id="events" aria-label="Historické události"></div></div>
     <div class="zoombar">
-      <button id="zout" title="Oddálit">−</button>
+      <button id="zout" title="Oddálit" aria-label="Oddálit">−</button>
       <input id="zrange" type="range" min="10" max="300" step="1" aria-label="Měřítko">
-      <button id="zin" title="Přiblížit">+</button>
+      <button id="zin" title="Přiblížit" aria-label="Přiblížit">+</button>
       <span class="pct" id="zpct"></span>
       <button id="zfit">Celý strom</button>
       <button id="z100" class="fit100">100 %</button>
+      <button id="zev" aria-pressed="true" title="Zobrazit nebo skrýt sloupec historických událostí">Události</button>
     </div>
     <aside id="detail" aria-live="polite"></aside>
   </section>
+  <section class="view" id="wideview">
+    <div class="wide">
+      <p class="wintro" id="wideIntro"></p>
+      <div class="wtools">
+        <label>Větev <select id="wLine"><option value="">všechny</option></select></label>
+        <label><input type="checkbox" id="wOnly"> jen rodiny se známými sourozenci</label>
+      </div>
+      <div id="wideBody"></div>
+    </div>
+  </section>
   <section class="view" id="mapview">
     <div class="mapwrap">
-      <div><svg id="map" role="img" aria-label="Mapa míst rodu"></svg></div>
+      <div>
+        <div class="mapbox">
+          <svg id="map" role="img" aria-label="Mapa míst rodu"></svg>
+          <div class="mapzoom" role="toolbar" aria-label="Přiblížení mapy">
+            <button type="button" id="mzin" aria-label="Přiblížit mapu">+</button>
+            <button type="button" id="mzout" aria-label="Oddálit mapu">−</button>
+            <button type="button" id="mzreset">Celá mapa</button>
+          </div>
+        </div>
+        <p class="cap">Přiblížení: tlačítka, dvojklik, Ctrl/⌘ + kolečko nebo sevření prstů; posun tažením.</p>
+        <ol class="moves" id="moves"></ol>
+      </div>
       <div>
         <div class="stories" id="stories"></div>
         <div class="tl" id="timeline"></div>
@@ -164,10 +273,11 @@ footer.note { color: var(--muted); font-size: 12px; padding: 8px 16px 20px; max-
     <footer class="note">Hranice států: Natural Earth (public domain). Body na mapě: místa narození a úmrtí s rokem prvního doložení.</footer>
   </section>
 </main>
-<div id="lightbox"><img alt=""></div>
+<div id="viewer" hidden><div class="bar"><span id="vt"></span><span><button type="button" id="vz">Přiblížit</button> <button type="button" id="vx">Zavřít</button></span></div><div class="pane fit" id="vpane"><img id="vi" alt=""></div></div>
 <script>/*@DATA@*/</script>
 <script>/*@GEO@*/</script>
 <script>/*@GAZ@*/</script>
+<script>/*@EVENTS@*/</script>
 <script>window.BUILD_STAMP = "/*@STAMP@*/";</script>
 <script>
 (function () {
@@ -176,14 +286,20 @@ footer.note { color: var(--muted); font-size: 12px; padding: 8px 16px 20px; max-
   const byId = new Map(D.people.map(p => [p.id, p]));
   const lineOf = new Map(D.lines.map(l => [l.id, l]));
   const CW = 180, CH = 62, GAP = 26, PXY = 9;
+  const NOW = new Date().getFullYear();
   const CERT = { M: ['●', 'matrika'], D: ['◆', 'jiný doklad'], R: ['○', 'rodinná paměť'], K: ['?', 'kandidát – neověřeno'] };
   const $ = s => document.querySelector(s);
   const esc = s => String(s == null ? '' : s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
   const norm = s => String(s || '').normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
+  const plural = (n, one, few, many) => n === 1 ? one : n >= 2 && n <= 4 ? few : many;
   const store = {
     get(k) { try { return localStorage.getItem(k); } catch (e) { return null; } },
     set(k, v) { try { localStorage.setItem(k, v); } catch (e) { /* storage unavailable */ } },
   };
+  // historical events: events.js (new shape {y, y2?, t, s?, major?}); fallback to legacy D.events {year|from,to, t, war}
+  const EVENTS = (window.RODOKMEN_EVENTS || (D.events || []).map(e => e.from ? { y: e.from, y2: e.to, t: e.t, major: true } : { y: e.year, t: e.t }))
+    .filter(e => e && e.y && e.t).slice().sort((a, b) => a.y - b.y);
+  const evYears = e => e.y2 ? e.y + '–' + e.y2 : String(e.y);
 
   // ---------- derived relations ----------
   const children = new Map();
@@ -200,6 +316,13 @@ footer.note { color: var(--muted); font-size: 12px; padding: 8px 16px 20px; max-
   const isApprox = p => !(p.b && p.b.year) || !!p.b.approx;
   const chain = (start, rel) => { const s = new Set(); let p = byId.get(start); while (p) { s.add(p.id); p = byId.get(p[rel]); } return s; };
   const PAT = chain(D.root, 'father'), MAT = chain(D.root, 'mother');
+  // generation of each ancestor counted from the root (parents = 1); nearest path wins
+  const GEN = new Map([[D.root, 0]]);
+  for (const q = [D.root]; q.length;) {
+    const p = byId.get(q.shift());
+    for (const r of ['father', 'mother']) if (p && p[r] && byId.has(p[r]) && !GEN.has(p[r])) { GEN.set(p[r], GEN.get(p.id) + 1); q.push(p[r]); }
+  }
+  const genDepth = Math.max(0, ...GEN.values());
   // Tree shows the root on top and ancestors below. Descendants of the root (and partners linked
   // only through them) stay in the data and in the detail panel, but are not drawn in the tree.
   const DESC = new Set();
@@ -212,21 +335,53 @@ footer.note { color: var(--muted); font-size: 12px; padding: 8px 16px 20px; max-
     const dd = p.d && p.d.year ? p.d.year : (p.alive ? '' : (p.d ? '?' : ''));
     return b + (dd || p.d ? '–' + (dd || '?') : (p.alive ? '' : '–?'));
   };
+  const isDoc = p => (p.cert === 'M' || p.cert === 'D') && p.b && p.b.year && !p.b.approx;
+  const oldestOf = list => list.filter(p => isDoc(p) && GEN.has(p.id)).reduce((a, p) => !a || p.b.year < a.b.year ? p : a, null);
+  const placeShort = e => String((e && e.place) || '').replace(/\s*\(\?\)\s*/g, '').split(',')[0].trim();
+  const rootP = byId.get(D.root);
+  const firstName = rootP ? rootP.name.split(' ')[0] : '';
+  const parseDate = s => { const m = String(s || '').match(/(\d{1,2})\.\s*(\d{1,2})\.\s*(\d{4})/); return m ? new Date(+m[3], +m[2] - 1, +m[1]) : null; };
+  function age(p) {
+    if (!p.b || !p.b.year || p.b.approx) return null;
+    if (!p.d && !p.alive) return null;
+    if (p.d && (!p.d.year || p.d.approx || p.d.before)) return null;
+    const b = parseDate(p.b.date), e = p.d ? parseDate(p.d.date) : new Date();
+    if (b && e) { let a = e.getFullYear() - b.getFullYear(); if (e.getMonth() < b.getMonth() || (e.getMonth() === b.getMonth() && e.getDate() < b.getDate())) a--; return String(a); }
+    const ey = p.d ? p.d.year : NOW;
+    return ey - p.b.year >= 0 ? 'asi ' + (ey - p.b.year) : null;
+  }
+  const linkify = t => esc(t).replace(/https?:\/\/[^\s<>"]+/g, u => { const m = u.match(/[.,;:)\]]+$/), tail = m ? m[0] : '', url = tail ? u.slice(0, -tail.length) : u; return `<a href="${url}" target="_blank" rel="noopener">${url}</a>${tail}`; });
 
   // ---------- header ----------
+  let active = null;
   function renderStats() {
     const n = D.people.length;
     const m = D.people.filter(p => p.cert === 'M').length;
-    const doc = D.people.filter(p => (p.cert === 'M' || p.cert === 'D') && p.b && p.b.year && !p.b.approx)
-      .sort((a, b) => a.b.year - b.b.year)[0];
+    const doc = oldestOf(D.people);
     const stamp = window.BUILD_STAMP && window.BUILD_STAMP.indexOf('@') < 0 ? window.BUILD_STAMP : '';
-    $('#stats').innerHTML = `<b>${n}</b> osob · <b>${m}</b> doloženo matrikou · nejstarší doložený předek: ` +
-      (doc ? `<b>${esc(doc.name)}</b> (${doc.b.year})` : '<span class="unk">zatím žádný (jen rodinná paměť)</span>') +
+    $('#stats').innerHTML = `<b>${n}</b> ${plural(n, 'osoba', 'osoby', 'osob')} · <b>${genDepth}</b> ${plural(genDepth, 'generace', 'generace', 'generací')} zpět` +
+      ` <span title="Počítáno od ${esc(firstName)}: rodiče = 1. generace, prarodiče = 2. …">(rodiče = 1.)</span> · <b>${m}</b> doloženo matrikou · nejstarší doložený předek: ` +
+      (doc ? `<button type="button" class="plink" data-go="${esc(doc.id)}">${esc(doc.name)}</button> (${doc.b.year})` : '<span class="unk">zatím žádný (jen rodinná paměť)</span>') +
       (stamp ? ` · aktualizace ${esc(stamp)}` : '');
-    $('#legend').innerHTML = D.lines.map(l => `<span><i style="background:${esc(l.color)}"></i>${esc(l.name)}</span>`).join('') +
-      `<span><i style="background:var(--pat)"></i>přímá otcovská linie</span><span><i style="background:var(--mat)"></i>přímá mateřská linie</span>` +
+    $('#chips').innerHTML = D.lines.map(l => {
+      const c = D.people.filter(p => p.line === l.id).length;
+      return `<button type="button" class="chip" aria-pressed="false" data-line="${esc(l.id)}"><span class="sw" style="background:${esc(l.color)}"></span>${esc(l.name)} <span class="n">${c}</span></button>`;
+    }).join('');
+    $('#keys').innerHTML = `<span><i style="background:var(--pat)"></i>přímá otcovská linie</span><span><i style="background:var(--mat)"></i>přímá mateřská linie</span>` +
       Object.entries(CERT).map(([k, v]) => `<span>${v[0]} ${v[1]}</span>`).join('');
+    $('#home').textContent = '⌂ ' + firstName;
   }
+  function applyFilter() {
+    document.querySelectorAll('#world .card').forEach(c => c.classList.toggle('dim', !!active && c.dataset.line !== active));
+    document.querySelectorAll('#chips .chip').forEach(b => b.setAttribute('aria-pressed', String(b.dataset.line === active)));
+  }
+  $('#chips').addEventListener('click', e => {
+    const b = e.target.closest('.chip');
+    if (!b) return;
+    active = active === b.dataset.line ? null : b.dataset.line;
+    applyFilter();
+  });
+  $('#stats').addEventListener('click', e => { const b = e.target.closest('[data-go]'); if (b) goTo(b.dataset.go); });
 
   // ---------- tree layout ----------
   const X = new Map(), Y = new Map();
@@ -254,8 +409,11 @@ footer.note { color: var(--muted); font-size: 12px; padding: 8px 16px 20px; max-
       todo = TP.filter(p => !X.has(p.id));
     }
     const ys = TP.map(p => yearOf(p)).filter(Boolean);
-    const y0 = Math.floor((Math.min(...ys) - 6) / 10) * 10;
-    const y1 = Math.max(...ys) + 8;
+    let y0 = Math.floor((Math.min(...ys) - 6) / 10) * 10;
+    // extend the time axis a little so that early events (e.g. the Thirty Years' War) and today fit in
+    const evMin = EVENTS.length ? EVENTS[0].y : y0;
+    if (evMin < y0 && y0 - evMin <= 60) y0 = Math.floor(evMin / 10) * 10;
+    const y1 = Math.max(Math.max(...ys) + 8, NOW + 1);
     // inverted axis: youngest (root) on top, oldest ancestors at the bottom
     for (const p of TP) Y.set(p.id, (y1 - (yearOf(p) || y0)) * PXY);
     // resolve overlaps: push later cards right
@@ -267,35 +425,22 @@ footer.note { color: var(--muted); font-size: 12px; padding: 8px 16px 20px; max-
     const minX = Math.min(...X.values());
     for (const [k, v] of X) X.set(k, v - minX + 20);
     const treeW = Math.max(...X.values()) + CW;
-    world = { w: treeW + 340, h: (y1 - y0) * PXY + CH + 40, y0, y1, treeW };
+    world = { w: treeW + 40, h: (y1 - y0) * PXY + CH + 40, y0, y1, treeW };
   }
 
   function renderTree() {
     const w = $('#world');
-    const scaleX = world.treeW + 40, evX = scaleX + 64;
     let svg = `<svg width="${world.w}" height="${world.h}" aria-hidden="true">`;
-    // decade grid + scale
+    // wars (major bands) as a faint background across the tree
+    for (const e of EVENTS) if (e.y2 && e.major && e.y2 >= world.y0 && e.y <= world.y1) {
+      const ya = (world.y1 - e.y2) * PXY, yb = (world.y1 - e.y) * PXY;
+      svg += `<rect x="0" y="${ya}" width="${world.w}" height="${yb - ya}" fill="var(--war)"/>`;
+    }
+    // decade grid (dashed, so it never looks like a family link); labels are in the pinned ruler
     svg += '<g class="scale">';
     for (let y = Math.ceil(world.y0 / 10) * 10; y <= world.y1; y += 10) {
       const py = (world.y1 - y) * PXY;
-      svg += `<line x1="0" x2="${scaleX + 10}" y1="${py}" y2="${py}" stroke="var(--grid)"/>` +
-        `<text x="${scaleX + 14}" y="${py + 4}">${y}</text>`;
-    }
-    svg += '</g><g class="events">';
-    let lastLabel = -1e9;
-    const evs = (D.events || []).filter(e => (e.to || e.year) >= world.y0 && (e.from || e.year) <= world.y1)
-      .sort((a, b) => (b.to || b.year) - (a.to || a.year));
-    for (const e of evs) {
-      const ya = (world.y1 - (e.to || e.year)) * PXY;
-      if (e.war) {
-        const yb = (world.y1 - e.from) * PXY;
-        svg += `<rect x="0" y="${ya}" width="${evX + 4}" height="${yb - ya}" fill="var(--war)"/>`;
-      } else {
-        svg += `<circle cx="${evX}" cy="${ya}" r="3.5" fill="var(--dot)"/>`;
-      }
-      const ly = Math.max(ya + 4, lastLabel + 16);
-      lastLabel = ly;
-      svg += `<text x="${evX + 10}" y="${ly}">${esc((e.from ? e.from + '–' + e.to : e.year) + ' ' + e.t)}</text>`;
+      svg += `<line x1="0" x2="${world.w}" y1="${py}" y2="${py}" stroke="var(--grid)"${y % 100 ? ' stroke-dasharray="6 6"' : ''}/>`;
     }
     svg += '</g><g fill="none" stroke-width="2">';
     for (const c of TP) for (const r of ['father', 'mother']) {
@@ -313,7 +458,7 @@ footer.note { color: var(--muted); font-size: 12px; padding: 8px 16px 20px; max-
       const l = lineOf.get(p.line) || { color: '#888' };
       const cls = ['card', p.id === D.root ? 'root' : PAT.has(p.id) ? 'pat' : MAT.has(p.id) ? 'mat' : ''].join(' ');
       const cert = CERT[p.cert] || ['', ''];
-      html += `<div class="${cls}" data-id="${esc(p.id)}" style="left:${X.get(p.id)}px;top:${Y.get(p.id)}px;--lc:${esc(l.color)}" title="${esc(p.name)}">` +
+      html += `<div class="${cls}" data-id="${esc(p.id)}" data-line="${esc(p.line)}" style="left:${X.get(p.id)}px;top:${Y.get(p.id)}px;--lc:${esc(l.color)}" title="${esc(p.name)}">` +
         `<span class="cert" title="${esc(cert[1])}">${cert[0]}</span>` +
         `<div class="n">${esc(p.name)}</div>` +
         `<div class="m">${p.maiden ? 'roz. ' + esc(p.maiden) + ' · ' : ''}${esc(lifespan(p))}</div></div>`;
@@ -322,6 +467,76 @@ footer.note { color: var(--muted); font-size: 12px; padding: 8px 16px 20px; max-
     w.style.width = world.w + 'px';
     w.style.height = world.h + 'px';
   }
+
+  // ---------- year ruler + events column (screen space, follows pan & zoom) ----------
+  const axis = $('#axis'), rulerEl = $('#ruler'), eventsEl = $('#events');
+  let TICKS = [], EVL = [];
+  function buildAxis() {
+    let r = '';
+    for (let y = Math.ceil(world.y0 / 10) * 10; y <= world.y1; y += 10) r += `<div class="tick${y % 100 === 0 ? ' century' : ''}" data-y="${y}">${y}</div>`;
+    rulerEl.innerHTML = r;
+    TICKS = [...rulerEl.querySelectorAll('.tick')].map(el => ({ y: +el.dataset.y, el }));
+    const list = EVENTS.filter(e => (e.y2 || e.y) >= world.y0 && e.y <= world.y1);
+    let h = '';
+    list.forEach((e, i) => {
+      const title = esc(evYears(e) + ': ' + e.t);
+      h += `<div class="${e.y2 ? 'evband' : 'evdot'}${e.major ? ' major' : ''}" data-i="${i}" title="${title}"></div>` +
+        `<div class="evl${e.major ? ' major' : ''}" data-i="${i}" title="${title}"><span class="l"><b>${esc(evYears(e))}</b>${esc(e.t)}</span>` +
+        `<span class="s"><b>${esc(evYears(e))}</b>${esc(e.s || e.t)}</span></div>`;
+    });
+    eventsEl.innerHTML = h;
+    const marks = eventsEl.querySelectorAll('.evdot,.evband'), labels = eventsEl.querySelectorAll('.evl');
+    // labels are anchored at the year (bands: their middle) and laid out top-down: newest first
+    EVL = list.map((e, i) => ({ e, mark: marks[i], label: labels[i], h: 0, anchor: e.y2 ? (e.y + e.y2) / 2 : e.y }))
+      .sort((a, b) => b.anchor - a.anchor);
+  }
+  function layoutAxis() {
+    if (!TICKS.length) return;
+    const s = Z.s, H = axis.clientHeight;
+    const yy = y => Z.ty + (world.y1 - y) * PXY * s;
+    const dec = PXY * 10 * s, step = dec >= 16 ? 10 : dec * 5 >= 16 ? 50 : 100;
+    for (const t of TICKS) {
+      const top = yy(t.y);
+      t.el.style.top = top + 'px';
+      t.el.hidden = t.y % step !== 0 || top < -12 || top > H + 12;
+    }
+    if (eventsEl.offsetParent === null) return;   // column hidden
+    // labels: major events first, each as close to its year as possible (at most TOL px away), otherwise hidden;
+    // the dot/band always stays at the exact year and keeps the full text as a tooltip
+    const TOL = 36, placed = [];
+    const free = (t, h) => placed.every(q => t + h + 2 <= q[0] || t >= q[1] + 2);
+    for (const o of EVL) {
+      if (o.e.y2) { const a = yy(o.e.y2), b = yy(o.e.y); o.mark.style.top = a + 'px'; o.mark.style.height = Math.max(2, b - a) + 'px'; }
+      else o.mark.style.top = yy(o.e.y) + 'px';
+    }
+    for (const o of EVL.slice().sort((a, b) => (b.e.major ? 1 : 0) - (a.e.major ? 1 : 0) || b.anchor - a.anchor)) {
+      const want = yy(o.anchor);
+      if (want < -40 || want > H + 40) { o.label.hidden = true; continue; }
+      o.label.hidden = false;
+      if (!o.h) o.h = o.label.offsetHeight || 16;
+      const h = o.h, w0 = want - h / 2;
+      const cands = [w0, ...placed.map(q => q[1] + 3), ...placed.map(q => q[0] - h - 3)]
+        .filter(t => Math.abs(t - w0) <= TOL + h / 2 && free(t, h)).sort((a, b) => Math.abs(a - w0) - Math.abs(b - w0));
+      if (!cands.length) { o.label.hidden = true; continue; }
+      o.label.style.top = cands[0] + 'px';
+      placed.push([cands[0], cands[0] + h]);
+    }
+  }
+  const remeasure = () => { for (const o of EVL) o.h = 0; };
+  eventsEl.addEventListener('click', e => {
+    if (moved) return;
+    const l = e.target.closest('.evl');
+    if (!l) return;
+    l.classList.toggle('full');   // on narrow screens: tap shows the full text
+    remeasure(); layoutAxis();
+  });
+  function setEvents(on) {
+    $('#treeview').classList.toggle('noev', !on);
+    $('#zev').setAttribute('aria-pressed', String(on));
+    store.set('rodokmen.events', on ? '1' : '0');
+    remeasure(); apply();
+  }
+  $('#zev').onclick = () => setEvents($('#treeview').classList.contains('noev'));
 
   // ---------- pan & zoom ----------
   const vp = $('#vp'), wEl = $('#world');
@@ -337,6 +552,7 @@ footer.note { color: var(--muted); font-size: 12px; padding: 8px 16px 20px; max-
     wEl.style.transform = `translate(${Z.tx}px,${Z.ty}px) scale(${Z.s})`;
     $('#zrange').value = Math.round(Z.s * 100);
     $('#zpct').textContent = Math.round(Z.s * 100) + ' %';
+    layoutAxis();
   }
   function zoomAt(s, cx, cy) {
     s = Math.min(Z.max, Math.max(Z.min, s));
@@ -354,61 +570,65 @@ footer.note { color: var(--muted); font-size: 12px; padding: 8px 16px 20px; max-
     store.set('rodokmen.scale', String(Z.s));
   }
   function focus(id) {
+    if (!X.has(id)) return;   // descendants of the root are not drawn in the tree
     const W = vp.clientWidth, H = vp.clientHeight;
     Z.tx = W / 2 - (X.get(id) + CW / 2) * Z.s;
     Z.ty = H / 2 - (Y.get(id) + CH / 2) * Z.s;
     apply();
   }
-  vp.addEventListener('wheel', e => {
-    e.preventDefault();
-    const r = vp.getBoundingClientRect();
-    if (e.ctrlKey || e.metaKey) zoomAt(Z.s * Math.exp(-e.deltaY * 0.01), e.clientX - r.left, e.clientY - r.top);
-    else { Z.tx -= e.deltaX; Z.ty -= e.deltaY; apply(); }
-  }, { passive: false });
-  // Safari trackpad pinch
-  let gs = 1;
-  vp.addEventListener('gesturestart', e => { e.preventDefault(); gs = Z.s; }, { passive: false });
-  vp.addEventListener('gesturechange', e => {
-    e.preventDefault();
-    const r = vp.getBoundingClientRect();
-    zoomAt(gs * e.scale, (e.clientX || r.width / 2 + r.left) - r.left, (e.clientY || r.height / 2 + r.top) - r.top);
-  }, { passive: false });
-  vp.addEventListener('gestureend', e => e.preventDefault(), { passive: false });
-  document.addEventListener('gesturestart', e => e.preventDefault(), { passive: false });
-  // drag and touch pinch
+  // wheel, Safari gestures, drag and touch pinch work on the tree and on the pinned axis alike
   const ptrs = new Map();
   let drag = null, pinch = null, moved = false;
-  vp.addEventListener('pointerdown', e => {
-    ptrs.set(e.pointerId, { x: e.clientX, y: e.clientY });
-    moved = false;
-    if (ptrs.size === 1) drag = { x: e.clientX, y: e.clientY, tx: Z.tx, ty: Z.ty };
-    if (ptrs.size === 2) {
-      const [a, b] = [...ptrs.values()];
-      pinch = { d: Math.hypot(a.x - b.x, a.y - b.y), s: Z.s };
-      drag = null;
-    }
-  });
-  vp.addEventListener('pointermove', e => {
-    if (!ptrs.has(e.pointerId)) return;
-    ptrs.set(e.pointerId, { x: e.clientX, y: e.clientY });
-    if (pinch && ptrs.size === 2) {
-      const [a, b] = [...ptrs.values()];
+  function bindPan(el) {
+    el.addEventListener('wheel', e => {
+      e.preventDefault();
       const r = vp.getBoundingClientRect();
-      zoomAt(pinch.s * Math.hypot(a.x - b.x, a.y - b.y) / pinch.d, (a.x + b.x) / 2 - r.left, (a.y + b.y) / 2 - r.top);
-      moved = true;
-    } else if (drag) {
-      const dx = e.clientX - drag.x, dy = e.clientY - drag.y;
-      if (!moved && Math.hypot(dx, dy) > 4) { moved = true; vp.classList.add('drag'); try { vp.setPointerCapture(e.pointerId); } catch (err) { /* ignore */ } }
-      if (moved) { Z.tx = drag.tx + dx; Z.ty = drag.ty + dy; apply(); }
-    }
-  });
-  const up = e => {
-    ptrs.delete(e.pointerId);
-    if (ptrs.size < 2) pinch = null;
-    if (!ptrs.size) { drag = null; vp.classList.remove('drag'); }
-  };
-  vp.addEventListener('pointerup', up);
-  vp.addEventListener('pointercancel', up);
+      if (e.ctrlKey || e.metaKey) zoomAt(Z.s * Math.exp(-e.deltaY * 0.01), e.clientX - r.left, e.clientY - r.top);
+      else { Z.tx -= e.deltaX; Z.ty -= e.deltaY; apply(); }
+    }, { passive: false });
+    let gs = 1;
+    el.addEventListener('gesturestart', e => { e.preventDefault(); gs = Z.s; }, { passive: false });
+    el.addEventListener('gesturechange', e => {
+      e.preventDefault();
+      const r = vp.getBoundingClientRect();
+      zoomAt(gs * e.scale, (e.clientX || r.width / 2 + r.left) - r.left, (e.clientY || r.height / 2 + r.top) - r.top);
+    }, { passive: false });
+    el.addEventListener('gestureend', e => e.preventDefault(), { passive: false });
+    el.addEventListener('pointerdown', e => {
+      ptrs.set(e.pointerId, { x: e.clientX, y: e.clientY });
+      moved = false;
+      if (ptrs.size === 1) drag = { x: e.clientX, y: e.clientY, tx: Z.tx, ty: Z.ty };
+      if (ptrs.size === 2) {
+        const [a, b] = [...ptrs.values()];
+        pinch = { d: Math.hypot(a.x - b.x, a.y - b.y), s: Z.s };
+        drag = null;
+      }
+    });
+    el.addEventListener('pointermove', e => {
+      if (!ptrs.has(e.pointerId)) return;
+      ptrs.set(e.pointerId, { x: e.clientX, y: e.clientY });
+      if (pinch && ptrs.size === 2) {
+        const [a, b] = [...ptrs.values()];
+        const r = vp.getBoundingClientRect();
+        zoomAt(pinch.s * Math.hypot(a.x - b.x, a.y - b.y) / pinch.d, (a.x + b.x) / 2 - r.left, (a.y + b.y) / 2 - r.top);
+        moved = true;
+      } else if (drag) {
+        const dx = e.clientX - drag.x, dy = e.clientY - drag.y;
+        if (!moved && Math.hypot(dx, dy) > 4) { moved = true; vp.classList.add('drag'); try { el.setPointerCapture(e.pointerId); } catch (err) { /* ignore */ } }
+        if (moved) { Z.tx = drag.tx + dx; Z.ty = drag.ty + dy; apply(); }
+      }
+    });
+    const up = e => {
+      ptrs.delete(e.pointerId);
+      if (ptrs.size < 2) pinch = null;
+      if (!ptrs.size) { drag = null; vp.classList.remove('drag'); }
+    };
+    el.addEventListener('pointerup', up);
+    el.addEventListener('pointercancel', up);
+  }
+  bindPan(vp);
+  bindPan(axis);
+  document.addEventListener('gesturestart', e => e.preventDefault(), { passive: false });
   vp.addEventListener('click', e => {
     if (moved) { moved = false; return; }
     const c = e.target.closest('.card');
@@ -419,7 +639,8 @@ footer.note { color: var(--muted); font-size: 12px; padding: 8px 16px 20px; max-
   $('#zrange').oninput = e => zoomAt(e.target.value / 100, ...center());
   $('#zfit').onclick = fit;
   $('#z100').onclick = () => zoomAt(1, ...center());
-  window.addEventListener('resize', apply);
+  $('#home').onclick = () => { showView('treeview'); if (Z.s < 0.6) zoomAt(0.8, ...center()); focus(D.root); };
+  window.addEventListener('resize', () => { remeasure(); apply(); });
 
   // ---------- detail ----------
   function link(p) { return p ? `<a class="p" data-id="${esc(p.id)}">${esc(p.name)}</a> <span class="unk">${esc(lifespan(p))}</span>` : ''; }
@@ -428,23 +649,30 @@ footer.note { color: var(--muted); font-size: 12px; padding: 8px 16px 20px; max-
     for (const c of children.get(p.id) || []) for (const r of ['father', 'mother']) if (c[r] && c[r] !== p.id) s.add(c[r]);
     return [...s].map(i => byId.get(i)).filter(Boolean);
   }
-  function siblings(p) {
+  // siblings: people sharing a parent (half-siblings marked) plus recorded siblings outside the tree
+  function siblingsOf(p) {
     const s = new Map();
     for (const q of D.people) {
       if (q.id === p.id) continue;
       const sameF = p.father && q.father === p.father, sameM = p.mother && q.mother === p.mother;
-      if (sameF || sameM) s.set(q.id, sameF && sameM ? '' : ' (nevlastní)');
+      const half = !(sameF && sameM) && p.father && p.mother && q.father && q.mother;
+      if (sameF || sameM) s.set(q.id, half ? ' (nevlastní)' : '');
     }
     for (const x of p.siblings || []) if (byId.has(x)) s.set(x, s.get(x) || '');
-    const out = [...s].map(([i, h]) => link(byId.get(i)) + h);
-    for (const x of p.siblings || []) if (!byId.has(x)) out.push(esc(x));
-    return out;
+    return { known: [...s].map(([i, h]) => ({ p: byId.get(i), h })), text: (p.siblings || []).filter(x => !byId.has(x)) };
   }
   function ev(e, kind, p) {
     if (!e) return kind === 'd' ? (p.alive ? 'žije' : '<span class="unk">neznámé – zatím nedohledáno</span>') : '<span class="unk">neznámé – zatím nedohledáno</span>';
     const when = e.date || (e.year ? (e.approx ? 'kolem ' + e.year + ' (odhad)' : e.year) : '');
     const t = [when, e.place].filter(Boolean).map(esc).join(', ');
     return t || '<span class="unk">neznámé – zatím nedohledáno</span>';
+  }
+  // historical events that happened during a person's life (computed from birth/death years)
+  function lifeEvents(p) {
+    if (!p.b || !p.b.year) return [];
+    const end = p.d && p.d.year ? p.d.year : p.alive ? NOW : p.b.year + 60;
+    if (!(p.d && p.d.year) && !p.alive) return [];
+    return EVENTS.filter(e => (e.y2 || e.y) >= p.b.year && e.y <= end);
   }
   function select(id, center) {
     const p = byId.get(id);
@@ -457,11 +685,15 @@ footer.note { color: var(--muted); font-size: 12px; padding: 8px 16px 20px; max-
     const cert = CERT[p.cert] || ['', p.cert];
     const list = (arr) => arr.length ? '<ul>' + arr.map(x => `<li>${x}</li>`).join('') + '</ul>' : '<span class="unk">—</span>';
     const kids = (children.get(p.id) || []).slice().sort((a, b) => (yearOf(a) || 0) - (yearOf(b) || 0));
+    const a = age(p), sib = siblingsOf(p), gen = GEN.get(p.id);
+    const life = lifeEvents(p);
     let h = `<button class="close" aria-label="Zavřít">×</button><h2>${esc(p.name)}</h2>` +
-      `<div class="sub">${p.maiden ? 'roz. ' + esc(p.maiden) + ' · ' : ''}<span class="badge" style="background:${esc(l.color)}">${esc(l.name)}</span>${cert[0]} ${esc(cert[1])}</div>` +
+      `<div class="sub">${p.maiden ? 'roz. ' + esc(p.maiden) + ' · ' : ''}<span class="badge" style="background:${esc(l.color)}">${esc(l.name)}</span>${cert[0]} ${esc(cert[1])}` +
+      `${gen ? ` · ${gen}. generace zpět` : ''}${!card && p.id !== D.root ? ' · <span class="unk">není ve stromu předků</span>' : ''}</div>` +
       '<dl>' +
       `<dt>Narození</dt><dd>${ev(p.b, 'b', p)}</dd>` +
-      `<dt>Úmrtí</dt><dd>${ev(p.d, 'd', p)}</dd>` +
+      `<dt>Úmrtí</dt><dd>${ev(p.d, 'd', p)}${a && p.d ? ` (${esc(a)} let)` : ''}</dd>` +
+      (a && !p.d ? `<dt>Věk</dt><dd>${esc(a)} let</dd>` : '') +
       (p.cause ? `<dt>Příčina</dt><dd>${esc(p.cause)}</dd>` : '') +
       (p.occ ? `<dt>Povolání</dt><dd>${esc(p.occ)}</dd>` : '') +
       (p.marriage ? `<dt>Sňatek</dt><dd>${esc(p.marriage)}</dd>` : '') +
@@ -469,29 +701,46 @@ footer.note { color: var(--muted); font-size: 12px; padding: 8px 16px 20px; max-
       `<dt>Otec</dt><dd>${link(byId.get(p.father)) || '<span class="unk">zatím nedohledán</span>'}</dd>` +
       `<dt>Matka</dt><dd>${link(byId.get(p.mother)) || '<span class="unk">zatím nedohledána</span>'}</dd>` +
       '</dl>' +
-      `<h3>Sourozenci</h3>${list(siblings(p))}` +
+      `<h3>Sourozenci</h3>${list(sib.known.map(x => link(x.p) + x.h).concat(sib.text.map(esc)))}` +
       `<h3>Děti</h3>${list(kids.map(link))}` +
       `<h3>Poznámky</h3>${list((p.notes || []).map(esc))}` +
-      `<h3>Prameny</h3>${list((p.sources || []).map(esc))}`;
+      `<h3>Prameny</h3>${list((p.sources || []).map(linkify))}`;
     if ((p.scans || []).length) {
       h += '<h3>Skeny</h3><div class="scans">' + p.scans.map(s =>
-        `<figure data-src="${esc(s.f)}"><img src="${esc(s.f)}" alt="${esc(s.t)}" loading="lazy"><figcaption>${esc(s.t)}</figcaption></figure>`).join('') + '</div>';
+        `<figure data-src="${esc(s.f)}" data-t="${esc(s.t)}"><img src="${esc(s.f)}" alt="${esc(s.t)}" loading="lazy"><figcaption>${esc(s.t)}</figcaption></figure>`).join('') + '</div>';
+    }
+    if (life.length) {
+      h += `<h3>Události za života</h3><ul class="life">` + life.map(e => `<li><span>${esc(evYears(e))}</span>${esc(e.t)}</li>`).join('') + '</ul>';
     }
     const det = $('#detail');
     det.innerHTML = h;
     det.classList.add('on');
     det.scrollTop = 0;
   }
+  function closeDetail() { $('#detail').classList.remove('on'); document.querySelectorAll('.card.sel').forEach(c => c.classList.remove('sel')); }
   $('#detail').addEventListener('click', e => {
-    if (e.target.closest('.close')) { $('#detail').classList.remove('on'); document.querySelectorAll('.card.sel').forEach(c => c.classList.remove('sel')); return; }
+    if (e.target.closest('.close')) { closeDetail(); return; }
     const a = e.target.closest('a.p');
     if (a) { select(a.dataset.id, true); return; }
     const f = e.target.closest('figure[data-src]');
-    if (f) { $('#lightbox img').src = f.dataset.src; $('#lightbox').classList.add('on'); }
+    if (f) showScan(f.dataset.src, f.dataset.t);
   });
-  $('#lightbox').onclick = () => $('#lightbox').classList.remove('on');
+
+  // ---------- scan viewer ----------
+  const viewer = $('#viewer'), vpane = $('#vpane');
+  function showScan(src, t) {
+    $('#vi').src = src; $('#vt').textContent = t || '';
+    vpane.classList.add('fit'); $('#vz').textContent = 'Přiblížit';
+    viewer.hidden = false;
+  }
+  function zoomScan() { const f = vpane.classList.toggle('fit'); $('#vz').textContent = f ? 'Přiblížit' : 'Oddálit'; }
+  $('#vz').onclick = zoomScan;
+  vpane.addEventListener('click', zoomScan);
+  $('#vx').onclick = () => { viewer.hidden = true; };
   document.addEventListener('keydown', e => {
-    if (e.key === 'Escape') { $('#lightbox').classList.remove('on'); $('#detail').classList.remove('on'); }
+    if (e.key !== 'Escape') return;
+    if (!viewer.hidden) { viewer.hidden = true; return; }
+    closeDetail();
   });
 
   // ---------- search ----------
@@ -506,11 +755,15 @@ footer.note { color: var(--muted); font-size: 12px; padding: 8px 16px 20px; max-
       : '<div class="unk">Nikdo nenalezen</div>';
     box.style.display = 'block';
   }
+  function goTo(id) {
+    showView('treeview');
+    if (Z.s < 0.5) zoomAt(0.8, ...center());
+    select(id, true);
+  }
   function choose(id) {
     $('#results').style.display = 'none';
     $('#q').value = '';
-    showView('treeview');
-    select(id, true);
+    goTo(id);
   }
   $('#q').addEventListener('input', showResults);
   $('#q').addEventListener('keydown', e => {
@@ -524,8 +777,109 @@ footer.note { color: var(--muted); font-size: 12px; padding: 8px 16px 20px; max-
   $('#results').addEventListener('mousedown', e => { const d = e.target.closest('[data-id]'); if (d) { e.preventDefault(); choose(d.dataset.id); } });
   $('#q').addEventListener('blur', () => setTimeout(() => { $('#results').style.display = 'none'; }, 150));
 
+  // ---------- wider family circle: every ancestral couple with all their known children ----------
+  function renderWide() {
+    const sel = $('#wLine'), only = $('#wOnly');
+    if (!sel.dataset.ready) {
+      sel.insertAdjacentHTML('beforeend', D.lines.map(l => `<option value="${esc(l.id)}">${esc(l.name)}</option>`).join(''));
+      sel.onchange = renderWide; only.onchange = renderWide; sel.dataset.ready = '1';
+    }
+    const line = sel.value, onlySib = only.checked;
+    const nm = id => byId.has(id) ? `<a class="p" data-id="${esc(id)}">${esc(byId.get(id).name)}</a>` : '<span class="unk">?</span>';
+    const dates = id => byId.has(id) ? ` <span class="tag">${esc(lifespan(byId.get(id)))}</span>` : '';
+    const groups = new Map();
+    let nFam = 0, nSib = 0;
+    const add = (g, html) => { if (!groups.has(g)) groups.set(g, []); groups.get(g).push(html); };
+    // the root's own family (partners and children), if recorded
+    const rk = (children.get(D.root) || []).slice().sort((a, b) => (yearOf(a) || 0) - (yearOf(b) || 0));
+    if (rk.length && (!line || rootP.line === line)) {
+      const pr = partners(rootP);
+      add(0, `<div class="fam" style="--c:${esc((lineOf.get(rootP.line) || {}).color || '')}"><div class="fh">${nm(D.root)}${pr.length ? ' × ' + pr.map(q => nm(q.id)).join(', ') : ''}</div>` +
+        `<ul>${rk.map(c => `<li>${nm(c.id)}${dates(c.id)}</li>`).join('')}</ul></div>`);
+    }
+    for (const [xid, g] of GEN) {
+      const x = byId.get(xid), F = x.father, M = x.mother;
+      if (!byId.has(F) && !byId.has(M)) continue;
+      const lp = byId.get(F) || byId.get(M);
+      if (line && lp.line !== line) continue;
+      const sibs = D.people.filter(q => q.id !== x.id && ((F && q.father === F) || (M && q.mother === M)))
+        .sort((a, b) => (yearOf(a) || 0) - (yearOf(b) || 0));
+      const half = q => (F && M && q.father && q.mother && !(q.father === F && q.mother === M)) ? '<span class="tag">nevlastní</span>' : '';
+      const strSibs = (x.siblings || []).filter(s => !byId.has(s));
+      const cnt = sibs.length + strSibs.length;
+      if (onlySib && !cnt) continue;
+      nFam++; nSib += cnt;
+      const mar = (byId.get(F) || {}).marriage || (byId.get(M) || {}).marriage || '';
+      const items = [`<li class="direct">${nm(x.id)}${dates(x.id)}<span class="tag">přímá linie</span></li>`,
+        ...sibs.map(q => `<li>${nm(q.id)}${dates(q.id)}${half(q)}</li>`), ...strSibs.map(t => `<li>${esc(t)}</li>`)];
+      add(g + 1, `<div class="fam" style="--c:${esc((lineOf.get(lp.line) || {}).color || '')}"><div class="fh">${nm(F)} × ${nm(M)}</div>` +
+        `${mar ? `<div class="fm">sňatek ${esc(mar)}</div>` : ''}<ul>${items.join('')}</ul>${cnt ? '' : '<div class="none">Sourozenci zatím nejsou známi.</div>'}</div>`);
+    }
+    const head = g => g === 0 ? `Rodina: ${esc(firstName)} a děti` : g === 1 ? 'Rodiče a jejich děti (1. generace zpět)' : g === 2 ? 'Prarodiče a jejich děti – strýcové a tety (2. generace)' : `${g}. generace zpět – rodiny předků`;
+    $('#wideIntro').textContent = `Každá karta je jedna rodina předků: rodiče a všechny jejich známé děti – přímý předek je tučně, ostatní jsou jeho sourozenci. ` +
+      `${nFam} ${plural(nFam, 'rodina', 'rodiny', 'rodin')}, ${nSib} ${plural(nSib, 'známý sourozenec', 'známí sourozenci', 'známých sourozenců')} předků. Generace se počítají od kořene stromu${rootP ? ' (' + rootP.name + ')' : ''}: rodiče = 1.`;
+    $('#wideBody').innerHTML = [...groups.keys()].sort((a, b) => a - b).map(g => `<h3>${head(g)}</h3>${groups.get(g).join('')}`).join('') || '<p class="none">Nic neodpovídá filtru.</p>';
+  }
+  $('#wideview').addEventListener('click', e => { const a = e.target.closest('a.p'); if (a) goTo(a.dataset.id); });
+
   // ---------- map tab ----------
   const placeKey = s => String(s || '').replace(/\s*\(\?\)\s*/g, '').split(',')[0].trim();
+  const map = $('#map');
+  const MZ = { base: null, vb: null };
+  function setVB() {
+    const b = MZ.base, v = MZ.vb;
+    v.w = Math.min(b.w, Math.max(b.w / 8, v.w)); v.h = v.w * b.h / b.w;
+    v.x = Math.min(b.x + b.w - v.w, Math.max(b.x, v.x)); v.y = Math.min(b.y + b.h - v.h, Math.max(b.y, v.y));
+    map.setAttribute('viewBox', `${v.x} ${v.y} ${v.w} ${v.h}`);
+    map.style.setProperty('--k', (v.w / b.w).toFixed(3));
+    map.style.touchAction = v.w < b.w - 0.5 ? 'none' : '';
+    placeMapLabels(v.w / b.w);
+  }
+  // simple de-overlap of place labels in screen-proportional units (k = current zoom factor)
+  function placeMapLabels(k) {
+    const placed = [];
+    for (const t of map.querySelectorAll('text.plab')) {
+      const x = +t.dataset.x, y = +t.dataset.y;
+      let ly = y + 4 * k;
+      while (placed.some(q => Math.abs(q.y - ly) < 14 * k && Math.abs(q.x - x) < 120 * k)) ly += 14 * k;
+      placed.push({ x, y: ly });
+      t.setAttribute('x', x + 9 * k); t.setAttribute('y', ly);
+    }
+  }
+  function mapZoom(f, cx, cy) {
+    const r = map.getBoundingClientRect(), v = MZ.vb;
+    if (cx === undefined) { cx = r.left + r.width / 2; cy = r.top + r.height / 2; }
+    const fx = (cx - r.left) / r.width, fy = (cy - r.top) / r.height, ux = v.x + fx * v.w, uy = v.y + fy * v.h;
+    v.w = Math.min(MZ.base.w, Math.max(MZ.base.w / 8, v.w / f)); v.h = v.w * MZ.base.h / MZ.base.w;
+    v.x = ux - fx * v.w; v.y = uy - fy * v.h;
+    setVB();
+  }
+  $('#mzin').onclick = () => mapZoom(1.6);
+  $('#mzout').onclick = () => mapZoom(1 / 1.6);
+  $('#mzreset').onclick = () => { Object.assign(MZ.vb, MZ.base); setVB(); };
+  map.addEventListener('dblclick', e => { e.preventDefault(); mapZoom(e.shiftKey ? 0.5 : 2, e.clientX, e.clientY); });
+  map.addEventListener('wheel', e => { if (!(e.ctrlKey || e.metaKey)) return; e.preventDefault(); mapZoom(Math.exp(-e.deltaY * 0.01), e.clientX, e.clientY); }, { passive: false });
+  const mp = new Map();
+  let mpinch = null, mdrag = null;
+  map.addEventListener('pointerdown', e => { mp.set(e.pointerId, { x: e.clientX, y: e.clientY }); if (mp.size === 1) mdrag = { x: e.clientX, y: e.clientY, vx: MZ.vb.x, vy: MZ.vb.y }; });
+  map.addEventListener('pointermove', e => {
+    if (!mp.has(e.pointerId)) return;
+    mp.set(e.pointerId, { x: e.clientX, y: e.clientY });
+    const r = map.getBoundingClientRect();
+    if (mp.size === 2) {
+      const [a, b] = [...mp.values()], d = Math.hypot(a.x - b.x, a.y - b.y);
+      if (!mpinch) mpinch = d; else { mapZoom(d / mpinch, (a.x + b.x) / 2, (a.y + b.y) / 2); mpinch = d; }
+      mdrag = null; return;
+    }
+    if (mdrag && MZ.vb.w < MZ.base.w - 0.5) {
+      const dx = e.clientX - mdrag.x, dy = e.clientY - mdrag.y;
+      if (Math.abs(dx) + Math.abs(dy) > 3) { map.classList.add('drag'); try { map.setPointerCapture(e.pointerId); } catch (err) { /* ignore */ } }
+      MZ.vb.x = mdrag.vx - dx / r.width * MZ.vb.w; MZ.vb.y = mdrag.vy - dy / r.height * MZ.vb.h; setVB();
+    }
+  });
+  const mend = e => { mp.delete(e.pointerId); if (mp.size < 2) mpinch = null; if (!mp.size) { mdrag = null; map.classList.remove('drag'); } };
+  ['pointerup', 'pointercancel', 'pointerleave'].forEach(t => map.addEventListener(t, mend));
+
   function renderMap() {
     const used = new Map();
     for (const p of D.people) for (const e of [p.b, p.d]) {
@@ -561,36 +915,50 @@ footer.note { color: var(--muted); font-size: 12px; padding: 8px 16px 20px; max-
       const dash = m.kind === 'rail' ? ' stroke-dasharray="8 5"' : m.kind === 'hyp' ? ' stroke-dasharray="2 4"' : '';
       s += `<line x1="${px(a.lon)}" y1="${py(a.lat)}" x2="${px(b.lon)}" y2="${py(b.lat)}" stroke="var(--accent)" stroke-width="2"${dash}><title>${esc(m.t || '')}</title></line>`;
     }
-    const placed = [];
     for (const [name, y] of [...used].sort((a, b) => GAZ[b[0]].lat - GAZ[a[0]].lat)) {
       const g = GAZ[name], x = px(g.lon), yy = py(g.lat);
-      let ly = yy + 4;
-      while (placed.some(q => Math.abs(q.y - ly) < 14 && Math.abs(q.x - x) < 120)) ly += 14;
-      placed.push({ x, y: ly });
       s += `<circle class="pt" cx="${x}" cy="${yy}" r="5"><title>${esc(name)}</title></circle>` +
-        `<text class="plab" x="${x + 9}" y="${ly}">${esc(name)}${y ? ' (' + y + ')' : ''}</text>`;
+        `<text class="plab" data-x="${x}" data-y="${yy}" x="${x + 9}" y="${yy + 4}">${esc(name)}${y ? ' (' + y + ')' : ''}</text>`;
     }
-    const map = $('#map');
-    map.setAttribute('viewBox', `0 0 ${W} ${H}`);
     map.innerHTML = s;
+    MZ.base = { x: 0, y: 0, w: W, h: H }; MZ.vb = { ...MZ.base };
+    setVB();
+    const KIND = { doc: 'doloženo', rail: 'trasa pravděpodobná', hyp: 'domněnka' };
+    $('#moves').innerHTML = (D.moves || []).map(m => `<li>${m.year ? '<b>' + esc(m.year) + '</b> – ' : ''}${esc(m.from)} → ${esc(m.to)}${m.t ? ': ' + esc(m.t) : ''}${KIND[m.kind] ? ` <span class="unk">(${KIND[m.kind]})</span>` : ''}</li>`).join('');
+    // stories: hand-written text + facts computed from the data (count, matrika, oldest documented ancestor)
     $('#stories').innerHTML = '<h3>Příběhy větví</h3>' + (D.story || []).map(st => {
       const l = lineOf.get(st.line) || { color: '#888' };
-      return `<div class="story" style="--lc:${esc(l.color)}"><b>${esc(st.title)}</b>${esc(st.text)}</div>`;
+      const ps = D.people.filter(p => p.line === st.line), o = oldestOf(ps), nm = ps.filter(p => p.cert === 'M').length;
+      const facts = ps.length ? `<div class="facts">V rodokmenu ${ps.length} ${plural(ps.length, 'osoba', 'osoby', 'osob')}, z toho ${nm} z matrik` +
+        (o ? ` · nejstarší doložený předek <a class="p" data-id="${esc(o.id)}">${esc(o.name)}</a> (*${o.b.year}${placeShort(o.b) ? ', ' + esc(placeShort(o.b)) : ''})` : '') + '</div>' : '';
+      return `<div class="story" style="--lc:${esc(l.color)}"><b>${esc(st.title)}</b>${facts}${esc(st.text)}</div>`;
     }).join('');
-    const tl = (D.timeline || []).map(t => ({ y: t.year, t: t.t }));
+    // timeline: family milestones + births/deaths + oldest documented ancestor of every line + historical events
+    const tl = (D.timeline || []).map(t => ({ y: t.year, h: esc(t.t), k: '' }));
     for (const p of D.people) {
-      if (p.b && p.b.year && !p.b.approx) tl.push({ y: p.b.year, t: `narození: ${p.name}${p.b.place ? ', ' + p.b.place : ''}` });
-      if (p.d && p.d.year) tl.push({ y: p.d.year, t: `úmrtí: ${p.name}${p.d.place ? ', ' + p.d.place : ''}` });
+      const who = `<a class="p" data-id="${esc(p.id)}">${esc(p.name)}</a>`;
+      if (p.b && p.b.year && !p.b.approx) tl.push({ y: p.b.year, h: `narození: ${who}${p.b.place ? ', ' + esc(p.b.place) : ''}`, k: '' });
+      if (p.d && p.d.year) tl.push({ y: p.d.year, h: `úmrtí: ${who}${p.d.place ? ', ' + esc(p.d.place) : ''}`, k: '' });
     }
-    tl.sort((a, b) => a.y - b.y);
-    $('#timeline').innerHTML = '<h3>Časová osa</h3><ul>' + tl.map(t => `<li><span>${t.y}</span>${esc(t.t)}</li>`).join('') + '</ul>';
+    for (const l of D.lines) {
+      const o = oldestOf(D.people.filter(p => p.line === l.id));
+      if (o) tl.push({ y: o.b.year, h: `Nejstarší doložený předek větve ${esc(l.name)}: <a class="p" data-id="${esc(o.id)}">${esc(o.name)}</a>${placeShort(o.b) ? ' (' + esc(placeShort(o.b)) + ')' : ''}`, k: 'anc' });
+    }
+    for (const e of EVENTS) tl.push({ y: e.y, h: (e.y2 ? esc(evYears(e)) + ' ' : '') + esc(e.t), k: 'hist' + (e.major ? ' major' : '') });
+    tl.sort((a, b) => a.y - b.y || (a.k.startsWith('hist') ? 1 : 0) - (b.k.startsWith('hist') ? 1 : 0));
+    $('#timeline').innerHTML = '<h3>Časová osa</h3><ul>' + tl.map(t => `<li class="${t.k}"><span>${t.y}</span><div>${t.h}</div></li>`).join('') + '</ul>';
   }
+  $('#mapview').addEventListener('click', e => { const a = e.target.closest('a.p'); if (a) goTo(a.dataset.id); });
 
   // ---------- tabs ----------
+  const HASH = { mapview: '#mapa', wideview: '#okruh' };
   function showView(id) {
     document.querySelectorAll('.view').forEach(v => v.classList.toggle('on', v.id === id));
     document.querySelectorAll('.tabs button').forEach(b => b.setAttribute('aria-selected', String(b.dataset.view === id)));
-    if (id === 'treeview') apply();
+    $('#legend').hidden = id !== 'treeview';
+    if (id === 'wideview') renderWide();
+    if (id === 'treeview') { remeasure(); apply(); }
+    store.set('rodokmen.tab', id);
   }
   document.querySelectorAll('.tabs button').forEach(b => { b.onclick = () => showView(b.dataset.view); });
 
@@ -598,10 +966,16 @@ footer.note { color: var(--muted); font-size: 12px; padding: 8px 16px 20px; max-
   renderStats();
   layout();
   renderTree();
+  buildAxis();
   renderMap();
+  if (store.get('rodokmen.events') === '0') { $('#treeview').classList.add('noev'); $('#zev').setAttribute('aria-pressed', 'false'); }
   const saved = parseFloat(store.get('rodokmen.scale'));
   if (saved > 0) { Z.s = Math.min(Z.max, Math.max(Z.min, saved)); focus(D.root); } else fit();
-  window.__rodokmen = { Z, fit, select, world: () => world };
+  const fromHash = Object.keys(HASH).find(k => HASH[k] === location.hash);
+  const tab = fromHash || store.get('rodokmen.tab');
+  if (tab && tab !== 'treeview' && document.getElementById(tab)) showView(tab);
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(() => { remeasure(); layoutAxis(); });
+  window.__rodokmen = { Z, fit, select, world: () => world, events: () => EVENTS };
 })();
 </script>
 </body>

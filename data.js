@@ -1790,7 +1790,8 @@ window.RODOKMEN = {
    },
    "occ": "rolník (Ackerbauer) v Závadě",
    "notes": [
-    "Otec Johanny Drapkové roz. Cyronové (sňatek 1837, křest vnučky Karoliny 1840 „Paul Cyron“). Rok narození je odhad."
+    "Otec Johanny Drapkové roz. Cyronové (sňatek 1837, křest vnučky Karoliny 1840 „Paul Cyron“). Rok narození je odhad.",
+    "zao_r49/50: rejstříkový „Cyron Paul 185[3] fol. 43“ je ve skutečnosti Karel, dítě Josefa Cyrona (25. 2. 1853, Závada č. 4) – Pavel tehdy nezemřel."
    ],
    "sources": [
     "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F VIII 11, inv. 10218, O Petrovice u Karviné 1836–1858, oddíl Závada, snímek 22, levá strana, 4. zápis, sňatek 27. 8. 1837 (digi.archives.cz)",
@@ -1844,7 +1845,8 @@ window.RODOKMEN = {
    },
    "occ": "mlynář (Müller) v Závadě",
    "notes": [
-    "Otec Šimona: sňatek syna 1832 („gewesener Müller Laurenz Stadeczek“) a 1841. Rok narození je odhad."
+    "Otec Šimona: sňatek syna 1832 („gewesener Müller Laurenz Stadeczek“) a 1841. Rok narození je odhad.",
+    "zao_r50 (K): 6. 7. 1835 zemřel v Závadě č. 17 „Andreas Stadnyczek(?) Müller“, 76 let (F VIII 7 sn95 L) – snad příbuzný (otec?) mlynáře Vavřince."
    ],
    "sources": [
     "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F VIII 6, inv. 2793, O Petrovice u Karviné 1797–1858, oddíl Závada, snímek 68, levá strana (pag. 14), sňatek 28. 8. 1832 (digi.archives.cz)",
@@ -1925,7 +1927,8 @@ window.RODOKMEN = {
    "occ": "domkář (Häusler) v Závadě",
    "notes": [
     "Otec Matouše (sňatky syna 1834 a 1844). Rok narození je odhad.",
-    "Domkář v Závadě č. 15. 1. manželka Anna († 29. 1. 1800, 35 let; syn Josephus 1798–1799), 2. manželka Maryna (sňatek 1800–1801 mimo Závadu; syn Matouš 1802)."
+    "Domkář v Závadě č. 15. 1. manželka Anna († 29. 1. 1800, 35 let; syn Josephus 1798–1799), 2. manželka Maryna (sňatek 1800–1801 mimo Závadu; syn Matouš 1802).",
+    "zao_r49/50: v Závadě č. 15 zemřel 18. 1. 1806 jeho 12letý syn Jan („des Johann Grzonka Häuslers … Sohn“, F VIII 7 sn81 L) – Jan st. tedy v I 1806 žil. Vlastní úmrtí zatím nenalezeno."
    ],
    "sources": [
     "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F VIII 6, inv. 2793, O Petrovice u Karviné 1797–1858, oddíl Závada, snímek 68, pravá strana (pag. 15), sňatek 1. 7. 1834 (digi.archives.cz)",
@@ -1988,7 +1991,8 @@ window.RODOKMEN = {
    "notes": [
     "Sňatek 29. 1. 1799, Závada č. 11: „Paulus Schottek Ackerbauer“, 23 let (nar. ~1776), svobodný × „Anna geborene Kalußin des Johannes“, 22 let, svobodná. Svědci Joseph Solik, fojt z Dětmarovic; Johann Mazurek, domkář. Oddával Adam Sosna, lokální kaplan petrovický. Rodiče ženicha neuvedeni.",
     "Sedlák v Závadě č. 11; manželka Anna roz. Kalluza (?). Křest dcery Barbory 1809 a její sňatek 1834. Rod Schittek – kmotři Drapků (Andreas). Rok narození je odhad.",
-    "Úmrtní matrika 1799 uvádí v č. 11 i sedláka Johanna Schottka (zápis o jeho 8leté dceři Anně) – Johann je nejspíš Pavlův otec nebo bratr (K, nezapsán)."
+    "Úmrtní matrika 1799 uvádí v č. 11 i sedláka Johanna Schottka (zápis o jeho 8leté dceři Anně) – Johann je nejspíš Pavlův otec nebo bratr (K, nezapsán).",
+    "zao_r49/50: rejstřík F VIII 9 – sňatek „Schotek(?) Paulus × Anna, Sowada 1799, L.B. fol. 1“ (K–D). Úmrtí „Sit…a Paul“ 1835 = Paul Sitona, č. 3 – jiný muž (K–D)."
    ],
    "sources": [
     "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F VIII 6, inv. 2793, O Petrovice u Karviné 1797–1858, oddíl Závada, snímek 61, pravá strana (pag. 1), 1. zápis, sňatek 29. 1. 1799 (digi.archives.cz)",
