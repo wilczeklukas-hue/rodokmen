@@ -2775,7 +2775,8 @@ window.RODOKMEN = {
     "Sňatek 3. 2. 1705 s Řehořem Hanuskem, Dětmarovice: „honesta puella Anna filia Andreae Gura molitoris Gerwinensis(?)“ – panna, dcera Ondřeje Gury, mlynáře (M; původ „Gerwin…“ K). Matka Mariny (1708) a Jiřího (1710). Ztotožnění sňatek 1705 = matka Jiřího D–M (jména rodičů, obec, chronologie).",
     "Možné úmrtí 30. 6. 1737 Dětmarovice („Anna Hanusczyno“, 45 let, týž den jako Řehoř) – K, nezapsáno: uvedený věk nesedí na sňatek 1705.",
     "fs_old8: kandidát křtu 6. 7. 1687 „Anna, Parentum Andreae Gura(?) et conjugis eius [Eva?]“, Dolní Lutyně (sn60 L; K–D) – jiná obec než „Gerwinensis(?)“ v oddacím zápise; Gurové i ve Věřňovicích.",
-    "Křest 6. 7. 1687: „Baptizatus est infans e legit. thoro Nomine Anna Parentum Andreae Gura et conjugis eius Annae. Patrini Bartholomaeus Grzyb(?), Marianna Kadrarka(?) omnes de Teuto-Lutenia“ (M čtení; matka Anna D). Ztotožnění s nevěstou 1705 D: jediná známá Anna Ondřeje Gury, při sňatku ~17 let. Rozpor: „Anna Hanusczyno“ † 1737 uvedena 45 let (→ ~1692) – nevyloučena druhá Anna ~1690–92 (K)."
+    "Křest 6. 7. 1687: „Baptizatus est infans e legit. thoro Nomine Anna Parentum Andreae Gura et conjugis eius Annae. Patrini Bartholomaeus Grzyb(?), Marianna Kadrarka(?) omnes de Teuto-Lutenia“ (M čtení; matka Anna D). Ztotožnění s nevěstou 1705 D: jediná známá Anna Ondřeje Gury, při sňatku ~17 let. Rozpor: „Anna Hanusczyno“ † 1737 uvedena 45 let (→ ~1692) – nevyloučena druhá Anna ~1690–92 (K).",
+    "fs_old28: druhá Anna Ondřeje Gury v IX 1688–VII 1689, 1692–I 1693, XI 1693–V 1694 není; nečteno VII 1689–I 1692 (věk 45 v 1737 → ~1692)."
    ],
    "sources": [
     "ZA Opava, fara Dolní Lutyně, smíšená matrika 1672–1728 (inv. 2697) – FamilySearch DGS 5393677, sňatky 3. 2. 1705, snímek 290 vlevo",
@@ -2821,7 +2822,8 @@ window.RODOKMEN = {
     "Otec Anny Hanuskové (sňatek 1705): „Andreae Gura molitoris Gerwinensis(?)“ – mlynář, místo nejisté (K). Příjmení Gura doloženo v Dětmarovicích (1706 Urban Gura). Rok narození je odhad.",
     "fs_old14 (K–D): 1721 křest u Joachima Gury a Hedviky, „molitore Gerwinensi“ – mlýn „Gerwin…“ držela rodina Gurů i v 1721; možná Ondřejův syn/nástupce.",
     "fs_old22 (K): ve Věřňovicích mlynář Pavel Gora, † před II 1697 (vdova Eva) – mlynářský rod Gora/Gura v okolí; vztah k Ondřejovi neznámý.",
-    "SŇATEK [13. 5.] 1685 (3. neděle po Velikonocích; rok D): „honestum juvenem Andream Goram Molitorem de Czerwin cum honesta puella Anna nata et derelicta pupilla post defunctum Petrum Zolich ex villa Dittmersdorff; testes Georgius Graf(?) et Jacobus Machilkow(?)“ (M čtení ověřeno koordinátorem; ztotožnění D – jméno, mlynář, „Czerwin/Gerwin“). Otec ženicha neuveden; Kašpar Gora, mlynář „Gervinensis“ († před 1691, syn Adam ∞ 1691) – možný otec (K). Místo mlýna „Czerwin/Gerwin/Gorvina“ zatím neurčeno."
+    "SŇATEK [13. 5.] 1685 (3. neděle po Velikonocích; rok D): „honestum juvenem Andream Goram Molitorem de Czerwin cum honesta puella Anna nata et derelicta pupilla post defunctum Petrum Zolich ex villa Dittmersdorff; testes Georgius Graf(?) et Jacobus Machilkow(?)“ (M čtení ověřeno koordinátorem; ztotožnění D – jméno, mlynář, „Czerwin/Gerwin“). Otec ženicha neuveden; Kašpar Gora, mlynář „Gervinensis“ († před 1691, syn Adam ∞ 1691) – možný otec (K). Místo mlýna „Czerwin/Gerwin/Gorvina“ zatím neurčeno.",
+    "Děti (fs_old28): Anna 1687, dvojčata Jiří + [Marina?] 1689, Kašpar 1693 („Andrea Gora Molitore Gerwinensi“), [Anežka?] 1694. 1692 kmotra „Anna Gora(?) Molitorissa de Gerwin“. Mlýn nejspíš v okolí Dolní Lutyně (K). Druhá Anna 1688–89, 1692–I 1693, XI 1693–V 1694 není; nečteno VII 1689 – I 1692."
    ],
    "sources": [
     "ZA Opava, fara Dolní Lutyně, smíšená matrika 1672–1728 (inv. 2697) – FamilySearch DGS 5393677, sňatky 3. 2. 1705, snímek 290 vlevo",
@@ -2835,6 +2837,10 @@ window.RODOKMEN = {
     {
      "f": "img/1685_snatek_gura_zolich.png",
      "t": "Sňatek Ondřej Gora, mlynář „de Czerwin“ × Anna, sirotek po † Petru Zolichovi z Dětmarovic, 1685"
+    },
+    {
+     "f": "img/1689_krest_dvojcata_gora_zolich.png",
+     "t": "Křest dvojčat Jiřího a [Mariny?], otec Ondřej Gora, matka Anna rozená Zolichová, 30. 3. 1689"
     }
    ]
   },
@@ -3044,11 +3050,13 @@ window.RODOKMEN = {
     "approx": true
    },
    "notes": [
-    "Sňatek 1685 s Ondřejem Gorou (Gurou), mlynářem: „honesta puella Anna nata et derelicta pupilla post defunctum Petrum Zolich(?) ex villa Dittmersdorff“ – panna, osiřelá dcera † Petra Zolicha z Dětmarovic. Matka Anny (křest 1687, „conjugis eius Annae“). Jistota D (ztotožnění manžela). Příjmení Zolich čteno s otazníkem. Rok narození je odhad. Možná sestra: Magdalena, dcera † Petra Zolicha, ∞ 21. 9. 1704 Kašpar Ploteczka (svědek Jiří Kotyrzena)."
+    "Sňatek 1685 s Ondřejem Gorou (Gurou), mlynářem: „honesta puella Anna nata et derelicta pupilla post defunctum Petrum Zolich(?) ex villa Dittmersdorff“ – panna, osiřelá dcera † Petra Zolicha z Dětmarovic. Matka Anny (křest 1687, „conjugis eius Annae“). Jistota D (ztotožnění manžela). Příjmení Zolich čteno s otazníkem. Rok narození je odhad. Možná sestra: Magdalena, dcera † Petra Zolicha, ∞ 21. 9. 1704 Kašpar Ploteczka (svědek Jiří Kotyrzena).",
+    "Rodné příjmení potvrzeno: křest dvojčat 30. 3. 1689 „Quorum Pater Andreas Gora Mater Anna nata Zoliczin“ (M čtení ověřeno koordinátorem). Děti s Ondřejem: Anna 6. 7. 1687, dvojčata Jiří a [Marina?] 30. 3. 1689, Kašpar 5. 1. 1693 (matka tam „nata B/Kachliczka?“ – K), [Anežka?] 20. 2. 1694 („Anna nata Zolich“)."
    ],
    "sources": [
     "ZA Opava, fara Dolní Lutyně, smíšená matrika 1672–1728 (inv. 2697) – FamilySearch DGS 5393677, sňatky 1685, snímek 331 vpravo",
-    "ZA Opava, fara Dolní Lutyně, smíšená matrika 1672–1728 (inv. 2697) – FamilySearch DGS 5393677, křty 6. 7. 1687, snímek 60 vlevo"
+    "ZA Opava, fara Dolní Lutyně, smíšená matrika 1672–1728 (inv. 2697) – FamilySearch DGS 5393677, křty 6. 7. 1687, snímek 60 vlevo",
+    "ZA Opava, fara Dolní Lutyně, smíšená matrika 1672–1728 (inv. 2697), křty 30. 3. 1689 – FamilySearch DGS 5393677, snímek 69 vpravo"
    ],
    "scans": [
     {
@@ -3058,6 +3066,10 @@ window.RODOKMEN = {
     {
      "f": "img/1687_krest_anna_gura.png",
      "t": "Křest Anny, dcery Ondřeje Gury a Anny, 6. 7. 1687"
+    },
+    {
+     "f": "img/1689_krest_dvojcata_gora_zolich.png",
+     "t": "Křest dvojčat Jiřího a [Mariny?], otec Ondřej Gora, matka Anna rozená Zolichová, 30. 3. 1689"
     }
    ],
    "father": "petrusZolich"
