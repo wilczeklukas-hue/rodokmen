@@ -1138,7 +1138,8 @@ window.RODOKMEN = {
    "father": "jakobM",
    "notes": [
     "KANDIDÁT (otec kandidáta Laurenze 1828). Sňatek 16. 5. 1810 Pruchna akt 4 jako vdovec, 43 let, komorník, s Annou Socholik (18 let), dům č. 17.",
-    "Možný 1. sňatek 27. 6. 1797 Pruchna akt 3: Mathias, syn sedláka Jakoba, svobodný, 27 let × Helena, vdova po chalupníkovi Michaelu Liskovi, 49 let – ztotožnění jen K."
+    "Možný 1. sňatek 27. 6. 1797 Pruchna akt 3: Mathias, syn sedláka Jakoba, svobodný, 27 let × Helena, vdova po chalupníkovi Michaelu Liskovi, 49 let – ztotožnění jen K.",
+    "Matrika výnosu pozemků 1820 (FS): Pruchna (DGS 100311091 sn37) – držitelé Matuschinsky Andreas č. 24, Paul č. 33, Georg č. 41, Joseph(?) č. 59; Mathias ani Jakob mezi nimi nejsou, č. 113 v Pruchné 1820 neexistuje (domy do ~90). Rychułd 1820 (16 domů) ani Zaborze bez Matuszyńských (fs_land3)."
    ],
    "sources": [
     "Geneteka (index PTG), śląskie, parafia Pruchna, sňatek 1810 akt 4 (gid 2485942)",
@@ -1204,7 +1205,8 @@ window.RODOKMEN = {
    },
    "notes": [
     "Otec Marianny: oddací zápis vnuka Jana 1907 (M, ZA Opava) a index sňatku dcery 1876 (D). Dům Zaborze č. 14 (farnost Pierściec). Sňatek s Marií Matuschek (~1850–1852) v indexu nenalezen. Rok narození je odhad.",
-    "Ještě 1894 žil jako zagrodnik v Pierśćci (sňatek syna Johanna). Úmrtí v Pierśćci do 1888 ani ve Strumieni do 1936 v indexu není. Sňatek s Marií Matuszek v indexu není ani v pravopisu Knopp (Pierściec, Strumień, Zabrzeg)."
+    "Ještě 1894 žil jako zagrodnik v Pierśćci (sňatek syna Johanna). Úmrtí v Pierśćci do 1888 ani ve Strumieni do 1936 v indexu není. Sňatek s Marií Matuszek v indexu není ani v pravopisu Knopp (Pierściec, Strumień, Zabrzeg).",
+    "Zaborze 1820 (FS DGS 100313037): dům č. 14 držel Andreas Boidetzky; Knop/Matuszek mezi 31 držiteli nejsou – Knoppové přišli na č. 14 později (fs_land3)."
    ],
    "sources": [
     "ZA Opava, F VIII 18, snímek 223, sňatek vnuka Jana 9. 7. 1907 (digi.archives.cz)",
