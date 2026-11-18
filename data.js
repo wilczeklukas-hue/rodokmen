@@ -2178,7 +2178,8 @@ window.RODOKMEN = {
     "zao_r38: sňatek s Magdalenou v Lazech IV 1794 – 1811 není (Ka V 8 sn75–77) – nejspíš dříve (~1784–94) nebo jinde. Vedlejší (K): 4. 6. [1808–10] Lazy č. 30 „Georg Surma Auszügler“, 63 let, vdovec × Mariana, vdova, 42 let (sn77 P) – zda je to náš Jiří (pak by Magdalena zemřela 1809–10), neprokázáno; rok zápisu neověřen.",
     "zao_r39: sňatek s Magdalenou v Lazech IV 1785 – 1811 není (Ka V 8 sn73 P – sn77). Zápis „Georg Surma Auszügler, 63, vdovec × Mariana vdova, 42“ je ze 4. 6. 1810, Lazy č. 30 (D) – ztotožnění s naším Jiřím jen K (jiný dům a stav).",
     "zao_r40: vdovec od 8. 2. 1810. V Lazech zřejmě dva Jiří Surmové: starší výměnkář (nar. ~1747, ∞ 4. 6. 1810 vdova Mariana, č. 30; † před XI 1822 – vdova Mariana † 8. 11. 1822 č. 27, 60 let) a mladší domkář (žena Mariane † 1819 č. 25, 54 let). Který z nich je otec Zuzany (podruh č. 21, žena Magdalena 40 let), nerozhodnuto – možná starší Jiří je její dědeček (K).",
-    "zao_r41: úmrtí v Lazech V 1810 – XII 1827 není (Ka V 11 sn95–100, Ka V 12 inv. 3046 sn34–35; mezera X 1823 – I 1824) – zemřel patrně mimo Lazy. Oprava: Mariane, žena Jiřího Surmy domkáře, † V 1820 (ne 1819)."
+    "zao_r41: úmrtí v Lazech V 1810 – XII 1827 není (Ka V 11 sn95–100, Ka V 12 inv. 3046 sn34–35; mezera X 1823 – I 1824) – zemřel patrně mimo Lazy. Oprava: Mariane, žena Jiřího Surmy domkáře, † V 1820 (ne 1819).",
+    "zao_r42: v Orlové † 31. 1. 1819 Jiří Surma, domkář, Orlová č. 47, 70 let (Ka V 11 sn80 L, D); vdova Mariana † 1824, 80 let – věkem i manželkou spíš jiný Jiří (K). V oddílu Orlová 1812–1827 jiný Jiří Surma není. V okolí tedy nejméně 3–4 muži toho jména; otce Zuzany nelze bez dalších pramenů rozlišit."
    ],
    "sources": [
     "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F VIII 5, inv. 2792, N Petrovice u Karviné 1836–1859, oddíl Závada, snímek 56, pravá strana (Pag. 1), 6. zápis, křest 1836 (digi.archives.cz)",
