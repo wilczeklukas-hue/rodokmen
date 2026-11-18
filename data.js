@@ -2421,7 +2421,8 @@ window.RODOKMEN = {
     "zao_r30b: křest není ani V 1743 – IX 1745 (F I 2 sn88–95). Jediná blízká Marina: 29. 6. 1744 „Marinam Georgi Kyenkia matris Susannae“, Dětmarovice (sn92 P) – příjmení spíš Kionka, věk 1791 by byl 46–47 místo 43 → K−, nepřijato. 8. 3. 1745 Marina dcera Jakuba Kani (Teutoleuten) – jiný otec. Nečteno: I 1739 – IV 1743 (sn74–87 kromě 78–85 již dříve?).",
     "zao_r31: Marina dcera Jiřího Kani není ani VI 1739 – III 1741 a I–V 1743. Rodina Jiří Kijenka/Kijonka × Zuzana (Dětmarovice, stálí kmotři Karlik a Kolwas) měla děti Matouš 11. 9. 1739/40, Marianna 6. 2. 1743, Marina 29. 6. 1744 – „Kania“ (sňatek 1776, „Kanin“ 1781) by mohla být zkomolenina Kijenka/Kionka, ale oba zápisy píší jasně Kania → hypotéza K, nezapsáno.",
     "fs_old4 (K): 28. III/IV 1753 si Jiří Wilczek, sedlák z Dětmarovic, vzal Marinu, vdovu po † Josefu Kaniovi (ten ∞ 22. 5. 1740 Marianna, dcera Jana Olmy). Sňatek 1776 však uvádí otce nevěsty „Ge-orges Kania“ (koordinátor znovu ověřil na výřezu – spíš Georges). Pokud by šlo o chybu písaře, mohla by být Marina dcerou Josefa Kanii a Marianny Olmové – jen hypotéza. Jiří Kijenka z Dětmarovic † před I 1757.",
-    "fs_old7: křty 1746–I 1752 (F I 2 = DGS 5387436) – Marina/Marianna s otcem Kania/Kijenka není. Kaniové v Dětmarovicích: Andreas × Susanna (1747), Josef × Hedvigis (1747), Josef × Marina (Rosina 1750), Georg Kyenka × Anna (Anna 1750); ve Willmersdorfu Jacob × Magdalena. Nečteno II 1752 – 1753."
+    "fs_old7: křty 1746–I 1752 (F I 2 = DGS 5387436) – Marina/Marianna s otcem Kania/Kijenka není. Kaniové v Dětmarovicích: Andreas × Susanna (1747), Josef × Hedvigis (1747), Josef × Marina (Rosina 1750), Georg Kyenka × Anna (Anna 1750); ve Willmersdorfu Jacob × Magdalena. Nečteno II 1752 – 1753.",
+    "fs_old9: Josef Kania, sedlák v Dětmarovicích, × Marina – dvojčata Hedvika a Rozina 10. 9. 1752 → Josef † IX 1752 – 1753, vdova Marina ∞ 1753 Jiří Wilczek. Křest Mariny Kaniové II 1752 – III 1753 není; Matěj Kijenka, kovář, × Hedvika (Václav 20. 8. 1752)."
    ],
    "sources": [
     "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F I 11, inv. 2707, O Věřňovice 1728–1792, snímek 109, pravá strana (fol. 107), „In Februario“ 1776, 3. zápis (digi.archives.cz; rejstřík F I 48 sn. 11 P)",
@@ -2600,7 +2601,8 @@ window.RODOKMEN = {
     "1705 kmotr a svědek v Dětmarovicích; tamtéž hospodář Valentin Hanusek (1705, s čeledí) – možný otec Řehoře (K).",
     "fs_old4: 13. 11. 1735 ještě žil (sňatek dcery Veroniky s Matoušem Strzelczykem, bez „defuncti“; svědek Jiří Kotyrzyna) → zemřel XI 1735 – XI 1737. Děti: Jiří, Veronika (∞ 1735), Magdalena (∞ 1741), Pavel (∞ 1746).",
     "Děti s Annou (křty, DGS 5393677): Marina 3. 6. 1708 (sn161 L), Jiří 4. 4. 1710 (sn167 P).",
-    "Úmrtí 30. 6. 1737: „Item obiit Gregorius Hanusek omnibus SS. provisus 50 Ann.; Dittm.“ (M; ztotožnění D–M – jediný Řehoř Hanusek, sedí rozmezí XI 1735 – XI 1737). Věk 50 → nar. ~1687 (věky bývají zaokrouhlené). Týž den zemřela „Anna Hanusczyno“ (Hanuščina), 45 let – patrně jeho žena Anna (K; věk 45 by při sňatku 1705 dával jen 13 let, tedy věk nepřesný, nebo jiná Anna)."
+    "Úmrtí 30. 6. 1737: „Item obiit Gregorius Hanusek omnibus SS. provisus 50 Ann.; Dittm.“ (M; ztotožnění D–M – jediný Řehoř Hanusek, sedí rozmezí XI 1735 – XI 1737). Věk 50 → nar. ~1687 (věky bývají zaokrouhlené). Týž den zemřela „Anna Hanusczyno“ (Hanuščina), 45 let – patrně jeho žena Anna (K; věk 45 by při sňatku 1705 dával jen 13 let, tedy věk nepřesný, nebo jiná Anna).",
+    "fs_old9: dcera Magdalena pokř. V 1716 (po 12. 5.), „Magdalenam Paren: Gregorij Hanusek et Anna“, Dětmarovice (DGS 5393677 sn182 P; M) – patrně ta, která se 1741 vdala za Šimona Jordana."
    ],
    "sources": [
     "ZA Opava, fara Dolní Lutyně, O 1728–1792 (sign. F I 11, inv. 2707), XI 1737, 1. zápis – FamilySearch DGS 5387443, snímek 31 vlevo",
@@ -2643,7 +2645,8 @@ window.RODOKMEN = {
    },
    "notes": [
     "Otec Magdaleny Hanuskové; při jejím sňatku XI 1737 žil (bez „defuncti“), v Dětmarovicích; 1738 ještě jako svědek (fs_old1).",
-    "Úmrtí 14. 12. 1743: „obiit Georgius Kotyrzyna Ann. 78 Cathol. Rel. o. SS. provisus Ditth. ad S. Mariam Magdalenam sepultus“ (M; ztotožnění D – jméno a obec, jediný Jiří Kotyrzyna). Věk 78 → nar. ~1665. Jako „Georgius Kotyrzena“ svědek už 1705 (sňatek Řehoře Hanuska) a kmotr 1707; syn Ondřej pokř. 11. 11. 1707 (matka Marina) – Magdalena tedy možná dcera Mariny (K)."
+    "Úmrtí 14. 12. 1743: „obiit Georgius Kotyrzyna Ann. 78 Cathol. Rel. o. SS. provisus Ditth. ad S. Mariam Magdalenam sepultus“ (M; ztotožnění D – jméno a obec, jediný Jiří Kotyrzyna). Věk 78 → nar. ~1665. Jako „Georgius Kotyrzena“ svědek už 1705 (sňatek Řehoře Hanuska) a kmotr 1707; syn Ondřej pokř. 11. 11. 1707 (matka Marina) – Magdalena tedy možná dcera Mariny (K).",
+    "fs_old9: kandidát křtu Magdaleny ~24. 6. 1713, „Magdalenam Parentum Georgij Kotyrzena(?) et Marinae“, Dětmarovice (DGS 5393677 sn177 L; K–D, čteno jen z přehledu – ověřit)."
    ],
    "sources": [
     "ZA Opava, fara Dolní Lutyně, O 1728–1792 (sign. F I 11, inv. 2707), XI 1737, 1. zápis – FamilySearch DGS 5387443, snímek 31 vlevo",
