@@ -2358,7 +2358,8 @@ window.RODOKMEN = {
     "fs_old44 (K): v Dětmarovicích č. 36 zemřel 12. 10. 1782 „Johann Kionka ein Häusler“, 45 let, a 6. 12. 1782 jeho vdova Marina, 45 let (DGS 5387447 sn19) – možná rodiče ženicha z 3. 2. 1783 (sňatek 4 měsíce po smrti otce); jen podle jména, neověřeno. fs_old45: zápisy přečteny při zvětšení – „Johann Kionka ein Häusler oder Robot Gärtner“, 45, a „Marina nach dem verstorbenen Johann Kionka Robot Gärtner nachgebliebene Wittib“, 45 (M); kovář NENÍ uveden.",
     "fs_old45: křest v DGS 5387437 (N 1754–81) nenalezen ve výsecích V 1757 – III 1758, VIII–IX 1759, IV–VII 1760; nečteno 1754 – IV 1757 a další roky.",
     "fs_old46: křest Joannese Kionky/Kijenky není v souvislém úseku 2. I 1754 – 28. III 1758 (DGS 5387437 sn2–26). Otcové Kijenka v Dětmarovicích 1754–57: Šimon × Anna/Rosina, Matěj × Hedvika, Řehoř × Anna.",
-    "fs_old47 – kandidátní křty (K, jen jméno a obec): 18. 6. 1759 „Joes Patris Mathiae Kijenka Dom. Dittm. Matris Marinae“ a 7. 6. 1761 „Joannes – Mathiae Kionka, Matris Rosinae“, Dětmarovice (DGS 5387437 sn32 L, sn43 L; čtení M). Rozhodne věk při úmrtí (~1824–27)."
+    "fs_old47 – kandidátní křty (K, jen jméno a obec): 18. 6. 1759 „Joes Patris Mathiae Kijenka Dom. Dittm. Matris Marinae“ a 7. 6. 1761 „Joannes – Mathiae Kionka, Matris Rosinae“, Dětmarovice (DGS 5387437 sn32 L, sn43 L; čtení M). Rozhodne věk při úmrtí (~1824–27).",
+    "fs_old48: úmrtí v Dětmarovicích 22. I 1824 – 6. II 1827 není (DGS 5387451 sn41–47, M); není ani v rejstříku 1784–1823 → zemřel před 1824 jinde než v rejstříku, nebo mimo farnost. Další: knihy Z 1804–1823 (DGS 5387449/5387450) po stránkách."
    ],
    "sources": [
     "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F I 11, inv. 2707, O Věřňovice 1728–1792, snímek 126, levá strana, „Anno 1783 In Februario“, 1. zápis; duplikát sn. 125 P (digi.archives.cz; rejstřík F I 48 sn. 16 L)",
@@ -2446,7 +2447,7 @@ window.RODOKMEN = {
    "alive": false,
    "b": {
     "date": "",
-    "year": 1757,
+    "year": 1756,
     "place": "",
     "approx": true
    },
@@ -2454,13 +2455,15 @@ window.RODOKMEN = {
    "notes": [
     "Matka Josefa (1784) a Jakuba Jana (1785) Kionky: dcera Martina Kušnika (?), tehdy už nežijícího, vrchnostenského kováře. Příjmení nejisté (Kußnik / Kuznik); svědek Johann Kuznik 1804 nejspíš její bratr. Rok narození je odhad.",
     "Sňatek 3. 2. 1783 s Janem Kionkou – „Marina des verstorbenen Martin Kußnik wail. herrschaftl. Schmieds ehel. Tochter“ (M).",
-    "Úmrtí ~25. 2. 1827 (pohřeb ~27. 2.), Dětmarovice č. 17: „Marina Kionka Wittwe nach + Johann Kionka gewesenen Häusler in Dittmansdorf“, 70 let (→ nar. ~1757), sešlost věkem; farář Jos. Kornke(?). Dům, věk a manžel M; den D."
+    "Úmrtí ~25. 2. 1827 (pohřeb ~27. 2.), Dětmarovice č. 17: „Marina Kionka Wittwe nach + Johann Kionka gewesenen Häusler in Dittmansdorf“, 70 let (→ nar. ~1757), sešlost věkem; farář Jos. Kornke(?). Dům, věk a manžel M; den D.",
+    "Oprava podle FamilySearch DGS 5387451 sn48 L (fs_old48, čtení ověřeno koordinátorem): „Den 26ten Febr. 1827 gest. den 28ten begrab. | 17. | Marina Kionka Wittwe nach + Johann Kionka gewesenen Häuslers zu Dittmansdorf … 71 … Altersschwäche“ – zemřela 26. 2., pohřbena 28. 2. 1827, 71 let (→ nar. ~1756; M)."
    ],
    "sources": [
     "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F I 11, inv. 2707, O Věřňovice 1728–1792, snímek 126, levá strana, „Anno 1783 In Februario“, 1. zápis; duplikát sn. 125 P (digi.archives.cz; rejstřík F I 48 sn. 16 L)",
     "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F I 4, inv. 2700, N Věřňovice 1782–1803, snímek 12, pravá strana, „In Martio“ 4. zápis, křest 1784 (digi.archives.cz)",
     "ZA Opava, F I 4, snímek 78, křest syna 1785 (digi.archives.cz)",
-    "ZA Opava, fara Dolní Lutyně, Z 1824–1832 (inv. 2715), oddíl Dittmansdorf, Pag. 14 – FamilySearch DGS 5387451, snímek 48 vlevo"
+    "ZA Opava, fara Dolní Lutyně, Z 1824–1832 (inv. 2715), oddíl Dittmansdorf, Pag. 14 – FamilySearch DGS 5387451, snímek 48 vlevo",
+    "ZA Opava, fara Dolní Lutyně, Z 1824–1832, oddíl Dětmarovice, pag. 14 – FamilySearch DGS 5387451, snímek 48 vlevo"
    ],
    "scans": [
     {
@@ -2474,10 +2477,14 @@ window.RODOKMEN = {
     {
      "f": "img/1827_umrti_marina_kionkova.png",
      "t": "Úmrtí Mariny Kionkové, vdovy po Janu Kionkovi, Dětmarovice č. 17, únor 1827"
+    },
+    {
+     "f": "img/1827_umrti_marina_kionka.png",
+     "t": "Úmrtí Mariny Kionkové, vdovy po domkáři Janu Kionkovi, Dětmarovice č. 17, 26. 2. 1827 (71 let)"
     }
    ],
    "d": {
-    "date": "25. 2. 1827",
+    "date": "26. 2. 1827",
     "year": 1827,
     "place": "Dětmarovice č. 17"
    }
