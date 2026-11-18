@@ -2440,7 +2440,8 @@ window.RODOKMEN = {
     "fs_old4 (K): 28. III/IV 1753 si Jiří Wilczek, sedlák z Dětmarovic, vzal Marinu, vdovu po † Josefu Kaniovi (ten ∞ 22. 5. 1740 Marianna, dcera Jana Olmy). Sňatek 1776 však uvádí otce nevěsty „Ge-orges Kania“ (koordinátor znovu ověřil na výřezu – spíš Georges). Pokud by šlo o chybu písaře, mohla by být Marina dcerou Josefa Kanii a Marianny Olmové – jen hypotéza. Jiří Kijenka z Dětmarovic † před I 1757.",
     "fs_old7: křty 1746–I 1752 (F I 2 = DGS 5387436) – Marina/Marianna s otcem Kania/Kijenka není. Kaniové v Dětmarovicích: Andreas × Susanna (1747), Josef × Hedvigis (1747), Josef × Marina (Rosina 1750), Georg Kyenka × Anna (Anna 1750); ve Willmersdorfu Jacob × Magdalena. Nečteno II 1752 – 1753.",
     "fs_old9: Josef Kania, sedlák v Dětmarovicích, × Marina – dvojčata Hedvika a Rozina 10. 9. 1752 → Josef † IX 1752 – 1753, vdova Marina ∞ 1753 Jiří Wilczek. Křest Mariny Kaniové II 1752 – III 1753 není; Matěj Kijenka, kovář, × Hedvika (Václav 20. 8. 1752).",
-    "fs_old18 – pravděpodobný KŘEST 29. 6. 1744: „Ego Bartholomaeus Jos. Krzewski Parochus bapt. Marinam Georgi Kyjenka matris Susannae, Patrini Jacobus Karlik et Marina Kelwaska, oes Cathol. Rel. Dittm.“ (čtení M, ověřeno koordinátorem). Ztotožnění D: jediná Marina s otcem Jiřím Kijenkou/Kanií v I 1744 – III 1753 (mimo VI–X 1748); rozpor – při úmrtí 1791 uvedeno 43 let, podle křtu by jí bylo 46. Ověřit, že tato Marina nezemřela jako dítě (pohřby 1744–60)."
+    "fs_old18 – pravděpodobný KŘEST 29. 6. 1744: „Ego Bartholomaeus Jos. Krzewski Parochus bapt. Marinam Georgi Kyjenka matris Susannae, Patrini Jacobus Karlik et Marina Kelwaska, oes Cathol. Rel. Dittm.“ (čtení M, ověřeno koordinátorem). Ztotožnění D: jediná Marina s otcem Jiřím Kijenkou/Kanií v I 1744 – III 1753 (mimo VI–X 1748); rozpor – při úmrtí 1791 uvedeno 43 let, podle křtu by jí bylo 46. Ověřit, že tato Marina nezemřela jako dítě (pohřby 1744–60).",
+    "fs_old19: dětský pohřeb Mariny, dcery Jiřího Kijenky, VII 1744 – VII 1749 není (Marina †15. 10. 1747 je dcera Jakuba Kyonky). 25. 4. 1746 † Jiří Kyonka, 56 let (nar. ~1690) – otec Mariny, nebo starší Jiří (K). Křest 1750 „Georg Kyenka × Anna“ možná patří Řehoři Kyonkovi (vdovec, ∞ VII 1749 Anna Kubatko). Sňatek Jiří × Zuzana není I 1733 – II 1753."
    ],
    "sources": [
     "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F I 11, inv. 2707, O Věřňovice 1728–1792, snímek 109, pravá strana (fol. 107), „In Februario“ 1776, 3. zápis (digi.archives.cz; rejstřík F I 48 sn. 11 P)",
@@ -2493,13 +2494,15 @@ window.RODOKMEN = {
     "Manželka Magdalena; děti (křty Dětmarovice, F I 2): Marina 25. 3. 1741, dvojčata Pavel a Matyáš 13. 1. 1743, Joseph 12. 3. 1747, Magdalena 15. 2. 1749. Stálý kmotr Andreas Olma.",
     "Sňatek ~11. 11. 1737 (ohlášky 20.–22. neděle po Letnicích), filiální kostel sv. Máří Magdaleny v Dětmarovicích, oddával farář Bartoloměj Jos. Krzeczky: „filium Georgium defuncti Gregorij Hanusek & filiam Magdalenam Georgij Kotyrzyna utersque Dittmersdorffio“; svědci Petr Hanusek a Kašpar Ploteczka(?). Jména, otcové, obec, rok a měsíc M; den D.",
     "Sestra Magdalena, dcera † Řehoře Hanuska, ∞ VI 1741 Šimon Jordan, Dětmarovice (DGS 5387443 sn39 L).",
-    "fs_old2: 7. 7. 1749 se v Dětmarovicích oženil „Viduus Georgius Hanussek“ se Žofií, dcerou † Jiřího Hanuska(?) (K – snad tentýž Jiří po smrti Magdaleny, †~1749). Náš Matyáš (*13. 1. 1743, † 1798 ve věku 56) je ale z 1. manželství s Magdalenou. Bratr Pavel, syn † Řehoře Hanuska, ∞ I 1746 Anna Pawlik(?) (D)."
+    "fs_old2: 7. 7. 1749 se v Dětmarovicích oženil „Viduus Georgius Hanussek“ se Žofií, dcerou † Jiřího Hanuska(?) (K – snad tentýž Jiří po smrti Magdaleny, †~1749). Náš Matyáš (*13. 1. 1743, † 1798 ve věku 56) je ale z 1. manželství s Magdalenou. Bratr Pavel, syn † Řehoře Hanuska, ∞ I 1746 Anna Pawlik(?) (D).",
+    "fs_old19: první žena Magdalena † 17. 5. 1749 → sňatek „viduus Georgius Hanussek“ × Žofie 7. 7. 1749 je téměř jistě jeho (D). Pohřby dětí: Josef VI 1748 (5 týdnů), Magdalena II 1749."
    ],
    "sources": [
     "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F I 11, inv. 2707, O Věřňovice 1728–1792, snímek 109, pravá strana (fol. 107), „In Februario“ 1776, 3. zápis (digi.archives.cz; rejstřík F I 48 sn. 11 P)",
     "ZA Opava, NAD 165, sign. F I 2, inv. 2698, N Věřňovice 1728–1753, snímek 78 (digi.archives.cz)",
     "ZA Opava, fara Dolní Lutyně, O 1728–1792 (sign. F I 11, inv. 2707), XI 1737, 1. zápis – FamilySearch DGS 5387443, snímek 31 vlevo",
-    "ZA Opava, fara Dolní Lutyně, smíšená matrika 1672–1728 (inv. 2697) – FamilySearch DGS 5393677, křty IV 1710, snímek 167 vpravo"
+    "ZA Opava, fara Dolní Lutyně, smíšená matrika 1672–1728 (inv. 2697) – FamilySearch DGS 5393677, křty IV 1710, snímek 167 vpravo",
+    "ZA Opava, fara Dolní Lutyně, pohřby 1728–1778 (inv. 2710) – FamilySearch DGS 5387446, snímek 37 vpravo, V 1749"
    ],
    "scans": [
     {
@@ -2566,12 +2569,14 @@ window.RODOKMEN = {
    "notes": [
     "Manželka Jiřího Hanuska v Dětmarovicích, matka Mariny (1741), dvojčat Pavla a Matyáše (1743), Josefa (1747) a Magdaleny (1749). Jako matka našeho Matyáše D (viz výhradu u něj). Rok narození je odhad.",
     "Sňatek XI 1737 s Jiřím Hanuskem: „filiam Magdalenam Georgij Kotyrzyna“ z Dětmarovic (M). Jediný Jiří Hanusek ženich 1737–1742; rodiče dětí 1741–1749 sedí (ztotožnění M–D).",
-    "Křest 4. 6. 1713: „bapt. Magdalenam Parentum Georgij Koterzena et Marinae, levant. Georgio Florek, Anna Bartekowa et Hedvige Rydzezowa, Dittm.“ (M; příjmení psáno Koterzena). Ztotožnění D: pár Jiří × Marina doložen i 1707 (syn Ondřej), při sňatku 1737 by jí bylo 24 let."
+    "Křest 4. 6. 1713: „bapt. Magdalenam Parentum Georgij Koterzena et Marinae, levant. Georgio Florek, Anna Bartekowa et Hedvige Rydzezowa, Dittm.“ (M; příjmení psáno Koterzena). Ztotožnění D: pár Jiří × Marina doložen i 1707 (syn Ondřej), při sňatku 1737 by jí bylo 24 let.",
+    "ÚMRTÍ 17. 5. 1749: „Obiit Dittmersdorffy Magdalena Georgij Hanusek uxor annorum 3?(82?) SS provisa, Sep. Dittmersdorffy“ (jméno a manžel M, číslice věku nejasná – 32/36 by sedělo na křest 1713, 82 nikoli). Ztotožnění D–M: 3 měsíce po křtu dcery Magdaleny (15. 2. 1749), vdovec Jiří se znovu oženil 7. 7. 1749 (Žofie)."
    ],
    "sources": [
     "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F I 2, inv. 2698, N Věřňovice 1728–1753, snímek 85, pravá strana, „Anno 1743 Januarius“ 1. zápis (digi.archives.cz)",
     "ZA Opava, fara Dolní Lutyně, O 1728–1792 (sign. F I 11, inv. 2707), XI 1737, 1. zápis – FamilySearch DGS 5387443, snímek 31 vlevo",
-    "ZA Opava, fara Dolní Lutyně, smíšená matrika 1672–1728 (inv. 2697), křty VI 1713 – FamilySearch DGS 5393677, snímek 177 vlevo"
+    "ZA Opava, fara Dolní Lutyně, smíšená matrika 1672–1728 (inv. 2697), křty VI 1713 – FamilySearch DGS 5393677, snímek 177 vlevo",
+    "ZA Opava, fara Dolní Lutyně, pohřby 1728–1778 (inv. 2710) – FamilySearch DGS 5387446, snímek 37 vpravo, V 1749"
    ],
    "scans": [
     {
@@ -2585,10 +2590,19 @@ window.RODOKMEN = {
     {
      "f": "img/1737_snatek_hanusek_kotyrzyna.png",
      "t": "Sňatek Jiří Hanusek × Magdalena Kotyrzynová, Dětmarovice XI 1737"
+    },
+    {
+     "f": "img/1749_umrti_magdalena_hanuskova.png",
+     "t": "Úmrtí Magdaleny, ženy Jiřího Hanuska, Dětmarovice 17. 5. 1749"
     }
    ],
    "father": "georgKotyrzyna",
-   "mother": "marinaKotyrzyna"
+   "mother": "marinaKotyrzyna",
+   "d": {
+    "date": "17. 5. 1749",
+    "year": 1749,
+    "place": "Dětmarovice"
+   }
   },
   {
    "id": "matthausMatuszek",
