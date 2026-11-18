@@ -1659,15 +1659,21 @@ window.RODOKMEN = {
     "approx": true
    },
    "notes": [
-    "Otec Franze Drazzy/Drapky podle oddacího zápisu 1837, v té době již nežil (čtení „dortigen Ge… verstorbenen“ nejisté). Sken v nízkém rozlišení – D. Rok narození je odhad."
+    "Otec Franze Drazzy/Drapky podle oddacího zápisu 1837, v té době již nežil (čtení „dortigen Ge… verstorbenen“ nejisté). Sken v nízkém rozlišení – D. Rok narození je odhad.",
+    "Matrika výnosu pozemků 1820, Nieder Seibersdorf (Zebrzydowice Dolne): „Drappa Paul | 5. | Detto“ – držitel domu č. 5, 4 rustikální parcely, 2 jitra 1501 □ sáhů (malý držitel). Tamtéž Andreas Drappa č. 47 (K – příbuzný?) a Miczek Jacob č. 62, Miczek Joseph č. 87 (K – rodina manželky Terezie?). Ztotožnění s Paulem, otcem Franze, jen podle jména, obce a doby (D/K) – ověřit č. p. 5 v matrice."
    ],
    "sources": [
-    "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F VIII 11, inv. 10218, O Petrovice u Karviné 1836–1858, oddíl Závada, snímek 22, levá strana, 4. zápis, sňatek 27. 8. 1837 (digi.archives.cz)"
+    "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F VIII 11, inv. 10218, O Petrovice u Karviné 1836–1858, oddíl Závada, snímek 22, levá strana, 4. zápis, sňatek 27. 8. 1837 (digi.archives.cz)",
+    "ZA Opava, Matrika výnosu pozemků 1820, berní obec Nieder Seibersdorf (Zebrzydowice Dolne), abecední soupis držitelů, FamilySearch DGS 100313387, snímek 51, pořadí 19"
    ],
    "scans": [
     {
      "f": "img/1837_snatek_drazza_cyron.jpg",
      "t": "Sňatek Franz Drazza (Drapka) × Johanna Cyron, Závada 27. 8. 1837"
+    },
+    {
+     "f": "img/1820_drzitel_paul_drappa.png",
+     "t": "Pavel Drappa, držitel domu č. 5, Zebrzydowice Dolne 1820 (Matrika výnosu pozemků)"
     }
    ],
    "d": {
