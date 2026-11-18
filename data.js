@@ -3270,7 +3270,7 @@ window.RODOKMEN = {
    "b": {
     "date": "",
     "year": 1740,
-    "place": "",
+    "place": "Závada (?)",
     "approx": true
    },
    "occ": "sedlák (Ackerbauer)",
@@ -3279,17 +3279,25 @@ window.RODOKMEN = {
     "zao_r61 (K): 27. 12. 1777 pokřtěn v Darkově Jan, syn „Simon Cyron Häusler & Anna“ (F IV 5, inv. 2733, sn51 L) – snad týž Šimon (manželka Anna); jen podle jména.",
     "zao_r62 (D): 18. 10. 1775 kmotr „Simon Gyron ex Sowada Anbauer“ (F IV 5 sn35 L, Koukolná) a 16. 9. 1773 „Simon Giron … Anbauer“ (sn19 P) – Šimon Cyron, sedlák ze Závady, doložen 1773–75. Křest syna Pavla v N Fryštát VII 1773 – XII 1775 není; nečteno IX 1771 – VI 1773.",
     "zao_r63: křest Pavla, syna Šimona, v N Fryštát IV 1771 – III 1778 není (K–D). Jiný(?) Šimon Cyron, podruh × Marina, Dolní předměstí: syn Ondřej 6. 11. 1772 (kmotři stejní jako u Jana 1777 – K). Kmotr X 1772 „Paul Gyron … von Zowada“ (dospělý; otec či bratr Šimona? K).",
-    "zao_r64: křest Pavla v N Fryštát (F IV 4) V 1768 – XI 1770 není (kromě nečteného II–IV 1770). Kmotr 4. 6. 1770 „Paulus Giron … ex Zovada“ (M) – dospělý Pavel Cyron ze Závady (1770, 1772), snad otec/bratr Šimona (K)."
+    "zao_r64: křest Pavla v N Fryštát (F IV 4) V 1768 – XI 1770 není (kromě nečteného II–IV 1770). Kmotr 4. 6. 1770 „Paulus Giron … ex Zovada“ (M) – dospělý Pavel Cyron ze Závady (1770, 1772), snad otec/bratr Šimona (K).",
+    "SŇATEK 24. 11. 1765, Fryštát: „Simon | Honestus Adolescens Martini Ciron filius ex Zovada cum honesta puella Margaretha defuncti Michaelis Stolka filia ex eodem pago. Copulavit P. Joannes Kubik …“ (čtení M, ověřeno koordinátorem; měsíc z nadpisu D). Ztotožnění se Šimonem, sedlákem ze Závady (1773/75, 1803), D – jiný Šimon Cyron ze Závady 1765–78 nenalezen (Šimon „Gyron“ ∞ 4. 2. 1765 Anna Oslislo je ze Starého Města, jiný). Manželka Markéta roz. Stolková – zda je matkou Pavla (*~1769), neověřeno (křest nenalezen VII 1767 – III 1778). Pavel Cyron ze Závady, kmotr 1770/1772, snad Šimonův bratr (K).",
+    "zao_r66: křest dítěte Šimona × Markéty (Pavla) v N Fryštát XI 1765 – III 1778 není (souvisle; K–D). Kmotr 26. 10. 1766 „Joannes Stolka ex Zovada“ – patrně bratr Markéty (K)."
    ],
    "sources": [
-    "ZA Opava, fara Petrovice, O 1797–1858 (sign. F VIII 6, inv. 2793), oddíl Závada, 1803, pag. 3 – snímek 62 vpravo"
+    "ZA Opava, fara Petrovice, O 1797–1858 (sign. F VIII 6, inv. 2793), oddíl Závada, 1803, pag. 3 – snímek 62 vpravo",
+    "ZA Opava, fara Fryštát, O 1762–1792 (sign. F IV 7, inv. 2735), XI 1765, pag. 30 – snímek 17 vlevo"
    ],
    "scans": [
     {
      "f": "img/1803_snatek_cyron_hedwiga.png",
      "t": "Sňatek Pavel Ciron, syn sedláka Šimona (28) × Hedvika Sziemrothová(?) (18), Závada 1. 1. 1803"
+    },
+    {
+     "f": "img/1765_snatek_simon_cyron_stolka.png",
+     "t": "Sňatek Šimon Ciron, syn Martina, ze Závady × Markéta, dcera † Michala Stolky, Fryštát 24. 11. 1765"
     }
-   ]
+   ],
+   "father": "martinCyron"
   },
   {
    "id": "johannDziegiel",
@@ -3353,6 +3361,33 @@ window.RODOKMEN = {
     {
      "f": "img/1793_umrti_marina_kusnikova.png",
      "t": "Úmrtí Mariny, vdovy po Martinu Kuznikovi, Dětmarovice č. 17, 9. 12. 1793 (70 let)"
+    }
+   ]
+  },
+  {
+   "id": "martinCyron",
+   "name": "Martin Cyron (Ciron)",
+   "maiden": "",
+   "line": "grzonka",
+   "cert": "D",
+   "alive": false,
+   "b": {
+    "date": "",
+    "year": 1715,
+    "place": "",
+    "approx": true
+   },
+   "notes": [
+    "Otec Šimona Cyrona ze Závady: „Martini Ciron filius ex Zovada“ (sňatek syna 24. 11. 1765, Fryštát; M). Ztotožnění Šimona 1765 = otec Pavla Cyrona (1803) D, proto D. V roce 1765 bez „defunctus“ – patrně žil. Rok narození je odhad.",
+    "zao_r67: v Závadě i Valentin Cyron („Valentini Gyron … ex Zawada“, syn Matouš ∞ 6. 2. 1763 Hedvika z Koukolné) – dvě rodiny Cyronů v Závadě. Sňatek Pavla Cyrona st. 1762–X 1766 není; jiné děti Martina ženaté 1762–64 nenalezeny."
+   ],
+   "sources": [
+    "ZA Opava, fara Fryštát, O 1762–1792 (sign. F IV 7, inv. 2735), XI 1765, pag. 30 – snímek 17 vlevo"
+   ],
+   "scans": [
+    {
+     "f": "img/1765_snatek_simon_cyron_stolka.png",
+     "t": "Sňatek Šimon Ciron, syn Martina, ze Závady × Markéta, dcera † Michala Stolky, Fryštát 24. 11. 1765"
     }
    ]
   }
