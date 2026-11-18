@@ -2086,7 +2086,8 @@ window.RODOKMEN = {
    },
    "father": "johannKaluza",
    "notes": [
-    "Sňatek 29. 1. 1799 s Pavlem Schittkem, 22 let (nar. ~1777), dcera Jana Kalužy. Matka Barbory (křest 1809 „Anna geb. Kalluza“). Rok narození z věku."
+    "Sňatek 29. 1. 1799 s Pavlem Schittkem, 22 let (nar. ~1777), dcera Jana Kalužy. Matka Barbory (křest 1809 „Anna geb. Kalluza“). Rok narození z věku.",
+    "zao_r61: křest v N Fryštát XII 1775 – III 1778 nenalezen (K); nečteno 1771–XI 1775 a od III 1778."
    ],
    "sources": [
     "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F VIII 6, inv. 2793, O Petrovice u Karviné 1797–1858, oddíl Závada, snímek 61, pravá strana (pag. 1), 1. zápis, sňatek 29. 1. 1799 (digi.archives.cz)",
@@ -3271,7 +3272,8 @@ window.RODOKMEN = {
    },
    "occ": "sedlák (Ackerbauer)",
    "notes": [
-    "Otec Pavla Cyrona: „Paul des Simon Ciron Ackerbauers Sohn“ (sňatek 1. 1. 1803, Závada; M). Ztotožnění Pavla 1803 = Pavel 1817/1839 je D, proto D. Rok narození je odhad."
+    "Otec Pavla Cyrona: „Paul des Simon Ciron Ackerbauers Sohn“ (sňatek 1. 1. 1803, Závada; M). Ztotožnění Pavla 1803 = Pavel 1817/1839 je D, proto D. Rok narození je odhad.",
+    "zao_r61 (K): 27. 12. 1777 pokřtěn v Darkově Jan, syn „Simon Cyron Häusler & Anna“ (F IV 5, inv. 2733, sn51 L) – snad týž Šimon (manželka Anna); jen podle jména."
    ],
    "sources": [
     "ZA Opava, fara Petrovice, O 1797–1858 (sign. F VIII 6, inv. 2793), oddíl Závada, 1803, pag. 3 – snímek 62 vpravo"
