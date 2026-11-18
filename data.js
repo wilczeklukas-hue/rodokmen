@@ -2361,12 +2361,14 @@ window.RODOKMEN = {
     "fs_old46: křest Joannese Kionky/Kijenky není v souvislém úseku 2. I 1754 – 28. III 1758 (DGS 5387437 sn2–26). Otcové Kijenka v Dětmarovicích 1754–57: Šimon × Anna/Rosina, Matěj × Hedvika, Řehoř × Anna.",
     "fs_old47 – kandidátní křty (K, jen jméno a obec): 18. 6. 1759 „Joes Patris Mathiae Kijenka Dom. Dittm. Matris Marinae“ a 7. 6. 1761 „Joannes – Mathiae Kionka, Matris Rosinae“, Dětmarovice (DGS 5387437 sn32 L, sn43 L; čtení M). Rozhodne věk při úmrtí (~1824–27).",
     "fs_old48: úmrtí v Dětmarovicích 22. I 1824 – 6. II 1827 není (DGS 5387451 sn41–47, M); není ani v rejstříku 1784–1823 → zemřel před 1824 jinde než v rejstříku, nebo mimo farnost. Další: knihy Z 1804–1823 (DGS 5387449/5387450) po stránkách.",
-    "fs_old49: úmrtí není ani VIII 1817 – XII 1823 (DGS 5387449 sn49–54, čteno po stranách) a v úplném rejstříku 1804–1823 (DGS 5387450) Joannes Kionka z Dětmarovic chybí (M). Zemřel tedy nejspíš 1785–1803: v rejstříku 1784–1803 (DGS 5387448) je „Kijonka Joannes, Dittmansdorf, fol. 2 (2da parte)“ (fs_old42) – kandidát K."
+    "fs_old49: úmrtí není ani VIII 1817 – XII 1823 (DGS 5387449 sn49–54, čteno po stranách) a v úplném rejstříku 1804–1823 (DGS 5387450) Joannes Kionka z Dětmarovic chybí (M). Rejstříkový „Kijonka Joannes, fol. 2/2da parte“ (1784–1803) je pětiletý chlapec † 10. 4. 1786, syn † Jana Kionky (fs_old50) – NE on.",
+    "Žil ještě 16. 9. 1787: toho dne zemřel v Dětmarovicích č. 17 „Jacobus des Johann Kijonka Häuslers und Schmieds Kind“, 2½ roku, neštovice (DGS 5387447 sn67 L, fol. 3/2; M, ověřeno koordinátorem) – syn Jakub Jan (*1785). Úmrtí Jana není XI 1784 – X 1790 (sn64–69). Zemřel tedy mezi X 1790 a 1803."
    ],
    "sources": [
     "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F I 11, inv. 2707, O Věřňovice 1728–1792, snímek 126, levá strana, „Anno 1783 In Februario“, 1. zápis; duplikát sn. 125 P (digi.archives.cz; rejstřík F I 48 sn. 16 L)",
     "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F I 12, inv. 2708, O Věřňovice 1793–1823, oddíl Dětmarovice, snímek 37, levá strana (fol. 80), 2. zápis, sňatek 9. 1. 1804 (digi.archives.cz)",
-    "ZA Opava, NAD 165, sign. F I 4, inv. 2700, N Věřňovice 1782–1803, oddíl Dětmarovice, snímek 78, levá strana, křest 1. 7. 1785 (digi.archives.cz)"
+    "ZA Opava, NAD 165, sign. F I 4, inv. 2700, N Věřňovice 1782–1803, oddíl Dětmarovice, snímek 78, levá strana, křest 1. 7. 1785 (digi.archives.cz)",
+    "ZA Opava, fara Dolní Lutyně, Z 1779–1803, oddíl Dětmarovice od XI 1784, fol. 3 verso – FamilySearch DGS 5387447, snímek 67 vlevo"
    ],
    "scans": [
     {
