@@ -1608,7 +1608,8 @@ window.RODOKMEN = {
     "zao_r37: den sňatku 2. 10. 1827 („Den 2.“, M–D); otec ženicha „des + Math…“ – Mathias nejpravděpodobnější (K–D); svědci Paul a Johann Lenczyk(?), Häusler (K).",
     "zao_r38: křest Jiřího v Závadě VIII 1801 – X 1802 není (F VIII 4, inv. 2791, sn164). Nečteno sn163 P (III–IX 1801) a sn165–166.",
     "zao_r39: křest v Závadě IX 1799 – VII 1805 není (F VIII 4 sn162–166; II–VI 1803 asi chybí). Možné: chybný věk ve sňatku nebo narozen jinde.",
-    "zao_r41: Závada IX 1799 – XI 1810 (F VIII 4 sn162–169) bez křtu Jiřího Bendy (mimo mezeru II–VI 1803) → narozen jinde."
+    "zao_r41: Závada IX 1799 – XI 1810 (F VIII 4 sn162–169) bez křtu Jiřího Bendy (mimo mezeru II–VI 1803) → narozen jinde.",
+    "zao_r43: křest není ani v Prstné I 1800 – III 1805 ani v Petrovicích XI 1799 – XII 1803 (F VIII 4). Slabý kandidát K: IV 1801 Petrovice „Georgius Jacobus“, otec Josef Lauda(?)/Benda(?), domkář – otec nesedí (Josef × Math…). Další krok: rejstřík F VIII 9 (I-N/I-Z/I-O 1785–1859, inv. 2796), písmeno B."
    ],
    "sources": [
     "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F VIII 18, inv. 18470, O Petrovice u Karviné, Prstná, Závada 1859–1949, snímek 196, levá strana, 2. zápis, sňatek 27. 11. 1860 (digi.archives.cz)",
