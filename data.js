@@ -1183,10 +1183,12 @@ window.RODOKMEN = {
    },
    "occ": "sedlák v Pruchné",
    "notes": [
-    "KANDIDÁT: otec Mathiase podle indexu sňatku 1797 (ztotožnění K). V Pruchné doloženi jeho synové Joseph, Mathias a Paul (sňatky 1794–1798). Rok narození je odhad."
+    "KANDIDÁT: otec Mathiase podle indexu sňatku 1797 (ztotožnění K). V Pruchné doloženi jeho synové Joseph, Mathias a Paul (sňatky 1794–1798). Rok narození je odhad.",
+    "Josefský katastr 1788, Pruchna (FS DGS 100297566, sn. 14): „Jacob Mattuschinsky(?) Haus No 24“ – držitel domu č. 24 (parc. 154–157). Tutéž usedlost č. 24 drží 1820 Andreas Matuschinsky (nástupce, příbuznost nedoložena). Ztotožnění s Jakubem, otcem Mathiase, jen podle jména a obce (K)."
    ],
    "sources": [
-    "Geneteka (index PTG), śląskie, parafia Pruchna, sňatek 1797 akt 3"
+    "Geneteka (index PTG), śląskie, parafia Pruchna, sňatek 1797 akt 3",
+    "ZA Opava, Josefský katastr 1788, Pruchna, parcelní protokol, FamilySearch DGS 100297566, snímek 14"
    ],
    "scans": []
   },
