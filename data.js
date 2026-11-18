@@ -2426,10 +2426,9 @@ window.RODOKMEN = {
    "cert": "M",
    "alive": false,
    "b": {
-    "date": "",
-    "year": 1748,
-    "place": "Dětmarovice (?)",
-    "approx": true
+    "date": "29. 6. 1744",
+    "year": 1744,
+    "place": "Dětmarovice"
    },
    "notes": [
     "Sňatek II 1776 s Matyášem Hanuškem: „Jungfrau Marina des Georg Kania Bauers Tochter“ (M). V křtu dcery Rosiny 1781 „Marina gebohrne Kanin“ (ženská forma Kania).",
@@ -2439,14 +2438,20 @@ window.RODOKMEN = {
     "zao_r31: Marina dcera Jiřího Kani není ani VI 1739 – III 1741 a I–V 1743. Rodina Jiří Kijenka/Kijonka × Zuzana (Dětmarovice, stálí kmotři Karlik a Kolwas) měla děti Matouš 11. 9. 1739/40, Marianna 6. 2. 1743, Marina 29. 6. 1744 – „Kania“ (sňatek 1776, „Kanin“ 1781) by mohla být zkomolenina Kijenka/Kionka, ale oba zápisy píší jasně Kania → hypotéza K, nezapsáno.",
     "fs_old4 (K): 28. III/IV 1753 si Jiří Wilczek, sedlák z Dětmarovic, vzal Marinu, vdovu po † Josefu Kaniovi (ten ∞ 22. 5. 1740 Marianna, dcera Jana Olmy). Sňatek 1776 však uvádí otce nevěsty „Ge-orges Kania“ (koordinátor znovu ověřil na výřezu – spíš Georges). Pokud by šlo o chybu písaře, mohla by být Marina dcerou Josefa Kanii a Marianny Olmové – jen hypotéza. Jiří Kijenka z Dětmarovic † před I 1757.",
     "fs_old7: křty 1746–I 1752 (F I 2 = DGS 5387436) – Marina/Marianna s otcem Kania/Kijenka není. Kaniové v Dětmarovicích: Andreas × Susanna (1747), Josef × Hedvigis (1747), Josef × Marina (Rosina 1750), Georg Kyenka × Anna (Anna 1750); ve Willmersdorfu Jacob × Magdalena. Nečteno II 1752 – 1753.",
-    "fs_old9: Josef Kania, sedlák v Dětmarovicích, × Marina – dvojčata Hedvika a Rozina 10. 9. 1752 → Josef † IX 1752 – 1753, vdova Marina ∞ 1753 Jiří Wilczek. Křest Mariny Kaniové II 1752 – III 1753 není; Matěj Kijenka, kovář, × Hedvika (Václav 20. 8. 1752)."
+    "fs_old9: Josef Kania, sedlák v Dětmarovicích, × Marina – dvojčata Hedvika a Rozina 10. 9. 1752 → Josef † IX 1752 – 1753, vdova Marina ∞ 1753 Jiří Wilczek. Křest Mariny Kaniové II 1752 – III 1753 není; Matěj Kijenka, kovář, × Hedvika (Václav 20. 8. 1752).",
+    "fs_old18 – pravděpodobný KŘEST 29. 6. 1744: „Ego Bartholomaeus Jos. Krzewski Parochus bapt. Marinam Georgi Kyjenka matris Susannae, Patrini Jacobus Karlik et Marina Kelwaska, oes Cathol. Rel. Dittm.“ (čtení M, ověřeno koordinátorem). Ztotožnění D: jediná Marina s otcem Jiřím Kijenkou/Kanií v I 1744 – III 1753 (mimo VI–X 1748); rozpor – při úmrtí 1791 uvedeno 43 let, podle křtu by jí bylo 46. Ověřit, že tato Marina nezemřela jako dítě (pohřby 1744–60)."
    ],
    "sources": [
     "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F I 11, inv. 2707, O Věřňovice 1728–1792, snímek 109, pravá strana (fol. 107), „In Februario“ 1776, 3. zápis (digi.archives.cz; rejstřík F I 48 sn. 11 P)",
     "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F I 3, inv. 2699, N Věřňovice 1754–1781, snímek 136, pravá strana, zápis nad „In Junio“, křest 1781 (digi.archives.cz)",
-    "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F I 15, inv. 2711, Z Věřňovice 1779–1803, oddíl Dětmarovice, snímek 68, pravá strana (list 4 recto), úmrtí 1791 (digi.archives.cz)"
+    "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F I 15, inv. 2711, Z Věřňovice 1779–1803, oddíl Dětmarovice, snímek 68, pravá strana (list 4 recto), úmrtí 1791 (digi.archives.cz)",
+    "ZA Opava, fara Dolní Lutyně, N 1728–1753 (F I 2) – FamilySearch DGS 5387436, snímek 93 vpravo (= ZAO sn92), VI 1744"
    ],
    "scans": [
+    {
+     "f": "img/1744_krest_marina_kijenka.png",
+     "t": "Křest Mariny, dcery Jiřího Kyjenky a Zuzany, Dětmarovice 29. 6. 1744"
+    },
     {
      "f": "img/1776_snatek_hanusek_kania.jpg",
      "t": "Sňatek Mathias Hanussek × Marina Kania, Dětmarovice II 1776"
@@ -2465,7 +2470,8 @@ window.RODOKMEN = {
     "date": "8. 5. 1791",
     "year": 1791,
     "place": "Dětmarovice, č. 13"
-   }
+   },
+   "mother": "susannaKijenka"
   },
   {
    "id": "georgHanusek",
@@ -2526,15 +2532,21 @@ window.RODOKMEN = {
    },
    "occ": "sedlák (Bauer) v Dětmarovicích",
    "notes": [
-    "Otec Mariny Hanuškové (sňatek dcery 1776). Rok narození je odhad."
+    "Otec Mariny Hanuškové (sňatek dcery 1776). Rok narození je odhad.",
+    "fs_old18: manželka Zuzana (křest dcery Mariny 29. 6. 1744, D); 21. 7. 1750 dcera Anna s matkou Annou – možná 2. manželka (K)."
    ],
    "sources": [
-    "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F I 11, inv. 2707, O Věřňovice 1728–1792, snímek 109, pravá strana (fol. 107), „In Februario“ 1776, 3. zápis (digi.archives.cz; rejstřík F I 48 sn. 11 P)"
+    "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F I 11, inv. 2707, O Věřňovice 1728–1792, snímek 109, pravá strana (fol. 107), „In Februario“ 1776, 3. zápis (digi.archives.cz; rejstřík F I 48 sn. 11 P)",
+    "ZA Opava, fara Dolní Lutyně, N 1728–1753 (F I 2) – FamilySearch DGS 5387436, snímek 93 vpravo (= ZAO sn92), VI 1744"
    ],
    "scans": [
     {
      "f": "img/1776_snatek_hanusek_kania.jpg",
      "t": "Sňatek Mathias Hanussek × Marina Kania, Dětmarovice II 1776"
+    },
+    {
+     "f": "img/1744_krest_marina_kijenka.png",
+     "t": "Křest Mariny, dcery Jiřího Kyjenky a Zuzany, Dětmarovice 29. 6. 1744"
     }
    ]
   },
@@ -2850,6 +2862,32 @@ window.RODOKMEN = {
     {
      "f": "img/1809_krest_zuzana_surma.png",
      "t": "Křest Zuzany, dcery Jiřího Surmy a Magdaleny, Lazy č. 21, 19. 5. 1809"
+    }
+   ]
+  },
+  {
+   "id": "susannaKijenka",
+   "name": "Zuzana Kijenková (Kaniová)",
+   "maiden": "",
+   "line": "grzonka",
+   "cert": "D",
+   "alive": false,
+   "b": {
+    "date": "",
+    "year": 1715,
+    "place": "",
+    "approx": true
+   },
+   "notes": [
+    "Manželka Jiřího Kijenky (Kanii) z Dětmarovic, matka Mariny pokř. 29. 6. 1744 (čtení M). Jistota D, protože ztotožnění Mariny 1744 s pozdější Marinou Hanuškovou je jen pravděpodobné. Rodné příjmení neznámé; sňatek nenalezen VIII 1733 – II 1742 (nečteno 1728 – VII 1733). Rok narození je odhad."
+   ],
+   "sources": [
+    "ZA Opava, fara Dolní Lutyně, N 1728–1753 (F I 2) – FamilySearch DGS 5387436, snímek 93 vpravo (= ZAO sn92), VI 1744"
+   ],
+   "scans": [
+    {
+     "f": "img/1744_krest_marina_kijenka.png",
+     "t": "Křest Mariny, dcery Jiřího Kyjenky a Zuzany, Dětmarovice 29. 6. 1744"
     }
    ]
   }
