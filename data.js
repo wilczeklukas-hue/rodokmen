@@ -2529,20 +2529,25 @@ window.RODOKMEN = {
    "cert": "M",
    "alive": false,
    "b": {
-    "date": "",
-    "year": 1717,
-    "place": "Dětmarovice (?)",
-    "approx": true
+    "date": "4. 6. 1713",
+    "year": 1713,
+    "place": "Dětmarovice"
    },
    "notes": [
     "Manželka Jiřího Hanuska v Dětmarovicích, matka Mariny (1741), dvojčat Pavla a Matyáše (1743), Josefa (1747) a Magdaleny (1749). Jako matka našeho Matyáše D (viz výhradu u něj). Rok narození je odhad.",
-    "Sňatek XI 1737 s Jiřím Hanuskem: „filiam Magdalenam Georgij Kotyrzyna“ z Dětmarovic (M). Jediný Jiří Hanusek ženich 1737–1742; rodiče dětí 1741–1749 sedí (ztotožnění M–D)."
+    "Sňatek XI 1737 s Jiřím Hanuskem: „filiam Magdalenam Georgij Kotyrzyna“ z Dětmarovic (M). Jediný Jiří Hanusek ženich 1737–1742; rodiče dětí 1741–1749 sedí (ztotožnění M–D).",
+    "Křest 4. 6. 1713: „bapt. Magdalenam Parentum Georgij Koterzena et Marinae, levant. Georgio Florek, Anna Bartekowa et Hedvige Rydzezowa, Dittm.“ (M; příjmení psáno Koterzena). Ztotožnění D: pár Jiří × Marina doložen i 1707 (syn Ondřej), při sňatku 1737 by jí bylo 24 let."
    ],
    "sources": [
     "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F I 2, inv. 2698, N Věřňovice 1728–1753, snímek 85, pravá strana, „Anno 1743 Januarius“ 1. zápis (digi.archives.cz)",
-    "ZA Opava, fara Dolní Lutyně, O 1728–1792 (sign. F I 11, inv. 2707), XI 1737, 1. zápis – FamilySearch DGS 5387443, snímek 31 vlevo"
+    "ZA Opava, fara Dolní Lutyně, O 1728–1792 (sign. F I 11, inv. 2707), XI 1737, 1. zápis – FamilySearch DGS 5387443, snímek 31 vlevo",
+    "ZA Opava, fara Dolní Lutyně, smíšená matrika 1672–1728 (inv. 2697), křty VI 1713 – FamilySearch DGS 5393677, snímek 177 vlevo"
    ],
    "scans": [
+    {
+     "f": "img/1713_krest_magdalena_kotyrzyna.png",
+     "t": "Křest Magdaleny, dcery Jiřího Kotyrzeny a Mariny, Dětmarovice 4. 6. 1713"
+    },
     {
      "f": "img/1743_krest_matyas_hanusek.jpg",
      "t": "Křest dvojčat Pavla a Matyáše Hanuskových, 13. 1. 1743, Dětmarovice"
@@ -2552,7 +2557,8 @@ window.RODOKMEN = {
      "t": "Sňatek Jiří Hanusek × Magdalena Kotyrzynová, Dětmarovice XI 1737"
     }
    ],
-   "father": "georgKotyrzyna"
+   "father": "georgKotyrzyna",
+   "mother": "marinaKotyrzyna"
   },
   {
    "id": "matthausMatuszek",
@@ -2647,11 +2653,13 @@ window.RODOKMEN = {
    "notes": [
     "Otec Magdaleny Hanuskové; při jejím sňatku XI 1737 žil (bez „defuncti“), v Dětmarovicích; 1738 ještě jako svědek (fs_old1).",
     "Úmrtí 14. 12. 1743: „obiit Georgius Kotyrzyna Ann. 78 Cathol. Rel. o. SS. provisus Ditth. ad S. Mariam Magdalenam sepultus“ (M; ztotožnění D – jméno a obec, jediný Jiří Kotyrzyna). Věk 78 → nar. ~1665. Jako „Georgius Kotyrzena“ svědek už 1705 (sňatek Řehoře Hanuska) a kmotr 1707; syn Ondřej pokř. 11. 11. 1707 (matka Marina) – Magdalena tedy možná dcera Mariny (K).",
-    "fs_old9: kandidát křtu Magdaleny ~24. 6. 1713, „Magdalenam Parentum Georgij Kotyrzena(?) et Marinae“, Dětmarovice (DGS 5393677 sn177 L; K–D, čteno jen z přehledu – ověřit)."
+    "fs_old9: kandidát křtu Magdaleny ~24. 6. 1713, „Magdalenam Parentum Georgij Kotyrzena(?) et Marinae“, Dětmarovice (DGS 5393677 sn177 L; K–D, čteno jen z přehledu – ověřit).",
+    "Děti s Marinou (DGS 5393677): Ondřej pokř. 11. 11. 1707 (sn158 P), Magdalena pokř. 4. 6. 1713 (sn177 L)."
    ],
    "sources": [
     "ZA Opava, fara Dolní Lutyně, O 1728–1792 (sign. F I 11, inv. 2707), XI 1737, 1. zápis – FamilySearch DGS 5387443, snímek 31 vlevo",
-    "ZA Opava, fara Dolní Lutyně, pohřby 1728–1778 (inv. 2710) – FamilySearch DGS 5387446, XII 1743, snímek 28 vlevo"
+    "ZA Opava, fara Dolní Lutyně, pohřby 1728–1778 (inv. 2710) – FamilySearch DGS 5387446, XII 1743, snímek 28 vlevo",
+    "ZA Opava, fara Dolní Lutyně, smíšená matrika 1672–1728 (inv. 2697), křty VI 1713 – FamilySearch DGS 5393677, snímek 177 vlevo"
    ],
    "scans": [
     {
@@ -2661,6 +2669,10 @@ window.RODOKMEN = {
     {
      "f": "img/1743_umrti_jiri_kotyrzyna.png",
      "t": "Úmrtí Jiřího Kotyrzyny (78 let), Dětmarovice 14. 12. 1743"
+    },
+    {
+     "f": "img/1713_krest_magdalena_kotyrzyna.png",
+     "t": "Křest Magdaleny, dcery Jiřího Kotyrzeny a Mariny, Dětmarovice 4. 6. 1713"
     }
    ],
    "d": {
@@ -2763,6 +2775,32 @@ window.RODOKMEN = {
     {
      "f": "img/1827_snatek_benda_surma.png",
      "t": "Sňatek Jiří Benda (Závada č. 2) × Johanna Surmová (Lazy), Orlová X 1827"
+    }
+   ]
+  },
+  {
+   "id": "marinaKotyrzyna",
+   "name": "Marina Kotyrzynová",
+   "maiden": "",
+   "line": "grzonka",
+   "cert": "M",
+   "alive": false,
+   "b": {
+    "date": "",
+    "year": 1675,
+    "place": "",
+    "approx": true
+   },
+   "notes": [
+    "Manželka Jiřího Kotyrzeny, matka Magdaleny (pokř. 4. 6. 1713) a Ondřeje (pokř. 11. 11. 1707), Dětmarovice. Rodné příjmení v zápisech neuvedeno. 1705 jako svědkyně „Marina Kotyrzonka“ (sňatek Řehoře Hanuska). Rok narození je odhad."
+   ],
+   "sources": [
+    "ZA Opava, fara Dolní Lutyně, smíšená matrika 1672–1728 (inv. 2697), křty VI 1713 – FamilySearch DGS 5393677, snímek 177 vlevo"
+   ],
+   "scans": [
+    {
+     "f": "img/1713_krest_magdalena_kotyrzyna.png",
+     "t": "Křest Magdaleny, dcery Jiřího Kotyrzeny a Mariny, Dětmarovice 4. 6. 1713"
     }
    ]
   }
