@@ -2346,14 +2346,14 @@ window.RODOKMEN = {
    "alive": false,
    "b": {
     "date": "",
-    "year": 1755,
+    "year": 1754,
     "place": "Dětmarovice (?)",
     "approx": true
    },
    "occ": "domkář a kovář (?) v Dětmarovicích č. 12",
    "notes": [
     "Sňatek 3. 2. 1783, Dětmarovice č. 17, oddával farář Joseph Palarzik: „Johann Kionka ein Häusler und Schmid mit Marina des verstorbenen Martin Kußnik wail. herrschaftl. Schmieds ehel. Tochter“. Svědci Georg Wiltschek (?) z Dětmarovic; Joseph Bednarczik (?), domkář a kostelník z Dolní Lutyně. Věk ani rodiče ženicha neuvedeny (M). Zapsáno dvakrát (sn. 125 P a 126 L).",
-    "Otec Josefa Kionky (sňatek syna 1804; povolání „und Schmidts“ je vsuvka nad řádkem – K). Rok narození je odhad.",
+    "Otec Josefa Kionky (sňatek syna 1804; povolání „und Schmidts“ je vsuvka nad řádkem – K).",
     "Křest syna Jakuba Jana 1. 7. 1785, Dětmarovice č. 17: „Kionka Johann ein Häusler und Schmid | Marianna des verstorb. Martin Kuznik (?) Tochter“ (M; příjmení matky K). Povolání „Häusler und Schmid“ shodné se sňatkem syna Josefa 1804 – tatáž rodina (D); svědek 1804 Johann Kuznik nejspíš příbuzný. Marina/Marianna je i matkou Josefa (křest 1784).",
     "Zemřel před II 1827 (manželka Marina 1827 „Wittwe nach + Johann Kionka gewesenen Häusler“). V úmrtích Dětmarovic I 1824 – II 1827 není → nejspíš zemřel před 1824 (F I 17, 1804–23).",
     "fs_old44 (K): v Dětmarovicích č. 36 zemřel 12. 10. 1782 „Johann Kionka ein Häusler“, 45 let, a 6. 12. 1782 jeho vdova Marina, 45 let (DGS 5387447 sn19) – možná rodiče ženicha z 3. 2. 1783 (sňatek 4 měsíce po smrti otce); jen podle jména, neověřeno. fs_old45: zápisy přečteny při zvětšení – „Johann Kionka ein Häusler oder Robot Gärtner“, 45, a „Marina nach dem verstorbenen Johann Kionka Robot Gärtner nachgebliebene Wittib“, 45 (M); kovář NENÍ uveden.",
@@ -2364,14 +2364,16 @@ window.RODOKMEN = {
     "fs_old49: úmrtí není ani VIII 1817 – XII 1823 (DGS 5387449 sn49–54, čteno po stranách) a v úplném rejstříku 1804–1823 (DGS 5387450) Joannes Kionka z Dětmarovic chybí (M). Rejstříkový „Kijonka Joannes, fol. 2/2da parte“ (1784–1803) je pětiletý chlapec † 10. 4. 1786, syn † Jana Kionky (fs_old50) – NE on.",
     "Žil ještě 16. 9. 1787: toho dne zemřel v Dětmarovicích č. 17 „Jacobus des Johann Kijonka Häuslers und Schmieds Kind“, 2½ roku, neštovice (DGS 5387447 sn67 L, fol. 3/2; M, ověřeno koordinátorem) – syn Jakub Jan (*1785). Úmrtí Jana není XI 1784 – X 1790 (sn64–69). Zemřel tedy mezi X 1790 a 1803.",
     "Žil ještě 22. 3. 1798: „Franciscus des Johann Kionka Schmied und Häuslers Kind“, č. 17, zemřel (DGS 5387447 sn84 L, fol. 29; M, ověřeno koordinátorem). Úmrtí Jana není X 1790 – VI 1798 ani IV–XII 1803 (fs_old51) → zemřel VI 1798 – IV 1803 (nečteno sn85–93), nebo mimo farnost. V domě č. 16 žil další kovář Simon Kijonka (příbuzenství neověřeno).",
-    "fs_old52: žil ještě 23. 6. 1799 („Magdalena des Johann Kionka Häuslers Kind“, 2 roky, č. 17; DGS 5387447 sn87 P; D–M). Celý dětmarovický oddíl pohřbů XI 1784 – XII 1803 přečten – jeho pohřeb tam NENÍ. Sousední č. 16: „Simon Kionka Häusler und Schmidt“ † 22. 9. 1799, 65 let (snad příbuzný – K). Zbývá číst knihu 1804 – VII 1817 po stranách (rejstřík ho nemá)."
+    "fs_old52: žil ještě 23. 6. 1799 („Magdalena des Johann Kionka Häuslers Kind“, 2 roky, č. 17; DGS 5387447 sn87 P; D–M). Celý dětmarovický oddíl pohřbů XI 1784 – XII 1803 přečten – jeho pohřeb tam NENÍ. Sousední č. 16: „Simon Kionka Häusler und Schmidt“ † 22. 9. 1799, 65 let (snad příbuzný – K). Zbývá číst knihu 1804 – VII 1817 po stranách (rejstřík ho nemá).",
+    "ÚMRTÍ 21. 10. 1816, Dětmarovice č. 17: „Johann Kionka Häusler … 62 … an Lungensucht“, pohřbil farář (FamilySearch DGS 5387449 sn48 P, fol. 35; čtení M ověřeno koordinátorem; fs_old53). Ztotožnění M: dům 17, domkář, manželka Marina vdovou 1827; doklady živ 1787, 1798, 1799. Rejstřík 1804–1823 zápis vynechal. Věk 62 → nar. ~1754 – ale v křtech 1754–1761 Dětmarovic není Joannes s věkově vhodným otcem kromě kandidátů 1759/1761 (K); možná nar. dříve (věky bývají podhodnocené)."
    ],
    "sources": [
     "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F I 11, inv. 2707, O Věřňovice 1728–1792, snímek 126, levá strana, „Anno 1783 In Februario“, 1. zápis; duplikát sn. 125 P (digi.archives.cz; rejstřík F I 48 sn. 16 L)",
     "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F I 12, inv. 2708, O Věřňovice 1793–1823, oddíl Dětmarovice, snímek 37, levá strana (fol. 80), 2. zápis, sňatek 9. 1. 1804 (digi.archives.cz)",
     "ZA Opava, NAD 165, sign. F I 4, inv. 2700, N Věřňovice 1782–1803, oddíl Dětmarovice, snímek 78, levá strana, křest 1. 7. 1785 (digi.archives.cz)",
     "ZA Opava, fara Dolní Lutyně, Z 1779–1803, oddíl Dětmarovice od XI 1784, fol. 3 verso – FamilySearch DGS 5387447, snímek 67 vlevo",
-    "ZA Opava, fara Dolní Lutyně, Z 1779–1803, oddíl Dětmarovice – FamilySearch DGS 5387447, fol. 29, snímek 84 vlevo"
+    "ZA Opava, fara Dolní Lutyně, Z 1779–1803, oddíl Dětmarovice – FamilySearch DGS 5387447, fol. 29, snímek 84 vlevo",
+    "ZA Opava, fara Dolní Lutyně, Z 1804–1823 (sign. F I 17), oddíl Dětmarovice, fol. 35 – FamilySearch DGS 5387449, snímek 48 vpravo"
    ],
    "scans": [
     {
@@ -2385,13 +2387,16 @@ window.RODOKMEN = {
     {
      "f": "img/1798_umrti_frantisek_kionka.png",
      "t": "Úmrtí Františka, dítěte Jana Kionky, kováře a domkáře, Dětmarovice č. 17, 22. 3. 1798"
+    },
+    {
+     "f": "img/1816_umrti_jan_kionka.png",
+     "t": "Úmrtí Jana Kionky, domkáře, Dětmarovice č. 17, 21. 10. 1816 (62 let)"
     }
    ],
    "d": {
-    "date": "",
-    "year": 1827,
-    "place": "Dětmarovice (?)",
-    "before": true
+    "date": "21. 10. 1816",
+    "year": 1816,
+    "place": "Dětmarovice č. 17"
    }
   },
   {
