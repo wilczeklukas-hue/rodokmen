@@ -1607,7 +1607,8 @@ window.RODOKMEN = {
     "zao_r36 – SŇATEK X 1827, fara Orlová: „Georg Sohn des + Mathias(?) Benda Ackerbauer in Zawada“, dům č. 2, kat., 25 let, svobodný × „Johanna Tochter des + Georg Surma Ackerbäuer(in) in Lazy“, 18(?) let. Den oříznut. Ztotožnění D: Závada č. 2 = dům, kde se 20. 8. 1828 narodil syn Johann; otec nevěsty Georg Surma = křty 1836–44; 10 měsíců před prvním dítětem. Věk 25 → nar. ~1802.",
     "zao_r37: den sňatku 2. 10. 1827 („Den 2.“, M–D); otec ženicha „des + Math…“ – Mathias nejpravděpodobnější (K–D); svědci Paul a Johann Lenczyk(?), Häusler (K).",
     "zao_r38: křest Jiřího v Závadě VIII 1801 – X 1802 není (F VIII 4, inv. 2791, sn164). Nečteno sn163 P (III–IX 1801) a sn165–166.",
-    "zao_r39: křest v Závadě IX 1799 – VII 1805 není (F VIII 4 sn162–166; II–VI 1803 asi chybí). Možné: chybný věk ve sňatku nebo narozen jinde."
+    "zao_r39: křest v Závadě IX 1799 – VII 1805 není (F VIII 4 sn162–166; II–VI 1803 asi chybí). Možné: chybný věk ve sňatku nebo narozen jinde.",
+    "zao_r41: Závada IX 1799 – XI 1810 (F VIII 4 sn162–169) bez křtu Jiřího Bendy (mimo mezeru II–VI 1803) → narozen jinde."
    ],
    "sources": [
     "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F VIII 18, inv. 18470, O Petrovice u Karviné, Prstná, Závada 1859–1949, snímek 196, levá strana, 2. zápis, sňatek 27. 11. 1860 (digi.archives.cz)",
@@ -2176,7 +2177,8 @@ window.RODOKMEN = {
     "zao_r37: 1809 podruh (Inmann) v Lazech č. 21, manželka Magdalena (křest dcery Zuzany 19. 5. 1809). 1827 již zemřelý. V Lazech žili současně Johann Surma (Inmann, č. 3) a Michael Surma (Häusler, č. 22) – možní bratři (K).",
     "zao_r38: sňatek s Magdalenou v Lazech IV 1794 – 1811 není (Ka V 8 sn75–77) – nejspíš dříve (~1784–94) nebo jinde. Vedlejší (K): 4. 6. [1808–10] Lazy č. 30 „Georg Surma Auszügler“, 63 let, vdovec × Mariana, vdova, 42 let (sn77 P) – zda je to náš Jiří (pak by Magdalena zemřela 1809–10), neprokázáno; rok zápisu neověřen.",
     "zao_r39: sňatek s Magdalenou v Lazech IV 1785 – 1811 není (Ka V 8 sn73 P – sn77). Zápis „Georg Surma Auszügler, 63, vdovec × Mariana vdova, 42“ je ze 4. 6. 1810, Lazy č. 30 (D) – ztotožnění s naším Jiřím jen K (jiný dům a stav).",
-    "zao_r40: vdovec od 8. 2. 1810. V Lazech zřejmě dva Jiří Surmové: starší výměnkář (nar. ~1747, ∞ 4. 6. 1810 vdova Mariana, č. 30; † před XI 1822 – vdova Mariana † 8. 11. 1822 č. 27, 60 let) a mladší domkář (žena Mariane † 1819 č. 25, 54 let). Který z nich je otec Zuzany (podruh č. 21, žena Magdalena 40 let), nerozhodnuto – možná starší Jiří je její dědeček (K)."
+    "zao_r40: vdovec od 8. 2. 1810. V Lazech zřejmě dva Jiří Surmové: starší výměnkář (nar. ~1747, ∞ 4. 6. 1810 vdova Mariana, č. 30; † před XI 1822 – vdova Mariana † 8. 11. 1822 č. 27, 60 let) a mladší domkář (žena Mariane † 1819 č. 25, 54 let). Který z nich je otec Zuzany (podruh č. 21, žena Magdalena 40 let), nerozhodnuto – možná starší Jiří je její dědeček (K).",
+    "zao_r41: úmrtí v Lazech V 1810 – XII 1827 není (Ka V 11 sn95–100, Ka V 12 inv. 3046 sn34–35; mezera X 1823 – I 1824) – zemřel patrně mimo Lazy. Oprava: Mariane, žena Jiřího Surmy domkáře, † V 1820 (ne 1819)."
    ],
    "sources": [
     "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F VIII 5, inv. 2792, N Petrovice u Karviné 1836–1859, oddíl Závada, snímek 56, pravá strana (Pag. 1), 6. zápis, křest 1836 (digi.archives.cz)",
