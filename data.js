@@ -2024,7 +2024,8 @@ window.RODOKMEN = {
    "notes": [
     "Sňatek 26. 6. 1827 v Dětmarovicích: „Valentin Antończyk Ackerbauer zu Dittmansdorf“, 31 let, svobodný (tužkou 1797) × Theresia, dcera sedláka Josefa Kionky z Dětmarovic, 19 let. Svědci Simon Kosielny (?), výměnkář; Ignaz Grabiec (?), domkář. Oddával kaplan Thomas Dostal.",
     "Otec Josefa Antończyka (sňatek syna 1854). Rok narození je odhad.",
-    "Úmrtí 12. 12. 1847 (pohřeb 14. 12.), Dětmarovice č. 64: „Valentin Antonczik Ackerbauer“, 52 let (→ nar. ~1795), nemoc snad „Nervenfieber“ (tyfus). Týž den zemřela dcera Johanna, 18 let 7 měsíců (nar. ~V 1829). Rodiště zápis neuvádí. Rok 1847, věk a č. d. M; den D."
+    "Úmrtí 12. 12. 1847 (pohřeb 14. 12.), Dětmarovice č. 64: „Valentin Antonczik Ackerbauer“, 52 let (→ nar. ~1795), nemoc snad „Nervenfieber“ (tyfus). Týž den zemřela dcera Johanna, 18 let 7 měsíců (nar. ~V 1829). Rodiště zápis neuvádí. Rok 1847, věk a č. d. M; den D.",
+    "Další děti (úmrtí, Dětmarovice č. 64, srpen 1842, FS DGS 5387452 sn72 P): Terezie, 7 dní (psotník), a Karolína, 21 den – dcery „Valentin Antonczik Ackerbauers“ (M)."
    ],
    "sources": [
     "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F I 13, inv. 2709, O Věřňovice 1824–1845, oddíl Dětmarovice, snímek 41, levá strana (pag. 6), 2. zápis, sňatek 26. 6. 1827 (digi.archives.cz; nalezeno přes rejstřík F I 27 sn. 2 P)",
