@@ -1660,11 +1660,13 @@ window.RODOKMEN = {
    },
    "notes": [
     "Otec Franze Drazzy/Drapky podle oddacího zápisu 1837, v té době již nežil (čtení „dortigen Ge… verstorbenen“ nejisté). Sken v nízkém rozlišení – D. Rok narození je odhad.",
-    "Matrika výnosu pozemků 1820, Nieder Seibersdorf (Zebrzydowice Dolne): „Drappa Paul | 5. | Detto“ – držitel domu č. 5, 4 rustikální parcely, 2 jitra 1501 □ sáhů (malý držitel). Tamtéž Andreas Drappa č. 47 (K – příbuzný?) a Miczek Jacob č. 62, Miczek Joseph č. 87 (K – rodina manželky Terezie?). Ztotožnění s Paulem, otcem Franze, jen podle jména, obce a doby (D/K) – ověřit č. p. 5 v matrice."
+    "Matrika výnosu pozemků 1820, Nieder Seibersdorf (Zebrzydowice Dolne): „Drappa Paul | 5. | Detto“ – držitel domu č. 5, 4 rustikální parcely, 2 jitra 1501 □ sáhů (malý držitel). Tamtéž Andreas Drappa č. 47 (K – příbuzný?) a Miczek Jacob č. 62, Miczek Joseph č. 87 (K – rodina manželky Terezie?). Ztotožnění s Paulem, otcem Franze, jen podle jména, obce a doby (D/K) – ověřit č. p. 5 v matrice.",
+    "Josefský katastr 1788, Dolní Žibřidovice (FS DGS 100297101): dům č. 5 (tytéž parcely 66–69) držel Georg Krotzek – Drappové tam 1788 ještě nebyli. Jediný Drappa 1788: „Johann Drappa jünger“ č. 56 (domek se zahrádkou, sn. 87) – možný otec/příbuzný Paula (K). Č. 62 držel 1788 Joseph Czapnik (Miczek tam ještě není)."
    ],
    "sources": [
     "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F VIII 11, inv. 10218, O Petrovice u Karviné 1836–1858, oddíl Závada, snímek 22, levá strana, 4. zápis, sňatek 27. 8. 1837 (digi.archives.cz)",
-    "ZA Opava, Matrika výnosu pozemků 1820, berní obec Nieder Seibersdorf (Zebrzydowice Dolne), abecední soupis držitelů, FamilySearch DGS 100313387, snímek 51, pořadí 19"
+    "ZA Opava, Matrika výnosu pozemků 1820, berní obec Nieder Seibersdorf (Zebrzydowice Dolne), abecední soupis držitelů, FamilySearch DGS 100313387, snímek 51, pořadí 19",
+    "ZA Opava, Josefský katastr, inv. 852, sign. II/162, parcelní protokol k. o. Dolní Žibřidovice 1788, FamilySearch DGS 100297101, snímky 14, 15, 87"
    ],
    "scans": [
     {
