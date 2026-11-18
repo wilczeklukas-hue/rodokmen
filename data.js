@@ -2431,25 +2431,33 @@ window.RODOKMEN = {
    "alive": false,
    "b": {
     "date": "",
-    "year": 1720,
+    "year": 1712,
     "place": "Dětmarovice (?)",
     "approx": true
    },
    "occ": "sedlák (Bauer) v Dětmarovicích",
    "notes": [
     "Otec Matyáše Hanuška (sňatek syna 1776; psáno „Hanusser“). Rok narození je odhad.",
-    "Manželka Magdalena; děti (křty Dětmarovice, F I 2): Marina 25. 3. 1741, dvojčata Pavel a Matyáš 13. 1. 1743, Joseph 12. 3. 1747, Magdalena 15. 2. 1749. Stálý kmotr Andreas Olma."
+    "Manželka Magdalena; děti (křty Dětmarovice, F I 2): Marina 25. 3. 1741, dvojčata Pavel a Matyáš 13. 1. 1743, Joseph 12. 3. 1747, Magdalena 15. 2. 1749. Stálý kmotr Andreas Olma.",
+    "Sňatek ~11. 11. 1737 (ohlášky 20.–22. neděle po Letnicích), filiální kostel sv. Máří Magdaleny v Dětmarovicích, oddával farář Bartoloměj Jos. Krzeczky: „filium Georgium defuncti Gregorij Hanusek & filiam Magdalenam Georgij Kotyrzyna utersque Dittmersdorffio“; svědci Petr Hanusek a Kašpar Ploteczka(?). Jména, otcové, obec, rok a měsíc M; den D. Rok narození odhad podle sňatku.",
+    "Sestra Magdalena, dcera † Řehoře Hanuska, ∞ VI 1741 Šimon Jordan, Dětmarovice (DGS 5387443 sn39 L)."
    ],
    "sources": [
     "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F I 11, inv. 2707, O Věřňovice 1728–1792, snímek 109, pravá strana (fol. 107), „In Februario“ 1776, 3. zápis (digi.archives.cz; rejstřík F I 48 sn. 11 P)",
-    "ZA Opava, NAD 165, sign. F I 2, inv. 2698, N Věřňovice 1728–1753, snímek 78 (digi.archives.cz)"
+    "ZA Opava, NAD 165, sign. F I 2, inv. 2698, N Věřňovice 1728–1753, snímek 78 (digi.archives.cz)",
+    "ZA Opava, fara Dolní Lutyně, O 1728–1792 (sign. F I 11, inv. 2707), XI 1737, 1. zápis – FamilySearch DGS 5387443, snímek 31 vlevo"
    ],
    "scans": [
     {
      "f": "img/1776_snatek_hanusek_kania.jpg",
      "t": "Sňatek Mathias Hanussek × Marina Kania, Dětmarovice II 1776"
+    },
+    {
+     "f": "img/1737_snatek_hanusek_kotyrzyna.png",
+     "t": "Sňatek Jiří Hanusek × Magdalena Kotyrzynová, Dětmarovice XI 1737"
     }
-   ]
+   ],
+   "father": "gregorHanusek"
   },
   {
    "id": "georgKania",
@@ -2481,28 +2489,35 @@ window.RODOKMEN = {
   {
    "id": "magdalenaHanusek",
    "name": "Magdalena Hanusková",
-   "maiden": "",
+   "maiden": "Kotyrzynová (Kotyrzyna)",
    "line": "grzonka",
-   "cert": "D",
+   "cert": "M",
    "alive": false,
    "b": {
     "date": "",
-    "year": 1720,
-    "place": "",
+    "year": 1717,
+    "place": "Dětmarovice (?)",
     "approx": true
    },
    "notes": [
-    "Manželka Jiřího Hanuska v Dětmarovicích, matka Mariny (1741), dvojčat Pavla a Matyáše (1743), Josefa (1747) a Magdaleny (1749). Rodné příjmení v zápisech neuvedeno. Jako matka našeho Matyáše D (viz výhradu u něj). Rok narození je odhad."
+    "Manželka Jiřího Hanuska v Dětmarovicích, matka Mariny (1741), dvojčat Pavla a Matyáše (1743), Josefa (1747) a Magdaleny (1749). Jako matka našeho Matyáše D (viz výhradu u něj). Rok narození je odhad.",
+    "Sňatek XI 1737 s Jiřím Hanuskem: „filiam Magdalenam Georgij Kotyrzyna“ z Dětmarovic (M). Jediný Jiří Hanusek ženich 1737–1742; rodiče dětí 1741–1749 sedí (ztotožnění M–D)."
    ],
    "sources": [
-    "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F I 2, inv. 2698, N Věřňovice 1728–1753, snímek 85, pravá strana, „Anno 1743 Januarius“ 1. zápis (digi.archives.cz)"
+    "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F I 2, inv. 2698, N Věřňovice 1728–1753, snímek 85, pravá strana, „Anno 1743 Januarius“ 1. zápis (digi.archives.cz)",
+    "ZA Opava, fara Dolní Lutyně, O 1728–1792 (sign. F I 11, inv. 2707), XI 1737, 1. zápis – FamilySearch DGS 5387443, snímek 31 vlevo"
    ],
    "scans": [
     {
      "f": "img/1743_krest_matyas_hanusek.jpg",
      "t": "Křest dvojčat Pavla a Matyáše Hanuskových, 13. 1. 1743, Dětmarovice"
+    },
+    {
+     "f": "img/1737_snatek_hanusek_kotyrzyna.png",
+     "t": "Sňatek Jiří Hanusek × Magdalena Kotyrzynová, Dětmarovice XI 1737"
     }
-   ]
+   ],
+   "father": "georgKotyrzyna"
   },
   {
    "id": "matthausMatuszek",
@@ -2525,6 +2540,65 @@ window.RODOKMEN = {
     "Geneteka, Pierściec, sňatky 1858 (index)"
    ],
    "scans": []
+  },
+  {
+   "id": "gregorHanusek",
+   "name": "Řehoř (Gregor) Hanusek",
+   "maiden": "",
+   "line": "grzonka",
+   "cert": "M",
+   "alive": false,
+   "b": {
+    "date": "",
+    "year": 1685,
+    "place": "Dětmarovice (?)",
+    "approx": true
+   },
+   "d": {
+    "date": "",
+    "year": 1737,
+    "place": "Dětmarovice (?)",
+    "before": true
+   },
+   "notes": [
+    "Otec Jiřího Hanuska; při synově sňatku XI 1737 již zemřelý („defuncti Gregorij Hanusek“). Dcera Magdalena ∞ 1741 Šimon Jordan. Rok narození je odhad."
+   ],
+   "sources": [
+    "ZA Opava, fara Dolní Lutyně, O 1728–1792 (sign. F I 11, inv. 2707), XI 1737, 1. zápis – FamilySearch DGS 5387443, snímek 31 vlevo",
+    "ZA Opava, F I 11, VI 1741 – FamilySearch DGS 5387443, snímek 39 vlevo"
+   ],
+   "scans": [
+    {
+     "f": "img/1737_snatek_hanusek_kotyrzyna.png",
+     "t": "Sňatek Jiří Hanusek × Magdalena Kotyrzynová, Dětmarovice XI 1737"
+    }
+   ]
+  },
+  {
+   "id": "georgKotyrzyna",
+   "name": "Jiří (Georg) Kotyrzyna",
+   "maiden": "",
+   "line": "grzonka",
+   "cert": "M",
+   "alive": false,
+   "b": {
+    "date": "",
+    "year": 1690,
+    "place": "Dětmarovice (?)",
+    "approx": true
+   },
+   "notes": [
+    "Otec Magdaleny Hanuskové; při jejím sňatku XI 1737 žil (bez „defuncti“), v Dětmarovicích; 1738 ještě jako svědek (fs_old1). Rok narození je odhad."
+   ],
+   "sources": [
+    "ZA Opava, fara Dolní Lutyně, O 1728–1792 (sign. F I 11, inv. 2707), XI 1737, 1. zápis – FamilySearch DGS 5387443, snímek 31 vlevo"
+   ],
+   "scans": [
+    {
+     "f": "img/1737_snatek_hanusek_kotyrzyna.png",
+     "t": "Sňatek Jiří Hanusek × Magdalena Kotyrzynová, Dětmarovice XI 1737"
+    }
+   ]
   }
  ],
  "places": [],
