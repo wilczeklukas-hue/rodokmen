@@ -3281,7 +3281,8 @@ window.RODOKMEN = {
     "zao_r63: křest Pavla, syna Šimona, v N Fryštát IV 1771 – III 1778 není (K–D). Jiný(?) Šimon Cyron, podruh × Marina, Dolní předměstí: syn Ondřej 6. 11. 1772 (kmotři stejní jako u Jana 1777 – K). Kmotr X 1772 „Paul Gyron … von Zowada“ (dospělý; otec či bratr Šimona? K).",
     "zao_r64: křest Pavla v N Fryštát (F IV 4) V 1768 – XI 1770 není (kromě nečteného II–IV 1770). Kmotr 4. 6. 1770 „Paulus Giron … ex Zovada“ (M) – dospělý Pavel Cyron ze Závady (1770, 1772), snad otec/bratr Šimona (K).",
     "SŇATEK 24. 11. 1765, Fryštát: „Simon | Honestus Adolescens Martini Ciron filius ex Zovada cum honesta puella Margaretha defuncti Michaelis Stolka filia ex eodem pago. Copulavit P. Joannes Kubik …“ (čtení M, ověřeno koordinátorem; měsíc z nadpisu D). Ztotožnění se Šimonem, sedlákem ze Závady (1773/75, 1803), D – jiný Šimon Cyron ze Závady 1765–78 nenalezen (Šimon „Gyron“ ∞ 4. 2. 1765 Anna Oslislo je ze Starého Města, jiný). Manželka Markéta roz. Stolková – zda je matkou Pavla (*~1769), neověřeno (křest nenalezen VII 1767 – III 1778). Pavel Cyron ze Závady, kmotr 1770/1772, snad Šimonův bratr (K).",
-    "zao_r66: křest dítěte Šimona × Markéty (Pavla) v N Fryštát XI 1765 – III 1778 není (souvisle; K–D). Kmotr 26. 10. 1766 „Joannes Stolka ex Zovada“ – patrně bratr Markéty (K)."
+    "zao_r66: křest dítěte Šimona × Markéty (Pavla) v N Fryštát XI 1765 – III 1778 není (souvisle; K–D). Kmotr 26. 10. 1766 „Joannes Stolka ex Zovada“ – patrně bratr Markéty (K).",
+    "zao_r68: ZA Opava nemá před 1785 žádnou matriku N se Závadou v územním rozsahu (Fryštát F IV 4/5 ji nevede, Dolní Lutyně F I 3 – VIII 1768–1771 Locus bez Závady). Závada patrně křtila v polské faře Zebrzydowice (Ka V 8 ji uvádí se Zebrzydowicemi) → křty Šimonových dětí (Pavel ~1766–71) nejspíš tam; online nejsou (K)."
    ],
    "sources": [
     "ZA Opava, fara Petrovice, O 1797–1858 (sign. F VIII 6, inv. 2793), oddíl Závada, 1803, pag. 3 – snímek 62 vpravo",
