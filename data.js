@@ -2837,7 +2837,8 @@ window.RODOKMEN = {
     "fs_old22 (K): ve Věřňovicích mlynář Pavel Gora, † před II 1697 (vdova Eva) – mlynářský rod Gora/Gura v okolí; vztah k Ondřejovi neznámý.",
     "SŇATEK [13. 5.] 1685 (3. neděle po Velikonocích; rok D): „honestum juvenem Andream Goram Molitorem de Czerwin cum honesta puella Anna nata et derelicta pupilla post defunctum Petrum Zolich ex villa Dittmersdorff; testes Georgius Graf(?) et Jacobus Machilkow(?)“ (M čtení ověřeno koordinátorem; ztotožnění D – jméno, mlynář, „Czerwin/Gerwin“). Otec ženicha neuveden; Kašpar Gora, mlynář „Gervinensis“ († před 1691, syn Adam ∞ 1691) – možný otec (K). Místo mlýna „Czerwin/Gerwin/Gorvina“ zatím neurčeno.",
     "Děti (fs_old28): Anna 1687, dvojčata Jiří + [Marina?] 1689, Kašpar 1693 („Andrea Gora Molitore Gerwinensi“), [Anežka?] 1694. 1692 kmotra „Anna Gora(?) Molitorissa de Gerwin“. Mlýn nejspíš v okolí Dolní Lutyně (K). Druhá Anna 1688–89, 1692–I 1693, XI 1693–V 1694 není; nečteno VII 1689 – I 1692.",
-    "fs_old30: další děti s Annou Zolichovou: Dorota 11. 1. 1691 (sn78 P, „Anna nata Zoliska“), Marina 9. 2. 1696 (sn101 P). Řada porodů 1687, 1689, 1691, 1693, 1694, 1696 – bez místa pro druhou Annu. Kašpar 1693: matka „nata Barbliczka(?)“ – chyba zápisu (stejní kmotři), ne jiná manželka (D). Nečteno II 1696 – 1700 (mimo VII 1697: otec Andreas …ok(?) × Anna – ověřit)."
+    "fs_old30: další děti s Annou Zolichovou: Dorota 11. 1. 1691 (sn78 P, „Anna nata Zoliska“), Marina 9. 2. 1696 (sn101 P). Řada porodů 1687, 1689, 1691, 1693, 1694, 1696 – bez místa pro druhou Annu. Kašpar 1693: matka „nata Barbliczka(?)“ – chyba zápisu (stejní kmotři), ne jiná manželka (D). Nečteno II 1696 – 1700 (mimo VII 1697: otec Andreas …ok(?) × Anna – ověřit).",
+    "fs_old32: V 1702 ještě žije – „Anna ancilla Andreae Molitoris Gerwinensis“ † 26. 5. 1702, a jeho čeledín † 14. 5. 1702 (sn247 P). Pohřeb Ondřeje IV 1696 – III 1705 není. V knize pohřbů chybí úsek III 1684 – III 1696 (úmrtí Petra Zolicha, Jiřího Koterzeny st. a dětí nelze ověřit). Druhý sňatek po 1696 v sn341–348 a 288–289 nezaznamenán (fs_old22)."
    ],
    "sources": [
     "ZA Opava, fara Dolní Lutyně, smíšená matrika 1672–1728 (inv. 2697) – FamilySearch DGS 5393677, sňatky 3. 2. 1705, snímek 290 vlevo",
@@ -3067,7 +3068,8 @@ window.RODOKMEN = {
    },
    "notes": [
     "Sňatek 1685 s Ondřejem Gorou (Gurou), mlynářem: „honesta puella Anna nata et derelicta pupilla post defunctum Petrum Zolich(?) ex villa Dittmersdorff“ – panna, osiřelá dcera † Petra Zolicha z Dětmarovic. Matka Anny (křest 1687, „conjugis eius Annae“). Jistota D (ztotožnění manžela). Příjmení Zolich čteno s otazníkem. Rok narození je odhad. Možná sestra: Magdalena, dcera † Petra Zolicha, ∞ 21. 9. 1704 Kašpar Ploteczka (svědek Jiří Kotyrzena).",
-    "Rodné příjmení potvrzeno: křest dvojčat 30. 3. 1689 „Quorum Pater Andreas Gora Mater Anna nata Zoliczin“ (M čtení ověřeno koordinátorem). Děti s Ondřejem: Anna 6. 7. 1687, dvojčata Jiří a [Marina?] 30. 3. 1689, Kašpar 5. 1. 1693 (matka tam „nata B/Kachliczka?“ – K), [Anežka?] 20. 2. 1694 („Anna nata Zolich“)."
+    "Rodné příjmení potvrzeno: křest dvojčat 30. 3. 1689 „Quorum Pater Andreas Gora Mater Anna nata Zoliczin“ (M čtení ověřeno koordinátorem). Děti s Ondřejem: Anna 6. 7. 1687, dvojčata Jiří a [Marina?] 30. 3. 1689, Kašpar 5. 1. 1693 (matka tam „nata B/Kachliczka?“ – K), [Anežka?] 20. 2. 1694 („Anna nata Zolich“).",
+    "fs_old32 (K–D): 29. 7. 1696 „obijt pie in Dno A[nna?] Gorowa Molitorissa Gerwin[ensis]“ (DGS 5393677 sn241 P; čtení D, jméno na okraji jen „A…“) – patrně ona, 5½ měsíce po křtu Mariny; vdovu po starším mlynáři Gorovi nelze vyloučit. Nezapsáno jako jisté úmrtí."
    ],
    "sources": [
     "ZA Opava, fara Dolní Lutyně, smíšená matrika 1672–1728 (inv. 2697) – FamilySearch DGS 5393677, sňatky 1685, snímek 331 vpravo",
@@ -3110,7 +3112,8 @@ window.RODOKMEN = {
     "before": true
    },
    "notes": [
-    "Otec Anny (sňatek 1685) – „post defunctum Petrum Zolich ex villa Dittmersdorff“, při sňatku dcery již zemřelý. Patrně i otec Magdaleny (∞ 1704 Kašpar Ploteczka). Příjmení čteno s otazníkem (Zolich?). Jistota D. Rok narození je odhad."
+    "Otec Anny (sňatek 1685) – „post defunctum Petrum Zolich ex villa Dittmersdorff“, při sňatku dcery již zemřelý. Patrně i otec Magdaleny (∞ 1704 Kašpar Ploteczka). Příjmení čteno s otazníkem (Zolich?). Jistota D. Rok narození je odhad.",
+    "fs_old32: pohřby I 1683 – II 1684 bez Zolicha; III 1684 – III 1696 v knize chybí."
    ],
    "sources": [
     "ZA Opava, fara Dolní Lutyně, smíšená matrika 1672–1728 (inv. 2697) – FamilySearch DGS 5393677, sňatky 1685, snímek 331 vpravo"
