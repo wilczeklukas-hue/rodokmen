@@ -2016,18 +2016,20 @@ window.RODOKMEN = {
    "alive": false,
    "b": {
     "date": "",
-    "year": 1797,
-    "place": "Dětmarovice (?)",
+    "year": 1795,
+    "place": "",
     "approx": true
    },
-   "occ": "sedlák (Ackerbauer) v Dětmarovicích",
+   "occ": "sedlák (Ackerbauer) v Dětmarovicích č. 64",
    "notes": [
     "Sňatek 26. 6. 1827 v Dětmarovicích: „Valentin Antończyk Ackerbauer zu Dittmansdorf“, 31 let, svobodný (tužkou 1797) × Theresia, dcera sedláka Josefa Kionky z Dětmarovic, 19 let. Svědci Simon Kosielny (?), výměnkář; Ignaz Grabiec (?), domkář. Oddával kaplan Thomas Dostal.",
-    "Otec Josefa Antończyka (sňatek syna 1854). Rok narození je odhad."
+    "Otec Josefa Antończyka (sňatek syna 1854). Rok narození je odhad.",
+    "Úmrtí 12. 12. 1847 (pohřeb 14. 12.), Dětmarovice č. 64: „Valentin Antonczik Ackerbauer“, 52 let (→ nar. ~1795), nemoc snad „Nervenfieber“ (tyfus). Týž den zemřela dcera Johanna, 18 let 7 měsíců (nar. ~V 1829). Rodiště zápis neuvádí. Rok 1847, věk a č. d. M; den D."
    ],
    "sources": [
     "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F I 13, inv. 2709, O Věřňovice 1824–1845, oddíl Dětmarovice, snímek 41, levá strana (pag. 6), 2. zápis, sňatek 26. 6. 1827 (digi.archives.cz; nalezeno přes rejstřík F I 27 sn. 2 P)",
-    "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F I 25, inv. 2721, O Věřňovice 1846–1875, oddíl Dětmarovice, snímek 45, pravá strana (pag. 11), 3. zápis, sňatek 29. 5. 1854 (digi.archives.cz)"
+    "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F I 25, inv. 2721, O Věřňovice 1846–1875, oddíl Dětmarovice, snímek 45, pravá strana (pag. 11), 3. zápis, sňatek 29. 5. 1854 (digi.archives.cz)",
+    "ZA Opava, fara Dolní Lutyně, Z 1833–1864 (inv. 2716), oddíl Dittmansdorf, Seite 43, prosinec 1847 – FamilySearch DGS 5387452, snímek 78 vpravo"
    ],
    "scans": [
     {
@@ -2037,8 +2039,17 @@ window.RODOKMEN = {
     {
      "f": "img/1854_snatek_antonczyk_benda.jpg",
      "t": "Sňatek Josef Antończyk × Marianna vd. Niebroj roz. Benda, Dětmarovice 29. 5. 1854"
+    },
+    {
+     "f": "img/1847_umrti_valentin_antonczyk.png",
+     "t": "Úmrtí Valentina Antończyka a dcery Johanny, Dětmarovice č. 64, prosinec 1847"
     }
-   ]
+   ],
+   "d": {
+    "date": "12. 12. 1847",
+    "year": 1847,
+    "place": "Dětmarovice č. 64"
+   }
   },
   {
    "id": "terezieKionka",
