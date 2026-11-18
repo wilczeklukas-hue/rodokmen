@@ -1113,7 +1113,8 @@ window.RODOKMEN = {
    "notes": [
     "Matka Franze (1858) podle indexu sňatku Strumień 1882 akt 4. Příjmení Tomiza se v indexu jinde nevyskytuje; v Chybí a Pruchné žije rod Tomica – možná táž rodina. Rok narození je odhad.",
     "Stopa K− na rodiče: Strumień Z 1865 akt 2 Mathias Tomica, Chybie č. 41, 63 let; Z 1882 akt 9 Anna Tomica, 87 let, vdova po Mathiasovi, Chybie č. 41. Spojení s Annou nedoloženo. Sňatek Laurenz × Anna Tomiza v indexu není.",
-    "Geneteka r4 (K): v Chybiu č. 41 (dům Mathiase Tomicy) žila Anna Tomica provd. Węglarz (děti 1863–1879) – jiná Anna, snad sestra; Johann Tomica *~1830 (∞ 1857 Anna Kowol, Chybie č. 48) snad bratr. Křty Chybie před 1860 nejsou v indexu Strumień – nutné skeny."
+    "Geneteka r4 (K): v Chybiu č. 41 (dům Mathiase Tomicy) žila Anna Tomica provd. Węglarz (děti 1863–1879) – jiná Anna, snad sestra; Johann Tomica *~1830 (∞ 1857 Anna Kowol, Chybie č. 48) snad bratr. Křty Chybie před 1860 nejsou v indexu Strumień – nutné skeny.",
+    "Geneteka r6: index sňatků Strumienia před ~1857 pokrývá jen obec Frelichów, Chybie chybí → sňatek Mathiase Tomici (~1818–35) v indexu být nemůže. Další z č. 41: Anna Węglorz (18 let), dcera Johanna Węglorze × Anny roz. Tomiza, Chybie 41, ∞ 11. 9. 1883 Georg Gil (Strumień akt 4, D)."
    ],
    "sources": [
     "Geneteka (index PTG), śląskie, parafia Strumień, sňatek 1882 akt 4 (syn Franz)",
@@ -1161,7 +1162,8 @@ window.RODOKMEN = {
     "approx": true
    },
    "notes": [
-    "KANDIDÁT (matka kandidáta Laurenze 1828). Sňatek 16. 5. 1810 Pruchna: panna, 18 let, dcera komorníka Johanna Socholika."
+    "KANDIDÁT (matka kandidáta Laurenze 1828). Sňatek 16. 5. 1810 Pruchna: panna, 18 let, dcera komorníka Johanna Socholika.",
+    "Geneteka r6: sestry (D index): Ewa, ∞ 1813 Pruchna akt 4 Walentin Zuber, otec Johann; Marina „Sacholik“ (*~1787), ∞ 21. 10. 1805 Pruchna akt 4 Mathäus Siekiera, otec Johann, dům 12 (K+). Úmrtí Johanna Socholika v indexu není (Pruchna Z až od 1880)."
    ],
    "sources": [
     "Geneteka (index PTG), śląskie, parafia Pruchna, sňatek 1810 akt 4 (gid 2485942)"
