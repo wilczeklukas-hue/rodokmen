@@ -1593,17 +1593,18 @@ window.RODOKMEN = {
    "alive": false,
    "b": {
     "date": "",
-    "year": 1805,
+    "year": 1802,
     "place": "Závada (?)",
     "approx": true
    },
    "occ": "sedlák v Závadě č. 2 / č. 5; rychtář (Richter) 1839–1841",
    "notes": [
-    "Sedlák v Závadě. Otec Johanny Stadeczkové (*1844; sňatek 1860, dal souhlas) i Marianny Antończykové (sňatky 1852 a 1854: „Tochter nach Georg Benda Ackerbauer in Zawada“) – tatáž osoba (M). Manželka Zuzana (Susanna) roz. Surmová (křty dětí 1831–1844). Rok narození je odhad.",
+    "Sedlák v Závadě. Otec Johanny Stadeczkové (*1844; sňatek 1860, dal souhlas) i Marianny Antończykové (sňatky 1852 a 1854: „Tochter nach Georg Benda Ackerbauer in Zawada“) – tatáž osoba (M). Manželka Zuzana (Susanna) roz. Surmová (křty dětí 1831–1844).",
     "Pedigree collapse: vnučka Terezie Antończyk (*1867, dcera Marianny) si 1888 vzala Antona Stadeczka (*1867, syn Johanny) – byli to bratranec a sestřenice.",
     "zao_r30b: sňatek s Zuzanou Surmovou není v oddílu Prstná F VIII 6 sn49 (1828 – II 1830; jistota D, nízké rozlišení). Petrovice 1829–30 v F VIII 6 ještě nenalezeny (sn26–32 = 1843–52, hledat sn10–25).",
     "zao_r31: sňatek se Zuzanou Surmovou není v Petrovicích XI 1828 – XII 1830 ani v Prstné 1828 – I 1832 (F VIII 6 sn15–17, 49–50). Zbývá rejstřík F VIII 9, fary Fryštát, Karviná, Rychvald.",
-    "zao_r33: nejstarší známé dítě Johann *20. 8. 1828 Závada č. 2 → sňatek nejpozději ~XI 1827; F IV 16 (O Fryštát 1818–1850) obsahuje i oddíl Závada – hledat tam."
+    "zao_r33: nejstarší známé dítě Johann *20. 8. 1828 Závada č. 2 → sňatek nejpozději ~XI 1827; F IV 16 (O Fryštát 1818–1850) obsahuje i oddíl Závada – hledat tam.",
+    "zao_r36 – SŇATEK X 1827, fara Orlová: „Georg Sohn des + Mathias(?) Benda Ackerbauer in Zawada“, dům č. 2, kat., 25 let, svobodný × „Johanna Tochter des + Georg Surma Ackerbäuer(in) in Lazy“, 18(?) let. Den oříznut. Ztotožnění D: Závada č. 2 = dům, kde se 20. 8. 1828 narodil syn Johann; otec nevěsty Georg Surma = křty 1836–44; 10 měsíců před prvním dítětem. Věk 25 → nar. ~1802."
    ],
    "sources": [
     "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F VIII 18, inv. 18470, O Petrovice u Karviné, Prstná, Závada 1859–1949, snímek 196, levá strana, 2. zápis, sňatek 27. 11. 1860 (digi.archives.cz)",
@@ -1611,7 +1612,8 @@ window.RODOKMEN = {
     "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F VIII 11, inv. 10218, O Petrovice u Karviné 1836–1858, oddíl Závada, snímek 26, levá strana (pag. 25), sňatek 22. 6. 1852 (digi.archives.cz)",
     "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F I 25, inv. 2721, O Věřňovice 1846–1875, oddíl Dětmarovice, snímek 45, pravá strana (pag. 11), 3. zápis, sňatek 29. 5. 1854 (digi.archives.cz)",
     "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F VIII 5, inv. 2792, N Petrovice u Karviné 1836–1859, oddíl Závada, snímek 56, pravá strana (Pag. 1), 6. zápis, křest 1836 (digi.archives.cz)",
-    "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F VIII 5, inv. 2792, N Petrovice u Karviné 1836–1859, oddíl Závada, snímek 61, pravá strana (Pag. 11), 3. zápis, křest 1844 (digi.archives.cz)"
+    "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F VIII 5, inv. 2792, N Petrovice u Karviné 1836–1859, oddíl Závada, snímek 61, pravá strana (Pag. 11), 3. zápis, křest 1844 (digi.archives.cz)",
+    "ZA Opava, fara Orlová, O 1738–1841 (sign. Ka V 8, inv. 3042), X 1827, pag. 31 – snímek 69 vpravo"
    ],
    "scans": [
     {
@@ -1621,8 +1623,13 @@ window.RODOKMEN = {
     {
      "f": "img/1852_snatek_niebroj_benda.jpg",
      "t": "Sňatek Andreas Niebroj × Marianna Benda, Závada 22. 6. 1852 (rodiče nevěsty)"
+    },
+    {
+     "f": "img/1827_snatek_benda_surma.png",
+     "t": "Sňatek Jiří Benda (Závada č. 2) × Johanna Surmová (Lazy), Orlová X 1827"
     }
-   ]
+   ],
+   "father": "mathiasBenda"
   },
   {
    "id": "johannaSmurna",
@@ -1633,20 +1640,22 @@ window.RODOKMEN = {
    "alive": false,
    "b": {
     "date": "",
-    "year": 1810,
-    "place": "",
+    "year": 1809,
+    "place": "Lazy (?)",
     "approx": true
    },
    "notes": [
     "Manželka Jiřího Bendy, sedláka (1839–1841 rychtáře) v Závadě. V křtech dětí 1836–1844 „Susanna geb. Georg Surma“ (M); v oddacím zápise dcery Johanny 1860 chybně „Johanna geb. Georg Smurna“, v křtu Magdaleny 1834 „Susanna geb. ?ubin (?)“.",
     "Děti (Závada, F VIII 4/5): Johann *20. 8. 1828 (č. 2), Georg *9. 4. 1831 (č. 2), Magdalena 1834 (č. 2), Marianna *10. 8. 1836 (č. 2), Joseph *27. 2. (?) 1839 (č. 2), Karolina *16. 9. (?) 1841 (č. 5), dvojčata Johanna a Anton *29. 4. 1844 (č. 5). Sňatek rodičů nejpozději ~XI 1827 – v Závadě 1823–1844 není.",
-    "zao_r33: v křtu syna Johanna 20. 8. 1828 (F VIII 4 sn185 P) zapsána jako „Susanna Kubina“ (M – čtení koordinátorem potvrzeno), v r. 1834 „geb. Kubin(?)“, 1836–44 „geb. Georg Surma“. Možné vysvětlení: Kubina = příjmení po 1. manželovi (vdova) – hypotéza K. Oddací zápis hledat pod Surma i Kubina, ~1820 – XI 1827."
+    "zao_r33: v křtu syna Johanna 20. 8. 1828 (F VIII 4 sn185 P) zapsána jako „Susanna Kubina“ (M – čtení koordinátorem potvrzeno), v r. 1834 „geb. Kubin(?)“, 1836–44 „geb. Georg Surma“. Možné vysvětlení: Kubina = příjmení po 1. manželovi (vdova) – hypotéza K. Oddací zápis hledat pod Surma i Kubina, ~1820 – XI 1827.",
+    "zao_r36 – sňatek X 1827 v Orlové: nevěsta „Johanna Tochter des + Georg Surma … in Lazy“, 18(?) let (M čtení koordinátorem). Křestní jméno v pramenech kolísá: Johanna (sňatek 1827, sňatek dcery 1860, křest vnuka 1867) × Susanna (křty dětí 1828–44). Příjmení Kubina 1828/1834 zůstává nevysvětleno. Pochází z Laz (fara Orlová) – křest hledat ~1809."
    ],
    "sources": [
     "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F VIII 5, inv. 2792, N Petrovice u Karviné 1836–1859, oddíl Závada, snímek 56, pravá strana (Pag. 1), 6. zápis, křest 1836 (digi.archives.cz)",
     "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F VIII 5, inv. 2792, N Petrovice u Karviné 1836–1859, oddíl Závada, snímek 61, pravá strana (Pag. 11), 3. zápis, křest 1844 (digi.archives.cz)",
     "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F VIII 18, inv. 18470, O Petrovice u Karviné, Prstná, Závada 1859–1949, snímek 196, levá strana, 2. zápis, sňatek 27. 11. 1860 (digi.archives.cz)",
-    "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F VIII 11, inv. 10218, O Petrovice u Karviné 1836–1858, oddíl Závada, snímek 26, levá strana (pag. 25), sňatek 22. 6. 1852 (digi.archives.cz)"
+    "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F VIII 11, inv. 10218, O Petrovice u Karviné 1836–1858, oddíl Závada, snímek 26, levá strana (pag. 25), sňatek 22. 6. 1852 (digi.archives.cz)",
+    "ZA Opava, fara Orlová, O 1738–1841 (sign. Ka V 8, inv. 3042), X 1827, pag. 31 – snímek 69 vpravo"
    ],
    "scans": [
     {
@@ -1656,6 +1665,10 @@ window.RODOKMEN = {
     {
      "f": "img/1860_snatek_stadeczek_benda.jpg",
      "t": "Sňatek Laurenz Stadeczek × Johanna Benda, Závada 27. 11. 1860"
+    },
+    {
+     "f": "img/1827_snatek_benda_surma.png",
+     "t": "Sňatek Jiří Benda (Závada č. 2) × Johanna Surmová (Lazy), Orlová X 1827"
     }
    ],
    "father": "georgSurma"
@@ -2149,18 +2162,30 @@ window.RODOKMEN = {
     "approx": true
    },
    "notes": [
-    "Otec Zuzany Bendové („Susanna geb. Georg Surma“, křty vnoučat 1836–1844). Rok narození je odhad."
+    "Otec Zuzany Bendové („Susanna geb. Georg Surma“, křty vnoučat 1836–1844). Rok narození je odhad.",
+    "zao_r36: při sňatku dcery X 1827 již zemřelý, „Ackerbauer in Lazy“ (sedlák v Lazích, fara Orlová) (M čtení, ztotožnění D). Další Surmové z Orlové: Marianna, dcera † Johanna Surmy (∞ X 1821), Helena, dcera † Johanna Surmy „von Orlau“ (∞ 1825 Staré Město) – možní příbuzní (K)."
    ],
    "sources": [
     "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F VIII 5, inv. 2792, N Petrovice u Karviné 1836–1859, oddíl Závada, snímek 56, pravá strana (Pag. 1), 6. zápis, křest 1836 (digi.archives.cz)",
-    "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F VIII 5, inv. 2792, N Petrovice u Karviné 1836–1859, oddíl Závada, snímek 61, pravá strana (Pag. 11), 3. zápis, křest 1844 (digi.archives.cz)"
+    "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F VIII 5, inv. 2792, N Petrovice u Karviné 1836–1859, oddíl Závada, snímek 61, pravá strana (Pag. 11), 3. zápis, křest 1844 (digi.archives.cz)",
+    "ZA Opava, fara Orlová, O 1738–1841 (sign. Ka V 8, inv. 3042), X 1827, pag. 31 – snímek 69 vpravo"
    ],
    "scans": [
     {
      "f": "img/1844_krest_johanna_benda.jpg",
      "t": "Křest dvojčat Johanny a Antona Bendových, 29. 4. 1844, Závada"
+    },
+    {
+     "f": "img/1827_snatek_benda_surma.png",
+     "t": "Sňatek Jiří Benda (Závada č. 2) × Johanna Surmová (Lazy), Orlová X 1827"
     }
-   ]
+   ],
+   "d": {
+    "date": "",
+    "year": 1827,
+    "place": "",
+    "before": true
+   }
   },
   {
    "id": "rosinaHanusek",
@@ -2701,6 +2726,38 @@ window.RODOKMEN = {
     {
      "f": "img/1705_snatek_hanusek_gura.png",
      "t": "Sňatek Řehoř Hanusek × Anna Gurová, Dětmarovice 3. 2. 1705"
+    }
+   ]
+  },
+  {
+   "id": "mathiasBenda",
+   "name": "Matyáš (Mathias?) Benda",
+   "maiden": "",
+   "line": "grzonka",
+   "cert": "D",
+   "alive": false,
+   "b": {
+    "date": "",
+    "year": 1770,
+    "place": "",
+    "approx": true
+   },
+   "d": {
+    "date": "",
+    "year": 1827,
+    "place": "",
+    "before": true
+   },
+   "notes": [
+    "Otec Jiřího Bendy ze Závady; při synově sňatku X 1827 již zemřelý („des + Mathias(?) Benda“). Křestní jméno čteno nejistě (K–D), proto jistota D. Rok narození je odhad."
+   ],
+   "sources": [
+    "ZA Opava, fara Orlová, O 1738–1841 (sign. Ka V 8, inv. 3042), X 1827, pag. 31 – snímek 69 vpravo"
+   ],
+   "scans": [
+    {
+     "f": "img/1827_snatek_benda_surma.png",
+     "t": "Sňatek Jiří Benda (Závada č. 2) × Johanna Surmová (Lazy), Orlová X 1827"
     }
    ]
   }
