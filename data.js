@@ -2709,7 +2709,8 @@ window.RODOKMEN = {
     "Otec Magdaleny Hanuskové; při jejím sňatku XI 1737 žil (bez „defuncti“), v Dětmarovicích; 1738 ještě jako svědek (fs_old1).",
     "Úmrtí 14. 12. 1743: „obiit Georgius Kotyrzyna Ann. 78 Cathol. Rel. o. SS. provisus Ditth. ad S. Mariam Magdalenam sepultus“ (M; ztotožnění D – jméno a obec, jediný Jiří Kotyrzyna). Věk 78 → nar. ~1665. Jako „Georgius Kotyrzena“ svědek už 1705 (sňatek Řehoře Hanuska) a kmotr 1707; syn Ondřej pokř. 11. 11. 1707 (matka Marina) – Magdalena tedy možná dcera Mariny (K).",
     "fs_old9: kandidát křtu Magdaleny ~24. 6. 1713, „Magdalenam Parentum Georgij Kotyrzena(?) et Marinae“, Dětmarovice (DGS 5393677 sn177 L; K–D, čteno jen z přehledu – ověřit).",
-    "Děti s Marinou (DGS 5393677): Ondřej pokř. 11. 11. 1707 (sn158 P), Magdalena pokř. 4. 6. 1713 (sn177 L)."
+    "Děti s Marinou (DGS 5393677): Ondřej pokř. 11. 11. 1707 (sn158 P), Magdalena pokř. 4. 6. 1713 (sn177 L).",
+    "fs_old22: sňatek s Marinou v 1687–89 a 1695–1705 není (DGS 5393677 sn334–335, 341–348, 288–289); 1704 svědek. Nečteno 1689–94 (sn336–340). Stopy (K): II 1688 vdova Marina po [Mar?]tinu Koterzinovi, tkalci z Dětmarovic, se znovu vdala (Martin možný otec Jiřího); 1695 Eva, vdova po † Jiřím Koterzinovi z Dolní Lutyně (jiný Jiří)."
    ],
    "sources": [
     "ZA Opava, fara Dolní Lutyně, O 1728–1792 (sign. F I 11, inv. 2707), XI 1737, 1. zápis – FamilySearch DGS 5387443, snímek 31 vlevo",
@@ -2790,7 +2791,8 @@ window.RODOKMEN = {
    "occ": "mlynář (molitor)",
    "notes": [
     "Otec Anny Hanuskové (sňatek 1705): „Andreae Gura molitoris Gerwinensis(?)“ – mlynář, místo nejisté (K). Příjmení Gura doloženo v Dětmarovicích (1706 Urban Gura). Rok narození je odhad.",
-    "fs_old14 (K–D): 1721 křest u Joachima Gury a Hedviky, „molitore Gerwinensi“ – mlýn „Gerwin…“ držela rodina Gurů i v 1721; možná Ondřejův syn/nástupce."
+    "fs_old14 (K–D): 1721 křest u Joachima Gury a Hedviky, „molitore Gerwinensi“ – mlýn „Gerwin…“ držela rodina Gurů i v 1721; možná Ondřejův syn/nástupce.",
+    "fs_old22 (K): ve Věřňovicích mlynář Pavel Gora, † před II 1697 (vdova Eva) – mlynářský rod Gora/Gura v okolí; vztah k Ondřejovi neznámý."
    ],
    "sources": [
     "ZA Opava, fara Dolní Lutyně, smíšená matrika 1672–1728 (inv. 2697) – FamilySearch DGS 5393677, sňatky 3. 2. 1705, snímek 290 vlevo"
