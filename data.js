@@ -3432,16 +3432,18 @@ window.RODOKMEN = {
    "occ": "sedlák (Bauer), od 1786 zahradník",
    "b": {
     "date": "",
-    "year": 1745,
-    "place": "",
+    "year": 1742,
+    "place": "Dolní Žibřidovice (?)",
     "approx": true
    },
    "notes": [
     "KANDIDÁT – otec Pavla Drazzy jen přes ztotožnění křtu 1782 (K). Dolní Žibřidovice č. 41 (sedlák), od 1786 č. 30 (zahradník, totožnost K). Děti: Josepha Victorina 5. 3. 1780 (matka Eva roz. Lazar), Tomáš Silvestr 28. 12. 1780, Pavel 23. 1. 1782, Jan 27. 12. 1786 a Terezie 17. 10. 1790 (matka Eva roz. Wilkin?). Sňatek 10. 5. 1780 jako vdovec s Evou, vdovou po Matouši Somerlikovi (rozpor s Evou roz. Lazar 3/1780 – neřešeno). V Dolních Žibřidovicích také Jan Drapa, zahradník č. 56 (∞ Rosina Ostrutzka), patrně příbuzný. Rok narození je odhad.",
-    "caak_dr2: 1. žena Eva roz. Lazar † 24. 3. 1780 č. 41, 35 let (M); dcera Josepha † 18.(?) 3. 1780; Tomáš † 29. 12. 1780. V jeho domě † 10. 5. 1780 Rosina, vdova po Michalu Lazarovi, 59 let (patrně tchyně, D). 2. žena Eva roz. Wilková ∞ 10. 5. 1780. První sňatek před 1776."
+    "caak_dr2: 1. žena Eva roz. Lazar † 24. 3. 1780 č. 41, 35 let (M); dcera Josepha † 18.(?) 3. 1780; Tomáš † 29. 12. 1780. V jeho domě † 10. 5. 1780 Rosina, vdova po Michalu Lazarovi, 59 let (patrně tchyně, D). 2. žena Eva roz. Wilková ∞ 10. 5. 1780. První sňatek před 1776.",
+    "caak_dr3: 1. sňatek XI 1766 (den K): „Andreas Drappa | Honestus Adolescens filius Catholicus Laurentij Drappa ex inferiori Seiberdorf … cum honesta Virgine Eva … filia Michaelis Lazar aequè è Seiberdorf“ (M, ověřeno koordinátorem). Bratr Jan Drapa ∞ II 1772 Rosina Ostrutzka. Úmrtí I 1781 – VII 1788 není; syn Jan † VII 1788 (č. 30)."
    ],
    "sources": [
-    "Archiwum Diecezji Bielsko-Żywieckiej, fara Zebrzydowice, PWNMPZ 4 (1773–1800), křty I 1782, snímek 91 – CAAK (caak.upjp2.edu.pl)"
+    "Archiwum Diecezji Bielsko-Żywieckiej, fara Zebrzydowice, PWNMPZ 4 (1773–1800), křty I 1782, snímek 91 – CAAK (caak.upjp2.edu.pl)",
+    "Archiwum Diecezji Bielsko-Żywieckiej, fara Zebrzydowice, PWNMPZ 3 (1722–1773) – CAAK, sňatky XI 1766, snímek 303"
    ],
    "scans": [
     {
@@ -3451,8 +3453,13 @@ window.RODOKMEN = {
     {
      "f": "img/1780_umrti_eva_drapa_lazar.jpg",
      "t": "Úmrtí Evy Drapové, ženy Ondřeje, sedláka, Dolní Žibřidovice č. 41, 24. 3. 1780"
+    },
+    {
+     "f": "img/1766_snatek_ondrej_drapa_lazar.jpg",
+     "t": "Sňatek Ondřej Drapa, syn Vavřince × Eva, dcera Michala Lazara, Dolní Žibřidovice XI 1766"
     }
-   ]
+   ],
+   "father": "laurentiusDrapa"
   },
   {
    "id": "evaWilk",
@@ -3464,19 +3471,85 @@ window.RODOKMEN = {
    "b": {
     "date": "",
     "year": 1750,
-    "place": "",
+    "place": "Horní Marklovice (?)",
     "approx": true
    },
    "notes": [
-    "KANDIDÁTKA – matka Pavla Drazzy (vazba přes ztotožnění Pavla K, matka D). 8. 8. 1776 Dolní Žibřidovice č. 73: dcera Marina Afra „Somerlik Mathaus ein Inmann und Eva gebohr. Wilkin“ (M; † 9. 10. 1776). Jako vdova po Matouši Somerlikovi ∞ 10. 5. 1780 vdovec Ondřej Drapa, sedlák č. 41. U dětí 1786 a 1790 „Eva geb. Wilkin“, stejný kmotr Ondřej Rychlý jako 1776 (D). Možný otec Šimon Wilk, hajný, † 17. 11. 1779 Horní Marklovice, 64 let (K, jen příjmení). Rok narození je odhad."
+    "KANDIDÁTKA – matka Pavla Drazzy (vazba přes ztotožnění Pavla K, matka D). 8. 8. 1776 Dolní Žibřidovice č. 73: dcera Marina Afra „Somerlik Mathaus ein Inmann und Eva gebohr. Wilkin“ (M; † 9. 10. 1776). Jako vdova po Matouši Somerlikovi ∞ 10. 5. 1780 vdovec Ondřej Drapa, sedlák č. 41. U dětí 1786 a 1790 „Eva geb. Wilkin“, stejný kmotr Ondřej Rychlý jako 1776 (D). Možný otec Šimon Wilk, hajný, † 17. 11. 1779 Horní Marklovice, 64 let (K, jen příjmení). Rok narození je odhad.",
+    "caak_dr3: 1. sňatek 21. 10. 1770, č. 73: „Mattheus Sommerlik Adami Sommerlik filius … cum Honesta Virgine Eva Simonis vilk filia Catholica è Superiori Markl.“ (M, ověřeno koordinátorem) – otec Šimon Wilk z Horních Marklovic (D: jméno, příjmení, manžel, dům č. 73)."
    ],
    "sources": [
-    "Archiwum Diecezji Bielsko-Żywieckiej, fara Zebrzydowice, PWNMPZ 4 (1773–1800) – CAAK, křty VIII 1776 (s42), sňatky V 1780 (s241), úmrtí 1780 (s341)"
+    "Archiwum Diecezji Bielsko-Żywieckiej, fara Zebrzydowice, PWNMPZ 4 (1773–1800) – CAAK, křty VIII 1776 (s42), sňatky V 1780 (s241), úmrtí 1780 (s341)",
+    "Archiwum Diecezji Bielsko-Żywieckiej, fara Zebrzydowice, PWNMPZ 3 (1722–1773) – CAAK, sňatky X 1770, snímek 309"
    ],
    "scans": [
     {
      "f": "img/1776_krest_marina_somerlik_eva_wilk.jpg",
      "t": "Křest Mariny Afry Somerlikové, matka Eva roz. Wilková, Dolní Žibřidovice 8. 8. 1776"
+    },
+    {
+     "f": "img/1770_snatek_somerlik_eva_wilk.jpg",
+     "t": "Sňatek Matouš Somerlik × Eva, dcera Šimona Wilka z Horních Marklovic, 21. 10. 1770"
+    }
+   ],
+   "father": "simonWilk"
+  },
+  {
+   "id": "laurentiusDrapa",
+   "name": "Vavřinec (Laurentius) Drapa",
+   "maiden": "",
+   "line": "grzonka",
+   "cert": "K",
+   "alive": false,
+   "b": {
+    "date": "",
+    "year": 1715,
+    "place": "",
+    "approx": true
+   },
+   "notes": [
+    "Otec Ondřeje (sňatek 1766) a Jana Drapy (sňatek 1772), Dolní Žibřidovice (M v zápisech; jistota K jen kvůli ztotožnění Pavla Drazzy). Jako vdovec ∞ 6. 8. 1771 Zuzana, vdova po Šimonu Zachradníkovi (PWNMPZ 3 sn310, svědek „Andr. Drappa filius“). První manželka a úmrtí neznámé. Rok narození je odhad."
+   ],
+   "sources": [
+    "Archiwum Diecezji Bielsko-Żywieckiej, fara Zebrzydowice, PWNMPZ 3 (1722–1773) – CAAK, sňatky 1766, 1771, 1772, snímky 303 a 310"
+   ],
+   "scans": [
+    {
+     "f": "img/1766_snatek_ondrej_drapa_lazar.jpg",
+     "t": "Sňatek Ondřej Drapa, syn Vavřince × Eva, dcera Michala Lazara, Dolní Žibřidovice XI 1766"
+    }
+   ]
+  },
+  {
+   "id": "simonWilk",
+   "name": "Šimon (Simon) Wilk",
+   "maiden": "",
+   "line": "grzonka",
+   "cert": "K",
+   "alive": false,
+   "occ": "hajný (Waldjäger)",
+   "b": {
+    "date": "",
+    "year": 1715,
+    "place": "",
+    "approx": true
+   },
+   "d": {
+    "date": "17. 11. 1779",
+    "year": 1779,
+    "place": "Horní Marklovice č. 29"
+   },
+   "notes": [
+    "Otec Evy (sňatek 1770: „Eva Simonis vilk filia … è Superiori Markl.“, M). Úmrtí 17. 11. 1779, Horní Marklovice č. 29: „Wilk Simon ein Wald Jäger“, 64 let (PWNMPZ 4 s339) – ztotožnění D (jméno, obec, věk). Věk 64 → nar. ~1715. Jistota K kvůli ztotožnění Pavla Drazzy."
+   ],
+   "sources": [
+    "Archiwum Diecezji Bielsko-Żywieckiej, fara Zebrzydowice, PWNMPZ 3 (1722–1773) – CAAK, sňatky X 1770, snímek 309",
+    "Archiwum Diecezji Bielsko-Żywieckiej, fara Zebrzydowice, PWNMPZ 4, úmrtí XI 1779, snímek 339 – CAAK"
+   ],
+   "scans": [
+    {
+     "f": "img/1770_snatek_somerlik_eva_wilk.jpg",
+     "t": "Sňatek Matouš Somerlik × Eva, dcera Šimona Wilka z Horních Marklovic, 21. 10. 1770"
     }
    ]
   }
