@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Rodokmen Wilczek</title>
-<meta name="build-id" content="1795115124257">
+<meta name="build-id" content="1795115585204">
 <meta name="description" content="Rodokmen rodin Wilczek, Opiol, Matusinský a Drozd">
 <style>
 :root {
@@ -4966,7 +4966,7 @@ window.RODOKMEN_EVENTS = [
   { y: 2026, t: 'Plánovaný konec hlubinné těžby černého uhlí v ostravsko-karvinském revíru (OKD) po zhruba 250 letech', s: 'Konec těžby uhlí (plán)' }
 ];
 </script>
-<script>window.BUILD_STAMP = "19. 11. 2026 20:05";</script>
+<script>window.BUILD_STAMP = "19. 11. 2026 20:13";</script>
 <script>
 (function () {
   'use strict';
@@ -5023,7 +5023,8 @@ window.RODOKMEN_EVENTS = [
     const dd = p.d && p.d.year ? p.d.year : (p.alive ? '' : (p.d ? '?' : ''));
     return b + (dd || p.d ? '–' + (dd || '?') : (p.alive ? '' : '–?'));
   };
-  const isDoc = p => (p.cert === 'M' || p.cert === 'D') && p.b && p.b.year && !p.b.approx;
+  const isDoc = p => p.cert === 'M' && p.b && p.b.year; // NAVOD 6.3: direct ancestor with cert M, estimated year allowed (~)
+const yr = b => (b.approx ? '~' : '') + b.year;
   const oldestOf = list => list.filter(p => isDoc(p) && GEN.has(p.id)).reduce((a, p) => !a || p.b.year < a.b.year ? p : a, null);
   const placeShort = e => String((e && e.place) || '').replace(/\s*\(\?\)\s*/g, '').split(',')[0].trim();
   const rootP = byId.get(D.root);
@@ -5049,7 +5050,7 @@ window.RODOKMEN_EVENTS = [
     const stamp = window.BUILD_STAMP && window.BUILD_STAMP.indexOf('@') < 0 ? window.BUILD_STAMP : '';
     $('#stats').innerHTML = `<b>${n}</b> ${plural(n, 'osoba', 'osoby', 'osob')} · <b>${genDepth}</b> ${plural(genDepth, 'generace', 'generace', 'generací')} zpět` +
       ` <span title="Počítáno od ${esc(firstName)}: rodiče = 1. generace, prarodiče = 2. …">(rodiče = 1.)</span> · <b>${m}</b> doloženo matrikou · nejstarší doložený předek: ` +
-      (doc ? `<button type="button" class="plink" data-go="${esc(doc.id)}">${esc(doc.name)}</button> (${doc.b.year})` : '<span class="unk">zatím žádný (jen rodinná paměť)</span>') +
+      (doc ? `<button type="button" class="plink" data-go="${esc(doc.id)}">${esc(doc.name)}</button> (${yr(doc.b)})` : '<span class="unk">zatím žádný (jen rodinná paměť)</span>') +
       (stamp ? ` · aktualizace ${esc(stamp)}` : '');
     $('#chips').innerHTML = D.lines.map(l => {
       const c = D.people.filter(p => p.line === l.id).length;
@@ -5618,7 +5619,7 @@ window.RODOKMEN_EVENTS = [
       const l = lineOf.get(st.line) || { color: '#888' };
       const ps = D.people.filter(p => p.line === st.line), o = oldestOf(ps), nm = ps.filter(p => p.cert === 'M').length;
       const facts = ps.length ? `<div class="facts">V rodokmenu ${ps.length} ${plural(ps.length, 'osoba', 'osoby', 'osob')}, z toho ${nm} z matrik` +
-        (o ? ` · nejstarší doložený předek <a class="p" data-id="${esc(o.id)}">${esc(o.name)}</a> (*${o.b.year}${placeShort(o.b) ? ', ' + esc(placeShort(o.b)) : ''})` : '') + '</div>' : '';
+        (o ? ` · nejstarší doložený předek <a class="p" data-id="${esc(o.id)}">${esc(o.name)}</a> (*${yr(o.b)}${placeShort(o.b) ? ', ' + esc(placeShort(o.b)) : ''})` : '') + '</div>' : '';
       return `<div class="story" style="--lc:${esc(l.color)}"><b>${esc(st.title)}</b>${facts}${esc(st.text)}</div>`;
     }).join('');
     // timeline: family milestones + births/deaths + oldest documented ancestor of every line + historical events
