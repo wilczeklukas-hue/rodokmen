@@ -1139,10 +1139,9 @@ window.RODOKMEN = {
    "cert": "K",
    "alive": false,
    "b": {
-    "date": "",
-    "year": 1768,
-    "place": "Pruchna (?)",
-    "approx": true
+    "date": "6. 2. 1769",
+    "year": 1769,
+    "place": "Pruchna"
    },
    "occ": "komorník v Pruchné",
    "father": "jakobM",
@@ -1150,14 +1149,20 @@ window.RODOKMEN = {
     "KANDIDÁT (otec kandidáta Laurenze 1828). Sňatek 16. 5. 1810 Pruchna akt 4 jako vdovec, 43 let, komorník, s Annou Socholik (18 let), dům č. 17.",
     "Možný 1. sňatek 27. 6. 1797 Pruchna akt 3: Mathias, syn sedláka Jakoba, svobodný, 27 let × Helena, vdova po chalupníkovi Michaelu Liskovi, 49 let – ztotožnění jen K.",
     "Matrika výnosu pozemků 1820 (FS): Pruchna (DGS 100311091 sn37) – držitelé Matuschinsky Andreas č. 24, Paul č. 33, Georg č. 41, Joseph(?) č. 59; Mathias ani Jakob mezi nimi nejsou, č. 113 v Pruchné 1820 neexistuje (domy do ~90). Rychułd 1820 (16 domů) ani Zaborze bez Matuszyńských (fs_land3).",
-    "caak_dr15: sňatek 16. 5. 1810 (PAP 4 s36, vybledlé): „17 | Mathias Matuszynsky Inmann | 43(?) | Witwer || Anna nach dem + Johann Socholik Inmanns Tochter | 18“ (jména a dům M, věk D). 1. manželka (jméno přeškrtnuto, nad tím „Elsbeth“?, K) † 2. 2. 1810, č. 17, 58 let (PAP 4 s342, M). Sňatek 27. 6. 1797 (PAP 4 s20, M): „Mathias nach dem verstorbenen Jakob Matuschinsky Ackerbauern in Pruchna hinterbliebener Sohn | 27 | ledig || Helena nach dem verstorbenen Michel Liska Ackerbauer … Wittib | 49“ – zda je to týž Mathias (manželka † 1810 věkem sedí na Helenu, jménem ne), jen D−/K+. Otec Laurenze 1828 (M)."
+    "caak_dr15: sňatek 16. 5. 1810 (PAP 4 s36, vybledlé): „17 | Mathias Matuszynsky Inmann | 43(?) | Witwer || Anna nach dem + Johann Socholik Inmanns Tochter | 18“ (jména a dům M, věk D). 1. manželka (jméno přeškrtnuto, nad tím „Elsbeth“?, K) † 2. 2. 1810, č. 17, 58 let (PAP 4 s342, M). Sňatek 27. 6. 1797 (PAP 4 s20, M): „Mathias nach dem verstorbenen Jakob Matuschinsky Ackerbauern in Pruchna hinterbliebener Sohn | 27 | ledig || Helena nach dem verstorbenen Michel Liska Ackerbauer … Wittib | 49“ – zda je to týž Mathias (manželka † 1810 věkem sedí na Helenu, jménem ne), jen D−/K+. Otec Laurenze 1828 (M).",
+    "caak_dr17 – křest 6. 2. 1769 (PAP 2 s152, ověřeno koordinátorem na výřezu): „6. | Mathias | Jacobi Matuschensky et Annae Poliwinskin(?) LL: CC: par: Cath: Lev: Paulus Czakan … et Catharina Michaëlis Beltzar uxor | Pruchna“ (M; rodné příjmení matky D−/K+). Ztotožnění se ženichem 1797 D (otec, matka, věk). Sourozenci (oddací zápisy PAP 4): Ondřej ∞ 14. 2. 1792 („des Jakob Matuschinsky Ackerbaurs Sohn“, M; sedlák č. 24), Josef ∞ XI 1794 (D+), Pavel ∞ 2. 10. 1798 (č. 33, M). Mathias 1797 = Mathias 1810 nyní D (oba „syn Jakuba“/podruh; věk 27→43 sedí přibližně)."
    ],
    "sources": [
     "Geneteka (index PTG), śląskie, parafia Pruchna, sňatek 1810 akt 4 (gid 2485942)",
     "Geneteka (index PTG), śląskie, parafia Pruchna, sňatek 1797 akt 3",
-    "Archiwum Diecezji Bielsko-Żywieckiej, fara Pruchna, PAP 4 (N/O/Z 1785–1824), CAAK, oddaní 1797 s20, 1810 s36; zemřelí 1810 s342"
+    "Archiwum Diecezji Bielsko-Żywieckiej, fara Pruchna, PAP 4 (N/O/Z 1785–1824), CAAK, oddaní 1797 s20, 1810 s36; zemřelí 1810 s342",
+    "Archiwum Diecezji Bielsko-Żywieckiej, fara Pruchna, PAP 2 (N 1748–1774), CAAK, křty 1769 s152"
    ],
    "scans": [
+    {
+     "f": "img/1769_krest_mathias_matuszynski.jpg",
+     "t": "Křest Mathiase, syna Jakuba Matuszyńského a Anny roz. Poliwinské(?), Pruchna 6. 2. 1769"
+    },
     {
      "f": "img/1828_krest_laurenz_matuszynski.jpg",
      "t": "Křest Laurenze, syna podruha Mathiase Matuszyńského a Anny roz. Socholik, Pruchna č. 113, 20. 7. 1828"
@@ -1170,7 +1175,8 @@ window.RODOKMEN = {
      "f": "img/1797_snatek_matuszynski_liska.jpg",
      "t": "Sňatek 27. 6. 1797, Pruchna: Mathias, syn † sedláka Jakoba Matuszyńského, 27 × Helena, vdova po Michalu Liskovi, 49"
     }
-   ]
+   ],
+   "mother": "annaPoliwinska"
   },
   {
    "id": "annaSocholik",
@@ -1218,32 +1224,43 @@ window.RODOKMEN = {
    "alive": false,
    "b": {
     "date": "",
-    "year": 1740,
-    "place": "Pruchna (?)",
+    "year": 1726,
+    "place": "",
     "approx": true
    },
-   "occ": "sedlák (Ackerbauer), Pruchna",
+   "occ": "sedlák (Ackerbauer), Pruchna č. 24; na stáří podruh",
    "notes": [
-    "KANDIDÁT: otec Mathiase podle indexu sňatku 1797 (ztotožnění K). V Pruchné doloženi jeho synové Joseph, Mathias a Paul (sňatky 1794–1798). Rok narození je odhad.",
+    "KANDIDÁT: otec Mathiase podle indexu sňatku 1797 (ztotožnění K). V Pruchné doloženi jeho synové Joseph, Mathias a Paul (sňatky 1794–1798).",
     "Josefský katastr 1788, Pruchna (FS DGS 100297566, sn. 14): „Jacob Mattuschinsky(?) Haus No 24“ – držitel domu č. 24 (parc. 154–157). Tutéž usedlost č. 24 drží 1820 Andreas Matuschinsky (nástupce, příbuznost nedoložena). Ztotožnění s Jakubem, otcem Mathiase, jen podle jména a obce (K).",
     "caak_dr15: při sňatku syna 27. 6. 1797 již zemřelý („nach dem verstorbenen Jakob Matuschinsky Ackerbauern in Pruchna“, M).",
-    "caak_dr16: v zemřelých V 1791 – X 1794 není. 23. 7. 1794 zemřel v č. 24 Ondřej, syn sedláka Ondřeje Matuszyńského a Kateřiny (PAP 4 s297, M) → v domě č. 24 hospodaří 1794 Ondřej (snad Mathiasův bratr, K+), Jakob už patrně mrtev nebo na výměnku."
+    "caak_dr16: v zemřelých V 1791 – X 1794 není. 23. 7. 1794 zemřel v č. 24 Ondřej, syn sedláka Ondřeje Matuszyńského a Kateřiny (PAP 4 s297, M) → v domě č. 24 hospodaří 1794 Ondřej (snad Mathiasův bratr, K+), Jakob už patrně mrtev nebo na výměnku.",
+    "caak_dr17 – úmrtí 23. 4. 1795, Pruchna č. 16 (PAP 4 s301, ověřeno koordinátorem): „Jakob Matuschinsky Inmann gewesener Ackerbauer | 69 | an Schlagfluß“ (M; věk 69 → nar. ~1726). Ztotožnění D+: syn Josef 1794 má otce živého „ehemaligen Bauers“, Mathias 1797 a Pavel 1798 zemřelého; jediný zemřelý Jakob M. X 1794 – IX 1797. Manželka Anna roz. Poliwinská(?) († 1796). Synové: Ondřej (∞ 1792), Mathias (*1769), Josef (∞ 1794), Pavel (∞ 1798). Jako kmotr 27. 11. 1769 (rodina Czakan)."
    ],
    "sources": [
     "Geneteka (index PTG), śląskie, parafia Pruchna, sňatek 1797 akt 3",
     "ZA Opava, Josefský katastr 1788, Pruchna, parcelní protokol, FamilySearch DGS 100297566, snímek 14",
-    "Archiwum Diecezji Bielsko-Żywieckiej, fara Pruchna, PAP 4 (N/O/Z 1785–1824), CAAK, oddaní 1797 s20"
+    "Archiwum Diecezji Bielsko-Żywieckiej, fara Pruchna, PAP 4 (N/O/Z 1785–1824), CAAK, oddaní 1797 s20",
+    "Archiwum Diecezji Bielsko-Żywieckiej, fara Pruchna, PAP 4 (N/O/Z 1785–1824), CAAK, zemřelí 1795 s301",
+    "Archiwum Diecezji Bielsko-Żywieckiej, fara Pruchna, PAP 2 (N 1748–1774), CAAK, křty 1769 s152, s156"
    ],
    "scans": [
     {
      "f": "img/1797_snatek_matuszynski_liska.jpg",
      "t": "Sňatek 27. 6. 1797, Pruchna: Mathias, syn † sedláka Jakoba Matuszyńského, 27 × Helena, vdova po Michalu Liskovi, 49"
+    },
+    {
+     "f": "img/1795_umrti_jakob_matuszynski.jpg",
+     "t": "Úmrtí Jakuba Matuszyńského, podruha, dříve sedláka, 69 let, Pruchna č. 16, 23. 4. 1795"
+    },
+    {
+     "f": "img/1769_krest_mathias_matuszynski.jpg",
+     "t": "Křest Mathiase, syna Jakuba Matuszyńského a Anny roz. Poliwinské(?), Pruchna 6. 2. 1769"
     }
    ],
    "d": {
-    "date": "",
-    "year": 1797,
-    "before": true
+    "date": "23. 4. 1795",
+    "year": 1795,
+    "place": "Pruchna č. 16"
    }
   },
   {
@@ -4317,6 +4334,42 @@ window.RODOKMEN = {
     {
      "f": "img/1810_snatek_matuszynski_socholik.jpg",
      "t": "Sňatek 16. 5. 1810, Pruchna č. 17: Mathias Matuszyński, vdovec, 43 × Anna, dcera † Johanna Socholika, 18"
+    }
+   ]
+  },
+  {
+   "id": "annaPoliwinska",
+   "name": "Anna Matuszyńská",
+   "maiden": "Poliwinská (?)",
+   "line": "matusinsky",
+   "cert": "K",
+   "alive": false,
+   "b": {
+    "date": "",
+    "year": 1733,
+    "place": "",
+    "approx": true
+   },
+   "d": {
+    "date": "III 1796",
+    "year": 1796,
+    "place": "Pruchna č. 18"
+   },
+   "notes": [
+    "Matka Mathiase (křest 6. 2. 1769: „Annae Poliwinskin(?)“ – rodné příjmení D−/K+). Úmrtí III 1796 (den 29 nebo 25), Pruchna č. 18 (PAP 4 s306): „Anna nach dem verstorbenen Jakob Matuschinsky Ackerbauer und dann Inmann hinterbliebene Wittib | 63 | an Lungenentzündung“ (M) → nar. ~1733. Jistota K, protože vazba celé větve na Laurenze, otce Franze 1858, je K+."
+   ],
+   "sources": [
+    "Archiwum Diecezji Bielsko-Żywieckiej, fara Pruchna, PAP 2 (N 1748–1774), CAAK, křty 1769 s152",
+    "Archiwum Diecezji Bielsko-Żywieckiej, fara Pruchna, PAP 4 (N/O/Z 1785–1824), CAAK, zemřelí 1796 s306"
+   ],
+   "scans": [
+    {
+     "f": "img/1769_krest_mathias_matuszynski.jpg",
+     "t": "Křest Mathiase, syna Jakuba Matuszyńského a Anny roz. Poliwinské(?), Pruchna 6. 2. 1769"
+    },
+    {
+     "f": "img/1796_umrti_anna_matuszynska.jpg",
+     "t": "Úmrtí Anny, vdovy po Jakubovi Matuszyńském, 63 let, Pruchna č. 18, III 1796"
     }
    ]
   }
