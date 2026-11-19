@@ -3713,7 +3713,8 @@ window.RODOKMEN = {
     "approx": true
    },
    "notes": [
-    "Otec Zuzany Drapové: „Susanna Urbani Kroczek filia … ex inferiori Seiberdorff“ (sňatek 1741, M; příjmení D). Dolní Žibřidovice. Jistota K kvůli ztotožnění Pavla Drazzy. Rok narození je odhad."
+    "Otec Zuzany Drapové: „Susanna Urbani Kroczek filia … ex inferiori Seiberdorff“ (sňatek 1741, M; příjmení D). Dolní Žibřidovice. Jistota K kvůli ztotožnění Pavla Drazzy. Rok narození je odhad.",
+    "caak_dr6: manželka patrně Marianna – syn Jakub pokř. VI 1713 (PWNMPZ 2 s63, D). Křest Zuzany v X 1712 – XII 1721 není → patrně až 1722+ (PWNMPZ 3)."
    ],
    "sources": [
     "Archiwum Diecezji Bielsko-Żywieckiej, fara Zebrzydowice, PWNMPZ 3 (1722–1773) – CAAK, oddaní IX 1741, snímek 247"
@@ -3739,23 +3740,29 @@ window.RODOKMEN = {
     "approx": true
    },
    "notes": [
-    "Otec Vavřince ml.: „Laurentius Drapa, Susanna“ (křest 1715, M). Patrně týž „honestus viduus Laurentius Drappa“, který se 8. 6. 1738 oženil s vdovou Annou(?) (PWNMPZ 3 s242, D); „Anna Drapin vidua“ 1746 by pak byla jeho vdova (K–D). Zemřel tedy 1738–1746. Rok narození je odhad."
+    "Otec Vavřince ml.: „Laurentius Drapa, Susanna“ (křest 1715, M). Patrně týž „honestus viduus Laurentius Drappa“, který se 8. 6. 1738 oženil s vdovou Annou(?) (PWNMPZ 3 s242, D); „Anna Drapin vidua“ 1746 by pak byla jeho vdova (K–D). Zemřel tedy 1738–1746. Rok narození je odhad.",
+    "caak_dr6: sňatek 22. 1. 1714, Žibřidovice (PWNMPZ 2 s116): „Laurentius Drapa, Susan: Schimo-na(?) | Zibrz. | terna | Samuel Philos, Joan: Skowronek“ (M; jediný sňatek Vavřince Drapy 1693–1718, ztotožnění D; otcové v tabulce neuvedeni). Patrně bratr (K) Bartoloměj Drapa ∞ 26. 1. 1717 Žofie Moneczková (dcera Marina 1721)."
    ],
    "sources": [
     "Archiwum Diecezji Bielsko-Żywieckiej, fara Zebrzydowice, PWNMPZ 2 (1693–1721) – CAAK, křty VII 1715, snímek 68",
-    "Archiwum Diecezji Bielsko-Żywieckiej, fara Zebrzydowice, PWNMPZ 3 (1722–1773) – CAAK, oddaní VI 1738, snímek 242"
+    "Archiwum Diecezji Bielsko-Żywieckiej, fara Zebrzydowice, PWNMPZ 3 (1722–1773) – CAAK, oddaní VI 1738, snímek 242",
+    "Archiwum Diecezji Bielsko-Żywieckiej, fara Zebrzydowice, PWNMPZ 2 (1693–1721) – CAAK, oddaní I 1714, snímek 116"
    ],
    "scans": [
     {
      "f": "img/1715_krest_vavrinec_drapa.jpg",
      "t": "Křest Vavřince, syna Vavřince Drapy a Zuzany, Zebrzydowice 21. 7. 1715"
+    },
+    {
+     "f": "img/1714_snatek_vavrinec_drapa_st.jpg",
+     "t": "Sňatek Vavřince Drapy a Zuzany Schimo…(?), Žibřidovice 22. 1. 1714"
     }
    ]
   },
   {
    "id": "susannaDrapaSt",
    "name": "Zuzana Drapová st.",
-   "maiden": "",
+   "maiden": "Schimo…(?) – „Schimona“ / „Schimonka“ (?)",
    "line": "grzonka",
    "cert": "K",
    "alive": false,
@@ -3772,12 +3779,18 @@ window.RODOKMEN = {
     "before": true
    },
    "notes": [
-    "Matka Vavřince ml. (křest 1715, M). Zemřela před 8. 6. 1738 (manžel se znovu ženil jako vdovec). Rok narození je odhad."
+    "Matka Vavřince ml. (křest 1715, M). Zemřela před 8. 6. 1738 (manžel se znovu ženil jako vdovec). Rok narození je odhad.",
+    "caak_dr6: sňatek 22. 1. 1714 s Vavřincem Drapou: „Susan: Schimo-na(?)“ – koordinátor čte na výřezu „Schimo“ + pod řádkem „na“ (snad Šimonova dcera/„Szymonka“); rodné jméno K."
    ],
    "sources": [
-    "Archiwum Diecezji Bielsko-Żywieckiej, fara Zebrzydowice, PWNMPZ 2 (1693–1721) – CAAK, křty VII 1715, snímek 68"
+    "Archiwum Diecezji Bielsko-Żywieckiej, fara Zebrzydowice, PWNMPZ 2 (1693–1721) – CAAK, křty VII 1715, snímek 68",
+    "Archiwum Diecezji Bielsko-Żywieckiej, fara Zebrzydowice, PWNMPZ 2 (1693–1721) – CAAK, oddaní I 1714, snímek 116"
    ],
    "scans": [
+    {
+     "f": "img/1714_snatek_vavrinec_drapa_st.jpg",
+     "t": "Sňatek Vavřince Drapy a Zuzany Schimo…(?), Žibřidovice 22. 1. 1714"
+    },
     {
      "f": "img/1715_krest_vavrinec_drapa.jpg",
      "t": "Křest Vavřince, syna Vavřince Drapy a Zuzany, Zebrzydowice 21. 7. 1715"
