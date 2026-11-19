@@ -2624,7 +2624,8 @@ window.RODOKMEN = {
     "fs_old70: sňatek s Marinou v O Dolní Lutyně I 1737 – VI 1758 souvisle není → oddáni mimo faru. 1764–65 kovář (Faber) ve Věřňovicích.",
     "fs_old71: pohřeb v Dolní Lutyni 6. V 1765 – XII 1771 (DGS 5387446 sn90–111) není (D); s fs_old44 (1779–82 negativ) zbývá I 1772 – XII 1778 (sn112–138).",
     "fs_old72: úmrtí 30. 12. 1776 (DGS 5387446 sn130 P): „Martinus Kuźnik Gr…(?) Schmidt | Cath. | Parochial. | Deutsch Leuten | 49“ (M–D, ověřeno koordinátorem na výřezu; č. domu 6 D). Věk 49 → nar. ~1727. Ztotožnění D (jméno, řemeslo kovář, obec).",
-    "fs_old73: křest v Dolní Lutyni IX 1725 – XII 1728 (DGS 5393677 sn219–234) není (D); jediný Martin = Martin Ondřej, syn Jiřího Nowawiece(?) × Evy, Dětmarovice 8. 11. 1725 (R/K, jiné příjmení). Zbývá I 1729 – 1730 (DGS 5387436) a VIII 1724 – IX 1725 (sn213–218); jinak patrně z jiné fary."
+    "fs_old73: křest v Dolní Lutyni IX 1725 – XII 1728 (DGS 5393677 sn219–234) není (D); jediný Martin = Martin Ondřej, syn Jiřího Nowawiece(?) × Evy, Dětmarovice 8. 11. 1725 (R/K, jiné příjmení). Zbývá I 1729 – 1730 (DGS 5387436) a VIII 1724 – IX 1725 (sn213–218); jinak patrně z jiné fary.",
+    "fs_old74: křest ani v DGS 5387436 I 1729 – XII 1731 (a VIII–XII 1728) není (D). Celkem tedy Dolní Lutyně IX 1725 – XII 1731 negativ → patrně narozen jinde (Bohumín, Fryštát, Karviná, Rychvald?)."
    ],
    "sources": [
     "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F I 4, inv. 2700, N Věřňovice 1782–1803, snímek 12, pravá strana, „In Martio“ 4. zápis, křest 1784 (digi.archives.cz)",
