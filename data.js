@@ -1856,7 +1856,8 @@ window.RODOKMEN = {
     "Matka Johanny Drapkové roz. Cyronové podle oddacího zápisu 1837.",
     "Sňatek 17. 6. 1817 s vdovcem Pavlem Cyronem, Závada č. 4: „Magdalena des + Johann Dziegiel gewesenen Ackerbauers älteste(?) Tochter“, 29 let (→ nar. ~1788), svobodná (M). Matkou Johanny (1818) je doloženě (křest, M).",
     "Kandidát (K–D): 27. 2. 1817 zemřelo v Závadě č. 10 „Marianna der Magdalena des Johann Dzięgiel Ackerbauers Tochter Kind“ – nemanželské dítě nějaké Magdaleny Dzięgielové (F VIII 7, sn86 L); zda jde o ni, neověřeno.",
-    "caak_dz1: křest v Zebrzydowicích (celá fara III 1783 – XII 1784, Dolní Marklovice IX 1784 – XII 1789) není (D). V Dolních Marklovicích 1785–89 Dzięgielové Jakub (zahradník), Josef, Šimon; v Dolním Seibersdorfu Jiří – Jan mezi nimi nedoložen. Zbývá I 1780 – II 1783."
+    "caak_dz1: křest v Zebrzydowicích (celá fara III 1783 – XII 1784, Dolní Marklovice IX 1784 – XII 1789) není (D). V Dolních Marklovicích 1785–89 Dzięgielové Jakub (zahradník), Josef, Šimon; v Dolním Seibersdorfu Jiří – Jan mezi nimi nedoložen. Zbývá I 1780 – II 1783.",
+    "caak_dz2: ani v křtech Zebrzydowic I 1780 – II 1783 (D)."
    ],
    "sources": [
     "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F VIII 11, inv. 10218, O Petrovice u Karviné 1836–1858, oddíl Závada, snímek 22, levá strana, 4. zápis, sňatek 27. 8. 1837 (digi.archives.cz)",
@@ -3326,7 +3327,8 @@ window.RODOKMEN = {
     "Otec Magdaleny Cyronové; v VI 1817 už nežil („des + Johann Dziegiel gewesenen Ackerbauers“; M, příjmení D). Rok narození je odhad.",
     "zao_r55: křest syna Josefa 8. 3. 1789, Závada č. 10: „Joseph Dzięgiel … Johann Dzięgiel Ackerb: | Marina gebohrne Hain(in)(?) | Jakob Ciron; Marina des Georg Landeczky“ (F VIII 3, inv. 2790, sn4 L; čtení D–M, ověřeno koordinátorem). Manželka tedy Marina roz. H…ová (K) – zda je matkou Magdaleny (nar. před 1789), neověřeno. Johann žil ještě 1789; v rejstříku zemřelých 1785–1845 chybí. Magdalena v křtech Závady 1785 – IV 1791 není → nar. spíš před 1785 (kniha pro Závadu 1738–84 zatím neznámá).",
     "zebrz2 (K): rod Dzięgiel v Dolních Marklovicích (fara Zebrzydowice) – kmotr Simon Dzięgiel 1767 a 25. 4. 1769 (CAAK PWNMPZ 3, s182, s190). Ověřit původ Jana a křest Magdaleny (PWNMPZ 4–5, 1773–1800).",
-    "caak_dz1: sňatek Jan × Marina v Dolních Marklovicích I 1785 – X 1787 není; petrovické sňatky se psaly do fryštátské knihy („insertus est libro Freystadiensi, cum sit Petrowicensis“). Farář píše Dzygel/Digel."
+    "caak_dz1: sňatek Jan × Marina v Dolních Marklovicích I 1785 – X 1787 není; petrovické sňatky se psaly do fryštátské knihy („insertus est libro Freystadiensi, cum sit Petrowicensis“). Farář píše Dzygel/Digel.",
+    "caak_dz2: v Zebrzydowicích 1776–1784 Jan Dzięgiel není (ani otec, ženich, kmotr; D). Tamní rod: Jakub († před 1778), Jiří (∞ 1778 Anna Eliasz), Šimon, Josef. Jan nejspíš odjinud – hledat sňatek ve fryštátské knize (petrovické sňatky) a ve faře nevěsty."
    ],
    "sources": [
     "ZA Opava, fara Petrovice, O 1797–1858 (sign. F VIII 6, inv. 2793), oddíl Závada, 1817, pag. 8 – snímek 65 vlevo"
