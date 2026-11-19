@@ -1974,7 +1974,8 @@ window.RODOKMEN = {
     "caak_dz1: křest v Zebrzydowicích (celá fara III 1783 – XII 1784, Dolní Marklovice IX 1784 – XII 1789) není (D). V Dolních Marklovicích 1785–89 Dzięgielové Jakub (zahradník), Josef, Šimon; v Dolním Seibersdorfu Jiří – Jan mezi nimi nedoložen. Zbývá I 1780 – II 1783.",
     "caak_dz2: ani v křtech Zebrzydowic I 1780 – II 1783 (D).",
     "Úmrtí 3. 5. 1848, Závada č. 4: „Magdalena Cyron Ausgedingerin ist versehen … 60 Schlagfluß(?)“ – výměnkářka, 60 let (čtení M, příčina K; ověřeno koordinátorem). Ztotožnění M–D: grunt Pavla Cyrona č. 4, věk přesně sedí na sňatek 1817 (29 let).",
-    "fs_old110 (K–D): v Závadě č. 10 se 23./24. 3. 1793 narodila dvojčata Marina a Magdalena, dcery Jana Dzięgiela a Mariny („Marina gebohrne Andlin(?)“); Marina † 1797, Magdalena žila ještě IX 1797. Jiná Magdalena Dzięgielová v křtech Závady 1785–1793 není → Magdalena Cyronová je patrně toto dvojče a věky 29 (1817) a 60 (1848) jsou nadsazené o ~5 let. Nezapsáno jako jisté."
+    "fs_old110 (K–D): v Závadě č. 10 se 23./24. 3. 1793 narodila dvojčata Marina a Magdalena, dcery Jana Dzięgiela a Mariny („Marina gebohrne Andlin(?)“); Marina † 1797, Magdalena žila ještě IX 1797. Jiná Magdalena Dzięgielová v křtech Závady 1785–1793 není → Magdalena Cyronová je patrně toto dvojče a věky 29 (1817) a 60 (1848) jsou nadsazené o ~5 let. Nezapsáno jako jisté.",
+    "fs_old111: matka Marina (Marianna) † 21. 8. 1844 Závada č. 10 jako vdova „Szczygiel“ (~84 l.) – zapsána jako marinaDziegielSt (D). Rodina se v rejstříku píše Dzięgiel i Szczęgiel/Szczygiel."
    ],
    "sources": [
     "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F VIII 11, inv. 10218, O Petrovice u Karviné 1836–1858, oddíl Závada, snímek 22, levá strana, 4. zápis, sňatek 27. 8. 1837 (digi.archives.cz)",
@@ -2009,7 +2010,8 @@ window.RODOKMEN = {
     "date": "3. 5. 1848",
     "year": 1848,
     "place": "Závada, č. 4"
-   }
+   },
+   "mother": "marinaDziegielSt"
   },
   {
    "id": "laurenzStadeczekSt",
@@ -3614,7 +3616,8 @@ window.RODOKMEN = {
     "zao_r82–83: sňatek s Marinou v O Fryštát (F IV 7) souvisle II 1773 – X 1788 není (D); zbývá jen XII 1770 – I 1773 (sn34–40, málo pravděpodobné). Pravděpodobně oddán ve faře nevěsty (Orlová?).",
     "zao_r84: ani v O Orlová (Ka V 8) V 1775 – II 1784 a po obcích 1784–88 není (D–K). Patrně jiná fara (Karviná, Dolní Lutyně, polská strana) nebo před 1775.",
     "fs_old108: 13. 1. 1817, Závada č. 28 se vdala „Johanna des + Johann Dziegiel gewesenen Ackerbauers Tochter“, 25 let (*~1792), za Jakuba, syna Martina Dzierżęgy (26); svědek „Joseph Dziegiel Ackerbauer von da“ – patrně syn Jana (K–D). Johanna je sestra Magdaleny (obě „dcera † Jana Dzięgiela, bývalého sedláka“, D). Jan tedy † před I 1817; v rejstříku zemřelých D 1785–1819 není (číst knihy přímo). Čtení M, ověřeno koordinátorem (FS vol. 2793 sn66 L, pag. 8; agent prohodil den a č. domu – správně den 13., č. 28).",
-    "Úmrtí 9. 5. 1815, Závada č. 10: „Johann Dzigiel Auszügler … 60 Brustwassersucht“ – výměnkář, 60 let (*~1755), vodnatelnost hrudníku (čtení M, rok podle záhlaví strany D; ověřeno koordinátorem). Ztotožnění D–M: č. 10 = jeho dům (děti † 1809, 1810 „des Johann Dziegiel Ackerbauer“), 1817 „+ gewesener Ackerbauer“, sedlákem pak Josef. V rejstříku F VIII 9 chybí. Manželka Marina, rodné jméno nejisté („Jarnin/Hainin“ 1789, „H…rnin“ 1790, „Andlin“ 1793 – K). Děti v Závadě č. 10: Josef 8. 3. 1789, Johanna 24. 11. 1790 (∞ 1817, † XII 1817), dvojčata Marina a Magdalena 23./24. 3. 1793 (Marina † 14. 2. 1797), Franz ~1802 († 1810), Jan ~1807 († 1809)."
+    "Úmrtí 9. 5. 1815, Závada č. 10: „Johann Dzigiel Auszügler … 60 Brustwassersucht“ – výměnkář, 60 let (*~1755), vodnatelnost hrudníku (čtení M, rok podle záhlaví strany D; ověřeno koordinátorem). Ztotožnění D–M: č. 10 = jeho dům (děti † 1809, 1810 „des Johann Dziegiel Ackerbauer“), 1817 „+ gewesener Ackerbauer“, sedlákem pak Josef. V rejstříku F VIII 9 chybí. Manželka Marina, rodné jméno nejisté („Jarnin/Hainin“ 1789, „H…rnin“ 1790, „Andlin“ 1793 – K). Děti v Závadě č. 10: Josef 8. 3. 1789, Johanna 24. 11. 1790 (∞ 1817, † XII 1817), dvojčata Marina a Magdalena 23./24. 3. 1793 (Marina † 14. 2. 1797), Franz ~1802 († 1810), Jan ~1807 († 1809).",
+    "fs_old111: vdova Marina † 21. 8. 1844 č. 10 (~84 l.). Syn Josef, sedlák č. 10: dcera Hedvika † 19. 1. 1820 (6 l.), syn Josef † 30. 3. 1831; Josef st. snad † 14. 12. 1831 jako podruh č. 6 „Joseph Szczygiel“, 40 l. (K)."
    ],
    "sources": [
     "ZA Opava, fara Petrovice, O 1797–1858 (sign. F VIII 6, inv. 2793), oddíl Závada, 1817, pag. 8 – snímek 65 vlevo",
@@ -4696,6 +4699,39 @@ window.RODOKMEN = {
     {
      "f": "img/1732_snatek_vaclav_polewins_marina_lomozik.jpg",
      "t": "Sňatek 17. 8. 1732, Pruchna: Václav Polewins × Marina, dcera Pavla Lomozika"
+    }
+   ]
+  },
+  {
+   "id": "marinaDziegielSt",
+   "name": "Marina (Marianna) Dzięgielová",
+   "maiden": "? („Andlin / H…rnin / Jarnin“ – nejisté)",
+   "line": "grzonka",
+   "cert": "D",
+   "alive": false,
+   "b": {
+    "date": "",
+    "year": 1760,
+    "place": "",
+    "approx": true
+   },
+   "d": {
+    "date": "21. 8. 1844",
+    "year": 1844,
+    "place": "Závada, č. 10"
+   },
+   "notes": [
+    "Manželka Jana Dzięgiela, sedláka v Závadě č. 10; matka Josefa (1789), Johanny (1790), dvojčat Mariny a Magdaleny (1793) a dalších dětí – ve všech křtech „Marina gebohrne …“ (jméno D, rodné příjmení K: „Jarnin/Hainin“ 1789, „H…rnin“ 1790, „Andlin“ 1793). Matkou Magdaleny Cyronové je D (Magdalena = dcera Jana Dzięgiela; jediná známá manželka Jana je Marina; pokud Magdalena = dvojče 1793, pak M–D).",
+    "Úmrtí 21. 8. 1844, Závada č. 10: „Marianna Szczygiel Wittwe, ist versehen … 84(?) J. Altersschwäche“ – vdova, ~84 let (*~1760), sešlost věkem (čtení M, věk D, příjmení – doložená varianta Szczygiel = Dzięgiel v rejstříku F VIII 9; ověřeno koordinátorem). Ztotožnění D – dům č. 10, vdova, věk. Rodné jméno zápis neuvádí."
+   ],
+   "sources": [
+    "ZA Opava, Závada – josefínská matrika N/O/Z 1785–1797 – FamilySearch vol. 2790, křty 1789, 1790, 1793 (snímky 4–6)",
+    "ZA Opava, fara Petrovice, Z 1797–1858 – FamilySearch vol. 2794, Závada pag. 38, snímek 98 vlevo (ark …JLXT)"
+   ],
+   "scans": [
+    {
+     "f": "img/1844_umrti_marina_dziegielova.png",
+     "t": "Úmrtí Marianny (Mariny) Dzięgielové/Szczygielové, vdovy (~84 let), Závada č. 10, 21. 8. 1844"
     }
    ]
   }
