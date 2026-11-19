@@ -4059,7 +4059,7 @@ window.RODOKMEN = {
    "name": "Jakub (Jacobus) Kocvara (Koczwara)",
    "maiden": "",
    "line": "grzonka",
-   "cert": "D",
+   "cert": "M",
    "alive": false,
    "occ": "sedlák (Ackerbauer), Petrovice č. 27",
    "b": {
@@ -4069,24 +4069,31 @@ window.RODOKMEN = {
     "approx": true
    },
    "notes": [
-    "Otec Jana Koczwary: „Jacobus Kotzvara Acker. Baur et Anna“, Petrovice č. 27, křest III 1780 (M; ztotožnění syna D). Jiné děti v indexu fryštátských křtů 1771–91 nenalezeny (index komolí jména). Rok narození je odhad."
+    "Otec Jana Koczwary: „Jacobus Kotzvara Acker. Baur et Anna“, Petrovice č. 27, křest III 1780 (M; ztotožnění syna D). Jiné děti v indexu fryštátských křtů 1771–91 nenalezeny (index komolí jména). Rok narození je odhad.",
+    "Sňatek 23. 11. 1778 (Fryštát; ověřeno koordinátorem na výřezu): „Zavada 15 / Petrowitz 27 | 23. | Der Ehrbare Knecht Jacobus des V[er]st. Georg Kotzwara Sohn mit der Ehrbare[n] Anna nach dem Georg Sobotzik Wittwe | Cath. | Mathaeus Ganibal Bauer von Zovada, Johann Ganibol Bauer v. Petrowitz | Petrowitz“ – čeledín Jakub, syn † Jiřího Kocvary, ze Závady č. 15, × Anna, vdova po Jiřím Sobotzikovi, Petrovice č. 27 (M; „zemřelý“ D). Ztotožnění s otcem Jana 1780 D–M: stejný dům č. 27, Mathaeus Janibol svědkem 1778 i kmotrem 1780. Do domu č. 27 se přiženil (dům vdovy)."
    ],
    "sources": [
-    "ZA Opava, fara Fryštát, N 1771–1792 (FamilySearch vol. 2733, film 005393684), III 1780, snímek 64"
+    "ZA Opava, fara Fryštát, N 1771–1792 (FamilySearch vol. 2733, film 005393684), III 1780, snímek 64",
+    "ZA Opava, fara Fryštát, O 1762–1792 (F IV 7) – FamilySearch vol. 2735, 23. 11. 1778, snímek 67 vpravo"
    ],
    "scans": [
     {
      "f": "img/1780_krest_jan_koczwara.jpg",
      "t": "Křest Jana, syna Jakuba Kocvary, sedláka, a Anny, Petrovice č. 27, III 1780"
+    },
+    {
+     "f": "img/1778_snatek_jakub_kocvara_anna_sobotzik.png",
+     "t": "Sňatek 23. 11. 1778: Jakub, syn Jiřího Kocvary (Závada č. 15), × Anna, vdova po Jiřím Sobotzikovi (Petrovice č. 27)"
     }
-   ]
+   ],
+   "father": "georgKoczwaraZ"
   },
   {
    "id": "annaKoczwaraSt",
-   "name": "Anna Kocvarová",
+   "name": "Anna Kocvarová (1. manž. Sobotziková)",
    "maiden": "",
    "line": "grzonka",
-   "cert": "D",
+   "cert": "M",
    "alive": false,
    "b": {
     "date": "",
@@ -4095,15 +4102,57 @@ window.RODOKMEN = {
     "approx": true
    },
    "notes": [
-    "Matka Jana Koczwary (křest III 1780, Petrovice č. 27, M). Rodné příjmení neuvedeno. Rok narození je odhad."
+    "Matka Jana Koczwary (křest III 1780, Petrovice č. 27, M). Rodné příjmení neuvedeno. Rok narození je odhad.",
+    "1. sňatek 6. 2. 1774 (Fryštát, FS vol. 2735 sn46 L): „21. Petrowitz / 31. Petrowitz | … Der Ehrbare Knecht des Georg Sobotzik Anbauern mit der Ehrbaren Jungfrau Anna des Vst. Paul Ko-|lek(?) Tochter v. Petrowitz | … Paul Kolek Schulmeister“ – panna Anna, dcera † Pavla Kolka(?) z Petrovic č. 31, × Sobotzik z č. 21 (D; rodné příjmení Kolková jen K – zalomené přes řádek, podporuje svědek Pavel Kolek, učitel). Dcera z 1. manželství: Anna Sobotziková, pokř. 9. 4. 1775, Petrovice č. 21 (D). Ovdověla 1774–78; 2. sňatek s Jakubem Kocvarou 23. 11. 1778 (M)."
    ],
    "sources": [
-    "ZA Opava, fara Fryštát, N 1771–1792 (FamilySearch vol. 2733, film 005393684), III 1780, snímek 64"
+    "ZA Opava, fara Fryštát, N 1771–1792 (FamilySearch vol. 2733, film 005393684), III 1780, snímek 64",
+    "ZA Opava, fara Fryštát, O 1762–1792 (F IV 7) – FamilySearch vol. 2735, 23. 11. 1778, snímek 67 vpravo",
+    "ZA Opava, fara Fryštát, O 1762–1792 (F IV 7) – FamilySearch vol. 2735, 6. 2. 1774, snímek 46 vlevo"
    ],
    "scans": [
     {
      "f": "img/1780_krest_jan_koczwara.jpg",
      "t": "Křest Jana, syna Jakuba Kocvary, sedláka, a Anny, Petrovice č. 27, III 1780"
+    },
+    {
+     "f": "img/1778_snatek_jakub_kocvara_anna_sobotzik.png",
+     "t": "Sňatek 23. 11. 1778: Jakub, syn Jiřího Kocvary (Závada č. 15), × Anna, vdova po Jiřím Sobotzikovi (Petrovice č. 27)"
+    },
+    {
+     "f": "img/1774_snatek_sobotzik_anna.png",
+     "t": "Sňatek 6. 2. 1774 (Petrovice): Sobotzik × Anna, dcera † Pavla Kolka(?) z č. 31 – 1. sňatek Anny"
+    }
+   ]
+  },
+  {
+   "id": "georgKoczwaraZ",
+   "name": "Jiří (Georg) Kocvara (Koczwara)",
+   "maiden": "",
+   "line": "grzonka",
+   "cert": "D",
+   "alive": false,
+   "b": {
+    "date": "",
+    "year": 1720,
+    "place": "",
+    "approx": true
+   },
+   "d": {
+    "date": "",
+    "year": 1778,
+    "before": true
+   },
+   "notes": [
+    "Otec Jakuba Kocvary, Závada č. 15: „Jacobus des V[er]st. Georg Kotzwara Sohn“ (sňatek 23. 11. 1778, M; „zemřelý“ D → † před XI 1778). Rok narození je odhad."
+   ],
+   "sources": [
+    "ZA Opava, fara Fryštát, O 1762–1792 (F IV 7) – FamilySearch vol. 2735, 23. 11. 1778, snímek 67 vpravo"
+   ],
+   "scans": [
+    {
+     "f": "img/1778_snatek_jakub_kocvara_anna_sobotzik.png",
+     "t": "Sňatek 23. 11. 1778: Jakub, syn Jiřího Kocvary (Závada č. 15), × Anna, vdova po Jiřím Sobotzikovi (Petrovice č. 27)"
     }
    ]
   }
