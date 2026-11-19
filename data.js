@@ -2293,7 +2293,8 @@ window.RODOKMEN = {
     "fs_old88: Ondřej Kaluža ze Závady svědkem 2. 2. 1738 (FS vol. 2734 sn43 L, M) → dospělý už 1738, jeho sňatek spíš před VIII 1734. Kalužové ze Závady (Pavel, Jakub) jako svědci 1738–49.",
     "fs_old89: 24. 1. 1760 Anna, dcera † Jakuba Kalužy ze Závady, ∞ Jan Beihar(?) z Koukolné (sn89 L, M). Sňatek Ondřeje Kaluži v O Fryštát ~1726 – VI 1760 není (souvisle) → před 1726 nebo jinde.",
     "fs_old90: O Fryštát (vol. 2734) přečtena celá 1708–1761 – sňatek Ondřeje Kaluži v ní není (mezera V–XII 1710). Nejstarší Kaluža ze Závady: Tomáš ∞ 19. 9. 1718 Marianna Foltinková ze Starého Města (sn11 P, M) – možný otec Ondřeje/Jakuba (K). Také Jakub Galuška ze Závady ∞ 1724, Jan Galuška ze Závady ∞ 1726 (vazba na Kaluža K).",
-    "web_z2: Závada patřila před 1785 patrně k faře Godów (pruské Slezsko): vizitace 1719 „Oprócz Zawady dołączone były Łaziska“ (Maroń 1972, s. 173; AAWr II b 157) – D (ověřeno na stránce). Od 1785 lokálie Petrovice (Kneifel 1804, s. 349 – M). Křty Godów 1740–84 jen originál v AA Katowice, online nejsou."
+    "web_z2: Závada patřila před 1785 patrně k faře Godów (pruské Slezsko): vizitace 1719 „Oprócz Zawady dołączone były Łaziska“ (Maroń 1972, s. 173; AAWr II b 157) – D (ověřeno na stránce). Od 1785 lokálie Petrovice (Kneifel 1804, s. 349 – M). Křty Godów 1740–84 jen originál v AA Katowice, online nejsou.",
+    "fs_old101: Ondřej Kaluža v úmrtích Závady 1785–97 ani v rejstříku K 1786–1800 není; jen sňatek 24. 6. 1788 „Andreas Kalzar(?)“, vdovec 62 let, č. 17 (příjmení K). Kalužové v Závadě 1785–97: Urban (Häusler č. 8, † 1797, 50 l.), Vavřinec (∞ 1791 vdova Anna Cyronová), Pavel st. (žena Anna † 1792, 83 l.)."
    ],
    "sources": [
     "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F VIII 6, inv. 2793, O Petrovice u Karviné 1797–1858, oddíl Závada, snímek 61, pravá strana (pag. 1), 1. zápis, sňatek 29. 1. 1799 (digi.archives.cz)"
@@ -3494,11 +3495,13 @@ window.RODOKMEN = {
     "zao_r68: ZA Opava nemá před 1785 žádnou matriku N se Závadou v územním rozsahu (Fryštát F IV 4/5 ji nevede, Dolní Lutyně F I 3 – VIII 1768–1771 Locus bez Závady). Závada patrně křtila v polské faře Zebrzydowice (Ka V 8 ji uvádí se Zebrzydowicemi) → křty Šimonových dětí (Pavel ~1766–71) nejspíš tam; online nejsou (K).",
     "zebrz2: matriky Zebrzydowic 1661–1800 online zdarma (CAAK, Archiwum Diecezji Bielsko-Żywieckiej, PWNMPZ 1–5). Křty 1765–VI 1772 (PWNMPZ 3, s176–201) jen Seibersdorf a Marklowitz – Závada do fary nepatřila (D–M). Křest Pavla tedy ani tam; kniha Závady před 1785 dál neznámá.",
     "fs_old89: „Simon Cyron ex Zovada“ svědkem 19. 2. 1759 (sňatek vdovce Vavřince Nogy ze Závady; FS vol. 2734 sn86 L, čtení M, ztotožnění D–K).",
-    "web_z2: Závada patřila před 1785 patrně k faře Godów (pruské Slezsko): vizitace 1719 „Oprócz Zawady dołączone były Łaziska“ (Maroń 1972, s. 173; AAWr II b 157) – D (ověřeno na stránce). Od 1785 lokálie Petrovice (Kneifel 1804, s. 349 – M). Křty Godów 1740–84 jen originál v AA Katowice, online nejsou."
+    "web_z2: Závada patřila před 1785 patrně k faře Godów (pruské Slezsko): vizitace 1719 „Oprócz Zawady dołączone były Łaziska“ (Maroń 1972, s. 173; AAWr II b 157) – D (ověřeno na stránce). Od 1785 lokálie Petrovice (Kneifel 1804, s. 349 – M). Křty Godów 1740–84 jen originál v AA Katowice, online nejsou.",
+    "fs_old101 (Závada, josefínská kniha 1785–97, FS vol. 2790): Šimon Cyron, sedlák, Závada č. 4, s manželkou ANNOU roz. Kajurovou („Anna gebohrne Kajurin“): děti Marina *15. 2. 1790 († 3. 8. 1791) a Matěj *20. 2. 1795 († 5. 5. 1797) (čtení M, ověřeno koordinátorem; ztotožnění se Šimonem, otcem Pavla, D – sedlák ze Závady, jediný Šimon Cyron v knize). Anna Kajurová je tedy patrně 2. manželka (1. Markéta Stolková ∞ 1765, matka Pavla *~1769 – K). 5. 5. 1791 zemřel v č. 4 Matěj Kajur, podruh, 63 let – patrně tchán (K). Šimon žil ještě V 1797; úmrtí Šimona ani Anny do IX 1797 není. Křest syna Jana v Darkově 1777 („Simon Cyron & Anna“) tím dostává oporu (K→D–K)."
    ],
    "sources": [
     "ZA Opava, fara Petrovice, O 1797–1858 (sign. F VIII 6, inv. 2793), oddíl Závada, 1803, pag. 3 – snímek 62 vpravo",
-    "ZA Opava, fara Fryštát, O 1762–1792 (sign. F IV 7, inv. 2735), XI 1765, pag. 30 – snímek 17 vlevo"
+    "ZA Opava, fara Fryštát, O 1762–1792 (sign. F IV 7, inv. 2735), XI 1765, pag. 30 – snímek 17 vlevo",
+    "ZA Opava, Závada – josefínská matrika N/O/Z 1785–1797 – FamilySearch vol. 2790, křty II 1795, snímek 7 vpravo"
    ],
    "scans": [
     {
@@ -3508,6 +3511,10 @@ window.RODOKMEN = {
     {
      "f": "img/1765_snatek_simon_cyron_stolka.png",
      "t": "Sňatek Šimon Ciron, syn Martina, ze Závady × Markéta, dcera † Michala Stolky, Fryštát 24. 11. 1765"
+    },
+    {
+     "f": "img/1795_krest_matej_cyron.png",
+     "t": "Křest Matěje Cyrona, syna Šimona a Anny rozené Kajurové, Závada č. 4, 20. 2. 1795"
     }
    ],
    "father": "martinCyron"
@@ -3604,7 +3611,8 @@ window.RODOKMEN = {
     "fs_old88: sňatek VIII 1734 – VII 1745 není. Pozor na jmenovce: Martin Cyron ze Starého Města † před I 1739 (syn Pavel ∞ 14. 1. 1739) – NE náš (ten žil 1765). Šimon Cyron, syn † Jana, z Koukolné ∞ 12. 5. 1743 – jiný Šimon.",
     "fs_old89: sňatek v O Fryštát (vol. 2734) není v celém úseku ~1726 – VI 1760.",
     "fs_old90: O Fryštát 1708–1761 přečtena celá – sňatek není → patrně ve faře nevěsty.",
-    "web_z2: Závada patřila před 1785 patrně k faře Godów (pruské Slezsko): vizitace 1719 „Oprócz Zawady dołączone były Łaziska“ (Maroń 1972, s. 173; AAWr II b 157) – D (ověřeno na stránce). Od 1785 lokálie Petrovice (Kneifel 1804, s. 349 – M). Křty Godów 1740–84 jen originál v AA Katowice, online nejsou."
+    "web_z2: Závada patřila před 1785 patrně k faře Godów (pruské Slezsko): vizitace 1719 „Oprócz Zawady dołączone były Łaziska“ (Maroń 1972, s. 173; AAWr II b 157) – D (ověřeno na stránce). Od 1785 lokálie Petrovice (Kneifel 1804, s. 349 – M). Křty Godów 1740–84 jen originál v AA Katowice, online nejsou.",
+    "fs_old101: úmrtí Martina v Závadě II 1785 – IX 1797 není. 15. 2. 1795 č. 13 zemřela „Marina Cyronin Bettlerin“, 78 let (*~1717) – možná vdova po Martinovi (K, manžel neuveden)."
    ],
    "sources": [
     "ZA Opava, fara Fryštát, O 1762–1792 (sign. F IV 7, inv. 2735), XI 1765, pag. 30 – snímek 17 vlevo"
