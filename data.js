@@ -4165,22 +4165,24 @@ window.RODOKMEN = {
    "occ": "sedlák (Ackerbauer), Petrovice č. 27",
    "b": {
     "date": "",
-    "year": 1750,
+    "year": 1747,
     "place": "",
     "approx": true
    },
    "notes": [
-    "Otec Jana Koczwary: „Jacobus Kotzvara Acker. Baur et Anna“, Petrovice č. 27, křest III 1780 (M; ztotožnění syna D). Jiné děti v indexu fryštátských křtů 1771–91 nenalezeny (index komolí jména). Rok narození je odhad.",
+    "Otec Jana Koczwary: „Jacobus Kotzvara Acker. Baur et Anna“, Petrovice č. 27, křest III 1780 (M; ztotožnění syna D). Jiné děti v indexu fryštátských křtů 1771–91 nenalezeny (index komolí jména).",
     "Sňatek 23. 11. 1778 (Fryštát; ověřeno koordinátorem na výřezu): „Zavada 15 / Petrowitz 27 | 23. | Der Ehrbare Knecht Jacobus des V[er]st. Georg Kotzwara Sohn mit der Ehrbare[n] Anna nach dem Georg Sobotzik Wittwe | Cath. | Mathaeus Ganibal Bauer von Zovada, Johann Ganibol Bauer v. Petrowitz | Petrowitz“ – čeledín Jakub, syn † Jiřího Kocvary, ze Závady č. 15, × Anna, vdova po Jiřím Sobotzikovi, Petrovice č. 27 (M; „zemřelý“ D). Ztotožnění s otcem Jana 1780 D–M: stejný dům č. 27, Mathaeus Janibol svědkem 1778 i kmotrem 1780. Do domu č. 27 se přiženil (dům vdovy).",
     "fs_old80: kmotr u dětí Jana Gische, Petrovice č. 23: dvojčata 20. 6. 1782 a Hedvika 7. 10. 1784 („Jacobus Kotzwara … Acker Bauer“, D). Další děti s Annou ve fryštátských křtech I 1781 – V 1785 nejsou; od VI 1785 má Petrovice vlastní matriku (hledat 1785–97). POZOR na č. d.: 20. 2. 1785 bydlí v Petrovicích č. 27 Jan Tomeček – číslice „2?“ v letech 1778/1780 může být i 21 (dům Sobotzika); vazba na dům č. 27 z 1824/31 je proto jen K. Ztotožnění syna Jana stojí hlavně na tom, že je jediným Janem s otcem Kocvarou v knize 1771–91 (D). Pozor: v Petrovicích i jiný pár Jakub × Anna (Wandrol, č. 5).",
     "Křest nedohledán: Závada před 1785 nemá dochovanou křestní knihu v ZA Opava (zao_r56–57: patřila k Orlové, ale v Ka V 3 není); rodiče ze Závady nejsou ani ve Fryštátu 1749–55 (fs_old81–82), v Karviné 1737–58 (fs_old83) ani v Zebrzydowicích 1741–53 (caak_dr13).",
     "web_z2: Závada patřila před 1785 patrně k faře Godów (pruské Slezsko): vizitace 1719 „Oprócz Zawady dołączone były Łaziska“ (Maroń 1972, s. 173; AAWr II b 157) – D (ověřeno na stránce). Od 1785 lokálie Petrovice (Kneifel 1804, s. 349 – M). Křty Godów 1740–84 jen originál v AA Katowice, online nejsou.",
-    "Syn Jakub pokř. 28. 3. 1790, Petrovice č. 21 (fs_old95, M; ztotožnění D – dům č. 21, žena Anna, sedlák). Dům č. 21 podporuje čtení „21“ u křtu Jana 1780. Jiné děti v Petrovicích I 1785 – IX 1793 nejsou; úmrtí I 1786 – III 1792 bez Kocvarů."
+    "Syn Jakub pokř. 28. 3. 1790, Petrovice č. 21 (fs_old95, M; ztotožnění D – dům č. 21, žena Anna, sedlák). Dům č. 21 podporuje čtení „21“ u křtu Jana 1780. Jiné děti v Petrovicích I 1785 – IX 1793 nejsou; úmrtí I 1786 – III 1792 bez Kocvarů.",
+    "Úmrtí 15. 11. 1792, Petrovice č. 49: „Jakob Kotzwara Häusler prov. et sep. … 45 in Wassersucht“ – domkář, 45 let, vodnatelnost (čtení M, ověřeno koordinátorem na výřezu; ztotožnění D – jediný Jakub Kocvara v knize, vdova Anna ∞ 1794). Věk 45 → nar. ~1747. Č. 49 = dům syna Jana 1803–1813."
    ],
    "sources": [
     "ZA Opava, fara Fryštát, N 1771–1792 (FamilySearch vol. 2733, film 005393684), III 1780, snímek 64",
     "ZA Opava, fara Fryštát, O 1762–1792 (F IV 7) – FamilySearch vol. 2735, 23. 11. 1778, snímek 67 vpravo",
-    "ZA Opava, Petrovice – josefínská matrika N/O/Z 1785–1797 – FamilySearch vol. 2788, snímek 13 vlevo (ark 3:1:3QSQ-G9MW-J2JC)"
+    "ZA Opava, Petrovice – josefínská matrika N/O/Z 1785–1797 – FamilySearch vol. 2788, snímek 13 vlevo (ark 3:1:3QSQ-G9MW-J2JC)",
+    "ZA Opava, Petrovice – josefínská matrika N/O/Z 1785–1797 – FamilySearch vol. 2788, úmrtí XI 1792, snímek 29 vlevo (ark 3:1:3QSQ-G9MW-J2FW)"
    ],
    "scans": [
     {
@@ -4194,9 +4196,18 @@ window.RODOKMEN = {
     {
      "f": "img/1790_krest_jakub_kocvara_ml.png",
      "t": "Křest Jakuba Kocvary (syna Jakuba a Anny rozené Michalkové?), Petrovice č. 21, 28. 3. 1790"
+    },
+    {
+     "f": "img/1792_umrti_jakub_kocvara.png",
+     "t": "Úmrtí Jakuba Kocvary, domkáře (45 let), Petrovice č. 49, 15. 11. 1792"
     }
    ],
-   "father": "georgKoczwaraZ"
+   "father": "georgKoczwaraZ",
+   "d": {
+    "date": "15. 11. 1792",
+    "year": 1792,
+    "place": "Petrovice u Karviné, č. 49"
+   }
   },
   {
    "id": "annaKoczwaraSt",
@@ -4207,20 +4218,22 @@ window.RODOKMEN = {
    "alive": false,
    "b": {
     "date": "",
-    "year": 1755,
+    "year": 1752,
     "place": "",
     "approx": true
    },
    "notes": [
-    "Matka Jana Koczwary (křest III 1780, Petrovice č. 27, M). Rodné příjmení neuvedeno. Rok narození je odhad.",
+    "Matka Jana Koczwary (křest III 1780, Petrovice č. 27, M). Rodné příjmení neuvedeno.",
     "1. sňatek 6. 2. 1774 (Fryštát, FS vol. 2735 sn46 L): „21. Petrowitz / 31. Petrowitz | … Der Ehrbare Knecht des Georg Sobotzik Anbauern mit der Ehrbaren Jungfrau Anna des Vst. Paul Ko-|lek(?) Tochter v. Petrowitz | … Paul Kolek Schulmeister“ – panna Anna, dcera † Pavla Kolka(?) z Petrovic č. 31, × Sobotzik z č. 21 (D; rodné příjmení Kolková jen K – zalomené přes řádek, podporuje svědek Pavel Kolek, učitel). Dcera z 1. manželství: Anna Sobotziková, pokř. 9. 4. 1775, Petrovice č. 21 (D). Ovdověla 1774–78; 2. sňatek s Jakubem Kocvarou 23. 11. 1778 (M).",
-    "Křest syna Jakuba 28. 3. 1790, Petrovice č. 21: „Jacob Kotzwara Ackerbr. | Anna gebohr. Mi?alkin“ – rozená Michalková(?) (čtení „M…alkin“ D–K, ověřeno koordinátorem na výřezu; „Michalkin“ mají v knize i jiné matky). ROZPOR se sňatkem 1774 („Anna des Vst. Paul Ko-|lek(?) Tochter“): buď čtení Kolek chybné, nebo jde o jinou Annu – zatím neřešeno (K)."
+    "Křest syna Jakuba 28. 3. 1790, Petrovice č. 21: „Jacob Kotzwara Ackerbr. | Anna gebohr. Mi?alkin“ – rozená Michalková(?) (čtení „M…alkin“ D–K, ověřeno koordinátorem na výřezu; „Michalkin“ mají v knize i jiné matky). ROZPOR se sňatkem 1774 („Anna des Vst. Paul Ko-|lek(?) Tochter“): buď čtení Kolek chybné, nebo jde o jinou Annu – zatím neřešeno (K).",
+    "Jako vdova po Jakubu Kocvarovi se 24. 2. 1794 znovu vdala, Petrovice č. 9: „Mathes Zagat(?) Inwohner | 50 | Witwer | Anna nach dem Verstorb. Jakob Kotzwara von Petrowitz | 42 | Wittwe“ (čtení M, příjmení ženicha K; ověřeno koordinátorem). Věk 42 → nar. ~1752; 3. sňatek. Rodné jméno: „Mi?alkin“ (1790) vs. „Paul Kolek(?)“ (1774) – Michalkové bydleli v č. 31 (dům nevěsty 1774), Pavel Kolek varhaník *~1740 nemůže být „†“ otec 1774 → spíš Michalková (K–D). Úmrtí v Petrovicích do IX 1797 není."
    ],
    "sources": [
     "ZA Opava, fara Fryštát, N 1771–1792 (FamilySearch vol. 2733, film 005393684), III 1780, snímek 64",
     "ZA Opava, fara Fryštát, O 1762–1792 (F IV 7) – FamilySearch vol. 2735, 23. 11. 1778, snímek 67 vpravo",
     "ZA Opava, fara Fryštát, O 1762–1792 (F IV 7) – FamilySearch vol. 2735, 6. 2. 1774, snímek 46 vlevo",
-    "ZA Opava, Petrovice – josefínská matrika N/O/Z 1785–1797 – FamilySearch vol. 2788, snímek 13 vlevo (ark 3:1:3QSQ-G9MW-J2JC)"
+    "ZA Opava, Petrovice – josefínská matrika N/O/Z 1785–1797 – FamilySearch vol. 2788, snímek 13 vlevo (ark 3:1:3QSQ-G9MW-J2JC)",
+    "ZA Opava, Petrovice – josefínská matrika N/O/Z 1785–1797 – FamilySearch vol. 2788, sňatky II 1794, snímek 6 vlevo (ark 3:1:3QS7-89MW-JJ4X)"
    ],
    "scans": [
     {
@@ -4238,6 +4251,10 @@ window.RODOKMEN = {
     {
      "f": "img/1790_krest_jakub_kocvara_ml.png",
      "t": "Křest Jakuba Kocvary (syna Jakuba a Anny rozené Michalkové?), Petrovice č. 21, 28. 3. 1790"
+    },
+    {
+     "f": "img/1794_snatek_zagat_anna_vdova_kocvara.png",
+     "t": "Sňatek Matěje Z?gata a Anny, vdovy po Jakubu Kocvarovi (42 let), Petrovice č. 9, 24. 2. 1794"
     }
    ]
   },
