@@ -2276,7 +2276,8 @@ window.RODOKMEN = {
     "Otec Anny Schittkové podle oddacího zápisu 1799 („Kalußin des Johannes“). Rok narození je odhad.",
     "Kandidát (K–D, zao_r60): sňatek 17. 2. 1770, Fryštát (F IV 7, inv. 2735, sn31 P, pag. 59): „Honestus famulus Joannes filius defuncti Andreae Kaluza alias ex Zovada nunc in Konkolna, cum honesta ancilla Eva filia defuncti Jacobi Quiczala(?) alias ex Petrowitz“ – Jan, syn † Ondřeje Kalužy ze Závady, nyní v Koukolné × Eva, dcera † Jakuba Kwiczaly(?) z Petrovic. Shoda jména a obce; ověří křest Anny (~1777, fara Fryštát).",
     "zao_r71 (K): 2. kandidát – II 1783 O Fryštát: „Johann des Verst. Jacob Kaluza Sohn, mit der Eva des Verst. Paul Nawrata Tochter“ (okraj Konkolna(?) 6). Pokud jde o otce Anny, narodila se až po 1783 (věk 22 v 1799 by pak nesedí přesně).",
-    "fs_old88: Ondřej Kaluža ze Závady svědkem 2. 2. 1738 (FS vol. 2734 sn43 L, M) → dospělý už 1738, jeho sňatek spíš před VIII 1734. Kalužové ze Závady (Pavel, Jakub) jako svědci 1738–49."
+    "fs_old88: Ondřej Kaluža ze Závady svědkem 2. 2. 1738 (FS vol. 2734 sn43 L, M) → dospělý už 1738, jeho sňatek spíš před VIII 1734. Kalužové ze Závady (Pavel, Jakub) jako svědci 1738–49.",
+    "fs_old89: 24. 1. 1760 Anna, dcera † Jakuba Kalužy ze Závady, ∞ Jan Beihar(?) z Koukolné (sn89 L, M). Sňatek Ondřeje Kaluži v O Fryštát ~1726 – VI 1760 není (souvisle) → před 1726 nebo jinde."
    ],
    "sources": [
     "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F VIII 6, inv. 2793, O Petrovice u Karviné 1797–1858, oddíl Závada, snímek 61, pravá strana (pag. 1), 1. zápis, sňatek 29. 1. 1799 (digi.archives.cz)"
@@ -3475,7 +3476,8 @@ window.RODOKMEN = {
     "SŇATEK 24. 11. 1765, Fryštát: „Simon | Honestus Adolescens Martini Ciron filius ex Zovada cum honesta puella Margaretha defuncti Michaelis Stolka filia ex eodem pago. Copulavit P. Joannes Kubik …“ (čtení M, ověřeno koordinátorem; měsíc z nadpisu D). Ztotožnění se Šimonem, sedlákem ze Závady (1773/75, 1803), D – jiný Šimon Cyron ze Závady 1765–78 nenalezen (Šimon „Gyron“ ∞ 4. 2. 1765 Anna Oslislo je ze Starého Města, jiný). Manželka Markéta roz. Stolková – zda je matkou Pavla (*~1769), neověřeno (křest nenalezen VII 1767 – III 1778). Pavel Cyron ze Závady, kmotr 1770/1772, snad Šimonův bratr (K).",
     "zao_r66: křest dítěte Šimona × Markéty (Pavla) v N Fryštát XI 1765 – III 1778 není (souvisle; K–D). Kmotr 26. 10. 1766 „Joannes Stolka ex Zovada“ – patrně bratr Markéty (K).",
     "zao_r68: ZA Opava nemá před 1785 žádnou matriku N se Závadou v územním rozsahu (Fryštát F IV 4/5 ji nevede, Dolní Lutyně F I 3 – VIII 1768–1771 Locus bez Závady). Závada patrně křtila v polské faře Zebrzydowice (Ka V 8 ji uvádí se Zebrzydowicemi) → křty Šimonových dětí (Pavel ~1766–71) nejspíš tam; online nejsou (K).",
-    "zebrz2: matriky Zebrzydowic 1661–1800 online zdarma (CAAK, Archiwum Diecezji Bielsko-Żywieckiej, PWNMPZ 1–5). Křty 1765–VI 1772 (PWNMPZ 3, s176–201) jen Seibersdorf a Marklowitz – Závada do fary nepatřila (D–M). Křest Pavla tedy ani tam; kniha Závady před 1785 dál neznámá."
+    "zebrz2: matriky Zebrzydowic 1661–1800 online zdarma (CAAK, Archiwum Diecezji Bielsko-Żywieckiej, PWNMPZ 1–5). Křty 1765–VI 1772 (PWNMPZ 3, s176–201) jen Seibersdorf a Marklowitz – Závada do fary nepatřila (D–M). Křest Pavla tedy ani tam; kniha Závady před 1785 dál neznámá.",
+    "fs_old89: „Simon Cyron ex Zovada“ svědkem 19. 2. 1759 (sňatek vdovce Vavřince Nogy ze Závady; FS vol. 2734 sn86 L, čtení M, ztotožnění D–K)."
    ],
    "sources": [
     "ZA Opava, fara Petrovice, O 1797–1858 (sign. F VIII 6, inv. 2793), oddíl Závada, 1803, pag. 3 – snímek 62 vpravo",
@@ -3582,7 +3584,8 @@ window.RODOKMEN = {
     "Otec Šimona Cyrona ze Závady: „Martini Ciron filius ex Zovada“ (sňatek syna 24. 11. 1765, Fryštát; M). Ztotožnění Šimona 1765 = otec Pavla Cyrona (1803) D, proto D. V roce 1765 bez „defunctus“ – patrně žil. Rok narození je odhad.",
     "zao_r67: v Závadě i Valentin Cyron („Valentini Gyron … ex Zawada“, syn Matouš ∞ 6. 2. 1763 Hedvika z Koukolné) – dvě rodiny Cyronů v Závadě. Sňatek Pavla Cyrona st. 1762–X 1766 není; jiné děti Martina ženaté 1762–64 nenalezeny.",
     "fs_old87: v Závadě i třetí větev – 6. 8. 1752 Anna, dcera † Jana Cyrona „ex Zowada“, ∞ Vavřinec Niedziela (FS vol. 2734 sn68 L, M). Sňatek Martina VIII 1745 – VI 1756 není (čekán spíš ~1735–40).",
-    "fs_old88: sňatek VIII 1734 – VII 1745 není. Pozor na jmenovce: Martin Cyron ze Starého Města † před I 1739 (syn Pavel ∞ 14. 1. 1739) – NE náš (ten žil 1765). Šimon Cyron, syn † Jana, z Koukolné ∞ 12. 5. 1743 – jiný Šimon."
+    "fs_old88: sňatek VIII 1734 – VII 1745 není. Pozor na jmenovce: Martin Cyron ze Starého Města † před I 1739 (syn Pavel ∞ 14. 1. 1739) – NE náš (ten žil 1765). Šimon Cyron, syn † Jana, z Koukolné ∞ 12. 5. 1743 – jiný Šimon.",
+    "fs_old89: sňatek v O Fryštát (vol. 2734) není v celém úseku ~1726 – VI 1760."
    ],
    "sources": [
     "ZA Opava, fara Fryštát, O 1762–1792 (sign. F IV 7, inv. 2735), XI 1765, pag. 30 – snímek 17 vlevo"
@@ -4238,7 +4241,8 @@ window.RODOKMEN = {
    "notes": [
     "Otec Jakuba Kocvary, Závada č. 15: „Jacobus des V[er]st. Georg Kotzwara Sohn“ (sňatek 23. 11. 1778, M; „zemřelý“ D → † před XI 1778). Rok narození je odhad.",
     "fs_old86–87: sňatek v O Fryštát (FS vol. 2734) VIII 1745 – VI 1756 není; jiné rodiny Kocvarů: † Tomáš (Staré Město), Bartoloměj (Darkov). Zbývá 1738 – VII 1745 (sn40–54).",
-    "fs_old88: ani VIII 1734 – VII 1745 → v O Fryštát souvisle VIII 1734 – VI 1756 není (ani jako svědek). Zbývá před 1734, VII 1756–61 nebo fara nevěsty."
+    "fs_old88: ani VIII 1734 – VII 1745 → v O Fryštát souvisle VIII 1734 – VI 1756 není (ani jako svědek). Zbývá před 1734, VII 1756–61 nebo fara nevěsty.",
+    "fs_old89: sňatek v O Fryštát (vol. 2734) není v celém úseku ~1726 – VI 1760."
    ],
    "sources": [
     "ZA Opava, fara Fryštát, O 1762–1792 (F IV 7) – FamilySearch vol. 2735, 23. 11. 1778, snímek 67 vpravo"
