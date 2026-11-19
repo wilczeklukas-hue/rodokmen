@@ -1528,7 +1528,8 @@ window.RODOKMEN = {
     "2. sňatek 27. 7. 1841 v Závadě: „Simon Stadeczek Müller von Zawada, Sohn des Laurenz Stadeczek u. der Marianna geb. Fijałek (?)“, 41 let (nar. ~1800), vdovec × Barbara, dcera † Pavla Stanika (?), domkáře z Gołkowic (D; jména rodičů K–D). Od 1842 u dětí matka „Barbara geb. Paul Stanik (?)“.",
     "Křest v Závadě 1800 – I 1804 nenalezen (F VIII 4 sn. 163–165); mlýn č. 17 tehdy držel Johann Wyslubek (?), Stadeczkové přišli později – Šimon se nejspíš narodil jinde.",
     "zao_r76: křest v Závadě XI 1797 – VII 1805 (F VIII 4 sn161–166) ani v rejstříku křtů celé fary 1794–1819 (F VIII 9 sn43–45) není (D) → narozen mimo faru Petrovice. Mlýn Závada X 1799 – XII 1803 drží Jan Wyslubek(?); Stadečkové přišli patrně po 1803. V rejstříku jen Stadczyk, otec Jiří, Prstná 1816 (jiná rodina).",
-    "zao_r79: kmotr v Závadě V 1823 („Simon Sta-drzek(?) Sohn des Müllers“), 22. 4. 1825 („Simon Sohn des Müllers Stadrzek(?)“, svobodný), 1829 („Simon des Müllers Stadnzik Sohn“), 1832 („Simon Stadnizek … Müller“) – vždy u dětí Ignáce Nowaka (D–M). V letech 1816–1835 byl mlynářem na č. 17 Ondřej (Andreas) Stadeczek († 1835, 76 let); Laurenz se v Závadě 1797–1832 nikde neobjevuje. POZOR (K): „syn mlynáře“ 1823–29 by mohl znamenat, že Šimonovým otcem byl ve skutečnosti Ondřej; sňatek 1832 ale uvádí „gewesenen Müllers Laurenz Stadeczek“ – rozpor neřešen, ponecháno. Syn Vojtěch (Adalbert) † 19. 10. 1845, č. 17, 1½ roku (F VIII 7 sn98 P, M)."
+    "zao_r79: kmotr v Závadě V 1823 („Simon Sta-drzek(?) Sohn des Müllers“), 22. 4. 1825 („Simon Sohn des Müllers Stadrzek(?)“, svobodný), 1829 („Simon des Müllers Stadnzik Sohn“), 1832 („Simon Stadnizek … Müller“) – vždy u dětí Ignáce Nowaka (D–M). V letech 1816–1835 byl mlynářem na č. 17 Ondřej (Andreas) Stadeczek († 1835, 76 let); Laurenz se v Závadě 1797–1832 nikde neobjevuje. POZOR (K): „syn mlynáře“ 1823–29 by mohl znamenat, že Šimonovým otcem byl ve skutečnosti Ondřej; sňatek 1832 ale uvádí „gewesenen Müllers Laurenz Stadeczek“ – rozpor neřešen, ponecháno. Syn Vojtěch (Adalbert) † 19. 10. 1845, č. 17, 1½ roku (F VIII 7 sn98 P, M).",
+    "zao_r80: otec ONDŘEJ (Andreas) Stadeczek, dříve šafář v Klein…(?), od ~1816 mlynář v Závadě (oba sňatky 1832 a 1841, D–M). Děti z 1. manželství: Šimon († 13. 4. 1840, ~1 rok), Josef († 8. 3. 1841, 13 dní), Barbora † 28. 4. 1841 (31 let) potvrzena; z 2. manželství Marianna († 19. 9. 1842). 2. manželka Barbora (24 let, 1841), dcera Pavla Stanika(?) z Gołkowic a Terezie roz. Pozek(?)."
    ],
    "sources": [
     "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F VIII 6, inv. 2793, O Petrovice u Karviné 1797–1858, oddíl Závada, snímek 68, levá strana (pag. 14), sňatek 28. 8. 1832 (digi.archives.cz)",
@@ -1904,19 +1905,20 @@ window.RODOKMEN = {
   },
   {
    "id": "laurenzStadeczekSt",
-   "name": "Vavřinec (Laurenz) Stadeczek",
+   "name": "Ondřej (Andreas) Stadeczek",
    "maiden": "",
    "line": "grzonka",
    "cert": "M",
    "alive": false,
    "b": {
     "date": "",
-    "year": 1770,
-    "place": "Závada (?)",
+    "year": 1759,
+    "place": "",
     "approx": true
    },
-   "occ": "mlynář (Müller) v Závadě",
+   "occ": "šafář (Schaffner) v Klein…(?), od ~1816 mlynář v Závadě č. 17",
    "notes": [
+    "OPRAVA (zao_r80, ověřeno koordinátorem na výřezech): otec Šimona se jmenoval ONDŘEJ (Andreas), ne Vavřinec (Laurenz) – dřívější čtení bylo chybné. Sňatek 1832 (F VIII 6 sn68 L): „Sohn des zu Klein…(?) gewesenen Schaffners dann jetzigen Müllers Andreas Stadnczek und der Ana Fizaler(?)“ (D–M); sňatek 1841 (sn70 P): „Sohn des Andreas Stadniczek u. der Mutter Anna geb. Fijałek(?)“ (D–M). Ztotožnění s mlynářem Ondřejem Stadnyczkem, † 6. 7. 1835 Závada č. 17, 76 let (F VIII 7 sn95 L: „Andreas Stadnyczek Müller, ist versehen w. | 76 | Lungensucht“) – D (jméno, mlynář 1832, dům 17, Šimon 1823–29 „Sohn des Müllers“). Dříve vedeno jako „Vavřinec (Laurenz) Stadeczek“; starší poznámky níže se týkají hledání „Laurenze“ a jsou tím vysvětleny (Laurenz v Závadě nikdy nebyl).",
     "Otec Šimona: sňatek syna 1832 („gewesener Müller Laurenz Stadeczek“) a 1841. Rok narození je odhad.",
     "zao_r50 (K): 6. 7. 1835 zemřel v Závadě č. 17 „Andreas Stadnyczek(?) Müller“, 76 let (F VIII 7 sn95 L) – snad příbuzný (otec?) mlynáře Vavřince.",
     "zao_r76: ve faře Petrovice 1794–1819 nemá žádné křtěné dítě; sňatek v rejstříku oddaných 1785–1803 není → rodina přišla odjinud (Godów, Dětmarovice, Věřňovice, Fryštát?).",
@@ -1926,14 +1928,34 @@ window.RODOKMEN = {
    ],
    "sources": [
     "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F VIII 6, inv. 2793, O Petrovice u Karviné 1797–1858, oddíl Závada, snímek 68, levá strana (pag. 14), sňatek 28. 8. 1832 (digi.archives.cz)",
-    "ZA Opava, F VIII 11, snímek 23, sňatek syna 1841 (digi.archives.cz)"
+    "ZA Opava, F VIII 11, snímek 23, sňatek syna 1841 (digi.archives.cz)",
+    "ZA Opava, fara Petrovice u Karviné, O 1797–1858 (F VIII 6), Závada, 28. 8. 1832, snímek 68 vlevo",
+    "ZA Opava, fara Petrovice u Karviné, O 1797–1858 (F VIII 6), Závada, 27. 7. 1841, snímek 70 vpravo",
+    "ZA Opava, fara Petrovice u Karviné, Z (F VIII 7), Závada 1835, snímek 95 vlevo"
    ],
    "scans": [
     {
      "f": "img/1832_snatek_stadeczek_koczwara.jpg",
      "t": "Sňatek Simon Stadeczek × Barbara Koczwara, Závada 28. 8. 1832"
+    },
+    {
+     "f": "img/1832_snatek_simon_stadeczek_otec_andreas.png",
+     "t": "Sňatek 1832: Šimon, syn „gewesenen Schaffners dann jetzigen Müllers Andreas Stadnczek und der Ana Fizaler(?)“"
+    },
+    {
+     "f": "img/1841_snatek_simon_stadeczek_otec_andreas.png",
+     "t": "Sňatek 1841: Šimon Stadeczek, „Sohn des Andreas Stadniczek u. der Mutter Anna geb. Fijałek“"
+    },
+    {
+     "f": "img/1835_umrti_ondrej_stadeczek.png",
+     "t": "Úmrtí Ondřeje (Andrease) Stadnyczka, mlynáře, 76 let, Závada č. 17, 6. 7. 1835"
     }
-   ]
+   ],
+   "d": {
+    "date": "6. 7. 1835",
+    "year": 1835,
+    "place": "Závada, č. 17"
+   }
   },
   {
    "id": "annaFijalek",
@@ -1949,7 +1971,8 @@ window.RODOKMEN = {
     "approx": true
    },
    "notes": [
-    "Matka Šimona: 1832 „Anna Fijałek (?)“, 1841 „Marianna geb. Fijałek (?)“ – křestní jméno i příjmení nejisté. Rok narození je odhad."
+    "Matka Šimona: 1832 „Anna Fijałek (?)“, 1841 „Marianna geb. Fijałek (?)“ – křestní jméno i příjmení nejisté. Rok narození je odhad.",
+    "zao_r80: matka Šimona – 1832 „Ana Fizaler(?)“, 1841 „Mutter Anna geb. Fijałek(?)“ (Anna M–D, příjmení K). Manžel Ondřej (Andreas), ne Vavřinec."
    ],
    "sources": [
     "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F VIII 6, inv. 2793, O Petrovice u Karviné 1797–1858, oddíl Závada, snímek 68, levá strana (pag. 14), sňatek 28. 8. 1832 (digi.archives.cz)"
@@ -1958,6 +1981,10 @@ window.RODOKMEN = {
     {
      "f": "img/1832_snatek_stadeczek_koczwara.jpg",
      "t": "Sňatek Simon Stadeczek × Barbara Koczwara, Závada 28. 8. 1832"
+    },
+    {
+     "f": "img/1841_snatek_simon_stadeczek_otec_andreas.png",
+     "t": "Sňatek 1841: Šimon Stadeczek, „Sohn des Andreas Stadniczek u. der Mutter Anna geb. Fijałek“"
     }
    ]
   },
