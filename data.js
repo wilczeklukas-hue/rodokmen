@@ -2278,7 +2278,8 @@ window.RODOKMEN = {
     "zao_r71 (K): 2. kandidát – II 1783 O Fryštát: „Johann des Verst. Jacob Kaluza Sohn, mit der Eva des Verst. Paul Nawrata Tochter“ (okraj Konkolna(?) 6). Pokud jde o otce Anny, narodila se až po 1783 (věk 22 v 1799 by pak nesedí přesně).",
     "fs_old88: Ondřej Kaluža ze Závady svědkem 2. 2. 1738 (FS vol. 2734 sn43 L, M) → dospělý už 1738, jeho sňatek spíš před VIII 1734. Kalužové ze Závady (Pavel, Jakub) jako svědci 1738–49.",
     "fs_old89: 24. 1. 1760 Anna, dcera † Jakuba Kalužy ze Závady, ∞ Jan Beihar(?) z Koukolné (sn89 L, M). Sňatek Ondřeje Kaluži v O Fryštát ~1726 – VI 1760 není (souvisle) → před 1726 nebo jinde.",
-    "fs_old90: O Fryštát (vol. 2734) přečtena celá 1708–1761 – sňatek Ondřeje Kaluži v ní není (mezera V–XII 1710). Nejstarší Kaluža ze Závady: Tomáš ∞ 19. 9. 1718 Marianna Foltinková ze Starého Města (sn11 P, M) – možný otec Ondřeje/Jakuba (K). Také Jakub Galuška ze Závady ∞ 1724, Jan Galuška ze Závady ∞ 1726 (vazba na Kaluža K)."
+    "fs_old90: O Fryštát (vol. 2734) přečtena celá 1708–1761 – sňatek Ondřeje Kaluži v ní není (mezera V–XII 1710). Nejstarší Kaluža ze Závady: Tomáš ∞ 19. 9. 1718 Marianna Foltinková ze Starého Města (sn11 P, M) – možný otec Ondřeje/Jakuba (K). Také Jakub Galuška ze Závady ∞ 1724, Jan Galuška ze Závady ∞ 1726 (vazba na Kaluža K).",
+    "web_z2: Závada patřila před 1785 patrně k faře Godów (pruské Slezsko): vizitace 1719 „Oprócz Zawady dołączone były Łaziska“ (Maroń 1972, s. 173; AAWr II b 157) – D (ověřeno na stránce). Od 1785 lokálie Petrovice (Kneifel 1804, s. 349 – M). Křty Godów 1740–84 jen originál v AA Katowice, online nejsou."
    ],
    "sources": [
     "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F VIII 6, inv. 2793, O Petrovice u Karviné 1797–1858, oddíl Závada, snímek 61, pravá strana (pag. 1), 1. zápis, sňatek 29. 1. 1799 (digi.archives.cz)"
@@ -3478,7 +3479,8 @@ window.RODOKMEN = {
     "zao_r66: křest dítěte Šimona × Markéty (Pavla) v N Fryštát XI 1765 – III 1778 není (souvisle; K–D). Kmotr 26. 10. 1766 „Joannes Stolka ex Zovada“ – patrně bratr Markéty (K).",
     "zao_r68: ZA Opava nemá před 1785 žádnou matriku N se Závadou v územním rozsahu (Fryštát F IV 4/5 ji nevede, Dolní Lutyně F I 3 – VIII 1768–1771 Locus bez Závady). Závada patrně křtila v polské faře Zebrzydowice (Ka V 8 ji uvádí se Zebrzydowicemi) → křty Šimonových dětí (Pavel ~1766–71) nejspíš tam; online nejsou (K).",
     "zebrz2: matriky Zebrzydowic 1661–1800 online zdarma (CAAK, Archiwum Diecezji Bielsko-Żywieckiej, PWNMPZ 1–5). Křty 1765–VI 1772 (PWNMPZ 3, s176–201) jen Seibersdorf a Marklowitz – Závada do fary nepatřila (D–M). Křest Pavla tedy ani tam; kniha Závady před 1785 dál neznámá.",
-    "fs_old89: „Simon Cyron ex Zovada“ svědkem 19. 2. 1759 (sňatek vdovce Vavřince Nogy ze Závady; FS vol. 2734 sn86 L, čtení M, ztotožnění D–K)."
+    "fs_old89: „Simon Cyron ex Zovada“ svědkem 19. 2. 1759 (sňatek vdovce Vavřince Nogy ze Závady; FS vol. 2734 sn86 L, čtení M, ztotožnění D–K).",
+    "web_z2: Závada patřila před 1785 patrně k faře Godów (pruské Slezsko): vizitace 1719 „Oprócz Zawady dołączone były Łaziska“ (Maroń 1972, s. 173; AAWr II b 157) – D (ověřeno na stránce). Od 1785 lokálie Petrovice (Kneifel 1804, s. 349 – M). Křty Godów 1740–84 jen originál v AA Katowice, online nejsou."
    ],
    "sources": [
     "ZA Opava, fara Petrovice, O 1797–1858 (sign. F VIII 6, inv. 2793), oddíl Závada, 1803, pag. 3 – snímek 62 vpravo",
@@ -3587,7 +3589,8 @@ window.RODOKMEN = {
     "fs_old87: v Závadě i třetí větev – 6. 8. 1752 Anna, dcera † Jana Cyrona „ex Zowada“, ∞ Vavřinec Niedziela (FS vol. 2734 sn68 L, M). Sňatek Martina VIII 1745 – VI 1756 není (čekán spíš ~1735–40).",
     "fs_old88: sňatek VIII 1734 – VII 1745 není. Pozor na jmenovce: Martin Cyron ze Starého Města † před I 1739 (syn Pavel ∞ 14. 1. 1739) – NE náš (ten žil 1765). Šimon Cyron, syn † Jana, z Koukolné ∞ 12. 5. 1743 – jiný Šimon.",
     "fs_old89: sňatek v O Fryštát (vol. 2734) není v celém úseku ~1726 – VI 1760.",
-    "fs_old90: O Fryštát 1708–1761 přečtena celá – sňatek není → patrně ve faře nevěsty."
+    "fs_old90: O Fryštát 1708–1761 přečtena celá – sňatek není → patrně ve faře nevěsty.",
+    "web_z2: Závada patřila před 1785 patrně k faře Godów (pruské Slezsko): vizitace 1719 „Oprócz Zawady dołączone były Łaziska“ (Maroń 1972, s. 173; AAWr II b 157) – D (ověřeno na stránce). Od 1785 lokálie Petrovice (Kneifel 1804, s. 349 – M). Křty Godów 1740–84 jen originál v AA Katowice, online nejsou."
    ],
    "sources": [
     "ZA Opava, fara Fryštát, O 1762–1792 (sign. F IV 7, inv. 2735), XI 1765, pag. 30 – snímek 17 vlevo"
@@ -4167,7 +4170,8 @@ window.RODOKMEN = {
     "Otec Jana Koczwary: „Jacobus Kotzvara Acker. Baur et Anna“, Petrovice č. 27, křest III 1780 (M; ztotožnění syna D). Jiné děti v indexu fryštátských křtů 1771–91 nenalezeny (index komolí jména). Rok narození je odhad.",
     "Sňatek 23. 11. 1778 (Fryštát; ověřeno koordinátorem na výřezu): „Zavada 15 / Petrowitz 27 | 23. | Der Ehrbare Knecht Jacobus des V[er]st. Georg Kotzwara Sohn mit der Ehrbare[n] Anna nach dem Georg Sobotzik Wittwe | Cath. | Mathaeus Ganibal Bauer von Zovada, Johann Ganibol Bauer v. Petrowitz | Petrowitz“ – čeledín Jakub, syn † Jiřího Kocvary, ze Závady č. 15, × Anna, vdova po Jiřím Sobotzikovi, Petrovice č. 27 (M; „zemřelý“ D). Ztotožnění s otcem Jana 1780 D–M: stejný dům č. 27, Mathaeus Janibol svědkem 1778 i kmotrem 1780. Do domu č. 27 se přiženil (dům vdovy).",
     "fs_old80: kmotr u dětí Jana Gische, Petrovice č. 23: dvojčata 20. 6. 1782 a Hedvika 7. 10. 1784 („Jacobus Kotzwara … Acker Bauer“, D). Další děti s Annou ve fryštátských křtech I 1781 – V 1785 nejsou; od VI 1785 má Petrovice vlastní matriku (hledat 1785–97). POZOR na č. d.: 20. 2. 1785 bydlí v Petrovicích č. 27 Jan Tomeček – číslice „2?“ v letech 1778/1780 může být i 21 (dům Sobotzika); vazba na dům č. 27 z 1824/31 je proto jen K. Ztotožnění syna Jana stojí hlavně na tom, že je jediným Janem s otcem Kocvarou v knize 1771–91 (D). Pozor: v Petrovicích i jiný pár Jakub × Anna (Wandrol, č. 5).",
-    "Křest nedohledán: Závada před 1785 nemá dochovanou křestní knihu v ZA Opava (zao_r56–57: patřila k Orlové, ale v Ka V 3 není); rodiče ze Závady nejsou ani ve Fryštátu 1749–55 (fs_old81–82), v Karviné 1737–58 (fs_old83) ani v Zebrzydowicích 1741–53 (caak_dr13)."
+    "Křest nedohledán: Závada před 1785 nemá dochovanou křestní knihu v ZA Opava (zao_r56–57: patřila k Orlové, ale v Ka V 3 není); rodiče ze Závady nejsou ani ve Fryštátu 1749–55 (fs_old81–82), v Karviné 1737–58 (fs_old83) ani v Zebrzydowicích 1741–53 (caak_dr13).",
+    "web_z2: Závada patřila před 1785 patrně k faře Godów (pruské Slezsko): vizitace 1719 „Oprócz Zawady dołączone były Łaziska“ (Maroń 1972, s. 173; AAWr II b 157) – D (ověřeno na stránce). Od 1785 lokálie Petrovice (Kneifel 1804, s. 349 – M). Křty Godów 1740–84 jen originál v AA Katowice, online nejsou."
    ],
    "sources": [
     "ZA Opava, fara Fryštát, N 1771–1792 (FamilySearch vol. 2733, film 005393684), III 1780, snímek 64",
@@ -4245,7 +4249,8 @@ window.RODOKMEN = {
     "fs_old86–87: sňatek v O Fryštát (FS vol. 2734) VIII 1745 – VI 1756 není; jiné rodiny Kocvarů: † Tomáš (Staré Město), Bartoloměj (Darkov). Zbývá 1738 – VII 1745 (sn40–54).",
     "fs_old88: ani VIII 1734 – VII 1745 → v O Fryštát souvisle VIII 1734 – VI 1756 není (ani jako svědek). Zbývá před 1734, VII 1756–61 nebo fara nevěsty.",
     "fs_old89: sňatek v O Fryštát (vol. 2734) není v celém úseku ~1726 – VI 1760.",
-    "fs_old90: O Fryštát 1708–1761 přečtena celá – sňatek není → patrně ve faře nevěsty."
+    "fs_old90: O Fryštát 1708–1761 přečtena celá – sňatek není → patrně ve faře nevěsty.",
+    "web_z2: Závada patřila před 1785 patrně k faře Godów (pruské Slezsko): vizitace 1719 „Oprócz Zawady dołączone były Łaziska“ (Maroń 1972, s. 173; AAWr II b 157) – D (ověřeno na stránce). Od 1785 lokálie Petrovice (Kneifel 1804, s. 349 – M). Křty Godów 1740–84 jen originál v AA Katowice, online nejsou."
    ],
    "sources": [
     "ZA Opava, fara Fryštát, O 1762–1792 (F IV 7) – FamilySearch vol. 2735, 23. 11. 1778, snímek 67 vpravo"
