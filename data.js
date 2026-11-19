@@ -1385,14 +1385,16 @@ window.RODOKMEN = {
     "Otec Johanna Grzonky (sňatek syna 1874: „Mathias Grzonka Lehrbauer“). Rok narození je odhad.",
     "V křtu syna 1838 „Matthäus Grzonka Bauer“, Závada č. 36.",
     "1. sňatek 1. 7. 1834 v Závadě č. 26: „Matthäus Grzonka Bauer, Sohn des Johann Grzonka und der Marianna geb. Kaschik (?)“, 33 let, svobodný; přípis „19. VIII. 180?“ (B. II/7) – křest je z r. 1802, věk 33 o rok nadsazen.",
-    "2. sňatek 27. 8. 1844 v Závadě č. 26: 43 let, × Kateřina, dcera Matyáše Żyly, podruha z Velkých Kunčic, a Anny roz. Twarok (?), 21 let (D)."
+    "2. sňatek 27. 8. 1844 v Závadě č. 26: 43 let, × Kateřina, dcera Matyáše Żyly, podruha z Velkých Kunčic, a Anny roz. Twarok (?), 21 let (D).",
+    "Úmrtí 29. 7. 1848, Závada č. 2: „Matthäus Grzonka Bauer. Ist versehen … 50 J. Lungensucht“ – sedlák, souchotiny (čtení M, věk D – udán 50 místo 45; ověřeno koordinátorem). Ztotožnění D – jediný Matouš Grzonka v rejstříku zemřelých 1785–1859. K ověření: dům č. 2 (dříve 26/36) a sňatek syna 1874 („Mathias Grzonka Lehrbauer“ – zda tam uveden jako zemřelý)."
    ],
    "sources": [
     "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F VIII 4, inv. 2791, N Petrovice u Karviné 1797–1852, oddíl Závada, snímek 164, pravá strana (pag. 7), 1. zápis „in Augusto“ 1802 (digi.archives.cz)",
     "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F VIII 18, O Petrovice u Karviné, Prstná, Závada 1859–1949, snímek 204, levá strana, 3. zápis, sňatek 10. 2. 1874 (digi.archives.cz)",
     "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F VIII 5, inv. 2792, N Petrovice u Karviné 1836–1859, oddíl Závada, snímek 57 (digi.archives.cz)",
     "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F VIII 6, inv. 2793, O Petrovice u Karviné 1797–1858, oddíl Závada, snímek 68, pravá strana (pag. 15), sňatek 1. 7. 1834 (digi.archives.cz)",
-    "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F VIII 6, inv. 2793, O Petrovice u Karviné 1797–1858, oddíl Závada, snímek 72, pravá strana (pag. 23), sňatek 27. 8. 1844 (digi.archives.cz)"
+    "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F VIII 6, inv. 2793, O Petrovice u Karviné 1797–1858, oddíl Závada, snímek 72, pravá strana (pag. 23), sňatek 27. 8. 1844 (digi.archives.cz)",
+    "ZA Opava, fara Petrovice, Z 1797–1858, oddíl Závada – FamilySearch vol. 2794, pag. 41, snímek 100 vpravo (ark 3:1:3QSQ-G9MW-JLFF)"
    ],
    "scans": [
     {
@@ -1406,10 +1408,19 @@ window.RODOKMEN = {
     {
      "f": "img/1834_snatek_grzonka_schittek.jpg",
      "t": "Sňatek Matthäus Grzonka × Barbara Schittek, Závada 1. 7. 1834"
+    },
+    {
+     "f": "img/1848_umrti_matous_grzonka.png",
+     "t": "Úmrtí Matouše Grzonky, sedláka, Závada č. 2, 29. 7. 1848"
     }
    ],
    "father": "johannGrzonkaSt",
-   "mother": "mariannaKaschik"
+   "mother": "mariannaKaschik",
+   "d": {
+    "date": "29. 7. 1848",
+    "year": 1848,
+    "place": "Závada, č. 2"
+   }
   },
   {
    "id": "barbaraSchoitek",
@@ -1960,12 +1971,14 @@ window.RODOKMEN = {
     "Sňatek 17. 6. 1817 s vdovcem Pavlem Cyronem, Závada č. 4: „Magdalena des + Johann Dziegiel gewesenen Ackerbauers älteste(?) Tochter“, 29 let (→ nar. ~1788), svobodná (M). Matkou Johanny (1818) je doloženě (křest, M).",
     "Kandidát (K–D): 27. 2. 1817 zemřelo v Závadě č. 10 „Marianna der Magdalena des Johann Dzięgiel Ackerbauers Tochter Kind“ – nemanželské dítě nějaké Magdaleny Dzięgielové (F VIII 7, sn86 L); zda jde o ni, neověřeno.",
     "caak_dz1: křest v Zebrzydowicích (celá fara III 1783 – XII 1784, Dolní Marklovice IX 1784 – XII 1789) není (D). V Dolních Marklovicích 1785–89 Dzięgielové Jakub (zahradník), Josef, Šimon; v Dolním Seibersdorfu Jiří – Jan mezi nimi nedoložen. Zbývá I 1780 – II 1783.",
-    "caak_dz2: ani v křtech Zebrzydowic I 1780 – II 1783 (D)."
+    "caak_dz2: ani v křtech Zebrzydowic I 1780 – II 1783 (D).",
+    "Úmrtí 3. 5. 1848, Závada č. 4: „Magdalena Cyron Ausgedingerin ist versehen … 60 Schlagfluß(?)“ – výměnkářka, 60 let (čtení M, příčina K; ověřeno koordinátorem). Ztotožnění M–D: grunt Pavla Cyrona č. 4, věk přesně sedí na sňatek 1817 (29 let)."
    ],
    "sources": [
     "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F VIII 11, inv. 10218, O Petrovice u Karviné 1836–1858, oddíl Závada, snímek 22, levá strana, 4. zápis, sňatek 27. 8. 1837 (digi.archives.cz)",
     "ZA Opava, fara Petrovice, O 1797–1858 (sign. F VIII 6, inv. 2793), oddíl Závada, 1817, pag. 8 – snímek 65 vlevo",
-    "ZA Opava, fara Petrovice, N 1797–1852 (sign. F VIII 4, inv. 2791), Závada 1818, pag. 29 – snímek 175 vpravo"
+    "ZA Opava, fara Petrovice, N 1797–1852 (sign. F VIII 4, inv. 2791), Závada 1818, pag. 29 – snímek 175 vpravo",
+    "ZA Opava, fara Petrovice, Z 1797–1858, oddíl Závada – FamilySearch vol. 2794, pag. 40, snímek 100 vlevo"
    ],
    "scans": [
     {
@@ -1979,9 +1992,18 @@ window.RODOKMEN = {
     {
      "f": "img/1818_krest_johanna_cyron.png",
      "t": "Křest Johanny Cyronové, Závada č. 4, 30. 4. 1818 – otec Pavel Cyron, matka Magdalena roz. Dzięgielová"
+    },
+    {
+     "f": "img/1848_umrti_magdalena_cyronova.png",
+     "t": "Úmrtí Magdaleny Cyronové, výměnkářky (60 let), Závada č. 4, 3. 5. 1848"
     }
    ],
-   "father": "johannDziegiel"
+   "father": "johannDziegiel",
+   "d": {
+    "date": "3. 5. 1848",
+    "year": 1848,
+    "place": "Závada, č. 4"
+   }
   },
   {
    "id": "laurenzStadeczekSt",
@@ -2060,7 +2082,8 @@ window.RODOKMEN = {
    "notes": [
     "POZOR – MOŽNÁ MACECHA (zao_r81): 21. 7. 1818 se Ondřej Stadeczek, mlynář, č. 17, oženil s „Anna nach dem + Mathias Kuschela(?) Häuslers zu Golkowitz Wittwe“, 37 let (nar. ~1781; D). Šimon (nar. ~1800) tak nejspíš není jejím synem: Anna z jeho sňatků 1832/1841 („Mutter Anna geb. Fijałek“) je patrně tato druhá manželka. Šimonova vlastní matka = 1. manželka Ondřeje, neznámá (mohla se jmenovat také Anna). Jistota snížena na K; ponecháno jako matka, dokud nerozhodne Šimonův křest.",
     "Matka Šimona: 1832 „Anna Fijałek (?)“, 1841 „Marianna geb. Fijałek (?)“ – křestní jméno i příjmení nejisté. Rok narození je odhad.",
-    "zao_r80: matka Šimona – 1832 „Ana Fizaler(?)“, 1841 „Mutter Anna geb. Fijałek(?)“ (Anna M–D, příjmení K). Manžel Ondřej (Andreas), ne Vavřinec."
+    "zao_r80: matka Šimona – 1832 „Ana Fizaler(?)“, 1841 „Mutter Anna geb. Fijałek(?)“ (Anna M–D, příjmení K). Manžel Ondřej (Andreas), ne Vavřinec.",
+    "fs_old103: 15. 1. 1818, Závada č. 17 zemřela „Anna des Andreas Stadeczek Müllers Eheweib“, 40 let (*~1778) – 1. manželka Ondřeje; ten se VII 1818 znovu oženil (Anna vd. Kuschelová). Zda je „Anna geb. Fijałek“ (sňatky 1832/1841) tato 1. nebo 2. žena, nerozhodnuto (K–D). Šimon Stadeczek v rejstříku S 1841–59 není."
    ],
    "sources": [
     "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F VIII 6, inv. 2793, O Petrovice u Karviné 1797–1858, oddíl Závada, snímek 68, levá strana (pag. 14), sňatek 28. 8. 1832 (digi.archives.cz)",
@@ -2140,27 +2163,38 @@ window.RODOKMEN = {
    "alive": false,
    "b": {
     "date": "",
-    "year": 1765,
+    "year": 1770,
     "place": "Závada (?)",
     "approx": true
    },
    "occ": "domkář (Häusler) v Závadě",
    "notes": [
-    "Otec Matouše (sňatky syna 1834 a 1844). Rok narození je odhad.",
+    "Otec Matouše (sňatky syna 1834 a 1844).",
     "Domkář v Závadě č. 15. 1. manželka Anna († 29. 1. 1800, 35 let; syn Josephus 1798–1799), 2. manželka Maryna (sňatek 1800–1801 mimo Závadu; syn Matouš 1802).",
     "zao_r49/50: v Závadě č. 15 zemřel 18. 1. 1806 jeho 12letý syn Jan („des Johann Grzonka Häuslers … Sohn“, F VIII 7 sn81 L) – Jan st. tedy v I 1806 žil. Vlastní úmrtí zatím nenalezeno.",
-    "zao_r51: v rejstříku úmrtí F VIII 9 (G) 1806–1859 Johann Grzonka není – zemřel mimo farnost nebo chybí v rejstříku."
+    "zao_r51: v rejstříku úmrtí F VIII 9 (G) 1806–1859 Johann Grzonka není – zemřel mimo farnost nebo chybí v rejstříku.",
+    "Úmrtí 10. 1. 1809, Závada č. 15: „Johann Gronzka Häusler allda. Versehen durch mich Lorenz Swentek … 39 J. Wassersucht“ – domkář, 39 let, vodnatelnost (čtení M, ověřeno koordinátorem; ztotožnění D–M – dům č. 15, domkář, v I 1806 žil). Věk 39 → nar. ~1770. V rejstříku F VIII 9 zkomoleně „Grzybczyka(?) Johann, Sowada, fol. 9“ – proto ho zao_r51 nenašel."
    ],
    "sources": [
     "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F VIII 6, inv. 2793, O Petrovice u Karviné 1797–1858, oddíl Závada, snímek 68, pravá strana (pag. 15), sňatek 1. 7. 1834 (digi.archives.cz)",
-    "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F VIII 6, inv. 2793, O Petrovice u Karviné 1797–1858, oddíl Závada, snímek 72, pravá strana (pag. 23), sňatek 27. 8. 1844 (digi.archives.cz)"
+    "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F VIII 6, inv. 2793, O Petrovice u Karviné 1797–1858, oddíl Závada, snímek 72, pravá strana (pag. 23), sňatek 27. 8. 1844 (digi.archives.cz)",
+    "ZA Opava, fara Petrovice, Z 1797–1858, oddíl Závada – FamilySearch vol. 2794, pag. 9, snímek 83 vpravo (ark 3:1:3QSQ-G9MW-JLKQ)"
    ],
    "scans": [
     {
      "f": "img/1834_snatek_grzonka_schittek.jpg",
      "t": "Sňatek Matthäus Grzonka × Barbara Schittek, Závada 1. 7. 1834"
+    },
+    {
+     "f": "img/1809_umrti_jan_grzonka.png",
+     "t": "Úmrtí Jana Grzonky, domkáře (39 let), Závada č. 15, 10. 1. 1809"
     }
-   ]
+   ],
+   "d": {
+    "date": "10. 1. 1809",
+    "year": 1809,
+    "place": "Závada, č. 15"
+   }
   },
   {
    "id": "mariannaKaschik",
