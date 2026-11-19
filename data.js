@@ -3550,7 +3550,8 @@ window.RODOKMEN = {
    "notes": [
     "KANDIDÁTKA – matka Pavla Drazzy (vazba přes ztotožnění Pavla K, matka D). 8. 8. 1776 Dolní Žibřidovice č. 73: dcera Marina Afra „Somerlik Mathaus ein Inmann und Eva gebohr. Wilkin“ (M; † 9. 10. 1776). Jako vdova po Matouši Somerlikovi ∞ 10. 5. 1780 vdovec Ondřej Drapa, sedlák č. 41. U dětí 1786 a 1790 „Eva geb. Wilkin“, stejný kmotr Ondřej Rychlý jako 1776 (D). Možný otec Šimon Wilk, hajný, † 17. 11. 1779 Horní Marklovice, 64 let (K, jen příjmení). Rok narození je odhad.",
     "caak_dr3: 1. sňatek 21. 10. 1770, č. 73: „Mattheus Sommerlik Adami Sommerlik filius … cum Honesta Virgine Eva Simonis vilk filia Catholica è Superiori Markl.“ (M, ověřeno koordinátorem) – otec Šimon Wilk z Horních Marklovic (D: jméno, příjmení, manžel, dům č. 73).",
-    "Křest 9. 9. 1751 (caak_dr4, s134): „prolem Evam Simonis Wiltek(?) et Susannae C. L. Catholicorum ex Marklowitz. Levantibus Georgio Bogacz et Sophia Vijowa“ (zápis M, příjmení K–D – písař píše Wilek/Vilek/Wiltek); ztotožnění s nevěstou 1770 D (jediná Eva Šimona W., okruh kmotrů Vija/Bogacz, 19 let). Sourozenci Ondřej 29. 10. 1746, Jan 8. 5. 1749."
+    "Křest 9. 9. 1751 (caak_dr4, s134): „prolem Evam Simonis Wiltek(?) et Susannae C. L. Catholicorum ex Marklowitz. Levantibus Georgio Bogacz et Sophia Vijowa“ (zápis M, příjmení K–D – písař píše Wilek/Vilek/Wiltek); ztotožnění s nevěstou 1770 D (jediná Eva Šimona W., okruh kmotrů Vija/Bogacz, 19 let). Sourozenci Ondřej 29. 10. 1746, Jan 8. 5. 1749.",
+    "caak_dr9: rodina se v matrice píše Wiltek/Witek; bratři Jan († 1751) a Ondřej († 1752) zemřeli v dětství."
    ],
    "sources": [
     "Archiwum Diecezji Bielsko-Żywieckiej, fara Zebrzydowice, PWNMPZ 4 (1773–1800) – CAAK, křty VIII 1776 (s42), sňatky V 1780 (s241), úmrtí 1780 (s341)",
@@ -3634,7 +3635,8 @@ window.RODOKMEN = {
    },
    "notes": [
     "Otec Evy (sňatek 1770: „Eva Simonis vilk filia … è Superiori Markl.“, M). Úmrtí 17. 11. 1779, Horní Marklovice č. 29: „Wilk Simon ein Wald Jäger“, 64 let (PWNMPZ 4 s339) – ztotožnění D (jméno, obec, věk). Věk 64 → nar. ~1715. Jistota K kvůli ztotožnění Pavla Drazzy.",
-    "caak_dr4: manželka Zuzana; děti Ondřej 1746, Jan 1749, Eva 1751 (Marklovice); sňatek patrně ~1745–46."
+    "caak_dr4: manželka Zuzana; děti Ondřej 1746, Jan 1749, Eva 1751 (Marklovice); sňatek patrně ~1745–46.",
+    "caak_dr9: příjmení v matrice spíš Witek/Wiltek – děti Jan († 21. 4. 1751, 2 roky) a Ondřej († 20. 7. 1752, 5 let) „Simonis Wiltek ex Marklowitz“ (M). Kandidát křtu: X 1719 Marklovice, „Simon CC. LL. Bartholomaei Witek et Hedvigis“ (PWNMPZ 2 s81; zápis M, ztotožnění K–D, věk 60 vs. 64 v r. 1779) – nezapojeno."
    ],
    "sources": [
     "Archiwum Diecezji Bielsko-Żywieckiej, fara Zebrzydowice, PWNMPZ 3 (1722–1773) – CAAK, sňatky X 1770, snímek 309",
@@ -3823,20 +3825,22 @@ window.RODOKMEN = {
    "alive": false,
    "b": {
     "date": "",
-    "year": 1685,
+    "year": 1683,
     "place": "",
     "approx": true
    },
    "notes": [
-    "Otec Vavřince ml.: „Laurentius Drapa, Susanna“ (křest 1715, M). Patrně týž „honestus viduus Laurentius Drappa“, který se 8. 6. 1738 oženil s vdovou Annou(?) (PWNMPZ 3 s242, D); „Anna Drapin vidua“ 1746 by pak byla jeho vdova (K–D). Zemřel tedy 1738–1746. Rok narození je odhad.",
+    "Otec Vavřince ml.: „Laurentius Drapa, Susanna“ (křest 1715, M). Patrně týž „honestus viduus Laurentius Drappa“, který se 8. 6. 1738 oženil s vdovou Annou(?) (PWNMPZ 3 s242, D); „Anna Drapin vidua“ 1746 by pak byla jeho vdova (K–D). Zemřel tedy 1738–1746.",
     "caak_dr6: sňatek 22. 1. 1714, Žibřidovice (PWNMPZ 2 s116): „Laurentius Drapa, Susan: Schimo-na(?) | Zibrz. | terna | Samuel Philos, Joan: Skowronek“ (M; jediný sňatek Vavřince Drapy 1693–1718, ztotožnění D; otcové v tabulce neuvedeni). Patrně bratr (K) Bartoloměj Drapa ∞ 26. 1. 1717 Žofie Moneczková (dcera Marina 1721).",
     "caak_dr7: ženat třikrát – 1) Zuzana (∞ 1714, † 10. 4. 1723); 2) Rosina (kmotra 1724–26; † 29. 4. 1737, 60 let, PWNMPZ 3 s346: „Rosina Laurentij Drappa uxor … Annorum 60“, M/D); 3) Anna, vdova (∞ 8. 6. 1738). Sňatek s Rosinou patrně IV 1723 – VII 1724. Úmrtí VI 1738 – V 1746 v zemřelých nenalezeno (K–D).",
-    "caak_dr8: 2. sňatek 4. 2. 1724 (PWNMPZ 3 s216): „Laurentius Drapa Viduus cum honesta Vidua Rosina Kopelowa“ (M, D–M)."
+    "caak_dr8: 2. sňatek 4. 2. 1724 (PWNMPZ 3 s216): „Laurentius Drapa Viduus cum honesta Vidua Rosina Kopelowa“ (M, D–M).",
+    "caak_dr9: úmrtí 22. 6. 1749 (PWNMPZ 3 s373): „obijt Sacramentis provisus Laurentius Drappa è Seiberdorff aetatis 66 annorum“ (M, ověřeno koordinátorem; ztotožnění D – syn *1715 by měl 34). Věk 66 → nar. ~1683. Rozpor: „Anna Drapin vidua“ 13. 1. 1746 – ověřit. Bratr(?) Bartoloměj † před 1759 (vdova Žofie † 1759, 66 let)."
    ],
    "sources": [
     "Archiwum Diecezji Bielsko-Żywieckiej, fara Zebrzydowice, PWNMPZ 2 (1693–1721) – CAAK, křty VII 1715, snímek 68",
     "Archiwum Diecezji Bielsko-Żywieckiej, fara Zebrzydowice, PWNMPZ 3 (1722–1773) – CAAK, oddaní VI 1738, snímek 242",
-    "Archiwum Diecezji Bielsko-Żywieckiej, fara Zebrzydowice, PWNMPZ 2 (1693–1721) – CAAK, oddaní I 1714, snímek 116"
+    "Archiwum Diecezji Bielsko-Żywieckiej, fara Zebrzydowice, PWNMPZ 2 (1693–1721) – CAAK, oddaní I 1714, snímek 116",
+    "Archiwum Diecezji Bielsko-Żywieckiej, fara Zebrzydowice, PWNMPZ 3 (1722–1773) – CAAK, zemřelí VI 1749, snímek 373"
    ],
    "scans": [
     {
@@ -3846,8 +3850,17 @@ window.RODOKMEN = {
     {
      "f": "img/1714_snatek_vavrinec_drapa_st.jpg",
      "t": "Sňatek Vavřince Drapy a Zuzany Schimo…(?), Žibřidovice 22. 1. 1714"
+    },
+    {
+     "f": "img/1749_umrti_vavrinec_drapa_st.jpg",
+     "t": "Úmrtí Vavřince Drappy, 66 let, Žibřidovice 22. 6. 1749"
     }
-   ]
+   ],
+   "d": {
+    "date": "22. 6. 1749",
+    "year": 1749,
+    "place": "Dolní Žibřidovice"
+   }
   },
   {
    "id": "susannaDrapaSt",
@@ -3890,29 +3903,40 @@ window.RODOKMEN = {
   },
   {
    "id": "mariannaKroczek",
-   "name": "Marianna Kroczková",
+   "name": "Marina (Marianna) Kroczková",
    "maiden": "",
    "line": "grzonka",
    "cert": "K",
    "alive": false,
    "b": {
     "date": "",
-    "year": 1680,
+    "year": 1667,
     "place": "",
     "approx": true
    },
    "notes": [
-    "Manželka Urbana Kroczka, matka Zuzany (1710) a dalších šesti dětí 1701–1713: „Vrbanus Kroczek, Marianna“ (M). Rodné příjmení neuvedeno (tabulková matrika). Jistota K kvůli ztotožnění Pavla Drazzy. Rok narození je odhad."
+    "Manželka Urbana Kroczka, matka Zuzany (1710) a dalších šesti dětí 1701–1713: „Vrbanus Kroczek, Marianna“ (M). Rodné příjmení neuvedeno (tabulková matrika). Jistota K kvůli ztotožnění Pavla Drazzy.",
+    "caak_dr9: úmrtí 7. 2. 1749 (PWNMPZ 3 s372): „Marina Kroczkowa Urbaska post def. Urbanum Kroczek Vidua relicta ex Seiberdorff aetatis [circiter] 82“ (M, věk M–D; ztotožnění D). Nar. ~1667 (věk nejspíš nadsazen – poslední dítě 1713)."
    ],
    "sources": [
-    "Archiwum Diecezji Bielsko-Żywieckiej, fara Zebrzydowice, PWNMPZ 2 (1693–1721) – CAAK, křty VI 1710, snímek 55"
+    "Archiwum Diecezji Bielsko-Żywieckiej, fara Zebrzydowice, PWNMPZ 2 (1693–1721) – CAAK, křty VI 1710, snímek 55",
+    "Archiwum Diecezji Bielsko-Żywieckiej, fara Zebrzydowice, PWNMPZ 3 (1722–1773) – CAAK, zemřelí II 1749, snímek 372"
    ],
    "scans": [
     {
      "f": "img/1710_krest_zuzana_kroczek.jpg",
      "t": "Křest Zuzany, dcery Urbana Kroczka a Marianny, Zebrzydowice 2. 6. 1710"
+    },
+    {
+     "f": "img/1749_umrti_marina_kroczek.jpg",
+     "t": "Úmrtí Mariny Kroczkové, vdovy po Urbanovi, Žibřidovice 7. 2. 1749"
     }
-   ]
+   ],
+   "d": {
+    "date": "7. 2. 1749",
+    "year": 1749,
+    "place": "Dolní Žibřidovice"
+   }
   }
  ],
  "places": [],
