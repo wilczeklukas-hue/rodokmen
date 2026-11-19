@@ -4401,7 +4401,8 @@ window.RODOKMEN = {
     "approx": true
    },
    "notes": [
-    "Otec Jakuba: „Jacobus adolescens hon[es]ti Simonis Matusenski … filius“ (sňatek XI 1753, Pruchna, M). Patrně i otec Matouše, ženicha z Drogomyśle (∞ 10. 2. 1754, D). V II 1754 bez „defuncti“ – patrně žil. Jistota K, protože vazba celé větve na Laurenze, otce Franze 1858, je K+. Rok narození je odhad."
+    "Otec Jakuba: „Jacobus adolescens hon[es]ti Simonis Matusenski … filius“ (sňatek XI 1753, Pruchna, M). Patrně i otec Matouše, ženicha z Drogomyśle (∞ 10. 2. 1754, D). V II 1754 bez „defuncti“ – patrně žil. Jistota K, protože vazba celé větve na Laurenze, otce Franze 1858, je K+. Rok narození je odhad.",
+    "caak_dr19: úmrtí Šimona ani manželky v Pruchné I 1754 – X 1758 není (PAP 8 s80–93). 16. 1. 1758 zemřela Zuzana, 2leté dítě Pavla Matušańského (s89, M) – Pavel snad další syn (K)."
    ],
    "sources": [
     "Archiwum Diecezji Bielsko-Żywieckiej, fara Pruchna, PAP 7 (O 1728–1783), CAAK, XI 1753, s62"
@@ -4427,7 +4428,8 @@ window.RODOKMEN = {
     "approx": true
    },
    "notes": [
-    "Otec Anny: „puella Anna hon[es]ti Wenceslai Poliwins filia“ (sňatek XI 1753, Pruchna, M; tvar příjmení D). Jistota K jako celá větev. Rok narození je odhad."
+    "Otec Anny: „puella Anna hon[es]ti Wenceslai Poliwins filia“ (sňatek XI 1753, Pruchna, M; tvar příjmení D). Jistota K jako celá větev. Rok narození je odhad.",
+    "caak_dr19: úmrtí v Pruchné I 1754 – X 1758 není; sňatek v O II 1738 – II 1746 a 1752 – II 1754 není."
    ],
    "sources": [
     "Archiwum Diecezji Bielsko-Żywieckiej, fara Pruchna, PAP 7 (O 1728–1783), CAAK, XI 1753, s62"
