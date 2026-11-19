@@ -2907,14 +2907,16 @@ window.RODOKMEN = {
     "fs_old13: kandidát křtu 19. 4. 1684 Dětmarovice – „baptizatus est infans legitimo thoro nomine [vynecháno] Parentum Valentini Hanusek et conjugis eius Dorotheae“ (DGS 5393677 sn45 L; koordinátor ověřil na výřezu: jméno chlapce opravdu nevyplněno). Věk při úmrtí by byl 53 místo 50. Ztotožnění K – Valentin a Dorota jako rodiče Řehoře zůstávají hypotézou. Prošlo bez Řehoře: XI 1683 – VIII 1685, VI 1686 – VI 1687, VII 1687 – IV 1690 (vybledlá místa K).",
     "fs_old14: syn Pavel pokř. 10. 1. 1721 „bapt. Paulum Parent. Gregorij Hanusek et Anna“ (sn196 L, M; ∞ 1746); u Magdaleny V 1716 ověřen otec Gregorius (M). Děti tedy: Marina 1708, Jiří 1710, Veronika 1712, Magdalena 1716, Jan 1718, Pavel 1721.",
     "fs_old16: Valentin Hanusek doložen 1676 (svědek při sňatku Jiřího Hanuska × Žofie, dcery Jiřího z Dětmarovic, 23. 8. 1676) a 1683 jako hospodář se služkou (sn330 L, M). Jeho sňatek nejspíš před VIII 1673 (začátek oddílu sňatků) – Řehořův otec zůstává nedoložen.",
-    "fs_old17: ani IV 1690 – I 1692 a I–VI 1683 Řehořův křest není. Křty VII 1683 – I 1692 jsou tak prošlé celé (některá místa vybledlá); jediný kandidát zůstává nepojmenovaný syn Valentina Hanuska a Doroty z 19. 4. 1684 (K). Valentin kmotr i 1690; kmotra Dorota Hanusková 1691."
+    "fs_old17: ani IV 1690 – I 1692 a I–VI 1683 Řehořův křest není. Křty VII 1683 – I 1692 jsou tak prošlé celé (některá místa vybledlá); jediný kandidát zůstává nepojmenovaný syn Valentina Hanuska a Doroty z 19. 4. 1684 (K). Valentin kmotr i 1690; kmotra Dorota Hanusková 1691.",
+    "fs_old84 – KANDIDÁT křtu 26. 2. 1681, Dětmarovice: „26 Februa: Anno ut supra baptizatus est Gregorij(?) e legit. toro Parentum Valentini Hanußkow et Dorotheae consortis eius, Patrini Joannes Mandok, Mathias Zolich et Dorothea Szykorowa(?) omnes de Dittmersdorff“ (rok M podle Quinquagesimy 16. 2. 1681; jméno dítěte D – koordinátor čte „Gregorij“, nevylučuje Georgius; rodiče D). Jiný Řehoř s otcem Hanuskem VI 1678 – I 1692 není. Věk při úmrtí by byl 56 místo uvedených 50. Ztotožnění se ženichem 1705 jen K–D (sňatek otce neuvádí) → rodiče Valentin × Dorota zapsáni s jistotou K."
    ],
    "sources": [
     "ZA Opava, fara Dolní Lutyně, O 1728–1792 (sign. F I 11, inv. 2707), XI 1737, 1. zápis – FamilySearch DGS 5387443, snímek 31 vlevo",
     "ZA Opava, F I 11, VI 1741 – FamilySearch DGS 5387443, snímek 39 vlevo",
     "ZA Opava, fara Dolní Lutyně, smíšená matrika 1672–1728 (inv. 2697), sňatky 3. 2. 1705 – FamilySearch DGS 5393677, snímek 290 vlevo",
     "ZA Opava, fara Dolní Lutyně, smíšená matrika 1672–1728 (inv. 2697) – FamilySearch DGS 5393677, křty 1708 a 1710, snímky 161 a 167",
-    "ZA Opava, fara Dolní Lutyně, pohřby 1728–1778 (inv. 2710) – FamilySearch DGS 5387446, VI 1737, snímek 16 vpravo"
+    "ZA Opava, fara Dolní Lutyně, pohřby 1728–1778 (inv. 2710) – FamilySearch DGS 5387446, VI 1737, snímek 16 vpravo",
+    "ZA Opava, fara Dolní Lutyně, smíšená matrika 1672–1728 (inv. 2697) – FamilySearch DGS 5393677, křty 26. 2. 1681, snímek 32 vlevo"
    ],
    "scans": [
     {
@@ -2932,8 +2934,14 @@ window.RODOKMEN = {
     {
      "f": "img/1737_umrti_rehor_hanusek.png",
      "t": "Úmrtí Řehoře Hanuska (50 let) a Anny Hanuščiny (45 let), Dětmarovice 30. 6. 1737"
+    },
+    {
+     "f": "img/1681_krest_rehor_hanusek.png",
+     "t": "Křest 26. 2. 1681, Dětmarovice: Řehoř(?), syn Valentina Hanuska a Doroty"
     }
-   ]
+   ],
+   "father": "valentinHanusek",
+   "mother": "dorotheaHanusek"
   },
   {
    "id": "georgKotyrzyna",
@@ -4157,6 +4165,58 @@ window.RODOKMEN = {
     {
      "f": "img/1778_snatek_jakub_kocvara_anna_sobotzik.png",
      "t": "Sňatek 23. 11. 1778: Jakub, syn Jiřího Kocvary (Závada č. 15), × Anna, vdova po Jiřím Sobotzikovi (Petrovice č. 27)"
+    }
+   ]
+  },
+  {
+   "id": "valentinHanusek",
+   "name": "Valentin Hanusek",
+   "maiden": "",
+   "b": {
+    "date": "",
+    "year": 1650,
+    "place": "",
+    "approx": true
+   },
+   "notes": [
+    "KANDIDÁT (K): otec Řehoře Hanuska podle křtu 26. 2. 1681 (Dětmarovice). Hospodář v Dětmarovicích: svědek 1676, hospodář s čeledí 1683 a 1705, kmotr 1678, 1681, 1685, 1690. Děti s Dorotou: syn (Řehoř?) 26. 2. 1681, nepojmenovaný syn 19. 4. 1684, Dorota IV 1687, Petr VI 1688. Kandidát pohřbu 19. 5. 1710 (fs_old34, K–D). V Dětmarovicích současně Jiří Hanusek × Žofie (∞ 1676; děti 1679, 1681). Rok narození je odhad."
+   ],
+   "line": "grzonka",
+   "alive": false,
+   "cert": "K",
+   "sources": [
+    "ZA Opava, fara Dolní Lutyně, smíšená matrika 1672–1728 (inv. 2697) – FamilySearch DGS 5393677, křty 26. 2. 1681, snímek 32 vlevo"
+   ],
+   "scans": [
+    {
+     "f": "img/1681_krest_rehor_hanusek.png",
+     "t": "Křest 26. 2. 1681, Dětmarovice: Řehoř(?), syn Valentina Hanuska a Doroty"
+    }
+   ]
+  },
+  {
+   "id": "dorotheaHanusek",
+   "name": "Dorota Hanusková",
+   "maiden": "",
+   "b": {
+    "date": "",
+    "year": 1655,
+    "place": "",
+    "approx": true
+   },
+   "notes": [
+    "KANDIDÁTKA (K): matka Řehoře Hanuska podle křtu 26. 2. 1681 (Dětmarovice); děti 1681–1688 viz Valentin. Rodné příjmení neznámé; kmotra Dorota Hanusková 1691. Rok narození je odhad."
+   ],
+   "line": "grzonka",
+   "alive": false,
+   "cert": "K",
+   "sources": [
+    "ZA Opava, fara Dolní Lutyně, smíšená matrika 1672–1728 (inv. 2697) – FamilySearch DGS 5393677, křty 26. 2. 1681, snímek 32 vlevo"
+   ],
+   "scans": [
+    {
+     "f": "img/1681_krest_rehor_hanusek.png",
+     "t": "Křest 26. 2. 1681, Dětmarovice: Řehoř(?), syn Valentina Hanuska a Doroty"
     }
    ]
   }
