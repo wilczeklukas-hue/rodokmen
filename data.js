@@ -1551,7 +1551,8 @@ window.RODOKMEN = {
    },
    "notes": [
     "Sňatek 28. 8. 1832 (24 let, nar. ~1808): vdova po Lorenzi Kottovi (?), dcera Jana Koczwary a Zuzany roz. Dimmrzik (?). Matka syna Laurenze (1836). Rodina Koczwara z Petrovic (bratr? František Koczwara, kmotr 1836).",
-    "Úmrtí 28. 4. 1841, Závada č. 17: „Barbara des Simon Stadeczek Müllers Eheweib, ist versehen worden“, 31 (?) let, zápal plic. Rodné jméno v zápisu neuvedeno; ztotožnění podle manžela, domu a jeho 2. sňatku 27. 7. 1841."
+    "Úmrtí 28. 4. 1841, Závada č. 17: „Barbara des Simon Stadeczek Müllers Eheweib, ist versehen worden“, 31 (?) let, zápal plic. Rodné jméno v zápisu neuvedeno; ztotožnění podle manžela, domu a jeho 2. sňatku 27. 7. 1841.",
+    "fs_old66–67: křest v Petrovicích (FS vol. 2791 = F VIII 4) III 1803 – IV 1813 není (VI 1808 – IX 1812 čteno okem, D; zbývá III–IX 1803 a 1807). Sourozenci Marianna 1803, Johanna 1805, Franz 1807, Veronika Hedvika 1813 (č. 49). Pozor: FS vol. 1261/1266 jsou Petrovice u Krnova. Barbora patrně narozena jinde nebo před 1803 (věkové údaje si odporují)."
    ],
    "sources": [
     "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F VIII 6, inv. 2793, O Petrovice u Karviné 1797–1858, oddíl Závada, snímek 68, levá strana (pag. 14), sňatek 28. 8. 1832 (digi.archives.cz)",
@@ -1951,7 +1952,8 @@ window.RODOKMEN = {
    "notes": [
     "Otec Barbory Stadeczkové (sňatek 1832, křest vnuka 1836). Manželka Zuzana roz. Dimmrzik (?) – čtení nejisté, nezapsána. Rok narození je odhad.",
     "fs_old65 (D–K): manželka Zuzana roz. BERNADZIK – křest dcery Marianny 22. 1. 1803, Petrovice č. 59: „Johann Koczwara | Magdalena Sussanna gb. Bernadzik“ (F VIII 4 = FS vol. 2791, sn10; čtení D–M, ověřeno koordinátorem); syn Franz 6. 10. 1807 („Susanna Bernardzkÿ“, FS index). Dřívější čtení „Dimmrzik (?)“ patrně chybné. Ztotožnění: jméno manžela, manželky a fara.",
-    "fs_old66: další děti s Zuzanou roz. Bernardzik/Bernatzik, Petrovice č. 49: Johanna 29. 6. 1805, Veronika Hedvika 10. 4. 1813 (Jan domkář; kmotři Oblonzek/Šostek jako 1803) – D. Jan žil ještě IX 1811 (kmotr, K–D). Křest Barbory v FS vol. 2791 (Petrovice) III 1803 – IV 1813 podle indexu není → zkusit vol. 1261 (křty 1785–1818). Sňatek rodičů patrně FS vol. 2793 sn2–5 (1797–1802)."
+    "fs_old66: další děti s Zuzanou roz. Bernardzik/Bernatzik, Petrovice č. 49: Johanna 29. 6. 1805, Veronika Hedvika 10. 4. 1813 (Jan domkář; kmotři Oblonzek/Šostek jako 1803) – D. Jan žil ještě IX 1811 (kmotr, K–D). Křest Barbory v FS vol. 2791 (Petrovice) III 1803 – IV 1813 podle indexu není → zkusit vol. 1261 (křty 1785–1818). Sňatek rodičů patrně FS vol. 2793 sn2–5 (1797–1802).",
+    "fs_old67: sňatek s Zuzanou Bernadzik v O Petrovice (FS vol. 2793 = F VIII 6) XI 1797 – V 1803 není (D) → před XI 1797 nebo jinde."
    ],
    "sources": [
     "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F VIII 6, inv. 2793, O Petrovice u Karviné 1797–1858, oddíl Závada, snímek 68, levá strana (pag. 14), sňatek 28. 8. 1832 (digi.archives.cz)"
