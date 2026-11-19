@@ -4405,7 +4405,8 @@ window.RODOKMEN = {
    "notes": [
     "Otec Jakuba: „Jacobus adolescens hon[es]ti Simonis Matusenski … filius“ (sňatek XI 1753, Pruchna, M). Patrně i otec Matouše, ženicha z Drogomyśle (∞ 10. 2. 1754, D). V II 1754 bez „defuncti“ – patrně žil. Jistota K, protože vazba celé větve na Laurenze, otce Franze 1858, je K+. Rok narození je odhad.",
     "caak_dr19: úmrtí Šimona ani manželky v Pruchné I 1754 – X 1758 není (PAP 8 s80–93). 16. 1. 1758 zemřela Zuzana, 2leté dítě Pavla Matušańského (s89, M) – Pavel snad další syn (K).",
-    "caak_dr20: úmrtí Šimona ani manželky není ani X 1758 – II 1770 (PAP 8 s94–146). V Pruchné i Ondřej Matusenski (ž. Kateřina roz. Belczarová † 12. 2. 1760, ~30 let; syn Josef † 13. 2. 1760) – snad další syn (K)."
+    "caak_dr20: úmrtí Šimona ani manželky není ani X 1758 – II 1770 (PAP 8 s94–146). V Pruchné i Ondřej Matusenski (ž. Kateřina roz. Belczarová † 12. 2. 1760, ~30 let; syn Josef † 13. 2. 1760) – snad další syn (K).",
+    "caak_dr22 (K): 13. 4. 1745 zemřela Marina Matušańská, ~56 let, a 3. 5. 1745 Jiří Matusenski, ~30 let, sedlák, „cum sua Matre sepultus“ (PAP 8 s49–50, M) – možná Šimonova žena a syn, nedoloženo. V Pruchné i luteránský Lukáš Matusenski (dítě † 1737)."
    ],
    "sources": [
     "Archiwum Diecezji Bielsko-Żywieckiej, fara Pruchna, PAP 7 (O 1728–1783), CAAK, XI 1753, s62"
@@ -4434,7 +4435,8 @@ window.RODOKMEN = {
     "Otec Anny: „puella Anna hon[es]ti Wenceslai Poliwins filia“ (sňatek XI 1753, Pruchna, M; tvar příjmení D). Jistota K jako celá větev. Rok narození je odhad.",
     "caak_dr19: úmrtí v Pruchné I 1754 – X 1758 není; sňatek v O II 1738 – II 1746 a 1752 – II 1754 není.",
     "caak_dr20: úmrtí není X 1758 – II 1770. 2. 5. 1759 zemřel Josef, 10týdenní dítě Jiřího Polivinse (PAP 8 s97, M) – Jiří snad syn Václava (K).",
-    "caak_dr21 – sňatek 17. 8. 1732, Pruchna (PAP 7 s16, ověřeno koordinátorem na výřezu): „Item Copulatus eadem die ab eodem hon: adolescens Wenceslaus Polewins cum hon: ancilla Marina Pauli Lomozik filia utrique cathol: Pruchnä. Testes Paulus Vitek et Andreas Czerneczki“ (M; den D+; otec ženicha neuveden). Ztotožnění D+ (vzácné příjmení, svobodný 1732, Anna *~1733). Syn Jiří ∞ 16. 10. 1757 Eva Lomoziková („Georgius adolescens h[one]sti Wenceslai Pollivins … filius“, s72, M) – Václav tehdy žil. Úmrtí Václava ani Mariny v Pruchné I 1754 – XII 1772 není."
+    "caak_dr21 – sňatek 17. 8. 1732, Pruchna (PAP 7 s16, ověřeno koordinátorem na výřezu): „Item Copulatus eadem die ab eodem hon: adolescens Wenceslaus Polewins cum hon: ancilla Marina Pauli Lomozik filia utrique cathol: Pruchnä. Testes Paulus Vitek et Andreas Czerneczki“ (M; den D+; otec ženicha neuveden). Ztotožnění D+ (vzácné příjmení, svobodný 1732, Anna *~1733). Syn Jiří ∞ 16. 10. 1757 Eva Lomoziková („Georgius adolescens h[one]sti Wenceslai Pollivins … filius“, s72, M) – Václav tehdy žil. Úmrtí Václava ani Mariny v Pruchné I 1754 – XII 1772 není.",
+    "caak_dr22: děti zemřelé – Jan, 7 dní, 30. 5. 1745 (PAP 8 s50, M) a Josef, 5 let, VIII 1746 (s62, M). Úmrtí Mariny ani Václava VIII 1743 – XII 1753 není (mezera v knize ~1747–49)."
    ],
    "sources": [
     "Archiwum Diecezji Bielsko-Żywieckiej, fara Pruchna, PAP 7 (O 1728–1783), CAAK, XI 1753, s62",
@@ -4489,7 +4491,8 @@ window.RODOKMEN = {
     "approx": true
    },
    "notes": [
-    "Otec Mariny Poliwinské (sňatek 1732, M). Pavel Lomozik je v Pruchné i svědkem 1731 (sňatek Bartoloměje Saydoka × Anny Matuszeńské) a 1743 (sňatek Bartoloměje Vitoška). Rok narození je odhad."
+    "Otec Mariny Poliwinské (sňatek 1732, M). Pavel Lomozik je v Pruchné i svědkem 1731 (sňatek Bartoloměje Saydoka × Anny Matuszeńské) a 1743 (sňatek Bartoloměje Vitoška). Rok narození je odhad.",
+    "caak_dr22: 19. 6. 1746 zemřela „Marena uxor Pauli Lomozik … nata Papkoyowa(?)“, ~60 let (PAP 8 s55, M; rodné jméno D) – patrně jeho žena a matka Mariny Polewinsové (D−/K+, v Pruchné víc Lomoziků; nezapsána jako osoba). Pavel žil VI 1746; jeho úmrtí VIII 1743 – XII 1753 není."
    ],
    "line": "matusinsky",
    "alive": false,
