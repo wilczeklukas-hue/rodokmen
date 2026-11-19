@@ -122,7 +122,8 @@ window.RODOKMEN = {
    "cert": "D",
    "notes": [
     "Datum a místo narození ze zápisu o narození syna Aloise (1954); vlastní křestní zápis zatím nehledán.",
-    "Pohřben na hřbitově Urnový háj Karviná-Mizerov (rodinná paměť)."
+    "Pohřben na hřbitově Urnový háj Karviná-Mizerov (rodinná paměť).",
+    "Lukáš (e-mail 19. 11. 2026): pohřben spolu s Adelou na hřbitově Karviná-Ráj; Lukáš čeká na výpis z matriky a hroby nafotí."
    ],
    "sources": [
     "Zápis o narození Aloise Wilczka, MÚ Karviná, kniha narození 1954, poř. č. 460 (kopie zápisu zaslaná úřadem, 11. 11. 2026)",
@@ -160,7 +161,8 @@ window.RODOKMEN = {
    "notes": [
     "Narozena 5. 5. 1929 podle zápisu o narození syna Aloise (1954), shodně s náhrobkem. Rodiště čteno „Sosnova (?)“, okres „Bědzin (?)“ – nejspíš polské Zagłębie (Będzin, Sosnowiec), čtení nejisté.",
     "Pochována se sestrou Annou Drozdowou (náhrobek; sestra podle rodiny). Hrob je v Urnovém háji Karviná-Mizerov (rodinná paměť).",
-    "Otec František Drozd byl v roce 1954 už mrtev. Na hřbitově Urnový háj Karviná-Mizerov je náhrobek Franz a Emilie? Drozd (BillionGraves) – možná jeho hrob, nedoloženo."
+    "Otec František Drozd byl v roce 1954 už mrtev. Na hřbitově Urnový háj Karviná-Mizerov je náhrobek Franz a Emilie? Drozd (BillionGraves) – možná jeho hrob, nedoloženo.",
+    "Lukáš (e-mail 19. 11. 2026): pohřbena s manželem Františkem na hřbitově Karviná-Ráj."
    ],
    "sources": [
     "Zápis o narození Aloise Wilczka, MÚ Karviná, kniha narození 1954, poř. č. 460 (kopie zápisu zaslaná úřadem, 11. 11. 2026)",
@@ -205,9 +207,12 @@ window.RODOKMEN = {
   {
    "maiden": "",
    "cert": "R",
-   "notes": [],
+   "notes": [
+    "Lukáš (e-mail 19. 11. 2026): zemřel 13. 12. 2014, bydlištěm Strahovice."
+   ],
    "sources": [
-    "Rodinná paměť – sdělení Lukáše Wilczka (15. 10. 2026)"
+    "Rodinná paměť – sdělení Lukáše Wilczka (15. 10. 2026)",
+    "Rodinná informace – Lukáš Wilczek, e-mail 19. 11. 2026"
    ],
    "scans": [],
    "id": "vladislavO",
@@ -216,6 +221,12 @@ window.RODOKMEN = {
    "b": {
     "date": "24. 10. 1938",
     "year": 1938,
+    "place": ""
+   },
+   "alive": false,
+   "d": {
+    "date": "13. 12. 2014",
+    "year": 2014,
     "place": ""
    }
   },
@@ -2493,26 +2504,31 @@ window.RODOKMEN = {
    "cert": "M",
    "alive": false,
    "b": {
-    "date": "",
-    "year": 1756,
-    "place": "",
-    "approx": true
+    "date": "30. 12. 1761",
+    "year": 1761,
+    "place": "Dolní (Německá) Lutyně"
    },
    "father": "martinKusnik",
    "notes": [
     "Matka Josefa (1784) a Jakuba Jana (1785) Kionky: dcera Martina Kušnika (?), tehdy už nežijícího, vrchnostenského kováře. Příjmení nejisté (Kußnik / Kuznik); svědek Johann Kuznik 1804 nejspíš její bratr. Rok narození je odhad.",
     "Sňatek 3. 2. 1783 s Janem Kionkou – „Marina des verstorbenen Martin Kußnik wail. herrschaftl. Schmieds ehel. Tochter“ (M).",
     "Úmrtí ~25. 2. 1827 (pohřeb ~27. 2.), Dětmarovice č. 17: „Marina Kionka Wittwe nach + Johann Kionka gewesenen Häusler in Dittmansdorf“, 70 let (→ nar. ~1757), sešlost věkem; farář Jos. Kornke(?). Dům, věk a manžel M; den D.",
-    "Oprava podle FamilySearch DGS 5387451 sn48 L (fs_old48, čtení ověřeno koordinátorem): „Den 26ten Febr. 1827 gest. den 28ten begrab. | 17. | Marina Kionka Wittwe nach + Johann Kionka gewesenen Häuslers zu Dittmansdorf … 71 … Altersschwäche“ – zemřela 26. 2., pohřbena 28. 2. 1827, 71 let (→ nar. ~1756; M)."
+    "Oprava podle FamilySearch DGS 5387451 sn48 L (fs_old48, čtení ověřeno koordinátorem): „Den 26ten Febr. 1827 gest. den 28ten begrab. | 17. | Marina Kionka Wittwe nach + Johann Kionka gewesenen Häuslers zu Dittmansdorf … 71 … Altersschwäche“ – zemřela 26. 2., pohřbena 28. 2. 1827, 71 let (→ nar. ~1756; M).",
+    "fs_old70: křest 30. 12. 1761: „Marina | Martini Kuźnik, Matris Marinae, Paren: cath: | L. L. Mathias Gura, et Apolonia Rzesaczowa(?) | Teuto-Lut:“ (M; ztotožnění D – rodiče sedí, 21 let při sňatku 1783; mezi pohřby 1762–V 1765 není, ale rodiče dali jméno Marina i dceři ~IV 1765 († V 1765)). Sourozenci: Johanna 1758, Jan 1759, František 1760, Magdalena 1764 († V 1764), Marina 1765 († V 1765). Otec Martin 1765 kovář ve Věřňovicích."
    ],
    "sources": [
     "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F I 11, inv. 2707, O Věřňovice 1728–1792, snímek 126, levá strana, „Anno 1783 In Februario“, 1. zápis; duplikát sn. 125 P (digi.archives.cz; rejstřík F I 48 sn. 16 L)",
     "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F I 4, inv. 2700, N Věřňovice 1782–1803, snímek 12, pravá strana, „In Martio“ 4. zápis, křest 1784 (digi.archives.cz)",
     "ZA Opava, F I 4, snímek 78, křest syna 1785 (digi.archives.cz)",
     "ZA Opava, fara Dolní Lutyně, Z 1824–1832 (inv. 2715), oddíl Dittmansdorf, Pag. 14 – FamilySearch DGS 5387451, snímek 48 vlevo",
-    "ZA Opava, fara Dolní Lutyně, Z 1824–1832, oddíl Dětmarovice, pag. 14 – FamilySearch DGS 5387451, snímek 48 vlevo"
+    "ZA Opava, fara Dolní Lutyně, Z 1824–1832, oddíl Dětmarovice, pag. 14 – FamilySearch DGS 5387451, snímek 48 vlevo",
+    "ZA Opava, fara Dolní Lutyně, křty (FamilySearch DGS 5387437), XII 1761, snímek 45 vpravo"
    ],
    "scans": [
+    {
+     "f": "img/1761_krest_marina_kuznik.png",
+     "t": "Křest Mariny, dcery Martina Kuźnika a Mariny, Dolní Lutyně 30. 12. 1761"
+    },
     {
      "f": "img/1784_krest_josef_kionka.jpg",
      "t": "Křest Josefa Kionky, 8. 3. 1784, Dětmarovice"
@@ -2562,7 +2578,8 @@ window.RODOKMEN = {
     "fs_old44: pohřeb v I 1779 – 17. XII 1782 (DGS 5387447 sn2–19) není; zbývá XII 1782 – II 1783 a léta před 1779.",
     "fs_old45: pohřeb není ani XII 1782 – III 1783 → celkový negativ I 1779 – III 1783; zemřel před 1779 nebo jinde.",
     "fs_old47 (K): v Německé Lutyni křtí 1758–60 „Martin Kuźnik × Marina (Marianna)“ děti Johanna 1758, Joannes 1759, Franciscus 1760; povolání 1758 snad „Faber aerarius“ (kovář?, K). Možná naše rodina – dcera Marina ~1757 nehledána.",
-    "Vdova Marina zemřela 9. 12. 1793 v Dětmarovicích č. 17 (u Kionků), 70 let (fs_old51)."
+    "Vdova Marina zemřela 9. 12. 1793 v Dětmarovicích č. 17 (u Kionků), 70 let (fs_old51).",
+    "fs_old70: sňatek s Marinou v O Dolní Lutyně I 1737 – VI 1758 souvisle není → oddáni mimo faru. 1764–65 kovář (Faber) ve Věřňovicích."
    ],
    "sources": [
     "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F I 4, inv. 2700, N Věřňovice 1782–1803, snímek 12, pravá strana, „In Martio“ 4. zápis, křest 1784 (digi.archives.cz)"
