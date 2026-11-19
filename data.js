@@ -1964,7 +1964,8 @@ window.RODOKMEN = {
     "approx": true
    },
    "notes": [
-    "Otec Barbory Stadeczkové (sňatek 1832, křest vnuka 1836). Manželka Zuzana roz. Dimmrzik (?) – čtení nejisté, nezapsána. Rok narození je odhad."
+    "Otec Barbory Stadeczkové (sňatek 1832, křest vnuka 1836). Manželka Zuzana roz. Dimmrzik (?) – čtení nejisté, nezapsána. Rok narození je odhad.",
+    "fs_old65 (D–K): manželka Zuzana roz. BERNADZIK – křest dcery Marianny 22. 1. 1803, Petrovice č. 59: „Johann Koczwara | Magdalena Sussanna gb. Bernadzik“ (F VIII 4 = FS vol. 2791, sn10; čtení D–M, ověřeno koordinátorem); syn Franz 6. 10. 1807 („Susanna Bernardzkÿ“, FS index). Dřívější čtení „Dimmrzik (?)“ patrně chybné. Ztotožnění: jméno manžela, manželky a fara."
    ],
    "sources": [
     "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F VIII 6, inv. 2793, O Petrovice u Karviné 1797–1858, oddíl Závada, snímek 68, levá strana (pag. 14), sňatek 28. 8. 1832 (digi.archives.cz)"
@@ -3097,7 +3098,8 @@ window.RODOKMEN = {
    },
    "notes": [
     "Manželka Jiřího Surmy, podruha v Lazech č. 21; matka Zuzany (pokř. 19. 5. 1809). V zápise „Magdalena verehlichte Surma“ – rodné příjmení neuvedeno. Sňatek hledat ~1798–1808 (fara Orlová, Ka V 8).",
-    "ÚMRTÍ 8. 2. 1810, Lazy č. 21: „Magdalena Weib des Georg Surma Inman“, katolička, 40 let, příčina „an Epidemie“ (M čtení koordinátorem; ztotožnění M – týž dům a manžel jako při křtu Zuzany 1809). Věk 40 → nar. ~1770. Rodné příjmení neuvedeno."
+    "ÚMRTÍ 8. 2. 1810, Lazy č. 21: „Magdalena Weib des Georg Surma Inman“, katolička, 40 let, příčina „an Epidemie“ (M čtení koordinátorem; ztotožnění M – týž dům a manžel jako při křtu Zuzany 1809). Věk 40 → nar. ~1770. Rodné příjmení neuvedeno.",
+    "fs_old65: oprava čtení křtu Zuzany 1809 (Ka V 5 sn71 P): matka „Magdalena verehlichte ?ur=|=rek“ – příjmení končí -rek (D), ne Surma; FS index čte „Turrek“ (Turek), první písmeno tvarem jako S v „Sur=ma“ → Turek/Surek, ověřeno koordinátorem jen D–K. Rodné příjmení proto zatím nezapsáno."
    ],
    "sources": [
     "ZA Opava, fara Orlová, N 1808–1844 (sign. Ka V 5, inv. 3039), oddíl Lazy, V 1809 – snímek 71 vpravo",
