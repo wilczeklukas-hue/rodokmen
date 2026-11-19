@@ -810,7 +810,8 @@ window.RODOKMEN = {
    },
    "notes": [
     "Úmrtní zápis: „Anna Drapková rozená Procházková, vdova po † Františku Drapkovi, havíři na penzi, nar. 26. 7. 1855 v Godově“, zemřela 27. 1. 1934 ve věku 78 let, Závada č. 1.",
-    "Křest dcery Albíny 1881: „Anna geb. Franz Prochasek“, místo čteno Gollowic (?) – úmrtní zápis uvádí Godov (Godów); ověřit."
+    "Křest dcery Albíny 1881: „Anna geb. Franz Prochasek“, místo čteno Gollowic (?) – úmrtní zápis uvádí Godov (Godów); ověřit.",
+    "zao_r72: sňatek s Františkem Drapkou v O Petrovice (F VIII 18) 1874 – V 1881 není; patrně ve faře nevěsty (Godów / USC Gołkowice, mimo ZA Opava). Vedlejší (K): Jan Matera nar. Godów 25. 7. 1855, matka Marianna roz. Pro(s)chka, ∞ 1881 Petrovice."
    ],
    "sources": [
     "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F VIII 21, inv. 18473, Z Petrovice u Karviné, Prstná, Závada 1859–1949, snímek 185 (Závada 1933–1934), úmrtí Anny Drapkové 27. 1. 1934 (digi.archives.cz)",
@@ -1776,7 +1777,8 @@ window.RODOKMEN = {
     "approx": true
    },
    "notes": [
-    "Matka Franze Drazzy/Drapky podle oddacího zápisu 1837; příjmení čteno Miczek/Mięzek (?). Rok narození je odhad."
+    "Matka Franze Drazzy/Drapky podle oddacího zápisu 1837; příjmení čteno Miczek/Mięzek (?). Rok narození je odhad.",
+    "zao_r72: sňatek 1837 znovu přečten zvětšeně (F VIII 11 sn22 L): „Sohn des dortigen … Paul Drazza u. Theresia Miczek“ – „Miczek“ D–M, „Schemiczek“ vyloučen; rodiště ženicha „von Seibersdorf“ bez Nieder/Ober (D)."
    ],
    "sources": [
     "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F VIII 11, inv. 10218, O Petrovice u Karviné 1836–1858, oddíl Závada, snímek 22, levá strana, 4. zápis, sňatek 27. 8. 1837 (digi.archives.cz)"
