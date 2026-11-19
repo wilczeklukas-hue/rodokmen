@@ -2020,7 +2020,8 @@ window.RODOKMEN = {
     "fs_old65 (D–K): manželka Zuzana roz. BERNADZIK – křest dcery Marianny 22. 1. 1803, Petrovice č. 59: „Johann Koczwara | Magdalena Sussanna gb. Bernadzik“ (F VIII 4 = FS vol. 2791, sn10; čtení D–M, ověřeno koordinátorem); syn Franz 6. 10. 1807 („Susanna Bernardzkÿ“, FS index). Dřívější čtení „Dimmrzik (?)“ patrně chybné. Ztotožnění: jméno manžela, manželky a fara.",
     "fs_old66: další děti s Zuzanou roz. Bernardzik/Bernatzik, Petrovice č. 49: Johanna 29. 6. 1805, Veronika Hedvika 10. 4. 1813 (Jan domkář; kmotři Oblonzek/Šostek jako 1803) – D. Jan žil ještě IX 1811 (kmotr, K–D). Křest Barbory v FS vol. 2791 (Petrovice) III 1803 – IV 1813 podle indexu není → zkusit vol. 1261 (křty 1785–1818). Sňatek rodičů patrně FS vol. 2793 sn2–5 (1797–1802).",
     "fs_old67: sňatek s Zuzanou Bernadzik v O Petrovice (FS vol. 2793 = F VIII 6) XI 1797 – V 1803 není (D) → před XI 1797 nebo jinde.",
-    "fs_old68: povolání tesař (Zimmermann) – 1807 „Zimmerm. und Häusler“, 1831 „hiesiger Zimmermann“, dům 1831 č. 27 (?)."
+    "fs_old68: povolání tesař (Zimmermann) – 1807 „Zimmerm. und Häusler“, 1831 „hiesiger Zimmermann“, dům 1831 č. 27 (?).",
+    "fs_old77: KANDIDÁT křtu (D–K, nezapojeno): III 1780 Petrovice č. 27 (index Karviná 1771–92, vol. 2733, FS sn64): „Joannes | Jacobus Kotzvara Acker. Baur et Anna | Mathaeus Janibol(?), Susanna d. Michael Dobosch(?) | Petrowitz“ – č. d. 27 sedí s rodinou 1824/1831; v r. 1780 ale v Petrovicích i Jan × Hedvika a Pavel × Anna Kocvarovi. Další děti se Zuzanou: Johann Philipp 1815, Theresia Franziska 1817, Georg 1820, Theresia Beata 1822, Magdalena Zuzana 14. 5. 1824 (č. 27, ověřeno okem, D)."
    ],
    "sources": [
     "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F VIII 6, inv. 2793, O Petrovice u Karviné 1797–1858, oddíl Závada, snímek 68, levá strana (pag. 14), sňatek 28. 8. 1832 (digi.archives.cz)"
@@ -4022,12 +4023,13 @@ window.RODOKMEN = {
    "alive": false,
    "b": {
     "date": "",
-    "year": 1780,
+    "year": 1783,
     "place": "",
     "approx": true
    },
    "notes": [
-    "Manželka tesaře a domkáře Jana Koczwary, Petrovice č. 49 (1803–1813) / č. 27 (1831). Matka Barbory: „Barbara Tochter des hiesigen Zimmermanns Johann Koczwara und seines Eheweibs Susanna geb. Bernatzyk“ (sňatek 31. 10. 1831, M) a „Tochter des Joh. Koczwara u. der Susanna Bernatzik“ (sňatek 28. 8. 1832, M – ověřeno koordinátorem na výřezech). Děti: Marianna 22. 1. 1803 („Magdalena Sussanna gb. Bernadzik“), Johanna 29. 6. 1805, Franz 5. 10. 1807, Barbora ~1809, Veronika Hedvika 10. 4. 1813. Sňatek s Janem ve faře Petrovice XI 1797 – V 1803 není. Rok narození je odhad."
+    "Manželka tesaře a domkáře Jana Koczwary, Petrovice č. 49 (1803–1813) / č. 27 (1831). Matka Barbory: „Barbara Tochter des hiesigen Zimmermanns Johann Koczwara und seines Eheweibs Susanna geb. Bernatzyk“ (sňatek 31. 10. 1831, M) a „Tochter des Joh. Koczwara u. der Susanna Bernatzik“ (sňatek 28. 8. 1832, M – ověřeno koordinátorem na výřezech). Děti: Marianna 22. 1. 1803 („Magdalena Sussanna gb. Bernadzik“), Johanna 29. 6. 1805, Franz 5. 10. 1807, Barbora ~1809, Veronika Hedvika 10. 4. 1813. Sňatek s Janem ve faře Petrovice XI 1797 – V 1803 není. Rok narození je odhad.",
+    "fs_old77: rodila ještě 1824 (Magdalena Zuzana, 14. 5. 1824, č. 27: „Susana geb. Bernadczik“, D) → nar. spíš ~1782–85. Křest v indexu FS nenalezen (Bernadzikové jen Šenov, Hnojník)."
    ],
    "sources": [
     "ZA Opava, fara Petrovice u Karviné, O 1797–1859 (F VIII 6) – FamilySearch vol. 2793, X 1831, snímek 18",
