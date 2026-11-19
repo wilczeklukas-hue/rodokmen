@@ -1089,14 +1089,21 @@ window.RODOKMEN = {
     "Narození: KANDIDÁT K+ – Pruchna 1828 akt 23: Laurenz Matuszyński (Matuschensky), nar. 20. 7. 1828, Pruchna č. 113, otec Mathias, matka Anna roz. Socholik. Jediný Laurenz Matuszyński v celém indexu, obec i věk sedí; vazbu by doložil až jeho sňatek s Annou Tomizou (~1850–1858, mimo index).",
     "Sourozenci (stejný otec Mathias): Josef nar. 14. 2. 1825 (akt 7); Andreas (sňatek 1837 s Annou Kurus, dům č. 113); Johann (sňatek 1844, č. 97).",
     "Sourozenci (Geneteka, Pruchna): Josef *14. 2. 1825 akt 7, rodiče Mathias × Anna Socholik (D); Andreas, syn Mathiase, *~1813, sňatek 1837 akt 11 s Annou Kurus – jeho dcera 1840 narozena v č. 113 jako Laurenz (K+); Johann, syn Mathiase, *~1820, sňatek 1844 akt 1 s Annou Cholewik (K+). Křty Pruchna 1811–1824 v indexu chybí.",
-    "Úmrtí Laurenze ani Anny roz. Tomiza v indexu NENÍ (Pruchna Z 1880–1922, Strumień 1870–1925, Zabrzeg 1870–1917, celé śląskie foneticky). Franz 1882 „syn siedlaka w Rychułdzie“ – úmrtí hledat ve farnosti Rychułdu (Drogomyśl?) na skenech."
+    "Úmrtí Laurenze ani Anny roz. Tomiza v indexu NENÍ (Pruchna Z 1880–1922, Strumień 1870–1925, Zabrzeg 1870–1917, celé śląskie foneticky). Franz 1882 „syn siedlaka w Rychułdzie“ – úmrtí hledat ve farnosti Rychułdu (Drogomyśl?) na skenech.",
+    "caak_dr15 – křest z originálu (PAP 5 s93, ověřeno koordinátorem na výřezu): „July 20. eadem | 113 | Laurenz | 1 1 1 | Mathias Matuszynski Inmann | Anna geb. Socholik | Mathias Urbaner(?) Häusler; Marianna des Inmann Mathias Swierkot(?)“ – rodiče M. Otevřené zůstává jen, že je to týž Laurenz jako otec Franze 1858 (K+; rozhodne sňatek s Annou Tomizou ~1850–58 v PAP 5)."
    ],
    "sources": [
     "Geneteka (index PTG), śląskie, parafia Pruchna, narození 1828 akt 23 (gid 8106255) – https://geneteka.genealodzy.pl (w=12sl, bdm=B, rid=14761)",
     "Geneteka (index PTG), śląskie, parafia Strumień, sňatek 1882 akt 4 (syn Franz)",
-    "Geneteka (geneteka.genealodzy.pl), index – viz 06_poznamky/agenti/geneteka_r3/notes.md"
+    "Geneteka (geneteka.genealodzy.pl), index – viz 06_poznamky/agenti/geneteka_r3/notes.md",
+    "Archiwum Diecezji Bielsko-Żywieckiej, fara Pruchna, PAP 5 (N/O 1825–1879), CAAK, křty 1828, s93"
    ],
-   "scans": []
+   "scans": [
+    {
+     "f": "img/1828_krest_laurenz_matuszynski.jpg",
+     "t": "Křest Laurenze, syna podruha Mathiase Matuszyńského a Anny roz. Socholik, Pruchna č. 113, 20. 7. 1828"
+    }
+   ]
   },
   {
    "id": "annaTomiza",
@@ -1141,13 +1148,28 @@ window.RODOKMEN = {
    "notes": [
     "KANDIDÁT (otec kandidáta Laurenze 1828). Sňatek 16. 5. 1810 Pruchna akt 4 jako vdovec, 43 let, komorník, s Annou Socholik (18 let), dům č. 17.",
     "Možný 1. sňatek 27. 6. 1797 Pruchna akt 3: Mathias, syn sedláka Jakoba, svobodný, 27 let × Helena, vdova po chalupníkovi Michaelu Liskovi, 49 let – ztotožnění jen K.",
-    "Matrika výnosu pozemků 1820 (FS): Pruchna (DGS 100311091 sn37) – držitelé Matuschinsky Andreas č. 24, Paul č. 33, Georg č. 41, Joseph(?) č. 59; Mathias ani Jakob mezi nimi nejsou, č. 113 v Pruchné 1820 neexistuje (domy do ~90). Rychułd 1820 (16 domů) ani Zaborze bez Matuszyńských (fs_land3)."
+    "Matrika výnosu pozemků 1820 (FS): Pruchna (DGS 100311091 sn37) – držitelé Matuschinsky Andreas č. 24, Paul č. 33, Georg č. 41, Joseph(?) č. 59; Mathias ani Jakob mezi nimi nejsou, č. 113 v Pruchné 1820 neexistuje (domy do ~90). Rychułd 1820 (16 domů) ani Zaborze bez Matuszyńských (fs_land3).",
+    "caak_dr15: sňatek 16. 5. 1810 (PAP 4 s36, vybledlé): „17 | Mathias Matuszynsky Inmann | 43(?) | Witwer || Anna nach dem + Johann Socholik Inmanns Tochter | 18“ (jména a dům M, věk D). 1. manželka (jméno přeškrtnuto, nad tím „Elsbeth“?, K) † 2. 2. 1810, č. 17, 58 let (PAP 4 s342, M). Sňatek 27. 6. 1797 (PAP 4 s20, M): „Mathias nach dem verstorbenen Jakob Matuschinsky Ackerbauern in Pruchna hinterbliebener Sohn | 27 | ledig || Helena nach dem verstorbenen Michel Liska Ackerbauer … Wittib | 49“ – zda je to týž Mathias (manželka † 1810 věkem sedí na Helenu, jménem ne), jen D−/K+. Otec Laurenze 1828 (M)."
    ],
    "sources": [
     "Geneteka (index PTG), śląskie, parafia Pruchna, sňatek 1810 akt 4 (gid 2485942)",
-    "Geneteka (index PTG), śląskie, parafia Pruchna, sňatek 1797 akt 3"
+    "Geneteka (index PTG), śląskie, parafia Pruchna, sňatek 1797 akt 3",
+    "Archiwum Diecezji Bielsko-Żywieckiej, fara Pruchna, PAP 4 (N/O/Z 1785–1824), CAAK, oddaní 1797 s20, 1810 s36; zemřelí 1810 s342"
    ],
-   "scans": []
+   "scans": [
+    {
+     "f": "img/1828_krest_laurenz_matuszynski.jpg",
+     "t": "Křest Laurenze, syna podruha Mathiase Matuszyńského a Anny roz. Socholik, Pruchna č. 113, 20. 7. 1828"
+    },
+    {
+     "f": "img/1810_snatek_matuszynski_socholik.jpg",
+     "t": "Sňatek 16. 5. 1810, Pruchna č. 17: Mathias Matuszyński, vdovec, 43 × Anna, dcera † Johanna Socholika, 18"
+    },
+    {
+     "f": "img/1797_snatek_matuszynski_liska.jpg",
+     "t": "Sňatek 27. 6. 1797, Pruchna: Mathias, syn † sedláka Jakoba Matuszyńského, 27 × Helena, vdova po Michalu Liskovi, 49"
+    }
+   ]
   },
   {
    "id": "annaSocholik",
@@ -1157,19 +1179,34 @@ window.RODOKMEN = {
    "cert": "K",
    "alive": false,
    "b": {
-    "date": "",
+    "date": "7. 4. 1792",
     "year": 1792,
-    "place": "Pruchna (?)",
-    "approx": true
+    "place": "Pruchna č. 88"
    },
    "notes": [
     "KANDIDÁT (matka kandidáta Laurenze 1828). Sňatek 16. 5. 1810 Pruchna: panna, 18 let, dcera komorníka Johanna Socholika.",
-    "Geneteka r6: sestry (D index): Ewa, ∞ 1813 Pruchna akt 4 Walentin Zuber, otec Johann; Marina „Sacholik“ (*~1787), ∞ 21. 10. 1805 Pruchna akt 4 Mathäus Siekiera, otec Johann, dům 12 (K+). Úmrtí Johanna Socholika v indexu není (Pruchna Z až od 1880)."
+    "Geneteka r6: sestry (D index): Ewa, ∞ 1813 Pruchna akt 4 Walentin Zuber, otec Johann; Marina „Sacholik“ (*~1787), ∞ 21. 10. 1805 Pruchna akt 4 Mathäus Siekiera, otec Johann, dům 12 (K+). Úmrtí Johanna Socholika v indexu není (Pruchna Z až od 1880).",
+    "caak_dr15: křest 7. (nar.) / 8. 4. 1792, Pruchna č. 88 (PAP 4 s163): „Anna | Johann Socholik Inmann | Marianna geborne Dz…(?)“ (D; rodné jméno matky K). Ztotožnění s nevěstou 1810 D (otec, stav, věk 18 sedí na měsíc). Sňatek 1810: dcera † Johanna Socholika (D). Matka Laurenze 1828 (M)."
    ],
    "sources": [
-    "Geneteka (index PTG), śląskie, parafia Pruchna, sňatek 1810 akt 4 (gid 2485942)"
+    "Geneteka (index PTG), śląskie, parafia Pruchna, sňatek 1810 akt 4 (gid 2485942)",
+    "Archiwum Diecezji Bielsko-Żywieckiej, fara Pruchna, PAP 4 (N/O/Z 1785–1824), CAAK, křty 1792 s163; oddaní 1810 s36"
    ],
-   "scans": []
+   "scans": [
+    {
+     "f": "img/1792_krest_anna_socholik.jpg",
+     "t": "Křest Anny, dcery podruha Johanna Socholika a Marianny, Pruchna č. 88, 7./8. 4. 1792"
+    },
+    {
+     "f": "img/1810_snatek_matuszynski_socholik.jpg",
+     "t": "Sňatek 16. 5. 1810, Pruchna č. 17: Mathias Matuszyński, vdovec, 43 × Anna, dcera † Johanna Socholika, 18"
+    },
+    {
+     "f": "img/1828_krest_laurenz_matuszynski.jpg",
+     "t": "Křest Laurenze, syna podruha Mathiase Matuszyńského a Anny roz. Socholik, Pruchna č. 113, 20. 7. 1828"
+    }
+   ],
+   "father": "johannSocholik"
   },
   {
    "id": "jakobM",
@@ -1184,16 +1221,28 @@ window.RODOKMEN = {
     "place": "Pruchna (?)",
     "approx": true
    },
-   "occ": "sedlák v Pruchné",
+   "occ": "sedlák (Ackerbauer), Pruchna",
    "notes": [
     "KANDIDÁT: otec Mathiase podle indexu sňatku 1797 (ztotožnění K). V Pruchné doloženi jeho synové Joseph, Mathias a Paul (sňatky 1794–1798). Rok narození je odhad.",
-    "Josefský katastr 1788, Pruchna (FS DGS 100297566, sn. 14): „Jacob Mattuschinsky(?) Haus No 24“ – držitel domu č. 24 (parc. 154–157). Tutéž usedlost č. 24 drží 1820 Andreas Matuschinsky (nástupce, příbuznost nedoložena). Ztotožnění s Jakubem, otcem Mathiase, jen podle jména a obce (K)."
+    "Josefský katastr 1788, Pruchna (FS DGS 100297566, sn. 14): „Jacob Mattuschinsky(?) Haus No 24“ – držitel domu č. 24 (parc. 154–157). Tutéž usedlost č. 24 drží 1820 Andreas Matuschinsky (nástupce, příbuznost nedoložena). Ztotožnění s Jakubem, otcem Mathiase, jen podle jména a obce (K).",
+    "caak_dr15: při sňatku syna 27. 6. 1797 již zemřelý („nach dem verstorbenen Jakob Matuschinsky Ackerbauern in Pruchna“, M)."
    ],
    "sources": [
     "Geneteka (index PTG), śląskie, parafia Pruchna, sňatek 1797 akt 3",
-    "ZA Opava, Josefský katastr 1788, Pruchna, parcelní protokol, FamilySearch DGS 100297566, snímek 14"
+    "ZA Opava, Josefský katastr 1788, Pruchna, parcelní protokol, FamilySearch DGS 100297566, snímek 14",
+    "Archiwum Diecezji Bielsko-Żywieckiej, fara Pruchna, PAP 4 (N/O/Z 1785–1824), CAAK, oddaní 1797 s20"
    ],
-   "scans": []
+   "scans": [
+    {
+     "f": "img/1797_snatek_matuszynski_liska.jpg",
+     "t": "Sňatek 27. 6. 1797, Pruchna: Mathias, syn † sedláka Jakoba Matuszyńského, 27 × Helena, vdova po Michalu Liskovi, 49"
+    }
+   ],
+   "d": {
+    "date": "",
+    "year": 1797,
+    "before": true
+   }
   },
   {
    "id": "johannKnopp",
@@ -4230,6 +4279,42 @@ window.RODOKMEN = {
     {
      "f": "img/1681_krest_rehor_hanusek.png",
      "t": "Křest 26. 2. 1681, Dětmarovice: Řehoř(?), syn Valentina Hanuska a Doroty"
+    }
+   ]
+  },
+  {
+   "id": "johannSocholik",
+   "name": "Jan (Johann) Socholik",
+   "maiden": "",
+   "line": "matusinsky",
+   "cert": "K",
+   "alive": false,
+   "occ": "podruh (Inmann), Pruchna č. 88",
+   "b": {
+    "date": "",
+    "year": 1760,
+    "place": "",
+    "approx": true
+   },
+   "d": {
+    "date": "",
+    "year": 1808,
+    "before": true
+   },
+   "notes": [
+    "Otec Anny Socholikové: křest 1792 („Johann Socholik Inmann“, manželka Marianna roz. Dz…?) a sňatek 1810 („nach dem + Johann Socholik Inmanns Tochter“). Zemřel před 16. 5. 1810; v zemřelých VIII 1808 – V 1811 není → před VIII 1808. Jistota K, protože vazba celé větve na našeho Laurenze je K+. Další dcery Marina (∞ 1805) a Eva (∞ 1813) podle indexu Geneteka. Rok narození je odhad."
+   ],
+   "sources": [
+    "Archiwum Diecezji Bielsko-Żywieckiej, fara Pruchna, PAP 4 (N/O/Z 1785–1824), CAAK, křty 1792 s163; oddaní 1810 s36"
+   ],
+   "scans": [
+    {
+     "f": "img/1792_krest_anna_socholik.jpg",
+     "t": "Křest Anny, dcery podruha Johanna Socholika a Marianny, Pruchna č. 88, 7./8. 4. 1792"
+    },
+    {
+     "f": "img/1810_snatek_matuszynski_socholik.jpg",
+     "t": "Sňatek 16. 5. 1810, Pruchna č. 17: Mathias Matuszyński, vdovec, 43 × Anna, dcera † Johanna Socholika, 18"
     }
    ]
   }
