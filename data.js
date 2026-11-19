@@ -2936,7 +2936,8 @@ window.RODOKMEN = {
    "occ": "sedlák (Bauer) v Dětmarovicích",
    "notes": [
     "Otec Mariny Hanuškové (sňatek dcery 1776). Rok narození je odhad.",
-    "fs_old18: manželka Zuzana (křest dcery Mariny 29. 6. 1744, D); 21. 7. 1750 dcera Anna s matkou Annou – možná 2. manželka (K)."
+    "fs_old18: manželka Zuzana (křest dcery Mariny 29. 6. 1744, D); 21. 7. 1750 dcera Anna s matkou Annou – možná 2. manželka (K).",
+    "fs_old112: Jiří Kijonka z Dětmarovic má 1727 a 1729 manželku MARIANNU (křty Hedviky 30. 8. 1727, DGS 5393677 sn228 P; Anny IV 1729, DGS 5387436 FS10 P – M); Susanna jako matka až od 1739/40. Pokud jde o téhož muže (Georg Kyonka † 25. 4. 1746, 56 l., *~1690), byla Susanna 2. žena (K). Křest Jiřího IX 1725 – XII 1728 není (D). Odhad nar. ~1725 nemá oporu – otec dětí 1739–44 *nejpozději ~1718."
    ],
    "sources": [
     "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F I 11, inv. 2707, O Věřňovice 1728–1792, snímek 109, pravá strana (fol. 107), „In Februario“ 1776, 3. zápis (digi.archives.cz; rejstřík F I 48 sn. 11 P)",
