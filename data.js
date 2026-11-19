@@ -3641,7 +3641,8 @@ window.RODOKMEN = {
     "Otec Evy (sňatek 1770: „Eva Simonis vilk filia … è Superiori Markl.“, M). Úmrtí 17. 11. 1779, Horní Marklovice č. 29: „Wilk Simon ein Wald Jäger“, 64 let (PWNMPZ 4 s339) – ztotožnění D (jméno, obec, věk). Věk 64 → nar. ~1715. Jistota K kvůli ztotožnění Pavla Drazzy.",
     "caak_dr4: manželka Zuzana; děti Ondřej 1746, Jan 1749, Eva 1751 (Marklovice); sňatek patrně ~1745–46.",
     "caak_dr9: příjmení v matrice spíš Witek/Wiltek – děti Jan († 21. 4. 1751, 2 roky) a Ondřej († 20. 7. 1752, 5 let) „Simonis Wiltek ex Marklowitz“ (M). Kandidát křtu: X 1719 Marklovice, „Simon CC. LL. Bartholomaei Witek et Hedvigis“ (PWNMPZ 2 s81; zápis M, ztotožnění K–D, věk 60 vs. 64 v r. 1779) – nezapojeno.",
-    "caak_dr10: pohřeb 17. 11. 1779 přečten znovu (PWNMPZ 4 s339, 2200 px): „Witek Simon ein wald Jäger begr. d. 19. | Cath. | 64 | Ober Marklowitz“ – příjmení WITEK, ne Wilk (D). Kandidát křtu X 1719 Marklovice: „Simon CC. LL. Bartholomaei Witek et Hedvigis“ (PWNMPZ 2 s81, M); usedlá rodina Bartoloměje Vitka × Hedviky (děti Anna 1713, Marianna 1716, Matěj 1718, Šimon 1719; stálý kmotr Bartoloměj Sikora). Ztotožnění D− (jediný Šimon Witek; věk 60 vs. udaných 64; chybí sňatek „filius Bartholomaei“) → rodiče zapsáni s jistotou K. Sňatek se Zuzanou ve farnosti 1735–II 1748 není (ani jako Witek)."
+    "caak_dr10: pohřeb 17. 11. 1779 přečten znovu (PWNMPZ 4 s339, 2200 px): „Witek Simon ein wald Jäger begr. d. 19. | Cath. | 64 | Ober Marklowitz“ – příjmení WITEK, ne Wilk (D). Kandidát křtu X 1719 Marklovice: „Simon CC. LL. Bartholomaei Witek et Hedvigis“ (PWNMPZ 2 s81, M); usedlá rodina Bartoloměje Vitka × Hedviky (děti Anna 1713, Marianna 1716, Matěj 1718, Šimon 1719; stálý kmotr Bartoloměj Sikora). Ztotožnění D− (jediný Šimon Witek; věk 60 vs. udaných 64; chybí sňatek „filius Bartholomaei“) → rodiče zapsáni s jistotou K. Sňatek se Zuzanou ve farnosti 1735–II 1748 není (ani jako Witek).",
+    "caak_dr11: jako „Simon Witek“ kmotr v Marklovicích 20. 5. 1743, 30. 1. 1746, 2. 2. 1749, 13. 6. 1751 (děti Matěje Wiji × Žofie roz. Gawliczek; M/D) a 1753 (Bogacz); kmotrovství vzájemné s Vijovými. Rodiče v žádném zápisu neuvedeni."
    ],
    "sources": [
     "Archiwum Diecezji Bielsko-Żywieckiej, fara Zebrzydowice, PWNMPZ 3 (1722–1773) – CAAK, sňatky X 1770, snímek 309",
@@ -3850,7 +3851,8 @@ window.RODOKMEN = {
     "caak_dr6: sňatek 22. 1. 1714, Žibřidovice (PWNMPZ 2 s116): „Laurentius Drapa, Susan: Schimo-na(?) | Zibrz. | terna | Samuel Philos, Joan: Skowronek“ (M; jediný sňatek Vavřince Drapy 1693–1718, ztotožnění D; otcové v tabulce neuvedeni). Patrně bratr (K) Bartoloměj Drapa ∞ 26. 1. 1717 Žofie Moneczková (dcera Marina 1721).",
     "caak_dr7: ženat třikrát – 1) Zuzana (∞ 1714, † 10. 4. 1723); 2) Rosina (kmotra 1724–26; † 29. 4. 1737, 60 let, PWNMPZ 3 s346: „Rosina Laurentij Drappa uxor … Annorum 60“, M/D); 3) Anna, vdova (∞ 8. 6. 1738). Sňatek s Rosinou patrně IV 1723 – VII 1724. Úmrtí VI 1738 – V 1746 v zemřelých nenalezeno (K–D).",
     "caak_dr8: 2. sňatek 4. 2. 1724 (PWNMPZ 3 s216): „Laurentius Drapa Viduus cum honesta Vidua Rosina Kopelowa“ (M, D–M).",
-    "caak_dr9: úmrtí 22. 6. 1749 (PWNMPZ 3 s373): „obijt Sacramentis provisus Laurentius Drappa è Seiberdorff aetatis 66 annorum“ (M, ověřeno koordinátorem; ztotožnění D – syn *1715 by měl 34). Věk 66 → nar. ~1683. Rozpor: „Anna Drapin vidua“ 13. 1. 1746 – ověřit. Bratr(?) Bartoloměj † před 1759 (vdova Žofie † 1759, 66 let)."
+    "caak_dr9: úmrtí 22. 6. 1749 (PWNMPZ 3 s373): „obijt Sacramentis provisus Laurentius Drappa è Seiberdorff aetatis 66 annorum“ (M, ověřeno koordinátorem; ztotožnění D – syn *1715 by měl 34). Věk 66 → nar. ~1683. Rozpor: „Anna Drapin vidua“ 13. 1. 1746 – ověřit. Bratr(?) Bartoloměj † před 1759 (vdova Žofie † 1759, 66 let).",
+    "caak_dr11: Bartoloměj Drapa † 3. 1. 1730, Žibřidovice (PWNMPZ 3 s326, M)."
    ],
    "sources": [
     "Archiwum Diecezji Bielsko-Żywieckiej, fara Zebrzydowice, PWNMPZ 2 (1693–1721) – CAAK, křty VII 1715, snímek 68",
@@ -3968,7 +3970,8 @@ window.RODOKMEN = {
     "approx": true
    },
    "notes": [
-    "Otec kandidátního křtu Šimona (X 1719, Marklovice): „Bartholomaei Witek et Hedvigis“ (M). Děti: Anna 18. 4. 1713, Marianna 1. 4. 1716, Matěj II 1718, Šimon X 1719 (PWNMPZ 2 s63, s70, s74, s81; kmotr vždy Bartoloměj Sikora); kmotr už 30. 11. 1712. 10. 8. 1722 Bartoloměj, syn „Joannis Vitek et Hedvigis“ (K – chyba písaře?). Sňatek 1693–1717 ve farnosti není. Jistota K: ztotožnění Šimona Witka s hajným † 1779 není přímo doloženo. Rok narození je odhad."
+    "Otec kandidátního křtu Šimona (X 1719, Marklovice): „Bartholomaei Witek et Hedvigis“ (M). Děti: Anna 18. 4. 1713, Marianna 1. 4. 1716, Matěj II 1718, Šimon X 1719 (PWNMPZ 2 s63, s70, s74, s81; kmotr vždy Bartoloměj Sikora); kmotr už 30. 11. 1712. 10. 8. 1722 Bartoloměj, syn „Joannis Vitek et Hedvigis“ (K – chyba písaře?). Sňatek 1693–1717 ve farnosti není. Jistota K: ztotožnění Šimona Witka s hajným † 1779 není přímo doloženo. Rok narození je odhad.",
+    "caak_dr11: další děti Žofie 27. 4. 1708 a Zuzana 14. 9. 1711 (PWNMPZ 2 s49, s58; M) → sňatek ~1706–07 mimo farnost. Úmrtí Bartoloměje ani Hedviky v zemřelých 1722–1760 nejsou; rodina po 1722 z matrik mizí (odchod?). Přímé spojení se Šimonem hajným stále chybí (K)."
    ],
    "sources": [
     "Archiwum Diecezji Bielsko-Żywieckiej, fara Zebrzydowice, PWNMPZ 2 (1693–1721) – CAAK, křty 1713–1719"
