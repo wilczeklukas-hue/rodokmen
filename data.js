@@ -1515,7 +1515,8 @@ window.RODOKMEN = {
     "1. sňatek 28. 8. 1832 v Závadě č. 17: „Simon Stadeczek Müller, Sohn des … gewesenen Müllers Laurenz Stadeczek und der Anna Fijałek (?)“, 30 let, svobodný × Barbara, vdova po Lorenzi Kottovi (?), dcera Jana Koczwary a Zuzany roz. Dimmrzik (?), 24 let. Věk 30 (1832) vs. 41 (1841) – narozen ~1800–1802.",
     "Mlynář v Závadě č. 17. 1. manželka Barbara roz. Koczwara (dcera Jana; syn Laurenz 1836, žije ještě 1839), † 28. 4. 1841.",
     "2. sňatek 27. 7. 1841 v Závadě: „Simon Stadeczek Müller von Zawada, Sohn des Laurenz Stadeczek u. der Marianna geb. Fijałek (?)“, 41 let (nar. ~1800), vdovec × Barbara, dcera † Pavla Stanika (?), domkáře z Gołkowic (D; jména rodičů K–D). Od 1842 u dětí matka „Barbara geb. Paul Stanik (?)“.",
-    "Křest v Závadě 1800 – I 1804 nenalezen (F VIII 4 sn. 163–165); mlýn č. 17 tehdy držel Johann Wyslubek (?), Stadeczkové přišli později – Šimon se nejspíš narodil jinde."
+    "Křest v Závadě 1800 – I 1804 nenalezen (F VIII 4 sn. 163–165); mlýn č. 17 tehdy držel Johann Wyslubek (?), Stadeczkové přišli později – Šimon se nejspíš narodil jinde.",
+    "zao_r76: křest v Závadě XI 1797 – VII 1805 (F VIII 4 sn161–166) ani v rejstříku křtů celé fary 1794–1819 (F VIII 9 sn43–45) není (D) → narozen mimo faru Petrovice. Mlýn Závada X 1799 – XII 1803 drží Jan Wyslubek(?); Stadečkové přišli patrně po 1803. V rejstříku jen Stadczyk, otec Jiří, Prstná 1816 (jiná rodina)."
    ],
    "sources": [
     "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F VIII 6, inv. 2793, O Petrovice u Karviné 1797–1858, oddíl Závada, snímek 68, levá strana (pag. 14), sňatek 28. 8. 1832 (digi.archives.cz)",
@@ -1897,7 +1898,8 @@ window.RODOKMEN = {
    "occ": "mlynář (Müller) v Závadě",
    "notes": [
     "Otec Šimona: sňatek syna 1832 („gewesener Müller Laurenz Stadeczek“) a 1841. Rok narození je odhad.",
-    "zao_r50 (K): 6. 7. 1835 zemřel v Závadě č. 17 „Andreas Stadnyczek(?) Müller“, 76 let (F VIII 7 sn95 L) – snad příbuzný (otec?) mlynáře Vavřince."
+    "zao_r50 (K): 6. 7. 1835 zemřel v Závadě č. 17 „Andreas Stadnyczek(?) Müller“, 76 let (F VIII 7 sn95 L) – snad příbuzný (otec?) mlynáře Vavřince.",
+    "zao_r76: ve faře Petrovice 1794–1819 nemá žádné křtěné dítě; sňatek v rejstříku oddaných 1785–1803 není → rodina přišla odjinud (Godów, Dětmarovice, Věřňovice, Fryštát?)."
    ],
    "sources": [
     "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F VIII 6, inv. 2793, O Petrovice u Karviné 1797–1858, oddíl Závada, snímek 68, levá strana (pag. 14), sňatek 28. 8. 1832 (digi.archives.cz)",
