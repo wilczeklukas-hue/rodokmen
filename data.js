@@ -3425,7 +3425,8 @@ window.RODOKMEN = {
     "caak_dz1: sňatek Jan × Marina v Dolních Marklovicích I 1785 – X 1787 není; petrovické sňatky se psaly do fryštátské knihy („insertus est libro Freystadiensi, cum sit Petrowicensis“). Farář píše Dzygel/Digel.",
     "caak_dz2: v Zebrzydowicích 1776–1784 Jan Dzięgiel není (ani otec, ženich, kmotr; D). Tamní rod: Jakub († před 1778), Jiří (∞ 1778 Anna Eliasz), Šimon, Josef. Jan nejspíš odjinud – hledat sňatek ve fryštátské knize (petrovické sňatky) a ve faře nevěsty.",
     "zao_r70: sňatek v O Fryštát XI 1779 – IX 1781 není (D). Zbývá XII 1770 – 1779 a X 1781 – 1788.",
-    "zao_r71: sňatek v O Fryštát X 1781 – X 1783 a VIII 1784 – X 1788 není (D); od 1784 Závada v knize patrně není. Ve Fryštátě Urban Dzięgiel, podruh, 60 let, ∞ 16. 8. 1784."
+    "zao_r71: sňatek v O Fryštát X 1781 – X 1783 a VIII 1784 – X 1788 není (D); od 1784 Závada v knize patrně není. Ve Fryštátě Urban Dzięgiel, podruh, 60 let, ∞ 16. 8. 1784.",
+    "zao_r82–83: sňatek s Marinou v O Fryštát (F IV 7) souvisle II 1773 – X 1788 není (D); zbývá jen XII 1770 – I 1773 (sn34–40, málo pravděpodobné). Pravděpodobně oddán ve faře nevěsty (Orlová?)."
    ],
    "sources": [
     "ZA Opava, fara Petrovice, O 1797–1858 (sign. F VIII 6, inv. 2793), oddíl Závada, 1817, pag. 8 – snímek 65 vlevo"
