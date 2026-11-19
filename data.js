@@ -3696,10 +3696,9 @@ window.RODOKMEN = {
    "cert": "K",
    "alive": false,
    "b": {
-    "date": "",
-    "year": 1720,
-    "place": "",
-    "approx": true
+    "date": "2. 6. 1710",
+    "year": 1710,
+    "place": "Zebrzydowice (farnost)"
    },
    "d": {
     "date": "",
@@ -3708,14 +3707,20 @@ window.RODOKMEN = {
     "before": true
    },
    "notes": [
-    "1. manželka Vavřince Drapy, matka Jana (1742) a Ondřeje (1746): „Laurentij Drappa et Susannae“ (M). Rodné příjmení neuvedeno. Zemřela před VIII 1771 (Vavřinec se ženil jako vdovec). Jistota K kvůli ztotožnění Pavla Drazzy. Rok narození je odhad.",
-    "caak_dr5: rodným jménem Kroczková – sňatek 3. 9. 1741 „Susanna Urbani Kroczek filia … ex inferiori Seiberdorff“ (zápis M, příjmení D)."
+    "1. manželka Vavřince Drapy, matka Jana (1742) a Ondřeje (1746): „Laurentij Drappa et Susannae“ (M). Rodné příjmení neuvedeno. Zemřela před VIII 1771 (Vavřinec se ženil jako vdovec). Jistota K kvůli ztotožnění Pavla Drazzy.",
+    "caak_dr5: rodným jménem Kroczková – sňatek 3. 9. 1741 „Susanna Urbani Kroczek filia … ex inferiori Seiberdorff“ (zápis M, příjmení D).",
+    "caak_dr8: křest 2. 6. 1710 (PWNMPZ 2 s55): „Susanna | idem | Vrbanus Kroczek, Marianna | Paulus Gabrisch, Marian: Skowronkowa“ (M, ověřeno koordinátorem na výřezu; ztotožnění s nevěstou 1741 D – jediná dožitá Zuzana Urbana; starší sestra Zuzana *1701 patrně zemřela). Při sňatku ~31 let."
    ],
    "sources": [
     "Archiwum Diecezji Bielsko-Żywieckiej, fara Zebrzydowice, PWNMPZ 3 (1722–1773) – CAAK, křty 1742 a 1746, snímky 101 a 116",
-    "Archiwum Diecezji Bielsko-Żywieckiej, fara Zebrzydowice, PWNMPZ 3 (1722–1773) – CAAK, oddaní IX 1741, snímek 247"
+    "Archiwum Diecezji Bielsko-Żywieckiej, fara Zebrzydowice, PWNMPZ 3 (1722–1773) – CAAK, oddaní IX 1741, snímek 247",
+    "Archiwum Diecezji Bielsko-Żywieckiej, fara Zebrzydowice, PWNMPZ 2 (1693–1721) – CAAK, křty VI 1710, snímek 55"
    ],
    "scans": [
+    {
+     "f": "img/1710_krest_zuzana_kroczek.jpg",
+     "t": "Křest Zuzany, dcery Urbana Kroczka a Marianny, Zebrzydowice 2. 6. 1710"
+    },
     {
      "f": "img/1741_snatek_vavrinec_drapa_kroczek.jpg",
      "t": "Sňatek Vavřince Drapy se Zuzanou, dcerou Urbana Kroczka, Dolní Žibřidovice 3. 9. 1741"
@@ -3725,7 +3730,8 @@ window.RODOKMEN = {
      "t": "Křest Ondřeje Drapy 1746"
     }
    ],
-   "father": "urbanKroczek"
+   "father": "urbanKroczek",
+   "mother": "mariannaKroczek"
   },
   {
    "id": "susannaWilk",
@@ -3762,24 +3768,37 @@ window.RODOKMEN = {
    "alive": false,
    "b": {
     "date": "",
-    "year": 1690,
+    "year": 1675,
     "place": "",
     "approx": true
    },
    "notes": [
     "Otec Zuzany Drapové: „Susanna Urbani Kroczek filia … ex inferiori Seiberdorff“ (sňatek 1741, M; příjmení D). Dolní Žibřidovice. Jistota K kvůli ztotožnění Pavla Drazzy. Rok narození je odhad.",
     "caak_dr6: manželka patrně Marianna – syn Jakub pokř. VI 1713 (PWNMPZ 2 s63, D). Křest Zuzany v X 1712 – XII 1721 není → patrně až 1722+ (PWNMPZ 3).",
-    "caak_dr7: křest dcery Zuzany ani v PWNMPZ 3 I 1722 – III 1726 není → patrně před X 1712. Úmrtí Urbana a Marianny 1722–23, 1728, 1732–34, 1735–46 nenalezena."
+    "caak_dr7: křest dcery Zuzany ani v PWNMPZ 3 I 1722 – III 1726 není → patrně před X 1712. Úmrtí Urbana a Marianny 1722–23, 1728, 1732–34, 1735–46 nenalezena.",
+    "caak_dr8: děti s Mariannou (PWNMPZ 2): Zuzana 25. 1. 1701, Jakub 1702, Vavřinec 1703, Ondřej 7. 10. 1705, Matěj 29. 1. 1708, Zuzana 2. 6. 1710, Jakub VI 1713 (M; kmotři Gabrisch/Skarodek a Marianna Skowronková). Sňatek ~1699–1700 mimo farnost. Zemřel před 30. 1. 1724 – „Georgius Defuncti Urbani Krožek filius“ ∞ Eva Czarmach(?) (PWNMPZ 3 s216, D; Jiří snad z 1. manželství, K)."
    ],
    "sources": [
-    "Archiwum Diecezji Bielsko-Żywieckiej, fara Zebrzydowice, PWNMPZ 3 (1722–1773) – CAAK, oddaní IX 1741, snímek 247"
+    "Archiwum Diecezji Bielsko-Żywieckiej, fara Zebrzydowice, PWNMPZ 3 (1722–1773) – CAAK, oddaní IX 1741, snímek 247",
+    "Archiwum Diecezji Bielsko-Żywieckiej, fara Zebrzydowice, PWNMPZ 2 (1693–1721) – CAAK, křty 1701–1713",
+    "Archiwum Diecezji Bielsko-Żywieckiej, fara Zebrzydowice, PWNMPZ 3 (1722–1773) – CAAK, oddaní I 1724, snímek 216"
    ],
    "scans": [
     {
      "f": "img/1741_snatek_vavrinec_drapa_kroczek.jpg",
      "t": "Sňatek Vavřince Drapy se Zuzanou, dcerou Urbana Kroczka, Dolní Žibřidovice 3. 9. 1741"
+    },
+    {
+     "f": "img/1710_krest_zuzana_kroczek.jpg",
+     "t": "Křest Zuzany, dcery Urbana Kroczka a Marianny, Zebrzydowice 2. 6. 1710"
     }
-   ]
+   ],
+   "d": {
+    "date": "",
+    "year": 1724,
+    "place": "Dolní Žibřidovice",
+    "before": true
+   }
   },
   {
    "id": "laurentiusDrapaSt",
@@ -3797,7 +3816,8 @@ window.RODOKMEN = {
    "notes": [
     "Otec Vavřince ml.: „Laurentius Drapa, Susanna“ (křest 1715, M). Patrně týž „honestus viduus Laurentius Drappa“, který se 8. 6. 1738 oženil s vdovou Annou(?) (PWNMPZ 3 s242, D); „Anna Drapin vidua“ 1746 by pak byla jeho vdova (K–D). Zemřel tedy 1738–1746. Rok narození je odhad.",
     "caak_dr6: sňatek 22. 1. 1714, Žibřidovice (PWNMPZ 2 s116): „Laurentius Drapa, Susan: Schimo-na(?) | Zibrz. | terna | Samuel Philos, Joan: Skowronek“ (M; jediný sňatek Vavřince Drapy 1693–1718, ztotožnění D; otcové v tabulce neuvedeni). Patrně bratr (K) Bartoloměj Drapa ∞ 26. 1. 1717 Žofie Moneczková (dcera Marina 1721).",
-    "caak_dr7: ženat třikrát – 1) Zuzana (∞ 1714, † 10. 4. 1723); 2) Rosina (kmotra 1724–26; † 29. 4. 1737, 60 let, PWNMPZ 3 s346: „Rosina Laurentij Drappa uxor … Annorum 60“, M/D); 3) Anna, vdova (∞ 8. 6. 1738). Sňatek s Rosinou patrně IV 1723 – VII 1724. Úmrtí VI 1738 – V 1746 v zemřelých nenalezeno (K–D)."
+    "caak_dr7: ženat třikrát – 1) Zuzana (∞ 1714, † 10. 4. 1723); 2) Rosina (kmotra 1724–26; † 29. 4. 1737, 60 let, PWNMPZ 3 s346: „Rosina Laurentij Drappa uxor … Annorum 60“, M/D); 3) Anna, vdova (∞ 8. 6. 1738). Sňatek s Rosinou patrně IV 1723 – VII 1724. Úmrtí VI 1738 – V 1746 v zemřelých nenalezeno (K–D).",
+    "caak_dr8: 2. sňatek 4. 2. 1724 (PWNMPZ 3 s216): „Laurentius Drapa Viduus cum honesta Vidua Rosina Kopelowa“ (M, D–M)."
    ],
    "sources": [
     "Archiwum Diecezji Bielsko-Żywieckiej, fara Zebrzydowice, PWNMPZ 2 (1693–1721) – CAAK, křty VII 1715, snímek 68",
@@ -3851,6 +3871,32 @@ window.RODOKMEN = {
     {
      "f": "img/1715_krest_vavrinec_drapa.jpg",
      "t": "Křest Vavřince, syna Vavřince Drapy a Zuzany, Zebrzydowice 21. 7. 1715"
+    }
+   ]
+  },
+  {
+   "id": "mariannaKroczek",
+   "name": "Marianna Kroczková",
+   "maiden": "",
+   "line": "grzonka",
+   "cert": "K",
+   "alive": false,
+   "b": {
+    "date": "",
+    "year": 1680,
+    "place": "",
+    "approx": true
+   },
+   "notes": [
+    "Manželka Urbana Kroczka, matka Zuzany (1710) a dalších šesti dětí 1701–1713: „Vrbanus Kroczek, Marianna“ (M). Rodné příjmení neuvedeno (tabulková matrika). Jistota K kvůli ztotožnění Pavla Drazzy. Rok narození je odhad."
+   ],
+   "sources": [
+    "Archiwum Diecezji Bielsko-Żywieckiej, fara Zebrzydowice, PWNMPZ 2 (1693–1721) – CAAK, křty VI 1710, snímek 55"
+   ],
+   "scans": [
+    {
+     "f": "img/1710_krest_zuzana_kroczek.jpg",
+     "t": "Křest Zuzany, dcery Urbana Kroczka a Marianny, Zebrzydowice 2. 6. 1710"
     }
    ]
   }
