@@ -2515,7 +2515,8 @@ window.RODOKMEN = {
     "Sňatek 3. 2. 1783 s Janem Kionkou – „Marina des verstorbenen Martin Kußnik wail. herrschaftl. Schmieds ehel. Tochter“ (M).",
     "Úmrtí ~25. 2. 1827 (pohřeb ~27. 2.), Dětmarovice č. 17: „Marina Kionka Wittwe nach + Johann Kionka gewesenen Häusler in Dittmansdorf“, 70 let (→ nar. ~1757), sešlost věkem; farář Jos. Kornke(?). Dům, věk a manžel M; den D.",
     "Oprava podle FamilySearch DGS 5387451 sn48 L (fs_old48, čtení ověřeno koordinátorem): „Den 26ten Febr. 1827 gest. den 28ten begrab. | 17. | Marina Kionka Wittwe nach + Johann Kionka gewesenen Häuslers zu Dittmansdorf … 71 … Altersschwäche“ – zemřela 26. 2., pohřbena 28. 2. 1827, 71 let (→ nar. ~1756; M).",
-    "fs_old70: křest 30. 12. 1761: „Marina | Martini Kuźnik, Matris Marinae, Paren: cath: | L. L. Mathias Gura, et Apolonia Rzesaczowa(?) | Teuto-Lut:“ (M; ztotožnění D – rodiče sedí, 21 let při sňatku 1783; mezi pohřby 1762–V 1765 není, ale rodiče dali jméno Marina i dceři ~IV 1765 († V 1765)). Sourozenci: Johanna 1758, Jan 1759, František 1760, Magdalena 1764 († V 1764), Marina 1765 († V 1765). Otec Martin 1765 kovář ve Věřňovicích."
+    "fs_old70: křest 30. 12. 1761: „Marina | Martini Kuźnik, Matris Marinae, Paren: cath: | L. L. Mathias Gura, et Apolonia Rzesaczowa(?) | Teuto-Lut:“ (M; ztotožnění D – rodiče sedí, 21 let při sňatku 1783; mezi pohřby 1762–V 1765 není, ale rodiče dali jméno Marina i dceři ~IV 1765 († V 1765)). Sourozenci: Johanna 1758, Jan 1759, František 1760, Magdalena 1764 († V 1764), Marina 1765 († V 1765). Otec Martin 1765 kovář ve Věřňovicích.",
+    "fs_old71: mezi pohřby V 1765 – XII 1771 není → žila (podporuje ztotožnění se sňatkem 1783)."
    ],
    "sources": [
     "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F I 11, inv. 2707, O Věřňovice 1728–1792, snímek 126, levá strana, „Anno 1783 In Februario“, 1. zápis; duplikát sn. 125 P (digi.archives.cz; rejstřík F I 48 sn. 16 L)",
@@ -2580,7 +2581,8 @@ window.RODOKMEN = {
     "fs_old45: pohřeb není ani XII 1782 – III 1783 → celkový negativ I 1779 – III 1783; zemřel před 1779 nebo jinde.",
     "fs_old47 (K): v Německé Lutyni křtí 1758–60 „Martin Kuźnik × Marina (Marianna)“ děti Johanna 1758, Joannes 1759, Franciscus 1760; povolání 1758 snad „Faber aerarius“ (kovář?, K). Možná naše rodina – dcera Marina ~1757 nehledána.",
     "Vdova Marina zemřela 9. 12. 1793 v Dětmarovicích č. 17 (u Kionků), 70 let (fs_old51).",
-    "fs_old70: sňatek s Marinou v O Dolní Lutyně I 1737 – VI 1758 souvisle není → oddáni mimo faru. 1764–65 kovář (Faber) ve Věřňovicích."
+    "fs_old70: sňatek s Marinou v O Dolní Lutyně I 1737 – VI 1758 souvisle není → oddáni mimo faru. 1764–65 kovář (Faber) ve Věřňovicích.",
+    "fs_old71: pohřeb v Dolní Lutyni 6. V 1765 – XII 1771 (DGS 5387446 sn90–111) není (D); s fs_old44 (1779–82 negativ) zbývá I 1772 – XII 1778 (sn112–138)."
    ],
    "sources": [
     "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F I 4, inv. 2700, N Věřňovice 1782–1803, snímek 12, pravá strana, „In Martio“ 4. zápis, křest 1784 (digi.archives.cz)"
