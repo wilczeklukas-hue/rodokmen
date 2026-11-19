@@ -794,7 +794,7 @@ window.RODOKMEN = {
   },
   {
    "id": "annaPr",
-   "name": "Anna Drapková",
+   "name": "Anna (Johanna) Drapková",
    "maiden": "Procházková",
    "line": "matusinsky",
    "cert": "M",
@@ -814,11 +814,13 @@ window.RODOKMEN = {
     "Křest dcery Albíny 1881: „Anna geb. Franz Prochasek“, místo čteno Gollowic (?) – úmrtní zápis uvádí Godov (Godów); ověřit.",
     "zao_r72: sňatek s Františkem Drapkou v O Petrovice (F VIII 18) 1874 – V 1881 není; patrně ve faře nevěsty (Godów / USC Gołkowice, mimo ZA Opava). Vedlejší (K): Jan Matera nar. Godów 25. 7. 1855, matka Marianna roz. Pro(s)chka, ∞ 1881 Petrovice.",
     "zao_r73 (F VIII 10, N Petrovice/Závada 1859–1909): Franz Drapka, domkář/horník, Závada č. 48, děti Františka 1887 († 1929), Franz 1891 († 1928), Theofil 1892, Emilie 1894, Alois 1895, Karolína 1897; kmotři Spałek a Aloisie Grzonková (jako u Albíny 1881). Matka ve všech: „Johanna geb. Karl Prochasek“ / „Karl Prochassek Häusler in Kolkowitz“ / „Karl u. Marianna Prohasek“ (čtení M, ověřeno koordinátorem); 1895 „Anna“ škrtnuto → „Johanna“. Tužkou 1897: sňatek rodičů 23. 6. 1874 (místo neuvedeno). ROZPOR: Albína 1881 „Anna geb. Franz Prochasek“, úmrtí 1934 Anna nar. 1855 Godów. Buď jde o tutéž ženu (Anna/Johanna, otec Franz/Karl zaměňováni), nebo o dvě rodiny Franze Drapky – NEROZHODNUTO.",
-    "zao_r74: v N Závada XII 1876 – I 1887 jediná rodina Franze Drapky (D–M): děti Marianna 1876 (č. 4), Anton 1878 (č. 4), Aloisie 1880, Albína 1881 (č. 45), Aloisie 1882 († 1884), Johanna 1885, Ludwina 1886 (č. 48) – všude kmotři Jan Spałek a Aloisie Grzonková. Matka: „Johanna“ 14×, „Anna“ jen 1881 (a škrtnutá 1895); její otec „Karl“ ve většině zápisů (1876, 1878, 1882, 1886, 1887–97), „Franz“ jen 1880 a 1881 (Albína přečtena znovu: „Anna geb. Franz Prochasek Golkowic“, M). Jde tedy o tutéž ženu (Anna/Johanna); otec Karl × Marianna Prochaskovi z Gołkowic je pravděpodobnější než Franz."
+    "zao_r74: v N Závada XII 1876 – I 1887 jediná rodina Franze Drapky (D–M): děti Marianna 1876 (č. 4), Anton 1878 (č. 4), Aloisie 1880, Albína 1881 (č. 45), Aloisie 1882 († 1884), Johanna 1885, Ludwina 1886 (č. 48) – všude kmotři Jan Spałek a Aloisie Grzonková. Matka: „Johanna“ 14×, „Anna“ jen 1881 (a škrtnutá 1895); její otec „Karl“ ve většině zápisů (1876, 1878, 1882, 1886, 1887–97), „Franz“ jen 1880 a 1881 (Albína přečtena znovu: „Anna geb. Franz Prochasek Golkowic“, M). Jde tedy o tutéž ženu (Anna/Johanna); otec Karl × Marianna Prochaskovi z Gołkowic je pravděpodobnější než Franz.",
+    "PŘEPOJENO (zao_r75): 5./6. 3. 1874 Závada č. 2 nemanželský syn Josef († 11. 3. 1874): matka „Johanna, Tochter des Karl Prochaska Häuslers u. der Theresia geb. Schulik“, kmotři Jan Spałek a Aloisie Grzonková (stálí kmotři Drapků) – M, ověřeno koordinátorem; patrně předmanželský syn Františka Drapky (D). Karolína 14. 5. 1875 († 20. 5.): „Johanna geb. Karl Prohasek“. Otec „Karl“ ve 13 křtech 1874–97 (farář Cieplik), „Franz“ jen 1880–81 → otec Karl (D). Jména Anna (1881, 1934) a Johanna (ostatní) = tatáž žena (D). Úmrtí 1934 ověřeno: „Anna Drapková rozená Procházková … Nar. 26/7. 1855 v Godově“, věk 78 r 6 m 1 d (M)."
    ],
    "sources": [
     "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F VIII 21, inv. 18473, Z Petrovice u Karviné, Prstná, Závada 1859–1949, snímek 185 (Závada 1933–1934), úmrtí Anny Drapkové 27. 1. 1934 (digi.archives.cz)",
-    "ZA Opava, F VIII 10, snímek 258, křest dcery Albíny 1881 (digi.archives.cz)"
+    "ZA Opava, F VIII 10, snímek 258, křest dcery Albíny 1881 (digi.archives.cz)",
+    "ZA Opava, fara Petrovice u Karviné, N 1859–1909 (sign. F VIII 10), Závada 1874, snímek 246 vlevo"
    ],
    "scans": [
     {
@@ -828,34 +830,14 @@ window.RODOKMEN = {
     {
      "f": "img/1881_krest_albina_drapka.jpg",
      "t": "Křest dcery Albíny, 1881"
+    },
+    {
+     "f": "img/1874_krest_josef_matka_johanna_prochaska.jpg",
+     "t": "Křest Josefa 6. 3. 1874, Závada č. 2: matka Johanna, dcera Karla Prochasky, domkáře, a Terezie roz. Schulik"
     }
    ],
-   "father": "franzProchaszek"
-  },
-  {
-   "id": "franzProchaszek",
-   "name": "Franz Prochaszek",
-   "maiden": "",
-   "line": "matusinsky",
-   "cert": "K",
-   "alive": false,
-   "b": {
-    "date": "",
-    "year": 1825,
-    "place": "Godów (?), Těšínsko (PL)",
-    "approx": true
-   },
-   "notes": [
-    "Otec Anny Drapkové roz. Procházkové: křest vnučky Albíny 1881 („Anna geb. Franz Prochaszek Golkowic“) a oddací zápis Albíny 1907 (dcera Franze Prochaska). Místo v křtu čteno Golkowic/Gollowic (Gołkowice, gm. Godów); úmrtní zápis Anny uvádí narození v Godově. Rok narození je odhad.",
-    "gen_pr1 (K+): v Godově jediný Franz Prochassek jako otec – × Johanna roz. Pawlitek; děti se vdávaly/ženily 1878–92 v Gołkowicích (Johanna ∞ 1878 Canibol, Carolina 1881, Franz ml. 1887, Josepha 1887, Theresia 1892). Franz Prochassek † 1887 Gołkowice akt 40 (index). Křest Anny 1855 online není (index Godów jen 1843–46; originály v Archiwum Archidiecezjalnym w Katowicach). Ověří oddací zápis Anny × Franz Drapka (ZA Opava).",
-    "zao_r73: v křtech dalších dětí Drapků 1887–97 je otec manželky „Karl Prochasek, domkář v Gołkowicích“, matka Marianna – otec Franz tím ZPOCHYBNĚN (D). Kandidát Franz × Johanna Pawlitek (Geneteka) tím slábne.",
-    "zao_r74: jistota snížena na K – otec manželky Franze Drapky je v 11 z 13 křtů jejích dětí „Karl“ (× Marianna), „Franz“ jen 1880 a 1881. Pravděpodobně jde o Karla Prochaska, domkáře v Gołkowicích; nepřepojeno, dokud nerozhodne křest (Godów/Gołkowice ~1850–56).",
-    "gen_pr2: v indexu Geneteka pár Karl × Marianna Prochassek NENÍ (sňatky USC Gołkowice 1874–1938, Godów 1843–46, śląskie fonetika); jediný Carl = × Theresia Zostawka (děti 1877–99, K−). Franz × Johanna Pawlitek má dceru Johannu (∞ 1878 Canibol, † 1918) – Drapkova žena by z této rodiny mohla být jen Anna (K). Sňatek 23. 6. 1874 (před USC) jen v církevní knize Godów (Archiwum Archidiecezjalne Katowice, online není). Spor Karl/Franz NEROZHODNUT."
-   ],
-   "sources": [
-    "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F VIII 10, inv. 2797, N Závada (fara Petrovice u Karviné) 1859–1909, snímek 258 (digi.archives.cz)"
-   ],
-   "scans": []
+   "father": "karlProchaska",
+   "mother": "theresiaSchulik"
   },
   {
    "id": "johannGrzonka",
@@ -3554,6 +3536,61 @@ window.RODOKMEN = {
     {
      "f": "img/1770_snatek_somerlik_eva_wilk.jpg",
      "t": "Sňatek Matouš Somerlik × Eva, dcera Šimona Wilka z Horních Marklovic, 21. 10. 1770"
+    }
+   ]
+  },
+  {
+   "id": "karlProchaska",
+   "name": "Karel (Karl) Prochaska",
+   "maiden": "",
+   "line": "matusinsky",
+   "cert": "D",
+   "alive": false,
+   "occ": "domkář (Häusler), Gołkowice",
+   "b": {
+    "date": "",
+    "year": 1825,
+    "place": "Gołkowice / Godów (?), pruské Slezsko",
+    "approx": true
+   },
+   "notes": [
+    "Otec Johanny (Anny) Drapkové: „Johanna, Tochter des Karl Prochaska Häuslers u. der Theresia geb. Schulik“ (křest 1874, M); v dalších křtech „Karl Prochassek Häusler in Golkowitz“ (1892), „Karl u. Marianna“ (1895, 1897 – jméno matky jinak). Jistota D: dva zápisy (1880, 1881) uvádějí otce „Franz“. Geneteka (K): v Gołkowicích Carl Prochassek × Theresia Zostawka, děti ∞ 1877–1899; Carl † 1889 (akt 10) nebo 1895 (akt 18). Rok narození je odhad.",
+    "Dříve zapsán kandidát Franz Prochaszek (podle křtu Albíny 1881 a sňatku 1907): Otec Anny Drapkové roz. Procházkové: křest vnučky Albíny 1881 („Anna geb. Franz Prochaszek Golkowic“) a oddací zápis Albíny 1907 (dcera Franze Prochaska). Místo v křtu čteno Golkowic/Gollowic (Gołkowice, gm. Godów); úmrtní zápis Anny uvádí narození v Godově. Rok narození je odhad. | gen_pr1 (K+): v Godově jediný Franz Prochassek jako otec – × Johanna roz. Pawlitek; děti se vdávaly/ženily 1878–92 v Gołkowicích (Johanna ∞ 1878 Canibol, Carolina 1881, Franz ml. 1887, Josepha 1887, Theresia 1892). Franz Prochassek † 1887 Gołkowice akt 40 (index). Křest Anny 1855 online není (index Godów jen 1843–46; originály v Archiwum Archidiecezjalnym w Katowicach). Ověří oddací zápis Anny × Franz Drapka (ZA Opava). | zao_r73: v křtech dalších dětí Drapků 1887–97 je otec manželky „Karl Prochasek, domkář v Gołkowicích“, matka Marianna – otec Franz tím ZPOCHYBNĚN (D). Kandidát Franz × Johanna Pawlitek (Geneteka) tím slábne. | zao_r74: jistota snížena na K – otec manželky Franze Drapky je v 11 z 13 křtů jejích dětí „Karl“ (× Marianna), „Franz“ jen 1880 a 1881. Pravděpodobně jde o Karla Prochaska, domkáře v Gołkowicích; nepřepojeno, dokud nerozhodne křest (Godów/Gołkowice ~1850–56). | gen_pr2: v indexu Geneteka pár Karl × Marianna Prochassek NENÍ (sňatky USC Gołkowice 1874–1938, Godów 1843–46, śląskie fonetika); jediný Carl = × Theresia Zostawka (děti 1877–99, K−). Franz × Johanna Pawlitek má dceru Johannu (∞ 1878 Canibol, † 1918) – Drapkova žena by z této rodiny mohla být jen Anna (K). Sňatek 23. 6. 1874 (před USC) jen v církevní knize Godów (Archiwum Archidiecezjalne Katowice, online není). Spor Karl/Franz NEROZHODNUT."
+   ],
+   "sources": [
+    "ZA Opava, fara Petrovice u Karviné, N 1859–1909 (sign. F VIII 10), Závada 1874, snímek 246 vlevo",
+    "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F VIII 10, inv. 2797, N Závada (fara Petrovice u Karviné) 1859–1909, snímek 258 (digi.archives.cz)"
+   ],
+   "scans": [
+    {
+     "f": "img/1874_krest_josef_matka_johanna_prochaska.jpg",
+     "t": "Křest Josefa 6. 3. 1874, Závada č. 2: matka Johanna, dcera Karla Prochasky, domkáře, a Terezie roz. Schulik"
+    }
+   ]
+  },
+  {
+   "id": "theresiaSchulik",
+   "name": "Terezie Prochasková",
+   "maiden": "Schulik (?)",
+   "line": "matusinsky",
+   "cert": "D",
+   "alive": false,
+   "b": {
+    "date": "",
+    "year": 1830,
+    "place": "",
+    "approx": true
+   },
+   "notes": [
+    "Matka Johanny (Anny) Drapkové: „u. der Theresia geb. Schulik“ (křest 1874, čtení M–D). V křtech 1895/1897 matka uvedena jako „Marianna“ – rozpor (K). Geneteka uvádí u Carla Prochasska manželku Theresia Zostawka – zda tatáž, neověřeno. Rok narození je odhad."
+   ],
+   "sources": [
+    "ZA Opava, fara Petrovice u Karviné, N 1859–1909 (sign. F VIII 10), Závada 1874, snímek 246 vlevo"
+   ],
+   "scans": [
+    {
+     "f": "img/1874_krest_josef_matka_johanna_prochaska.jpg",
+     "t": "Křest Josefa 6. 3. 1874, Závada č. 2: matka Johanna, dcera Karla Prochasky, domkáře, a Terezie roz. Schulik"
     }
    ]
   }
