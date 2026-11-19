@@ -2937,7 +2937,8 @@ window.RODOKMEN = {
    "notes": [
     "Otec Mariny Hanuškové (sňatek dcery 1776). Rok narození je odhad.",
     "fs_old18: manželka Zuzana (křest dcery Mariny 29. 6. 1744, D); 21. 7. 1750 dcera Anna s matkou Annou – možná 2. manželka (K).",
-    "fs_old112: Jiří Kijonka z Dětmarovic má 1727 a 1729 manželku MARIANNU (křty Hedviky 30. 8. 1727, DGS 5393677 sn228 P; Anny IV 1729, DGS 5387436 FS10 P – M); Susanna jako matka až od 1739/40. Pokud jde o téhož muže (Georg Kyonka † 25. 4. 1746, 56 l., *~1690), byla Susanna 2. žena (K). Křest Jiřího IX 1725 – XII 1728 není (D). Odhad nar. ~1725 nemá oporu – otec dětí 1739–44 *nejpozději ~1718."
+    "fs_old112: Jiří Kijonka z Dětmarovic má 1727 a 1729 manželku MARIANNU (křty Hedviky 30. 8. 1727, DGS 5393677 sn228 P; Anny IV 1729, DGS 5387436 FS10 P – M); Susanna jako matka až od 1739/40. Pokud jde o téhož muže (Georg Kyonka † 25. 4. 1746, 56 l., *~1690), byla Susanna 2. žena (K). Křest Jiřího IX 1725 – XII 1728 není (D). Odhad nar. ~1725 nemá oporu – otec dětí 1739–44 *nejpozději ~1718.",
+    "fs_old113: 19. 4. 1729 zemřela „Marianna Kijonczyno“ (DGS 5387446 sn5 L, M) – 7 dní po křtu Anny (12. 4. 1729, dcera Jiřího a Marianny) → patrně 1. žena Jiřího, † v šestinedělí (D). Žádné dítě Jiřího V 1729 – X 1731 (D). Přechod na Zuzanu tedy mezi 1729 a 1739; Kolwasové (pozdější kmotři Jiřího a Zuzany) už 1731 – slabá vazba (K)."
    ],
    "sources": [
     "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F I 11, inv. 2707, O Věřňovice 1728–1792, snímek 109, pravá strana (fol. 107), „In Februario“ 1776, 3. zápis (digi.archives.cz; rejstřík F I 48 sn. 11 P)",
@@ -3382,7 +3383,8 @@ window.RODOKMEN = {
     "fs_old29: sňatek Jiří Kijenka × Zuzana není v XI 1728 – II 1753 (souvisle), IV 1722 – XI 1728 ani I 1716 – IV 1717. Stopa K: 21. 10. 1722 svědkyně „Susanna [Ki]eyonka(?)“ (DGS 5393677 sn313 L) – sňatek možná V 1717 – IV 1722 (sn305–312, nečteno), pak by šlo o druhou ženu/ starší pár a Jiří by byl při křtech 1743–44 starší. 2. 2. 1723 Matěj, syn Jiřího Kijonky, ∞ Marianna Babišová(?) (sn313 P) – jiný (starší?) Jiří.",
     "fs_old31: sňatek ani v VI 1717 – II 1722 (sn305–312) a slabě X 1714 – VIII 1715 (sn302) → v Dolní Lutyni X 1714 – II 1753 není (mimo vybledlá místa); patrně v jiné farnosti (nevěstiny?). Svědkyně 1722 je „Susanna Dieyonka“, ne Kijonka (D). Kijonkové: Pavel(?) syn Jiřího ∞ 1720, Matěj syn Jiřího ∞ 1723, Tomáš syn † Jana ∞ 1718, vdova po † Řehoři Kyjonkovi ∞ 1719.",
     "fs_old33: pohřeb Jiřího ani Zuzany Kijenkových není ani 25. 3. 1763 – 2. 2. 1771 (sn84–107). Jiný pár Jiří Kania × Eva (děti 1767–69).",
-    "fs_old41: kandidátka 10. 10. 1778 je Zuzana Gurová/Kapustová (mlynářka) – NE Kijenková. Pohřby 1779 (DGS 5387447 sn3–4) bez Jiřího/Zuzany Kijenkových. Další: rejstřík úmrtí 1784–1803 DGS 5387448."
+    "fs_old41: kandidátka 10. 10. 1778 je Zuzana Gurová/Kapustová (mlynářka) – NE Kijenková. Pohřby 1779 (DGS 5387447 sn3–4) bez Jiřího/Zuzany Kijenkových. Další: rejstřík úmrtí 1784–1803 DGS 5387448.",
+    "fs_old113: 1. žena Jiřího Kijonky Marianna † 19. 4. 1729 (D) → Zuzana 2. manželka, sňatek ~1730–1739 (v D. Lutyni nezapsán – fs_old29 aj.), K–D."
    ],
    "sources": [
     "ZA Opava, fara Dolní Lutyně, N 1728–1753 (F I 2) – FamilySearch DGS 5387436, snímek 93 vpravo (= ZAO sn92), VI 1744"
