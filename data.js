@@ -1600,7 +1600,8 @@ window.RODOKMEN = {
     "date": "28. 4. 1841",
     "year": 1841,
     "place": "Závada, č. 17, Petrovice u Karviné"
-   }
+   },
+   "mother": "susannaBernadzik"
   },
   {
    "id": "georgBendaZ",
@@ -2015,7 +2016,7 @@ window.RODOKMEN = {
     "approx": true
    },
    "notes": [
-    "Otec Barbory Stadeczkové (sňatek 1832, křest vnuka 1836). Manželka Zuzana roz. Dimmrzik (?) – čtení nejisté, nezapsána. Rok narození je odhad.",
+    "Otec Barbory Stadeczkové (sňatek 1832, křest vnuka 1836). Manželka Zuzana roz. Bernadziková (zapsána zvlášť; dřívější čtení „Dimmrzik“ bylo chybné). Rok narození je odhad.",
     "fs_old65 (D–K): manželka Zuzana roz. BERNADZIK – křest dcery Marianny 22. 1. 1803, Petrovice č. 59: „Johann Koczwara | Magdalena Sussanna gb. Bernadzik“ (F VIII 4 = FS vol. 2791, sn10; čtení D–M, ověřeno koordinátorem); syn Franz 6. 10. 1807 („Susanna Bernardzkÿ“, FS index). Dřívější čtení „Dimmrzik (?)“ patrně chybné. Ztotožnění: jméno manžela, manželky a fara.",
     "fs_old66: další děti s Zuzanou roz. Bernardzik/Bernatzik, Petrovice č. 49: Johanna 29. 6. 1805, Veronika Hedvika 10. 4. 1813 (Jan domkář; kmotři Oblonzek/Šostek jako 1803) – D. Jan žil ještě IX 1811 (kmotr, K–D). Křest Barbory v FS vol. 2791 (Petrovice) III 1803 – IV 1813 podle indexu není → zkusit vol. 1261 (křty 1785–1818). Sňatek rodičů patrně FS vol. 2793 sn2–5 (1797–1802).",
     "fs_old67: sňatek s Zuzanou Bernadzik v O Petrovice (FS vol. 2793 = F VIII 6) XI 1797 – V 1803 není (D) → před XI 1797 nebo jinde.",
@@ -4006,6 +4007,38 @@ window.RODOKMEN = {
     {
      "f": "img/1719_krest_simon_witek.jpg",
      "t": "Křest Šimona, syna Bartoloměje Witka a Hedviky, Marklovice X 1719 (kandidát)"
+    }
+   ]
+  },
+  {
+   "id": "susannaBernadzik",
+   "name": "Zuzana Koczwarová",
+   "maiden": "Bernadziková (Bernadzik, Bernatzik)",
+   "line": "grzonka",
+   "cert": "M",
+   "alive": false,
+   "b": {
+    "date": "",
+    "year": 1780,
+    "place": "",
+    "approx": true
+   },
+   "notes": [
+    "Manželka tesaře a domkáře Jana Koczwary, Petrovice č. 49 (1803–1813) / č. 27 (1831). Matka Barbory: „Barbara Tochter des hiesigen Zimmermanns Johann Koczwara und seines Eheweibs Susanna geb. Bernatzyk“ (sňatek 31. 10. 1831, M) a „Tochter des Joh. Koczwara u. der Susanna Bernatzik“ (sňatek 28. 8. 1832, M – ověřeno koordinátorem na výřezech). Děti: Marianna 22. 1. 1803 („Magdalena Sussanna gb. Bernadzik“), Johanna 29. 6. 1805, Franz 5. 10. 1807, Barbora ~1809, Veronika Hedvika 10. 4. 1813. Sňatek s Janem ve faře Petrovice XI 1797 – V 1803 není. Rok narození je odhad."
+   ],
+   "sources": [
+    "ZA Opava, fara Petrovice u Karviné, O 1797–1859 (F VIII 6) – FamilySearch vol. 2793, X 1831, snímek 18",
+    "ZA Opava, fara Petrovice u Karviné, Závada, sňatek 28. 8. 1832",
+    "ZA Opava, fara Petrovice u Karviné, N 1797–1858 (F VIII 4) – FamilySearch vol. 2791, křty 1803–1813"
+   ],
+   "scans": [
+    {
+     "f": "img/1831_snatek_kottas_koczwara.png",
+     "t": "Sňatek 1831: nevěsta Barbora, dcera Jana Koczwary a Zuzany roz. Bernatzikové"
+    },
+    {
+     "f": "img/1832_snatek_stadeczek_koczwara.jpg",
+     "t": "Sňatek 1832: Barbora, dcera Jana Koczwary a Zuzany roz. Bernatzikové"
     }
    ]
   }
