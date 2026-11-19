@@ -3616,7 +3616,7 @@ window.RODOKMEN = {
   },
   {
    "id": "simonWilk",
-   "name": "Šimon (Simon) Wilk",
+   "name": "Šimon (Simon) Witek (Wilk)",
    "maiden": "",
    "line": "grzonka",
    "cert": "K",
@@ -3636,18 +3636,30 @@ window.RODOKMEN = {
    "notes": [
     "Otec Evy (sňatek 1770: „Eva Simonis vilk filia … è Superiori Markl.“, M). Úmrtí 17. 11. 1779, Horní Marklovice č. 29: „Wilk Simon ein Wald Jäger“, 64 let (PWNMPZ 4 s339) – ztotožnění D (jméno, obec, věk). Věk 64 → nar. ~1715. Jistota K kvůli ztotožnění Pavla Drazzy.",
     "caak_dr4: manželka Zuzana; děti Ondřej 1746, Jan 1749, Eva 1751 (Marklovice); sňatek patrně ~1745–46.",
-    "caak_dr9: příjmení v matrice spíš Witek/Wiltek – děti Jan († 21. 4. 1751, 2 roky) a Ondřej († 20. 7. 1752, 5 let) „Simonis Wiltek ex Marklowitz“ (M). Kandidát křtu: X 1719 Marklovice, „Simon CC. LL. Bartholomaei Witek et Hedvigis“ (PWNMPZ 2 s81; zápis M, ztotožnění K–D, věk 60 vs. 64 v r. 1779) – nezapojeno."
+    "caak_dr9: příjmení v matrice spíš Witek/Wiltek – děti Jan († 21. 4. 1751, 2 roky) a Ondřej († 20. 7. 1752, 5 let) „Simonis Wiltek ex Marklowitz“ (M). Kandidát křtu: X 1719 Marklovice, „Simon CC. LL. Bartholomaei Witek et Hedvigis“ (PWNMPZ 2 s81; zápis M, ztotožnění K–D, věk 60 vs. 64 v r. 1779) – nezapojeno.",
+    "caak_dr10: pohřeb 17. 11. 1779 přečten znovu (PWNMPZ 4 s339, 2200 px): „Witek Simon ein wald Jäger begr. d. 19. | Cath. | 64 | Ober Marklowitz“ – příjmení WITEK, ne Wilk (D). Kandidát křtu X 1719 Marklovice: „Simon CC. LL. Bartholomaei Witek et Hedvigis“ (PWNMPZ 2 s81, M); usedlá rodina Bartoloměje Vitka × Hedviky (děti Anna 1713, Marianna 1716, Matěj 1718, Šimon 1719; stálý kmotr Bartoloměj Sikora). Ztotožnění D− (jediný Šimon Witek; věk 60 vs. udaných 64; chybí sňatek „filius Bartholomaei“) → rodiče zapsáni s jistotou K. Sňatek se Zuzanou ve farnosti 1735–II 1748 není (ani jako Witek)."
    ],
    "sources": [
     "Archiwum Diecezji Bielsko-Żywieckiej, fara Zebrzydowice, PWNMPZ 3 (1722–1773) – CAAK, sňatky X 1770, snímek 309",
-    "Archiwum Diecezji Bielsko-Żywieckiej, fara Zebrzydowice, PWNMPZ 4, úmrtí XI 1779, snímek 339 – CAAK"
+    "Archiwum Diecezji Bielsko-Żywieckiej, fara Zebrzydowice, PWNMPZ 4, úmrtí XI 1779, snímek 339 – CAAK",
+    "Archiwum Diecezji Bielsko-Żywieckiej, fara Zebrzydowice, PWNMPZ 2 (1693–1721) – CAAK, křty X 1719, snímek 81"
    ],
    "scans": [
     {
      "f": "img/1770_snatek_somerlik_eva_wilk.jpg",
      "t": "Sňatek Matouš Somerlik × Eva, dcera Šimona Wilka z Horních Marklovic, 21. 10. 1770"
+    },
+    {
+     "f": "img/1719_krest_simon_witek.jpg",
+     "t": "Křest Šimona, syna Bartoloměje Witka a Hedviky, Marklovice X 1719 (kandidát)"
+    },
+    {
+     "f": "img/1779_umrti_simon_witek.jpg",
+     "t": "Pohřeb Šimona Witka, hajného, 64 let, Horní Marklovice 1779"
     }
-   ]
+   ],
+   "father": "bartholomaeusWitek",
+   "mother": "hedvigisWitek"
   },
   {
    "id": "karlProchaska",
@@ -3937,6 +3949,58 @@ window.RODOKMEN = {
     "year": 1749,
     "place": "Dolní Žibřidovice"
    }
+  },
+  {
+   "id": "bartholomaeusWitek",
+   "name": "Bartoloměj (Bartholomaeus) Witek",
+   "maiden": "",
+   "line": "grzonka",
+   "cert": "K",
+   "alive": false,
+   "b": {
+    "date": "",
+    "year": 1685,
+    "place": "",
+    "approx": true
+   },
+   "notes": [
+    "Otec kandidátního křtu Šimona (X 1719, Marklovice): „Bartholomaei Witek et Hedvigis“ (M). Děti: Anna 18. 4. 1713, Marianna 1. 4. 1716, Matěj II 1718, Šimon X 1719 (PWNMPZ 2 s63, s70, s74, s81; kmotr vždy Bartoloměj Sikora); kmotr už 30. 11. 1712. 10. 8. 1722 Bartoloměj, syn „Joannis Vitek et Hedvigis“ (K – chyba písaře?). Sňatek 1693–1717 ve farnosti není. Jistota K: ztotožnění Šimona Witka s hajným † 1779 není přímo doloženo. Rok narození je odhad."
+   ],
+   "sources": [
+    "Archiwum Diecezji Bielsko-Żywieckiej, fara Zebrzydowice, PWNMPZ 2 (1693–1721) – CAAK, křty 1713–1719"
+   ],
+   "scans": [
+    {
+     "f": "img/1719_krest_simon_witek.jpg",
+     "t": "Křest Šimona, syna Bartoloměje Witka a Hedviky, Marklovice X 1719 (kandidát)"
+    }
+   ]
+  },
+  {
+   "id": "hedvigisWitek",
+   "name": "Hedvika (Hedvigis) Witková",
+   "maiden": "",
+   "line": "grzonka",
+   "cert": "K",
+   "alive": false,
+   "b": {
+    "date": "",
+    "year": 1690,
+    "place": "",
+    "approx": true
+   },
+   "notes": [
+    "Matka kandidátního křtu Šimona (X 1719) a jeho sourozenců 1713–1718, Marklovice (M). Rodné příjmení neuvedeno. Jistota K (viz Bartoloměj Witek). Rok narození je odhad."
+   ],
+   "sources": [
+    "Archiwum Diecezji Bielsko-Żywieckiej, fara Zebrzydowice, PWNMPZ 2 (1693–1721) – CAAK, křty 1713–1719"
+   ],
+   "scans": [
+    {
+     "f": "img/1719_krest_simon_witek.jpg",
+     "t": "Křest Šimona, syna Bartoloměje Witka a Hedviky, Marklovice X 1719 (kandidát)"
+    }
+   ]
   }
  ],
  "places": [],
