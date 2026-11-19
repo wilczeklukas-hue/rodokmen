@@ -3579,7 +3579,8 @@ window.RODOKMEN = {
    },
    "notes": [
     "Otec Šimona Cyrona ze Závady: „Martini Ciron filius ex Zovada“ (sňatek syna 24. 11. 1765, Fryštát; M). Ztotožnění Šimona 1765 = otec Pavla Cyrona (1803) D, proto D. V roce 1765 bez „defunctus“ – patrně žil. Rok narození je odhad.",
-    "zao_r67: v Závadě i Valentin Cyron („Valentini Gyron … ex Zawada“, syn Matouš ∞ 6. 2. 1763 Hedvika z Koukolné) – dvě rodiny Cyronů v Závadě. Sňatek Pavla Cyrona st. 1762–X 1766 není; jiné děti Martina ženaté 1762–64 nenalezeny."
+    "zao_r67: v Závadě i Valentin Cyron („Valentini Gyron … ex Zawada“, syn Matouš ∞ 6. 2. 1763 Hedvika z Koukolné) – dvě rodiny Cyronů v Závadě. Sňatek Pavla Cyrona st. 1762–X 1766 není; jiné děti Martina ženaté 1762–64 nenalezeny.",
+    "fs_old87: v Závadě i třetí větev – 6. 8. 1752 Anna, dcera † Jana Cyrona „ex Zowada“, ∞ Vavřinec Niedziela (FS vol. 2734 sn68 L, M). Sňatek Martina VIII 1745 – VI 1756 není (čekán spíš ~1735–40)."
    ],
    "sources": [
     "ZA Opava, fara Fryštát, O 1762–1792 (sign. F IV 7, inv. 2735), XI 1765, pag. 30 – snímek 17 vlevo"
@@ -4233,7 +4234,8 @@ window.RODOKMEN = {
     "before": true
    },
    "notes": [
-    "Otec Jakuba Kocvary, Závada č. 15: „Jacobus des V[er]st. Georg Kotzwara Sohn“ (sňatek 23. 11. 1778, M; „zemřelý“ D → † před XI 1778). Rok narození je odhad."
+    "Otec Jakuba Kocvary, Závada č. 15: „Jacobus des V[er]st. Georg Kotzwara Sohn“ (sňatek 23. 11. 1778, M; „zemřelý“ D → † před XI 1778). Rok narození je odhad.",
+    "fs_old86–87: sňatek v O Fryštát (FS vol. 2734) VIII 1745 – VI 1756 není; jiné rodiny Kocvarů: † Tomáš (Staré Město), Bartoloměj (Darkov). Zbývá 1738 – VII 1745 (sn40–54)."
    ],
    "sources": [
     "ZA Opava, fara Fryštát, O 1762–1792 (F IV 7) – FamilySearch vol. 2735, 23. 11. 1778, snímek 67 vpravo"
