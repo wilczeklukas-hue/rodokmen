@@ -4752,7 +4752,8 @@ window.RODOKMEN = {
     "fs_old124: Fryštát N 1733–71 (FS vol. 2732) není indexován; ručně VI 1759 – VIII 1760 bez Grima (D). Grimové na Fryštátsku: Franciscus Grima ex Roy (kmotr 1755) → ex Zavada (1767); Matěj Grima × Marianna, Ráj (dcera Marianna 1774 – pro naši Marinu vyloučena). Křest Mariny (~1760) zatím nenalezen; mohl být i v Godowě (offline).",
     "fs_old125: Fryštát N 17. 7. 1757 – 12. 1761 souvisle bez Mariny Grimové (D; 1758 možná mezera). Jediný Grima: 28. 11. 1757 Barbora, dcera Františka Grimy z Ráje a Kateřiny (vol. 2732 sn118 P, M) – František Grima = patrně týž „ex Zavada“ 1767 (K); Marina by mohla být jeho dcera (K).",
     "fs_old126: Fryštát O I 1752 – XI 1757 bez sňatku Františka Grimy (D); on sám svědkem 1755(?), 24. 1. a 6. 6. 1757 „ex Roÿ“ (M). Fryštát N I–IV 1762 bez Mariny; jiný Grim: Pavel Grimann × Anna, Pěrná (syn Jan 20. 3. 1762).",
-    "fs_old127: Fryštát O VIII 1745 – XI 1761 souvisle bez sňatku Grim(a) (D) → sňatek Františka Grimy × Kateřiny před 1745 nebo ve faře nevěsty."
+    "fs_old127: Fryštát O VIII 1745 – XI 1761 souvisle bez sňatku Grim(a) (D) → sňatek Františka Grimy × Kateřiny před 1745 nebo ve faře nevěsty.",
+    "fs_old128: Fryštát N VIII 1755 – XII 1762 souvisle bez Mariny Grimové (D); František Grima jen kmotr (1755, 1757), v Ráji i Jakub Grima (kmotr 1755, 1757). Křest Mariny tedy před 1755, po 1762 (věky v Závadě bývají nadsazené – Josef *1789 → Marina *≤1770), nebo jinde."
    ],
    "sources": [
     "ZA Opava, Závada – josefínská matrika N/O/Z 1785–1797 – FamilySearch vol. 2790, křty 1789, 1790, 1793 (snímky 4–6)",
