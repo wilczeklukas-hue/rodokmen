@@ -3729,7 +3729,8 @@ window.RODOKMEN = {
     "Úmrtí 9. 12. 1793, Dětmarovice č. 17: „Marina geblibene Wittwe nach dem verstorbenen Martin Kuznik gewesenen [herrschaftl.] Schmied …“, 70 let, úbytě (Abzehrung) (čtení D–M, ověřeno koordinátorem; fs_old51). Žila v domě č. 17 u zetě Jana Kionky – proto ztotožnění jako matka Mariny Kionkové D (jméno manžela, dům). Věk 70 → nar. ~1723.",
     "Sňatek 4. 7. 1757 Fryštát: „Marina filia post defft. Honza(?) ex Freystadt“, služebná – dcera zemřelého Honzy(?) z Fryštátu (D–K; snad příjmení Honza, nebo jen „Jan“). Viz výřez.",
     "fs_old146: „Honza“ v zápise 1757 čteno M−, jde o příjmení (D) – písař jinak píše křestní jméno v akuzativu + příjmení; křestní jméno otce neuvedeno. Sňatky Fryštát 1708–1722 bez Honzy (D; 1710–11 kniha chybí); křty 1723 bez Mariny Honzové (D). Kandidát K: 1721 † Jan „Howka/Honka“ z fryštátského předměstí (dcera Anna ∞ 1721) – neztotožněno.",
-    "fs_old147: křty Fryštát (vol. 2731) VII 1721 – VII 1728 souvisle bez Mariny Honzové (D). Jediná rodina toho jména: 28. 4. 1728 pokřtěna Anna, dcera Pavla Hontze a Anny z Fryštátu (sn74 L; čtení D+) – kandidátní rodiče Mariny (K/R). Zbývá VIII 1728 – 1732 (sn75–92) a 1718 – VII 1721 (sn37–47)."
+    "fs_old147: křty Fryštát (vol. 2731) VII 1721 – VII 1728 souvisle bez Mariny Honzové (D). Jediná rodina toho jména: 28. 4. 1728 pokřtěna Anna, dcera Pavla Hontze a Anny z Fryštátu (sn74 L; čtení D+) – kandidátní rodiče Mariny (K/R). Zbývá VIII 1728 – 1732 (sn75–92) a 1718 – VII 1721 (sn37–47).",
+    "fs_old148: křty Fryštát vol. 2731 prohledány souvisle 25. 2. 1720 – 31. 12. 1732 (konec knihy) – Marina Honzová/Hontzová není (D); rodina Hontz jen 1× (Anna 1728). Zbývá 1718 – II 1720 (sn37–43); jinak narozena jinde."
    ],
    "sources": [
     "ZA Opava, fara Dolní Lutyně, Z 1779–1803, oddíl Dětmarovice – FamilySearch DGS 5387447, fol. 10, snímek 73 vpravo",
