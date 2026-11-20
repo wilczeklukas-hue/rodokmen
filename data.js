@@ -4941,15 +4941,14 @@ window.RODOKMEN = {
   {
    "id": "mariaKabus",
    "name": "Marie (Marina) Mičková",
-   "maiden": "Kabusová (Kabus)",
+   "maiden": "Kalusová (Stachniková řečená Kalus; ve sňatku 1768 čteno „Kabus“)",
    "line": "grzonka",
    "cert": "K",
    "alive": false,
    "b": {
-    "date": "",
-    "year": 1748,
-    "place": "Horní Žibřidovice (?)",
-    "approx": true
+    "date": "24. 10. 1743",
+    "year": 1743,
+    "place": "Horní Žibřidovice (Ober Seibersdorf)"
    },
    "d": {
     "date": "",
@@ -4957,17 +4956,23 @@ window.RODOKMEN = {
     "place": ""
    },
    "father": "jacobKabusSt",
-   "mother": "",
+   "mother": "marinaKalusSt",
    "notes": [
-    "Sňatek 26. 1. 1768 (viz Jan Miček): „honesta puella Maria post def. Jacobum Kabus filia catholica e Superiori Seib.“ (D). Při křtu dcery 1785 „Marina“, rodné jméno nevyplněno. Úmrtí 1784–1800 v Horních ani Dolních Žibřidovicích není – zemřela po 1800 nebo mimo faru. Rok narození je odhad. Rod Kabuss je 1784 a 1798 doložen v Horních Žibřidovicích č. 6."
+    "Sňatek 26. 1. 1768 (viz Jan Miček): „honesta puella Maria post def. Jacobum Kabus filia catholica e Superiori Seib.“ (D). Při křtu dcery 1785 „Marina“, rodné jméno nevyplněno. Úmrtí 1784–1800 v Horních ani Dolních Žibřidovicích není – zemřela po 1800 nebo mimo faru. Rok narození je odhad. Rod Kabuss je 1784 a 1798 doložen v Horních Žibřidovicích č. 6.",
+    "caak_dr29: křest 24. 10. 1743: „Marina Jacobi Stachnik vulgo Kålus et Marinae … e Superiori Seiberd.“ (M; ověřeno na výřezu). Ztotožnění s nevěstou 1768 K+: jméno, obec, otec Jakub, věk 24; jediná dcera Jakuba Kabuse/Kaluse v křtech 1738–1750. Rod Kabus (Matěj Kabus ∞ 1735, syn Jakub *1739 žil ještě 1798) se nehodí – Jakub z 1768 byl už mrtvý → „Kabus“ ve sňatku je nejspíš Kalus."
    ],
    "sources": [
-    "Archiwum Diecezji Bielsko-Żywieckiej, fara Zebrzydowice, PWNMPZ 3 – CAAK, oddaní I 1768, snímek 304"
+    "Archiwum Diecezji Bielsko-Żywieckiej, fara Zebrzydowice, PWNMPZ 3 – CAAK, oddaní I 1768, snímek 304",
+    "fara Zebrzydowice, PWNMPZ 3 – CAAK, křty X 1743 (snímek 105), zemřelí XII 1751 (snímek 378)"
    ],
    "scans": [
     {
      "f": "img/1768_snatek_jan_miczek_maria_kabus.jpg",
      "t": "Sňatek Jana Miczka, syna † Martina Miczka, s Marií, dcerou † Jakuba Kabuse, Horní Žibřidovice 26. 1. 1768"
+    },
+    {
+     "f": "img/1743_krest_marina_kalusova.jpg",
+     "t": "Křest Mariny, dcery Jakuba Stachnika řečeného Kalus a Mariny, Horní Žibřidovice 24. 10. 1743"
     }
    ]
   },
@@ -5007,35 +5012,74 @@ window.RODOKMEN = {
   },
   {
    "id": "jacobKabusSt",
-   "name": "Jakub Kabus",
+   "name": "Jakub Stachnik řečený Kalus",
    "maiden": "",
    "line": "grzonka",
    "cert": "K",
    "alive": false,
    "b": {
     "date": "",
-    "year": 1720,
+    "year": 1693,
     "place": "",
     "approx": true
    },
    "d": {
-    "date": "",
-    "year": 1768,
-    "place": "",
-    "before": true
+    "date": "6. 12. 1751",
+    "year": 1751,
+    "place": "Horní Žibřidovice (Ober Seibersdorf)"
    },
    "father": "",
    "mother": "",
    "notes": [
-    "Otec Marie Kabusové podle oddacího zápisu 1768 („post def. Jacobum Kabus“, D) – v té době již nežil. Horní Žibřidovice. Rok narození je odhad."
+    "Otec Marie Kabusové podle oddacího zápisu 1768 („post def. Jacobum Kabus“, D) – v té době již nežil. Horní Žibřidovice. Rok narození je odhad.",
+    "caak_dr29: úmrtí 6. 12. 1751: „Jacobus Kalus e Superiori Seiberdorf alias Opilio aetatis prope 58 annorum“ (M; ověřeno na výřezu) → nar. ~1693. Jediný dospělý Jakub Kalus/Kabus zemřelý 1742–1768 (D−). Při křtu dcery 1743 „Jacobus Stachnik vulgo Kalus“."
    ],
    "sources": [
-    "Archiwum Diecezji Bielsko-Żywieckiej, fara Zebrzydowice, PWNMPZ 3 – CAAK, oddaní I 1768, snímek 304"
+    "Archiwum Diecezji Bielsko-Żywieckiej, fara Zebrzydowice, PWNMPZ 3 – CAAK, oddaní I 1768, snímek 304",
+    "fara Zebrzydowice, PWNMPZ 3 – CAAK, křty X 1743 (snímek 105), zemřelí XII 1751 (snímek 378)"
    ],
    "scans": [
     {
      "f": "img/1768_snatek_jan_miczek_maria_kabus.jpg",
      "t": "Sňatek Jana Miczka, syna † Martina Miczka, s Marií, dcerou † Jakuba Kabuse, Horní Žibřidovice 26. 1. 1768"
+    },
+    {
+     "f": "img/1751_umrti_jakub_kalus.jpg",
+     "t": "Úmrtí Jakuba Kaluse, ovčáka, asi 58 let, Horní Žibřidovice 6. 12. 1751"
+    }
+   ],
+   "occ": "ovčák (opilio)"
+  },
+  {
+   "id": "marinaKalusSt",
+   "name": "Marina Kalusová (Stachniková)",
+   "maiden": "",
+   "line": "grzonka",
+   "cert": "K",
+   "alive": false,
+   "b": {
+    "date": "",
+    "year": 1715,
+    "place": "",
+    "approx": true
+   },
+   "d": {
+    "date": "",
+    "year": null,
+    "place": ""
+   },
+   "father": "",
+   "mother": "",
+   "notes": [
+    "Matka Mariny při křtu 24. 10. 1743 („et Marinae“, M). Rodné příjmení neznámé; sňatek s Jakubem Stachnikem/Kalusem 1735–II 1748 v Zebrzydowicích není (hledat před 1735). Rok narození je odhad."
+   ],
+   "sources": [
+    "fara Zebrzydowice, PWNMPZ 3 – CAAK, křty X 1743 (snímek 105), zemřelí XII 1751 (snímek 378)"
+   ],
+   "scans": [
+    {
+     "f": "img/1743_krest_marina_kalusova.jpg",
+     "t": "Křest Mariny, dcery Jakuba Stachnika řečeného Kalus a Mariny, Horní Žibřidovice 24. 10. 1743"
     }
    ]
   }
