@@ -5034,7 +5034,8 @@ window.RODOKMEN = {
    "notes": [
     "Otec Marie Kabusové podle oddacího zápisu 1768 („post def. Jacobum Kabus“, D) – v té době již nežil. Horní Žibřidovice. Rok narození je odhad.",
     "caak_dr29: úmrtí 6. 12. 1751: „Jacobus Kalus e Superiori Seiberdorf alias Opilio aetatis prope 58 annorum“ (M; ověřeno na výřezu) → nar. ~1693. Jediný dospělý Jakub Kalus/Kabus zemřelý 1742–1768 (D−). Při křtu dcery 1743 „Jacobus Stachnik vulgo Kalus“.",
-    "caak_dr30: ∞ 16. 6. 1733 Marina Kondziołková (D−). Při křtu dcery Evy 15. 11. 1734 „Jacobi Stachnik [Acatholici] et Mariannae Cath.“ – otec nekatolík (luterán), proto možná další děti v luterských matrikách Těšín. Děti: Eva (1734), Marina (1743)."
+    "caak_dr30: ∞ 16. 6. 1733 Marina Kondziołková (D−). Při křtu dcery Evy 15. 11. 1734 „Jacobi Stachnik [Acatholici] et Mariannae Cath.“ – otec nekatolík (luterán), proto možná další děti v luterských matrikách Těšín. Děti: Eva (1734), Marina (1743).",
+    "caak_dr31: Jakub Stachnik v katolických křtech 1693–1699 není; příjmení Stachnik ve farnosti 1693–1721 nezachyceno → pravděpodobně luterán odjinud (K)."
    ],
    "sources": [
     "Archiwum Diecezji Bielsko-Żywieckiej, fara Zebrzydowice, PWNMPZ 3 – CAAK, oddaní I 1768, snímek 304",
@@ -5079,7 +5080,8 @@ window.RODOKMEN = {
    "mother": "",
    "notes": [
     "Matka Mariny při křtu 24. 10. 1743 („et Marinae“, M). Rodné příjmení neznámé; sňatek s Jakubem Stachnikem/Kalusem 1735–II 1748 v Zebrzydowicích není (hledat před 1735). Rok narození je odhad.",
-    "caak_dr30: sňatek 16. 6. 1733: „inter adolescentem Jacobum Kalus Cathol. et Puellam Marinam Kondziełkianam Cathol. Praesentibus testibus Jacobo Sirek et Georgio Kondziołka omnes ex Seiberdorf“ (M; ověřeno na výřezu). Otec nevěsty neuveden; svědek Jiří Kondziołka snad otec/bratr. Jediný sňatek Jakuba Kaluse/Stachnika 1722–1748 (ztotožnění D−). Úmrtí do II 1768 v Žibřidovicích nenalezeno. Rok narození je odhad."
+    "caak_dr30: sňatek 16. 6. 1733: „inter adolescentem Jacobum Kalus Cathol. et Puellam Marinam Kondziełkianam Cathol. Praesentibus testibus Jacobo Sirek et Georgio Kondziołka omnes ex Seiberdorf“ (M; ověřeno na výřezu). Otec nevěsty neuveden; svědek Jiří Kondziołka snad otec/bratr. Jediný sňatek Jakuba Kaluse/Stachnika 1722–1748 (ztotožnění D−). Úmrtí do II 1768 v Žibřidovicích nenalezeno. Rok narození je odhad.",
+    "caak_dr31: křest v katolických křtech Zebrzydowic I 1693 – XII 1721 není (M). Hypotéza (K): dcera vdovy Mariny Kondziołkové, luteránky, která před sňatkem 13. 1. 1722 s Vavřincem Kalusem přestoupila ke katolictví („ante Copulam Catholica facta“, M) – Marina tedy snad pokřtěna lutersky (Těšín, Ježíšův kostel, od 1709); zesnulý manžel vdovy snad Vavřinec Kondziołka (žil ještě V 1720, K–D). Vavřinec Kalus by byl nevlastní otec → odtud „Stachnik vulgo Kalus“. Svědek 1733 Jiří Kondziołka *8. 3. 1705 (syn Vavřince a Marianny), † 24. 11. 1747 ve 44 letech (D) – nanejvýš bratr."
    ],
    "sources": [
     "fara Zebrzydowice, PWNMPZ 3 – CAAK, křty X 1743 (snímek 105), zemřelí XII 1751 (snímek 378)",
