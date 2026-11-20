@@ -3710,7 +3710,7 @@ window.RODOKMEN = {
   {
    "id": "marinaKusnikSt",
    "name": "Marina Kušniková (Kuznik)",
-   "maiden": "",
+   "maiden": "Honzová (Honza) (?)",
    "line": "grzonka",
    "cert": "D",
    "alive": false,
@@ -3727,7 +3727,8 @@ window.RODOKMEN = {
    },
    "notes": [
     "Úmrtí 9. 12. 1793, Dětmarovice č. 17: „Marina geblibene Wittwe nach dem verstorbenen Martin Kuznik gewesenen [herrschaftl.] Schmied …“, 70 let, úbytě (Abzehrung) (čtení D–M, ověřeno koordinátorem; fs_old51). Žila v domě č. 17 u zetě Jana Kionky – proto ztotožnění jako matka Mariny Kionkové D (jméno manžela, dům). Věk 70 → nar. ~1723.",
-    "Sňatek 4. 7. 1757 Fryštát: „Marina filia post defft. Honza(?) ex Freystadt“, služebná – dcera zemřelého Honzy(?) z Fryštátu (D–K; snad příjmení Honza, nebo jen „Jan“). Viz výřez."
+    "Sňatek 4. 7. 1757 Fryštát: „Marina filia post defft. Honza(?) ex Freystadt“, služebná – dcera zemřelého Honzy(?) z Fryštátu (D–K; snad příjmení Honza, nebo jen „Jan“). Viz výřez.",
+    "fs_old146: „Honza“ v zápise 1757 čteno M−, jde o příjmení (D) – písař jinak píše křestní jméno v akuzativu + příjmení; křestní jméno otce neuvedeno. Sňatky Fryštát 1708–1722 bez Honzy (D; 1710–11 kniha chybí); křty 1723 bez Mariny Honzové (D). Kandidát K: 1721 † Jan „Howka/Honka“ z fryštátského předměstí (dcera Anna ∞ 1721) – neztotožněno."
    ],
    "sources": [
     "ZA Opava, fara Dolní Lutyně, Z 1779–1803, oddíl Dětmarovice – FamilySearch DGS 5387447, fol. 10, snímek 73 vpravo",
