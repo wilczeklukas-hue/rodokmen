@@ -1390,7 +1390,8 @@ window.RODOKMEN = {
     "1. sňatek 1. 7. 1834 v Závadě č. 26: „Matthäus Grzonka Bauer, Sohn des Johann Grzonka und der Marianna geb. Kaschik (?)“, 33 let, svobodný; přípis „19. VIII. 180?“ (B. II/7) – křest je z r. 1802, věk 33 o rok nadsazen.",
     "2. sňatek 27. 8. 1844 v Závadě č. 26: 43 let, × Kateřina, dcera Matyáše Żyly, podruha z Velkých Kunčic, a Anny roz. Twarok (?), 21 let (D).",
     "Úmrtí 29. 7. 1848, Závada č. 2: „Matthäus Grzonka Bauer. Ist versehen … 50 J. Lungensucht“ – sedlák, souchotiny (čtení M, věk D – udán 50 místo 45; ověřeno koordinátorem). Ztotožnění D – jediný Matouš Grzonka v rejstříku zemřelých 1785–1859. K ověření: dům č. 2 (dříve 26/36) a sňatek syna 1874 („Mathias Grzonka Lehrbauer“ – zda tam uveden jako zemřelý).",
-    "fs_old121 (ověření úmrtí, M): „Juli 29 | 2 | Matthäus Grzonka Bauer. Ist versehen | 50 J. | Lungensucht“ (vol. 2794 sn100 P, pag. 41; rejstřík „Grzonka Matthäus Zawada 1848 fol. 41“). Č. 2 čteno jednoznačně, rodinný grunt je jinak č. 26 (1834–1874) – přestěhování nebo chyba písaře (D–K). Stav Bauer, ne Lehrbauer. 1. žena Barbara † 26. 4. 1844 (35 l.); syn Josef z 2. manželství s Kateřinou Żylou † 15. 12. 1845 č. 26 (8 dní); Kateřina jej přežila (do 1859 nezemřela jako Grzonková, D). Dcera Marianna † 9. 12. 1837 (5 týd., zapsáno v oddílu Petrovice č. 25 – K–D)."
+    "fs_old121 (ověření úmrtí, M): „Juli 29 | 2 | Matthäus Grzonka Bauer. Ist versehen | 50 J. | Lungensucht“ (vol. 2794 sn100 P, pag. 41; rejstřík „Grzonka Matthäus Zawada 1848 fol. 41“). Č. 2 čteno jednoznačně, rodinný grunt je jinak č. 26 (1834–1874) – přestěhování nebo chyba písaře (D–K). Stav Bauer, ne Lehrbauer. 1. žena Barbara † 26. 4. 1844 (35 l.); syn Josef z 2. manželství s Kateřinou Żylou † 15. 12. 1845 č. 26 (8 dní); Kateřina jej přežila (do 1859 nezemřela jako Grzonková, D). Dcera Marianna † 9. 12. 1837 (5 týd., zapsáno v oddílu Petrovice č. 25 – K–D).",
+    "fs_old141: oddací zápis 1. 7. 1834 (Závada č. 26) – „Matthäus Grzonka Bauer, Sohn des Johann Grzonka und der Mariana geb. Kaschik(?)“, 33 let, *19. VIII 1801 Závada (D; potvrzuje rodiče)."
    ],
    "sources": [
     "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F VIII 4, inv. 2791, N Petrovice u Karviné 1797–1852, oddíl Závada, snímek 164, pravá strana (pag. 7), 1. zápis „in Augusto“ 1802 (digi.archives.cz)",
@@ -1416,6 +1417,10 @@ window.RODOKMEN = {
     {
      "f": "img/1848_umrti_matous_grzonka.png",
      "t": "Úmrtí Matouše Grzonky, sedláka, Závada č. 2, 29. 7. 1848"
+    },
+    {
+     "f": "img/1834_snatek_matous_grzonka_barbora_schottkova.png",
+     "t": "Sňatek Matouše Grzonky a Barbory, dcery sedláka Pavla Schottka a Anny roz. Kalužové, Závada č. 26, 1. 7. 1834"
     }
    ],
    "father": "johannGrzonkaSt",
@@ -1442,14 +1447,16 @@ window.RODOKMEN = {
     "Křest: narozena 27. 11., pokřtěna 28. 11. 1809, Závada č. 11, manželská; otec Paul Schittek, sedlák (Ackerbauer); matka Anna roz. Kalluza (?). Kmotři Johann Dudek (?), sedlák; Eva, manželka Martina Dzierżęgy (?), domkářova žena. Sourozenci na č. 11: Maryna III 1802, Joseph VIII 1803 (D).",
     "Sňatek 1. 7. 1834: „Barbara nach dem Bauern Paul (?) Schittek ehliche Tochter, Mutter Anna geborne Kaluzza (?)“, 25 let, svobodná; datum narození 27. 11. 1809 Závada je přípis (B. II/16) – D. Manžel se v VIII 1844 znovu oženil – Barbora tedy nežila nejpozději od 1844.",
     "Matka Johanna Grzonky: křest 1838 „Barbara geb. Schittek“ (M); v oddacím zápise syna 1874 psáno „Schoitek“. Rod Schittek v Závadě – kmotři dětí Franze Drapky (Andreas, Magdalena) – možná příbuzenská vazba Grzonka–Drapka, NEDOLOŽENO. Rok narození je odhad.",
-    "Úmrtí 26. 4. 1844 v Závadě: „Barbara des Matthäus Grzonka Bauersweib, ist versehen worden“, 35 let (sedí na *27. 11. 1809); číslo domu nevyplněno. Manžel se znovu oženil 27. 8. 1844."
+    "Úmrtí 26. 4. 1844 v Závadě: „Barbara des Matthäus Grzonka Bauersweib, ist versehen worden“, 35 let (sedí na *27. 11. 1809); číslo domu nevyplněno. Manžel se znovu oženil 27. 8. 1844.",
+    "fs_old141 (ověřeno koordinátorem): sňatek 1. 7. 1834 – „Barbara nach dem Bauern Paul Schottek ehliche Tochter, Mutt[er] Anna geborne Kaluzza | 25 | 27. XI 1809 Zawada B. II/16“; ženich Matthäus Grzonka, syn Johanna Grzonky a Mariany geb. Kaschik(?), 33 let, *19. VIII 1801 (M/D). Rodiče Pavel Schottek × Anna Kalužová potvrzeni (M)."
    ],
    "sources": [
     "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F VIII 4, inv. 2791, N Petrovice u Karviné 1797–1852, oddíl Závada, snímek 169, levá strana (pag. 16), 1. zápis „November“ 1809 (digi.archives.cz)",
     "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F VIII 18, O Petrovice u Karviné, Prstná, Závada 1859–1949, snímek 204, levá strana, 3. zápis, sňatek 10. 2. 1874 (digi.archives.cz)",
     "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F VIII 5, inv. 2792, N Petrovice u Karviné 1836–1859, oddíl Závada, snímek 57 (digi.archives.cz)",
     "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F VIII 6, inv. 2793, O Petrovice u Karviné 1797–1858, oddíl Závada, snímek 68, pravá strana (pag. 15), sňatek 1. 7. 1834 (digi.archives.cz)",
-    "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F VIII 7, inv. 2794, Z Petrovice u Karviné 1797–1858, oddíl Závada, snímek 97, levá strana (pag. 38), úmrtí 1844 (digi.archives.cz)"
+    "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F VIII 7, inv. 2794, Z Petrovice u Karviné 1797–1858, oddíl Závada, snímek 97, levá strana (pag. 38), úmrtí 1844 (digi.archives.cz)",
+    "ZA Opava, fara Petrovice, O 1797–1859 – FamilySearch vol. 2793, Závada pag. 15, snímek 69 vpravo (ark 3:1:3QS7-L9MW-JD8X)"
    ],
    "scans": [
     {
@@ -1467,6 +1474,10 @@ window.RODOKMEN = {
     {
      "f": "img/1844_umrti_barbora_grzonka.jpg",
      "t": "Úmrtí Barbory Grzonkové, 26. 4. 1844, Závada"
+    },
+    {
+     "f": "img/1834_snatek_matous_grzonka_barbora_schottkova.png",
+     "t": "Sňatek Matouše Grzonky a Barbory, dcery sedláka Pavla Schottka a Anny roz. Kalužové, Závada č. 26, 1. 7. 1834"
     }
    ],
    "father": "paulSchittek",
@@ -2284,7 +2295,8 @@ window.RODOKMEN = {
     "ÚMRTÍ 4. 6. 1811, Závada č. 11: „Paul Schottek Ackerbauer von da, versehen durch mich Lor. Woutek(?) … 36 … Lungensucht“ (ZA Opava, F VIII 7, inv. 2794, Z Závada 1811, pag. 12, snímek 84 vlevo; čtení M ověřeno koordinátorem). Ztotožnění D: dům č. 11, sedlák, věk (→ nar. ~1775), rejstříková podoba „Schottek/Schotek“ i u sňatku 1799; manželka v zápisu neuvedena. Dceři Barboře (1809) bylo 1½ roku. Na č. 11 později hospodaří Franz Schottek (1839).",
     "fs_old108: křest ve Fryštátu 1773–78 (FS vol. 2733, index) není – Závada/Petrovice před 1785 nezapisovány (fara Godów?). Další děti s Annou podle indexu: Maryna, Josef (neověřeno).",
     "fs_old139 (K–D): v Závadě č. 11 hospodaří 1785–1797 sedlák Jan Schottek × Hedvika roz. Cyronová – děti Josef 3. 5. 1787 (otec psán „Jos.“), Anna 10. 4. 1790 († 1799, 8 l.), Michal 20. 9. 1792 († 1794), Matouš 12. 8. 1795 (vol. 2790 sn3–7, M/D). Pavel (*~1775) by byl nejstarší syn narozený před 1785 (Godów, offline) – rodiče tedy kandidátně Jan Schottek × Hedvika Cyronová (K–D). Jan kmotrem 1793 a 1796 spolu s Annou, ženou Šimona Cyrona. 14. 7. 1802 † „Johann Schottek Inmann“, 80 l. (*~1722) – spíš děd (K). Rejstřík S: „Schottek Hedwig 1827 fol 25“ – možná Hedvika (nečteno).",
-    "fs_old140: XI 1827 Závada č. 11 † „Hedwig verwittwete Schottek Inweib“, 91 l. (vol. 2794 pag. 26, sn92 L; M/D) – manžel neuveden; věkově spíš vdova po Janu Schottkovi Inmannovi († 1802, 80 l.) než matka dětí 1787–95 (K). Jiné úmrtí Jana Schottka 1797–1859 není (D). Na č. 11 dál sedlák František Schottek † 5. 4. 1854, 60 l. (*~1794; pag. 44, sn102, M/D) – syn Pavla nebo Jana (K); děti † 1836–1848."
+    "fs_old140: XI 1827 Závada č. 11 † „Hedwig verwittwete Schottek Inweib“, 91 l. (vol. 2794 pag. 26, sn92 L; M/D) – manžel neuveden; věkově spíš vdova po Janu Schottkovi Inmannovi († 1802, 80 l.) než matka dětí 1787–95 (K). Jiné úmrtí Jana Schottka 1797–1859 není (D). Na č. 11 dál sedlák František Schottek † 5. 4. 1854, 60 l. (*~1794; pag. 44, sn102, M/D) – syn Pavla nebo Jana (K); děti † 1836–1848.",
+    "fs_old141: dcera Barbora 1834 „nach dem Bauern Paul Schottek“ (M) – správná podoba příjmení Schottek. 9. 6. 1829 se v č. 11 vdávala „Marianna nach dem … Johann Schottek hinterbliebene Tochter“, 26 l. – buď omyl (Pavlova Maryna *1802), nebo dcera Jana (K). Sňatek Františka Schottka (č. 11) v Závadě 1807–39 není."
    ],
    "sources": [
     "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F VIII 6, inv. 2793, O Petrovice u Karviné 1797–1858, oddíl Závada, snímek 61, pravá strana (pag. 1), 1. zápis, sňatek 29. 1. 1799 (digi.archives.cz)",
@@ -2329,7 +2341,8 @@ window.RODOKMEN = {
    "notes": [
     "Sňatek 29. 1. 1799 s Pavlem Schittkem, 22 let (nar. ~1777), dcera Jana Kalužy. Matka Barbory (křest 1809 „Anna geb. Kalluza“). Rok narození z věku.",
     "zao_r61: křest v N Fryštát XII 1775 – III 1778 nenalezen (K); nečteno 1771–XI 1775 a od III 1778.",
-    "zao_r70: ani v N Fryštát III 1778 – VII 1780 (K–D); celkem IX 1771 – VII 1780 bez dítěte Jana Kalužy. Zbývá VIII 1780 – 1781."
+    "zao_r70: ani v N Fryštát III 1778 – VII 1780 (K–D); celkem IX 1771 – VII 1780 bez dítěte Jana Kalužy. Zbývá VIII 1780 – 1781.",
+    "fs_old141: jako vdova se 11. 7. 1811 (5 týdnů po Pavlově smrti) znovu vdala, Závada č. 11: „Anna nach dem + Paul Schottek gewes. Ackerbauer hinterl. Wittib“, 33 let × Ignaz Mische(?), 30 let, čeledín z Dětmarovic (vol. 2793 sn65 L, D). Při sňatku dcery 1834 „Anna geborne Kaluzza“ (M)."
    ],
    "sources": [
     "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F VIII 6, inv. 2793, O Petrovice u Karviné 1797–1858, oddíl Závada, snímek 61, pravá strana (pag. 1), 1. zápis, sňatek 29. 1. 1799 (digi.archives.cz)",
@@ -2339,6 +2352,10 @@ window.RODOKMEN = {
     {
      "f": "img/1799_snatek_schittek_kaluza.jpg",
      "t": "Sňatek Paulus Schottek (Schittek) × Anna Kalužová, Závada 29. 1. 1799"
+    },
+    {
+     "f": "img/1834_snatek_matous_grzonka_barbora_schottkova.png",
+     "t": "Sňatek Matouše Grzonky a Barbory, dcery sedláka Pavla Schottka a Anny roz. Kalužové, Závada č. 26, 1. 7. 1834"
     }
    ]
   },
