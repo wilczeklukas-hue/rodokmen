@@ -1899,7 +1899,8 @@ window.RODOKMEN = {
    },
    "notes": [
     "Matka Franze Drazzy/Drapky podle oddacího zápisu 1837; příjmení čteno Miczek/Mięzek (?). Rok narození je odhad.",
-    "zao_r72: sňatek 1837 znovu přečten zvětšeně (F VIII 11 sn22 L): „Sohn des dortigen … Paul Drazza u. Theresia Miczek“ – „Miczek“ D–M, „Schemiczek“ vyloučen; rodiště ženicha „von Seibersdorf“ bez Nieder/Ober (D)."
+    "zao_r72: sňatek 1837 znovu přečten zvětšeně (F VIII 11 sn22 L): „Sohn des dortigen … Paul Drazza u. Theresia Miczek“ – „Miczek“ D–M, „Schemiczek“ vyloučen; rodiště ženicha „von Seibersdorf“ bez Nieder/Ober (D).",
+    "caak_dr26: N. Seibersdorf č. 87 domkář Josef Miček × Hedvika roz. Matuszczyková (dvojčata 1795, † týž měsíc) = Joseph Miczek č. 87 ze soupisu 1820 (D–M) – kandidátní rodina Terezie (K). Theresie Schemiczek 1789 (Baltazar × Marina) a 1792 (Pavel × Anna) jen K−. Křty 1795–1800 dočíst."
    ],
    "sources": [
     "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F VIII 11, inv. 10218, O Petrovice u Karviné 1836–1858, oddíl Závada, snímek 22, levá strana, 4. zápis, sňatek 27. 8. 1837 (digi.archives.cz)"
@@ -3798,7 +3799,8 @@ window.RODOKMEN = {
     "KANDIDÁT – otec Pavla Drazzy jen přes ztotožnění křtu 1782 (K). Dolní Žibřidovice č. 41 (sedlák), od 1786 č. 30 (zahradník, totožnost K). Děti: Josepha Victorina 5. 3. 1780 (matka Eva roz. Lazar), Tomáš Silvestr 28. 12. 1780, Pavel 23. 1. 1782, Jan 27. 12. 1786 a Terezie 17. 10. 1790 (matka Eva roz. Wilkin?). Sňatek 10. 5. 1780 jako vdovec s Evou, vdovou po Matouši Somerlikovi (rozpor s Evou roz. Lazar 3/1780 – neřešeno). V Dolních Žibřidovicích také Jan Drapa, zahradník č. 56 (∞ Rosina Ostrutzka), patrně příbuzný. Rok narození je odhad.",
     "caak_dr2: 1. žena Eva roz. Lazar † 24. 3. 1780 č. 41, 35 let (M); dcera Josepha † 18.(?) 3. 1780; Tomáš † 29. 12. 1780. V jeho domě † 10. 5. 1780 Rosina, vdova po Michalu Lazarovi, 59 let (patrně tchyně, D). 2. žena Eva roz. Wilková ∞ 10. 5. 1780. První sňatek před 1776.",
     "caak_dr3: 1. sňatek XI 1766 (den K): „Andreas Drappa | Honestus Adolescens filius Catholicus Laurentij Drappa ex inferiori Seiberdorf … cum honesta Virgine Eva … filia Michaelis Lazar aequè è Seiberdorf“ (M, ověřeno koordinátorem). Bratr Jan Drapa ∞ II 1772 Rosina Ostrutzka. Úmrtí I 1781 – VII 1788 není; syn Jan † VII 1788 (č. 30).",
-    "Křest 15. 11. 1746 (caak_dr4, s116): „Andreas filius Laurentij Drappa et Susannae C. L. Catholicorum ex Seiberdorff. Levante Georgio Sommerlik et Marina Sommerlikin …“ (M; ztotožnění s ženichem 1766 D–M – jediný Ondřej, syn Vavřince, 1741–53). Bratr Jan pokř. 2. 5. 1742 (s101). 1. žena Eva Lazar pokř. 23. 12. 1748 (s123, dcera Michala × Rosiny)."
+    "Křest 15. 11. 1746 (caak_dr4, s116): „Andreas filius Laurentij Drappa et Susannae C. L. Catholicorum ex Seiberdorff. Levante Georgio Sommerlik et Marina Sommerlikin …“ (M; ztotožnění s ženichem 1766 D–M – jediný Ondřej, syn Vavřince, 1741–53). Bratr Jan pokř. 2. 5. 1742 (s101). 1. žena Eva Lazar pokř. 23. 12. 1748 (s123, dcera Michala × Rosiny).",
+    "caak_dr26: v zemřelých N. Seibersdorf 1781–1800 není Ondřej ani Eva Drapová (D) → žili po 1800 nebo zemřeli jinde (1820 Andreas Drappa č. 47, K). 23. 3. 1793 † Marina, dcera „Andr. Drapa(?) Inmanns“, 22 l. (K – snad dcera z 1. manželství)."
    ],
    "sources": [
     "Archiwum Diecezji Bielsko-Żywieckiej, fara Zebrzydowice, PWNMPZ 4 (1773–1800), křty I 1782, snímek 91 – CAAK (caak.upjp2.edu.pl)",
@@ -3881,7 +3883,8 @@ window.RODOKMEN = {
    "notes": [
     "Otec Ondřeje (sňatek 1766) a Jana Drapy (sňatek 1772), Dolní Žibřidovice (M v zápisech; jistota K jen kvůli ztotožnění Pavla Drazzy). Jako vdovec ∞ 6. 8. 1771 Zuzana, vdova po Šimonu Zachradníkovi (PWNMPZ 3 sn310, svědek „Andr. Drappa filius“). První manželka a úmrtí neznámé. Rok narození je odhad.",
     "caak_dr4: 1. manželka Zuzana (děti Jan 1742, Ondřej 1746); častý kmotr 1742–50. Kmotra „Anna Drapin vidua“ 1746 – snad jeho matka (K). Pozor: souběžně Vavřinec Bialoń × Zuzana v Žibřidovicích.",
-    "caak_dr5: křest 21. 7. 1715 (PWNMPZ 2 s68): „Laurentius | Laurentius Drapa, Susanna | Joann. Strzu…, Eva Somerlikowa“ (M; ztotožnění D – jediný Vavřinec s otcem Drapou 1713–VII 1719, věk sedí 1741 i 1771). 1. sňatek 3. 9. 1741 (PWNMPZ 3 s247): „ab Honesto Adolescente Laurentio Drappa Catholico cum Susanna Urbani Kroczek filia Catholica ex inferiori Seiberdorff utrisque. Praesente Simone Rychly et Mathia Mathuszczik“ (M, ověřeno koordinátorem; ztotožnění s otcem Jana 1742 a Ondřeje 1746 D–M)."
+    "caak_dr5: křest 21. 7. 1715 (PWNMPZ 2 s68): „Laurentius | Laurentius Drapa, Susanna | Joann. Strzu…, Eva Somerlikowa“ (M; ztotožnění D – jediný Vavřinec s otcem Drapou 1713–VII 1719, věk sedí 1741 i 1771). 1. sňatek 3. 9. 1741 (PWNMPZ 3 s247): „ab Honesto Adolescente Laurentio Drappa Catholico cum Susanna Urbani Kroczek filia Catholica ex inferiori Seiberdorff utrisque. Praesente Simone Rychly et Mathia Mathuszczik“ (M, ověřeno koordinátorem; ztotožnění s otcem Jana 1742 a Ondřeje 1746 D–M).",
+    "caak_dr26: 24. 4. 1799 N. Seibersdorf č. 50 † „Lorenz Drapa ein Inmann, 108 Jahr“ (zápis M, PWNMPZ 4 s423) – jediný Vavřinec Drapa ve vsi; věk nadsazen (správně ~83), ztotožnění D–K."
    ],
    "sources": [
     "Archiwum Diecezji Bielsko-Żywieckiej, fara Zebrzydowice, PWNMPZ 3 (1722–1773) – CAAK, sňatky 1766, 1771, 1772, snímky 303 a 310",
