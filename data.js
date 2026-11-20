@@ -583,7 +583,8 @@ window.RODOKMEN = {
    "notes": [
     "Otec Adely, v zápisu 1954 označen křížkem (zemřel před rokem 1954). Rok narození je odhad podle dcer.",
     "KANDIDÁT na hrob: Franz Drozd, Urnový háj Karviná-Mizerov (BillionGraves 18437711), se ženou Emilie? – jméno manželky nesedí s Aloisií, vazba nedoložena.",
-    "pl_dro1: Sosnowiec – online skeny sňatků jen 1922–24 (metryki.genealodzy.pl, všechny ř.-k. fary + ev. 1918–26): Drozd × Kurzer není (D); 1925–29 a narození 1929 online nejsou nikde (szukajwarchiwach bez skenů). Kurzer spíš německé příjmení – sňatek možná na Karvinsku/Ostravsku. Klíč: odpověď USC Sosnowiec (N Adely 1929)."
+    "pl_dro1: Sosnowiec – online skeny sňatků jen 1922–24 (metryki.genealodzy.pl, všechny ř.-k. fary + ev. 1918–26): Drozd × Kurzer není (D); 1925–29 a narození 1929 online nejsou nikde (szukajwarchiwach bez skenů). Kurzer spíš německé příjmení – sňatek možná na Karvinsku/Ostravsku. Klíč: odpověď USC Sosnowiec (N Adely 1929).",
+    "pl_dro2: Sosnowiec křty WNMP 1899–1901 (1902 část.) a Zagórze 1898 bez Franciszka Drozda / Alojzje Kurzer (D); mariavité sňatky 1918–29 kompletně bez páru (M). Zbývá Zagórze 1896–97, 1899–1902."
    ],
    "sources": [
     "Zápis o narození Aloise Wilczka, MÚ Karviná, kniha narození 1954, poř. č. 460 (kopie zápisu zaslaná úřadem, 11. 11. 2026)"
@@ -613,7 +614,8 @@ window.RODOKMEN = {
    "alive": false,
    "notes": [
     "Matka Adely, v zápisu 1954 „Aloisie rozená Kurzerová“ (čtení ?). Rok narození je odhad podle dcer.",
-    "pl_dro1: Sosnowiec – online skeny sňatků jen 1922–24 (metryki.genealodzy.pl, všechny ř.-k. fary + ev. 1918–26): Drozd × Kurzer není (D); 1925–29 a narození 1929 online nejsou nikde (szukajwarchiwach bez skenů). Kurzer spíš německé příjmení – sňatek možná na Karvinsku/Ostravsku. Klíč: odpověď USC Sosnowiec (N Adely 1929)."
+    "pl_dro1: Sosnowiec – online skeny sňatků jen 1922–24 (metryki.genealodzy.pl, všechny ř.-k. fary + ev. 1918–26): Drozd × Kurzer není (D); 1925–29 a narození 1929 online nejsou nikde (szukajwarchiwach bez skenů). Kurzer spíš německé příjmení – sňatek možná na Karvinsku/Ostravsku. Klíč: odpověď USC Sosnowiec (N Adely 1929).",
+    "pl_dro2: Sosnowiec křty WNMP 1899–1901 (1902 část.) a Zagórze 1898 bez Franciszka Drozda / Alojzje Kurzer (D); mariavité sňatky 1918–29 kompletně bez páru (M). Zbývá Zagórze 1896–97, 1899–1902."
    ],
    "sources": [
     "Zápis o narození Aloise Wilczka, MÚ Karviná, kniha narození 1954, poř. č. 460 (kopie zápisu zaslaná úřadem, 11. 11. 2026)"
