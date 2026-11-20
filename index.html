@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Rodokmen Wilczek</title>
-<meta name="build-id" content="1795165101012">
+<meta name="build-id" content="1795165251690">
 <meta name="description" content="Rodokmen rodin Wilczek, Opiol, Matusinský a Drozd">
 <style>
 :root {
@@ -5328,7 +5328,7 @@ window.RODOKMEN_EVENTS = [
   { y: 2026, t: 'Plánovaný konec hlubinné těžby černého uhlí v ostravsko-karvinském revíru (OKD) po zhruba 250 letech', s: 'Konec těžby uhlí (plán)' }
 ];
 </script>
-<script>window.BUILD_STAMP = "20. 11. 2026 09:58";</script>
+<script>window.BUILD_STAMP = "20. 11. 2026 10:00";</script>
 <script>
 (function () {
   'use strict';
@@ -6155,7 +6155,21 @@ const yr = b => (b.approx ? '~' : '') + b.year;
   let renderer, scene, camera, composer, bloom, lineMat, ptsMat;
   const cam = { th: 0, ph: 1.62, d: 12, ty: 0 };
   const user = { th: 0, ph: 0, zoom: 1, last: -1e9 };
-  let shownG = -1, numFrom = 1, numTo = 1, numT = 1;
+  let shownG = -1, numFrom = 1, numTo = 1, numT = 1, numTxt = '';
+  // adaptive quality: start modest, step down when frames are slow
+  const quality = { pr: Math.min(1.5, window.devicePixelRatio || 1), bloom: 0.5, acc: 0, n: 0, skip: 40 };
+  function adapt(ms) {
+    if (quality.skip > 0) { quality.skip--; return; }   // shader compile / first frames are always slow
+    quality.acc += ms; quality.n++;
+    if (quality.n < 45) return;
+    const avg = quality.acc / quality.n; quality.acc = 0; quality.n = 0;
+    if (avg < 26) return;
+    if (quality.pr > 1) quality.pr = 1;
+    else if (quality.bloom > 0.3) quality.bloom = 0.3;
+    else if (quality.pr > 0.75) quality.pr = 0.75;
+    else return;
+    renderer.setPixelRatio(quality.pr); resize();
+  }
   const labels = [];
   const hot = [];   // known slots for hover/click
 
@@ -6194,8 +6208,9 @@ const yr = b => (b.approx ? '~' : '') + b.year;
 
   function build() {
     const T = three.T;
-    renderer = new T.WebGLRenderer({ antialias: true, powerPreference: 'high-performance' });
-    renderer.setPixelRatio(Math.min(2, window.devicePixelRatio || 1));
+    // the composer renders into its own (non-MSAA) targets, so canvas antialiasing would only cost time
+    renderer = new T.WebGLRenderer({ antialias: false, powerPreference: 'high-performance' });
+    renderer.setPixelRatio(quality.pr);
     renderer.setClearColor(0x000000, 1);
     host.prepend(renderer.domElement);
     scene = new T.Scene();
@@ -6209,7 +6224,7 @@ const yr = b => (b.approx ? '~' : '') + b.year;
       const known = slotId.has(n);
       const a = known ? 0.55 : g <= 6 ? 0.10 : g <= 10 ? 0.045 : g <= 11 ? 0.022 : 0.013;
       const c = known ? colOf(byId.get(slotId.get(n))) : GOLD;
-      const segs = g <= 8 ? 12 : g <= 10 ? 8 : 4;
+      const segs = g <= 8 ? 12 : g <= 10 ? 6 : g <= 12 ? 3 : 2;
       const an = ang(n), amp = known ? 0 : 0.05 * g, ph = noise(n) * 6.283;
       const at = t => {
         const s = 3 * t * t - 2 * t * t * t, w = amp * Math.sin(Math.PI * t) * Math.sin(3 * Math.PI * t + ph);
@@ -6306,7 +6321,7 @@ const yr = b => (b.approx ? '~' : '') + b.year;
   function resize() {
     if (!renderer) return;
     const w = Math.max(1, host.clientWidth), h = Math.max(1, host.clientHeight), pr = renderer.getPixelRatio();
-    renderer.setSize(w, h, false); composer.setSize(w, h); bloom.resolution.set(w, h);
+    renderer.setSize(w, h, false); composer.setPixelRatio(pr); composer.setSize(w, h); bloom.resolution.set(w * quality.bloom, h * quality.bloom);
     camera.aspect = w / h; camera.updateProjectionMatrix();
     ptsMat.uniforms.uScale.value = h * pr / 2 / Math.tan(camera.fov * Math.PI / 360);
     lineMat.uniforms.uGain.value = Math.min(1, Math.max(0.35, Math.pow(Math.min(w, h * 1.4) / 1150, 1.1)));
@@ -6348,10 +6363,12 @@ const yr = b => (b.approx ? '~' : '') + b.year;
     }
     numT = Math.min(1, numT + dt / 0.6);
     const e = 1 - Math.pow(1 - numT, 3);
-    hudNum.textContent = fmt(numFrom + (numTo - numFrom) * e);
+    const nt = fmt(numFrom + (numTo - numFrom) * e);
+    if (nt !== numTxt) { numTxt = nt; hudNum.textContent = nt; }
     const done = prog >= END - 0.01;
     if (done && !sumClosed && sum.hidden) sum.hidden = false;
-    btnPause.textContent = paused ? 'Přehrát' : 'Pauza';
+    const bt = paused ? 'Přehrát' : 'Pauza';
+    if (btnPause.textContent !== bt) btnPause.textContent = bt;
   }
   function updateLabels(dist) {
     const w = host.clientWidth, h = host.clientHeight, v = new three.T.Vector3();
@@ -6359,7 +6376,9 @@ const yr = b => (b.approx ? '~' : '') + b.year;
     for (const { el, h: k } of labels) {
       v.set(k.P[0], k.P[1], k.P[2]).project(camera);
       const vis = prog >= k.g + 0.15 && v.z < 1 && (k.n === 1 ? !narrowSum : dist < 34);
-      el.style.opacity = vis ? '1' : '0';
+      const o = vis ? '1' : '0';
+      if (el.style.opacity !== o) el.style.opacity = o;
+      if (!vis) continue;
       el.style.left = ((v.x + 1) / 2 * w).toFixed(1) + 'px';
       el.style.top = ((1 - v.y) / 2 * h).toFixed(1) + 'px';
     }
@@ -6441,13 +6460,14 @@ const yr = b => (b.approx ? '~' : '') + b.year;
     $('.an-replay').onclick = replay;
   }
   function replay() {
-    prog = reduce ? END : 0; paused = false; sumClosed = false; sum.hidden = true; shownG = -1; numFrom = numTo = 1; numT = 1;
+    prog = reduce ? END : 0; paused = false; sumClosed = false; sum.hidden = true; shownG = -1; numFrom = numTo = 1; numT = 1; numTxt = '';
     user.th = 0; user.ph = 0; user.zoom = 1; autoClock = 0; cam.th = 0; cam.ph = 1.62; cam.ty = 0;
     if (!running) start();
   }
 
   // ---------- loop ----------
   function frame(now) {
+    if (lastT && running) adapt(now - lastT);
     const dt = Math.min(0.1, Math.max(0, (now - lastT) / 1000)); lastT = now;
     clock += dt;
     if (!paused && prog < END) prog = Math.min(END, prog + dt / (prog < 3 ? 2.1 : 1.35));
