@@ -2799,7 +2799,7 @@ window.RODOKMEN = {
   },
   {
    "id": "martinKusnik",
-   "name": "Martin Kušnik (?)",
+   "name": "Martin Kuźnik",
    "maiden": "",
    "line": "grzonka",
    "cert": "M",
@@ -2827,11 +2827,13 @@ window.RODOKMEN = {
     "fs_old72: úmrtí 30. 12. 1776 (DGS 5387446 sn130 P): „Martinus Kuźnik Gr…(?) Schmidt | Cath. | Parochial. | Deutsch Leuten | 49“ (M–D, ověřeno koordinátorem na výřezu; č. domu 6 D). Věk 49 → nar. ~1727. Ztotožnění D (jméno, řemeslo kovář, obec).",
     "fs_old73: křest v Dolní Lutyni IX 1725 – XII 1728 (DGS 5393677 sn219–234) není (D); jediný Martin = Martin Ondřej, syn Jiřího Nowawiece(?) × Evy, Dětmarovice 8. 11. 1725 (R/K, jiné příjmení). Zbývá I 1729 – 1730 (DGS 5387436) a VIII 1724 – IX 1725 (sn213–218); jinak patrně z jiné fary.",
     "fs_old74: křest ani v DGS 5387436 I 1729 – XII 1731 (a VIII–XII 1728) není (D). Celkem tedy Dolní Lutyně IX 1725 – XII 1731 negativ → patrně narozen jinde (Bohumín, Fryštát, Karviná, Rychvald?).",
-    "fs_old143: děti s Marinou 1758–1767 (Německá Lutyně / Věřňovice), viz u dcery marinaKusnik; manželka Marina kmotrou u Javorků 1765."
+    "fs_old143: děti s Marinou 1758–1767 (Německá Lutyně / Věřňovice), viz u dcery marinaKusnik; manželka Marina kmotrou u Javorků 1765.",
+    "Sňatek 4. 7. 1757 ve Fryštátě (fs_old144, ověřeno koordinátorem na výřezu): „Martinus honestus famulus, filius Francisci Kuźnik, Petersvaldã cath: cum honesta Ancilla Marina filia post defft. Honza(?) ex Freystadt, cath: testes Joannes Marek ex Roÿ et Wenceslaus Larisch ex Teuto-Lutin.“ – čeledín, syn Františka Kuźnika z Petřvaldu; nevěsta Marina, služebná, dcera † Honzy(?) z Fryštátu (čtení M, „Honza“ D–K). Ztotožnění D+: svědek V. Lariš z Něm. Lutyně je i 1758 v D. Lutyni vedle Martina, první dítě 17. 5. 1758. Příjmení tedy Kuźnik (M)."
    ],
    "sources": [
     "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F I 4, inv. 2700, N Věřňovice 1782–1803, snímek 12, pravá strana, „In Martio“ 4. zápis, křest 1784 (digi.archives.cz)",
-    "ZA Opava, fara Dolní Lutyně, pohřby 1728–1778 (inv. 2710) – FamilySearch DGS 5387446, XII 1776, snímek 130 vpravo"
+    "ZA Opava, fara Dolní Lutyně, pohřby 1728–1778 (inv. 2710) – FamilySearch DGS 5387446, XII 1776, snímek 130 vpravo",
+    "ZA Opava, fara Fryštát, O 1708–1761 – FamilySearch vol. 2734, pag. 160, snímek 83 vlevo (ark 3:1:3QS7-89MW-JS7D)"
    ],
    "scans": [
     {
@@ -2841,8 +2843,13 @@ window.RODOKMEN = {
     {
      "f": "img/1776_umrti_martin_kuznik.png",
      "t": "Úmrtí Martina Kuźnika, kováře, 49 let, Dolní Lutyně 30. 12. 1776"
+    },
+    {
+     "f": "img/1757_snatek_martin_kuznik_marina.png",
+     "t": "Sňatek Martina Kuźnika, syna Františka Kuźnika z Petřvaldu, s Marinou, dcerou † Honzy(?) z Fryštátu, Fryštát 4. 7. 1757"
     }
-   ]
+   ],
+   "father": "franzKuznikSt"
   },
   {
    "id": "marinaManin",
@@ -3719,15 +3726,21 @@ window.RODOKMEN = {
     "place": "Dětmarovice č. 17"
    },
    "notes": [
-    "Úmrtí 9. 12. 1793, Dětmarovice č. 17: „Marina geblibene Wittwe nach dem verstorbenen Martin Kuznik gewesenen [herrschaftl.] Schmied …“, 70 let, úbytě (Abzehrung) (čtení D–M, ověřeno koordinátorem; fs_old51). Žila v domě č. 17 u zetě Jana Kionky – proto ztotožnění jako matka Mariny Kionkové D (jméno manžela, dům). Věk 70 → nar. ~1723."
+    "Úmrtí 9. 12. 1793, Dětmarovice č. 17: „Marina geblibene Wittwe nach dem verstorbenen Martin Kuznik gewesenen [herrschaftl.] Schmied …“, 70 let, úbytě (Abzehrung) (čtení D–M, ověřeno koordinátorem; fs_old51). Žila v domě č. 17 u zetě Jana Kionky – proto ztotožnění jako matka Mariny Kionkové D (jméno manžela, dům). Věk 70 → nar. ~1723.",
+    "Sňatek 4. 7. 1757 Fryštát: „Marina filia post defft. Honza(?) ex Freystadt“, služebná – dcera zemřelého Honzy(?) z Fryštátu (D–K; snad příjmení Honza, nebo jen „Jan“). Viz výřez."
    ],
    "sources": [
-    "ZA Opava, fara Dolní Lutyně, Z 1779–1803, oddíl Dětmarovice – FamilySearch DGS 5387447, fol. 10, snímek 73 vpravo"
+    "ZA Opava, fara Dolní Lutyně, Z 1779–1803, oddíl Dětmarovice – FamilySearch DGS 5387447, fol. 10, snímek 73 vpravo",
+    "ZA Opava, fara Fryštát, O 1708–1761 – FamilySearch vol. 2734, pag. 160, snímek 83 vlevo (ark 3:1:3QS7-89MW-JS7D)"
    ],
    "scans": [
     {
      "f": "img/1793_umrti_marina_kusnikova.png",
      "t": "Úmrtí Mariny, vdovy po Martinu Kuznikovi, Dětmarovice č. 17, 9. 12. 1793 (70 let)"
+    },
+    {
+     "f": "img/1757_snatek_martin_kuznik_marina.png",
+     "t": "Sňatek Martina Kuźnika, syna Františka Kuźnika z Petřvaldu, s Marinou, dcerou † Honzy(?) z Fryštátu, Fryštát 4. 7. 1757"
     }
    ]
   },
@@ -4813,6 +4826,40 @@ window.RODOKMEN = {
     {
      "f": "img/1798_krest_hedvika_dziegiel_matka_grimova.png",
      "t": "Křest Hedviky, dcery Jana Dzięgiela a Mariny roz. Grimové, Závada č. 10, 30. 7. 1798"
+    }
+   ]
+  },
+  {
+   "id": "franzKuznikSt",
+   "name": "František (Franz) Kuźnik",
+   "maiden": "",
+   "line": "grzonka",
+   "cert": "D",
+   "alive": false,
+   "b": {
+    "date": "",
+    "year": 1700,
+    "place": "",
+    "approx": true
+   },
+   "d": {
+    "date": "",
+    "year": null,
+    "place": ""
+   },
+   "father": "",
+   "mother": "",
+   "occ": "",
+   "notes": [
+    "Otec Martina Kuźnika podle oddacího zápisu 4. 7. 1757 ve Fryštátě („filius Francisci Kuźnik, Petersvaldã“), bydliště Petřvald (D). Zda v roce 1757 žil, zápis neuvádí. Rok narození je odhad (syn *~1727)."
+   ],
+   "sources": [
+    "ZA Opava, fara Fryštát, O 1708–1761 – FamilySearch vol. 2734, pag. 160, snímek 83 vlevo (ark 3:1:3QS7-89MW-JS7D)"
+   ],
+   "scans": [
+    {
+     "f": "img/1757_snatek_martin_kuznik_marina.png",
+     "t": "Sňatek Martina Kuźnika, syna Františka Kuźnika z Petřvaldu, s Marinou, dcerou † Honzy(?) z Fryštátu, Fryštát 4. 7. 1757"
     }
    ]
   }
