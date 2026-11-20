@@ -3386,7 +3386,8 @@ window.RODOKMEN = {
     "fs_old33: pohřeb Jiřího ani Zuzany Kijenkových není ani 25. 3. 1763 – 2. 2. 1771 (sn84–107). Jiný pár Jiří Kania × Eva (děti 1767–69).",
     "fs_old41: kandidátka 10. 10. 1778 je Zuzana Gurová/Kapustová (mlynářka) – NE Kijenková. Pohřby 1779 (DGS 5387447 sn3–4) bez Jiřího/Zuzany Kijenkových. Další: rejstřík úmrtí 1784–1803 DGS 5387448.",
     "fs_old113: 1. žena Jiřího Kijonky Marianna † 19. 4. 1729 (D) → Zuzana 2. manželka, sňatek ~1730–1739 (v D. Lutyni nezapsán – fs_old29 aj.), K–D.",
-    "fs_old114: první známé dítě Jiřího Kijonky a Zuzany je Jakub, pokř. 2. 7. 1734, Dětmarovice („ex Patre Georgio Kijonka & matre Susanna … Jacobus. Patrini … Nicolaus Babisz & Eva Ramesska“, DGS 5387436 FS39 P, ark 3:1:3QSQ-G9MW-MRQ8; čtení M, ztotožnění D). Žádné dítě Jiřího V 1729 – VI 1734 → sňatek se Zuzanou ~1730 – X 1733 (D), v D. Lutyni nezapsán. Rodné jméno Zuzany neuvedeno."
+    "fs_old114: první známé dítě Jiřího Kijonky a Zuzany je Jakub, pokř. 2. 7. 1734, Dětmarovice („ex Patre Georgio Kijonka & matre Susanna … Jacobus. Patrini … Nicolaus Babisz & Eva Ramesska“, DGS 5387436 FS39 P, ark 3:1:3QSQ-G9MW-MRQ8; čtení M, ztotožnění D). Žádné dítě Jiřího V 1729 – VI 1734 → sňatek se Zuzanou ~1730 – X 1733 (D), v D. Lutyni nezapsán. Rodné jméno Zuzany neuvedeno.",
+    "fs_old115: sňatek Jiří Kijonka × Zuzana není ve Fryštátu XI 1729 – II 1734 (FS vol. 2734 sn25–31, D); karvinská oddací matrika 1729–33 na FS není (vol. 3002 = soupis smíšených manželství ~1780). Zbývají fary nevěsty: Petřvald, Bohumín, Rychvald, Šenov, polské Godów/Gołkowice (vše pro 1730–33 online nedostupné)."
    ],
    "sources": [
     "ZA Opava, fara Dolní Lutyně, N 1728–1753 (F I 2) – FamilySearch DGS 5387436, snímek 93 vpravo (= ZAO sn92), VI 1744"
