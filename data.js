@@ -4301,7 +4301,8 @@ window.RODOKMEN = {
    "notes": [
     "Otec kandidátního křtu Šimona (X 1719, Marklovice): „Bartholomaei Witek et Hedvigis“ (M). Děti: Anna 18. 4. 1713, Marianna 1. 4. 1716, Matěj II 1718, Šimon X 1719 (PWNMPZ 2 s63, s70, s74, s81; kmotr vždy Bartoloměj Sikora); kmotr už 30. 11. 1712. 10. 8. 1722 Bartoloměj, syn „Joannis Vitek et Hedvigis“ (K – chyba písaře?). Sňatek 1693–1717 ve farnosti není. Jistota K: ztotožnění Šimona Witka s hajným † 1779 není přímo doloženo. Rok narození je odhad.",
     "caak_dr11: další děti Žofie 27. 4. 1708 a Zuzana 14. 9. 1711 (PWNMPZ 2 s49, s58; M) → sňatek ~1706–07 mimo farnost. Úmrtí Bartoloměje ani Hedviky v zemřelých 1722–1760 nejsou; rodina po 1722 z matrik mizí (odchod?). Přímé spojení se Šimonem hajným stále chybí (K).",
-    "caak_dr36: kandidátní křest (K–D) 15. 8. 1683 Marklovice: „Bartholomaeum Viti Wi[t/l]ek et Evae“ (PWNMPZ 1 s84) → otec Vít Witek × Eva?"
+    "caak_dr36: kandidátní křest (K–D) 15. 8. 1683 Marklovice: „Bartholomaeum Viti Wi[t/l]ek et Evae“ (PWNMPZ 1 s84) → otec Vít Witek × Eva?",
+    "caak_dr38: Vít × Eva (Marklovice) – děti Jiří 9. 2. 1673, Eva 18. 11. 1674 (otec jen „Viti“, M); „Vitus Thoma“ je spíš patronymikum (Vít Tomášův) a „Witek“ pozdější příjmení (K). Křty V 1677 – VIII 1682 nepřečteny (CAAK server visel)."
    ],
    "sources": [
     "Archiwum Diecezji Bielsko-Żywieckiej, fara Zebrzydowice, PWNMPZ 2 (1693–1721) – CAAK, křty 1713–1719"
