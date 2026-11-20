@@ -4229,7 +4229,8 @@ window.RODOKMEN = {
     "Matka Vavřince ml. (křest 1715, M). Rok narození je odhad.",
     "caak_dr6: sňatek 22. 1. 1714 s Vavřincem Drapou: „Susan: Schimo-na(?)“ – koordinátor čte na výřezu „Schimo“ + pod řádkem „na“ (snad Šimonova dcera/„Szymonka“); rodné jméno K.",
     "caak_dr7: úmrtí 10. 4. 1723 (PWNMPZ 3 s281): „Obijt Susanna Laurentij Drapa uxor Sacramentis munita ex Seiberdorff“ (M; ztotožnění D). Syn Jan pokř. 23. 4. 1722 (s14, kmotři Jan Střibek a Eva Somerliková jako 1715).",
-    "caak_dr36: rodné jméno nerozhodnuto – kandidátky (K): Zuzana, dcera Šimona Skowronka a Mariny, * 16. 2. 1690 (PWNMPZ 1 s101; „Schimo-na“ = Šimonova?), nebo Zuzana, dcera Ondřeje Schimy a Anny, * 30. 6. 1695 (PWNMPZ 2 s17). Výřez 1714 čten „Schimo“ (ne Skowronek)."
+    "caak_dr36: rodné jméno nerozhodnuto – kandidátky (K): Zuzana, dcera Šimona Skowronka a Mariny, * 16. 2. 1690 (PWNMPZ 1 s101; „Schimo-na“ = Šimonova?), nebo Zuzana, dcera Ondřeje Schimy a Anny, * 30. 6. 1695 (PWNMPZ 2 s17). Výřez 1714 čten „Schimo“ (ne Skowronek).",
+    "caak_dr37: kandidátka Skowronková (K, mírně silnější): rodiče Šimon Skowronek × Marina, dcera † Jana Matuszka z Marklovic (∞ 20. 7. 1688, M); svědek 1714 Jan Skowronek; Skowronkové kmotry Drapů 1683–1692. Sňatek Ondřeje Schimy × Anny 1662–1693 nenalezen. Kmotři dětí 1715/1722 (Střibek, Somerliková) nerozhodují."
    ],
    "sources": [
     "Archiwum Diecezji Bielsko-Żywieckiej, fara Zebrzydowice, PWNMPZ 2 (1693–1721) – CAAK, křty VII 1715, snímek 68",
@@ -5171,15 +5172,20 @@ window.RODOKMEN = {
    "cert": "K",
    "alive": false,
    "maiden": "",
-   "father": "",
+   "father": "gregoriusDrapaSt",
    "mother": "",
    "sources": [
-    "fara Zebrzydowice, PWNMPZ 1 (1661–1693) – CAAK, křty 1683 (s84), 1688 (s98), 1692 (s107); PWNMPZ 2 s14 (1694)"
+    "fara Zebrzydowice, PWNMPZ 1 (1661–1693) – CAAK, křty 1683 (s84), 1688 (s98), 1692 (s107); PWNMPZ 2 s14 (1694)",
+    "fara Zebrzydowice, PWNMPZ 1 – CAAK, oddaní 14. 1. 1682 (s130)"
    ],
    "scans": [
     {
      "f": "img/1683_krest_vavrinec_drapa.jpg",
      "t": "Křest Vavřince, syna Šebestiána Drapy a Anny, Žibřidovice 10. 8. 1683; kmotři Jiří Skowronek a Kateřina Urbasiová"
+    },
+    {
+     "f": "img/1682_snatek_sebastian_drapa_anna_szkaradkova.jpg",
+     "t": "Sňatek Šebestiána, syna Řehoře Drapy, s Annou, dcerou Ondřeje Szkaradka, Žibřidovice 14. 1. 1682"
     }
    ],
    "id": "sebastianDrapaSt",
@@ -5196,23 +5202,29 @@ window.RODOKMEN = {
     "place": ""
    },
    "notes": [
-    "Otec Vavřince (1683), Bartoloměje (1688), Jakuba (1692) a Anny (1694), Žibřidovice (M). Kmotr 1686–1692. Sňatek s Annou před 1683 (oddaní PWNMPZ 1 1674–1684 zatím nečteny). Rok narození je odhad."
+    "Otec Vavřince (1683), Bartoloměje (1688), Jakuba (1692) a Anny (1694), Žibřidovice (M). Kmotr 1686–1692. Sňatek s Annou před 1683 (oddaní PWNMPZ 1 1674–1684 zatím nečteny). Rok narození je odhad.",
+    "caak_dr37: sňatek 14. 1. 1682: „Matrimonium contractum inter Sebastianum filium Gregorij Drapa ex Villa Zybrzydowice, et Annam filiam Andreae Szkaradek ex eadem Villa“, svědci Matěj Zamevlik a Jiří Dzieciak (M; ověřeno koordinátorem na výřezu). Jediný sňatek Drapy 1662–1693 (ztotožnění D). Vavřinec 1683 nejspíš první dítě."
    ]
   },
   {
    "line": "grzonka",
    "cert": "K",
    "alive": false,
-   "maiden": "",
-   "father": "",
+   "maiden": "Szkaradková (Szkaradek, Skarodek)",
+   "father": "andreasSzkaradekSt",
    "mother": "",
    "sources": [
-    "fara Zebrzydowice, PWNMPZ 1 (1661–1693) – CAAK, křty 1683 (s84), 1688 (s98), 1692 (s107); PWNMPZ 2 s14 (1694)"
+    "fara Zebrzydowice, PWNMPZ 1 (1661–1693) – CAAK, křty 1683 (s84), 1688 (s98), 1692 (s107); PWNMPZ 2 s14 (1694)",
+    "fara Zebrzydowice, PWNMPZ 1 – CAAK, oddaní 14. 1. 1682 (s130)"
    ],
    "scans": [
     {
      "f": "img/1683_krest_vavrinec_drapa.jpg",
      "t": "Křest Vavřince, syna Šebestiána Drapy a Anny, Žibřidovice 10. 8. 1683; kmotři Jiří Skowronek a Kateřina Urbasiová"
+    },
+    {
+     "f": "img/1682_snatek_sebastian_drapa_anna_szkaradkova.jpg",
+     "t": "Sňatek Šebestiána, syna Řehoře Drapy, s Annou, dcerou Ondřeje Szkaradka, Žibřidovice 14. 1. 1682"
     }
    ],
    "id": "annaDrapaSst",
@@ -5229,7 +5241,74 @@ window.RODOKMEN = {
     "place": ""
    },
    "notes": [
-    "Matka Vavřince (1683) a sourozenců 1688–1694, Žibřidovice (M). Rodné příjmení neznámé. Kmotra „Anna Drapowa/Drapina“ 1685–1693. Možná „Anna Drapin vidua“ 1746 (viz Vavřinec) – K. Rok narození je odhad."
+    "Matka Vavřince (1683) a sourozenců 1688–1694, Žibřidovice (M). Rodné příjmení neznámé. Kmotra „Anna Drapowa/Drapina“ 1685–1693. Možná „Anna Drapin vidua“ 1746 (viz Vavřinec) – K. Rok narození je odhad.",
+    "caak_dr37: dcera Ondřeje Szkaradka ze Žibřidovic (sňatek 1682, M)."
+   ]
+  },
+  {
+   "line": "grzonka",
+   "cert": "K",
+   "alive": false,
+   "maiden": "",
+   "father": "",
+   "mother": "",
+   "d": {
+    "date": "",
+    "year": null,
+    "place": ""
+   },
+   "sources": [
+    "fara Zebrzydowice, PWNMPZ 1 – CAAK, oddaní 14. 1. 1682 (s130)"
+   ],
+   "scans": [
+    {
+     "f": "img/1682_snatek_sebastian_drapa_anna_szkaradkova.jpg",
+     "t": "Sňatek Šebestiána, syna Řehoře Drapy, s Annou, dcerou Ondřeje Szkaradka, Žibřidovice 14. 1. 1682"
+    }
+   ],
+   "id": "gregoriusDrapaSt",
+   "name": "Řehoř (Gregorius) Drapa",
+   "b": {
+    "date": "",
+    "year": 1625,
+    "place": "",
+    "approx": true
+   },
+   "notes": [
+    "Otec Šebestiána Drapy podle oddacího zápisu 1682 („Sebastianum filium Gregorij Drapa ex Villa Zybrzydowice“, M); v zápisu není uveden jako zemřelý. Žibřidovice. Rok narození je odhad."
+   ]
+  },
+  {
+   "line": "grzonka",
+   "cert": "K",
+   "alive": false,
+   "maiden": "",
+   "father": "",
+   "mother": "",
+   "d": {
+    "date": "",
+    "year": null,
+    "place": ""
+   },
+   "sources": [
+    "fara Zebrzydowice, PWNMPZ 1 – CAAK, oddaní 14. 1. 1682 (s130)"
+   ],
+   "scans": [
+    {
+     "f": "img/1682_snatek_sebastian_drapa_anna_szkaradkova.jpg",
+     "t": "Sňatek Šebestiána, syna Řehoře Drapy, s Annou, dcerou Ondřeje Szkaradka, Žibřidovice 14. 1. 1682"
+    }
+   ],
+   "id": "andreasSzkaradekSt",
+   "name": "Ondřej (Andreas) Szkaradek",
+   "b": {
+    "date": "",
+    "year": 1630,
+    "place": "",
+    "approx": true
+   },
+   "notes": [
+    "Otec Anny podle oddacího zápisu 1682 („Annam filiam Andreae Szkaradek ex eadem Villa“, M). Žibřidovice. Rok narození je odhad."
    ]
   }
  ],
