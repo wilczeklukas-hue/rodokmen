@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Rodokmen Wilczek</title>
-<meta name="build-id" content="1795163355899">
+<meta name="build-id" content="1795165026515">
 <meta name="description" content="Rodokmen rodin Wilczek, Opiol, Matusinský a Drozd">
 <style>
 :root {
@@ -202,6 +202,49 @@ footer.note { color: var(--muted); font-size: 12px; padding: 8px 16px 20px; max-
   #detail dl { grid-template-columns: 84px 1fr; }
 }
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+/* animation tab (3D ancestors) */
+#animview { background: #000; color: #f3ead8; overflow: hidden; touch-action: none; user-select: none; -webkit-user-select: none; }
+#animview canvas { position: absolute; inset: 0; width: 100%; height: 100%; display: block; cursor: grab; }
+#animview canvas.drag { cursor: grabbing; }
+#animview canvas.hot { cursor: pointer; }
+.an-hud { position: absolute; left: 0; right: 0; top: 0; padding: 18px 16px 0; text-align: center; pointer-events: none;
+  text-shadow: 0 1px 12px rgba(0,0,0,.9); }
+.an-kick { font-size: 12px; letter-spacing: .22em; text-transform: uppercase; color: #d9b46a; font-weight: 600; min-height: 1.4em; }
+.an-num { font-size: clamp(44px, 9vw, 92px); line-height: 1.02; font-weight: 700; color: #fff4dc; font-variant-numeric: tabular-nums;
+  letter-spacing: -.01em; margin-top: 4px; }
+.an-q { font-size: clamp(14px, 2.1vw, 18px); color: #efe3c8; margin-top: 4px; }
+.an-known { font-size: 13px; color: #b9a988; margin-top: 4px; min-height: 1.3em; }
+.an-ruler { position: absolute; left: 16px; bottom: 58px; font-size: 12px; line-height: 1.55; pointer-events: none;
+  font-variant-numeric: tabular-nums; color: #f3ead8; text-shadow: 0 1px 6px #000; }
+.an-ruler div { display: grid; grid-template-columns: 3.4em 1.2em 4.6em auto; opacity: .14; transition: opacity .4s, color .4s; }
+.an-ruler div.lit { opacity: .55; }
+.an-ruler div.cur { opacity: 1; color: #ffd98a; font-weight: 600; }
+.an-ruler i { font-style: normal; color: #8f8470; }
+.an-ctl { position: absolute; left: 16px; bottom: 16px; display: flex; gap: 8px; }
+.an-ctl button, .an-sum button { border: 1px solid rgba(255,235,200,.28); background: rgba(20,16,10,.72); color: #f3ead8; border-radius: 6px;
+  padding: 6px 12px; cursor: pointer; font: inherit; font-size: 13px; }
+.an-ctl button:hover { border-color: #d9b46a; }
+.an-hint { position: absolute; right: 16px; bottom: 20px; font-size: 11.5px; color: #7d7462; pointer-events: none; }
+.an-lbl { position: absolute; left: 0; top: 0; transform: translate(-50%, 10px); font-size: 12px; color: #f6e8c8; white-space: nowrap;
+  pointer-events: none; text-shadow: 0 1px 4px #000, 0 0 10px #000; transition: opacity .3s; }
+.an-lbl.root { font-size: 14px; font-weight: 600; color: #fff; transform: translate(-50%, 16px); }
+.an-tip { position: absolute; z-index: 5; max-width: 260px; padding: 8px 10px; border-radius: 7px; background: rgba(18,14,8,.94);
+  border: 1px solid rgba(217,180,106,.45); color: #f3ead8; font-size: 12.5px; line-height: 1.4; pointer-events: none; }
+.an-tip b { color: #fff; font-size: 13.5px; }
+.an-tip em { display: block; margin-top: 4px; color: #d9b46a; font-style: normal; font-size: 11.5px; }
+.an-sum { position: absolute; right: 16px; bottom: 44px; width: min(380px, calc(100% - 32px)); padding: 14px 34px 14px 16px; border-radius: 10px;
+  background: rgba(16,12,6,.86); border: 1px solid rgba(217,180,106,.35); font-size: 13.5px; line-height: 1.5; color: #eadfc6; }
+.an-sum p { margin: 0 0 7px; }
+.an-sum p:last-child { margin-bottom: 0; }
+.an-sum b { color: #fff4dc; }
+.an-sum .blue { color: #8fb6ff; }
+.an-sum .x { position: absolute; right: 6px; top: 6px; padding: 0 8px; border: 0; background: none; font-size: 18px; line-height: 1.4; }
+.an-err { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; padding: 24px; text-align: center; color: #d9c9a8; }
+@media (max-width: 640px) {
+  .an-ruler, .an-hint { display: none; }
+  .an-sum { bottom: 60px; font-size: 12.5px; }
+  .an-hud { padding-top: 12px; }
+}
 </style>
 </head>
 <body>
@@ -215,6 +258,7 @@ footer.note { color: var(--muted); font-size: 12px; padding: 8px 16px 20px; max-
       <button role="tab" aria-selected="true" data-view="treeview">Rodokmen</button>
       <button role="tab" aria-selected="false" data-view="wideview">Širší okruh</button>
       <button role="tab" aria-selected="false" data-view="mapview">Odkud jsme</button>
+      <button role="tab" aria-selected="false" data-view="animview" id="tabAnim">Animace</button>
     </div>
     <div class="tools">
       <div class="search">
@@ -272,6 +316,7 @@ footer.note { color: var(--muted); font-size: 12px; padding: 8px 16px 20px; max-
     </div>
     <footer class="note">Hranice států: Natural Earth (public domain). Body na mapě: místa narození a úmrtí s rokem prvního doložení.</footer>
   </section>
+  <section class="view" id="animview" aria-label="3D animace předků"></section>
 </main>
 <div id="viewer" hidden><div class="bar"><span id="vt"></span><span><button type="button" id="vz">Přiblížit</button> <button type="button" id="vx">Zavřít</button></span></div><div class="pane fit" id="vpane"><img id="vi" alt=""></div></div>
 <script>// Generated by datatool.js – do not edit by hand.
@@ -5280,7 +5325,7 @@ window.RODOKMEN_EVENTS = [
   { y: 2026, t: 'Plánovaný konec hlubinné těžby černého uhlí v ostravsko-karvinském revíru (OKD) po zhruba 250 letech', s: 'Konec těžby uhlí (plán)' }
 ];
 </script>
-<script>window.BUILD_STAMP = "20. 11. 2026 09:29";</script>
+<script>window.BUILD_STAMP = "20. 11. 2026 09:57";</script>
 <script>
 (function () {
   'use strict';
@@ -5954,7 +5999,7 @@ const yr = b => (b.approx ? '~' : '') + b.year;
   $('#mapview').addEventListener('click', e => { const a = e.target.closest('a.p'); if (a) goTo(a.dataset.id); });
 
   // ---------- tabs ----------
-  const HASH = { mapview: '#mapa', wideview: '#okruh' };
+  const HASH = { mapview: '#mapa', wideview: '#okruh', animview: '#animace' };
   function showView(id) {
     document.querySelectorAll('.view').forEach(v => v.classList.toggle('on', v.id === id));
     document.querySelectorAll('.tabs button').forEach(b => b.setAttribute('aria-selected', String(b.dataset.view === id)));
@@ -5962,7 +6007,11 @@ const yr = b => (b.approx ? '~' : '') + b.year;
     if (id === 'wideview') renderWide();
     if (id === 'treeview') { remeasure(); apply(); }
     store.set('rodokmen.tab', id);
+    if (window.RV_anim) { if (id === 'animview') window.RV_anim.start(); else window.RV_anim.stop(); }
   }
+  window.RV_focus = id => goTo(id);
+  window.RV_show = showView;
+  window.addEventListener('hashchange', () => { const k = Object.keys(HASH).find(v => HASH[v] === location.hash); if (k) showView(k); });
   document.querySelectorAll('.tabs button').forEach(b => { b.onclick = () => showView(b.dataset.view); });
 
   // ---------- start ----------
@@ -5979,6 +6028,466 @@ const yr = b => (b.approx ? '~' : '') + b.year;
   if (tab && tab !== 'treeview' && document.getElementById(tab)) showView(tab);
   if (document.fonts && document.fonts.ready) document.fonts.ready.then(() => { remeasure(); layoutAxis(); });
   window.__rodokmen = { Z, fit, select, world: () => world, events: () => EVENTS };
+})();
+</script>
+<script>
+// 3D ancestor animation ("How many people did it take to make you?") – reads window.RODOKMEN only.
+(function () {
+  'use strict';
+  const D = window.RODOKMEN;
+  const host = document.getElementById('animview');
+  if (!D || !host) return;
+  const byId = new Map(D.people.map(p => [p.id, p]));
+  const root = byId.get(D.root);
+  if (!root) return;
+  const esc = s => String(s == null ? '' : s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+  const fmt = n => Math.round(n).toLocaleString('cs-CZ');
+  const yrTxt = b => b && b.year ? (b.approx ? '~' : '') + b.year : '';
+
+  // ---------- ahnentafel ----------
+  const slotId = new Map();          // slot number -> person id
+  (function fill(n, id) {
+    slotId.set(n, id);
+    const p = byId.get(id);
+    if (p.father && byId.has(p.father)) fill(2 * n, p.father);
+    if (p.mother && byId.has(p.mother)) fill(2 * n + 1, p.mother);
+  })(1, D.root);
+  const genOf = n => 31 - Math.clz32(n);
+  let deepest = 0;
+  for (const n of slotId.keys()) deepest = Math.max(deepest, genOf(n));
+  const G = Math.max(13, deepest + 1);
+  const N = 2 ** (G + 1);            // slots 1 .. N-1
+  const noise = n => { const x = Math.sin(n * 12.9898 + 78.233) * 43758.5453; return x - Math.floor(x); };
+  const rootYear = (root.b && root.b.year) || new Date().getFullYear() - 30;
+  const year = new Float32Array(N);
+  year[1] = rootYear;
+  for (let n = 2; n < N; n++) {
+    const child = year[n >> 1];
+    const p = byId.get(slotId.get(n));
+    let y = p && p.b && p.b.year ? p.b.year : child - (n & 1 ? 26 : 31) + (noise(n) - 0.5) * 8;
+    year[n] = Math.min(y, child - 14);
+  }
+  // implex: people in more than one slot; "youngest" occurrences = their children in those slots differ
+  const occ = new Map();
+  for (const [n, id] of slotId) if (n > 1) { if (!occ.has(id)) occ.set(id, []); occ.get(id).push(n); }
+  const implex = [];
+  for (const [id, ns] of occ) {
+    if (ns.length < 2) continue;
+    const kids = new Set(ns.map(n => slotId.get(n >> 1)));
+    if (kids.size === ns.length) implex.push({ id, ns });
+  }
+  const implexSlots = new Set(implex.flatMap(x => x.ns));
+
+  // per-generation stats
+  const gen = [];
+  for (let g = 0; g <= G; g++) {
+    let k = 0, sumY = 0, minY = Infinity, maxY = -Infinity;
+    const seen = new Set();
+    for (let n = 2 ** g; n < 2 ** (g + 1); n++) {
+      sumY += year[n];
+      const id = slotId.get(n);
+      if (id) {
+        if (!seen.has(id)) { seen.add(id); k++; }
+        const p = byId.get(id);
+        if (p.b && p.b.year) { minY = Math.min(minY, p.b.year); maxY = Math.max(maxY, p.b.year); }
+      }
+    }
+    gen.push({ k, slots: 2 ** g, y: sumY / 2 ** g, minY, maxY });
+  }
+  const knownAnc = new Set([...slotId.values()].filter(id => id !== D.root));
+  // same criterion as the page header: direct ancestor with cert M and a birth year
+  const oldest = [...knownAnc].map(id => byId.get(id)).filter(p => p.cert === 'M' && p.b && p.b.year)
+    .reduce((a, p) => !a || p.b.year < a.b.year ? p : a, null);
+
+  // ---------- geometry helpers ----------
+  const Y = n => (rootYear - year[n]) * 0.105;
+  const R = g => g === 0 ? 0 : 2.1 * Math.pow(g, 0.92);
+  const ang = n => { const g = genOf(n); return 2 * Math.PI * (n - 2 ** g + 0.5) / 2 ** g + Math.PI / 2; };
+  const pos = n => { const g = genOf(n), r = R(g), a = ang(n); return [r * Math.cos(a), Y(n), r * Math.sin(a)]; };
+  const genY = g => g <= 0 ? 0 : (rootYear - gen[Math.min(G, g)].y) * 0.105;
+  const genYf = f => { const a = Math.floor(f), b = Math.min(G, a + 1), t = f - a; return genY(a) * (1 - t) + genY(b) * t; };
+  const Rf = f => 2.1 * Math.pow(Math.max(f, 0.001), 0.92);
+
+  const GEN_NAMES = ['', 'Rodiče', 'Prarodiče', 'Praprarodiče', 'Prapraprarodiče'];
+  const genName = g => GEN_NAMES[g] || `Předkové ${g}. generace`;
+  const first = root.name.split(' ')[0];
+  const surname = root.name.trim().split(/\s+/).pop() || '';
+  const fem = /á$/.test(surname);
+
+  // ---------- DOM ----------
+  host.innerHTML =
+    `<div class="an-hud"><div class="an-kick"></div><div class="an-num">1</div>` +
+    `<div class="an-q">Kolik lidí bylo potřeba, aby se ${fem ? 'narodila' : 'narodil'} ${esc(first)}?</div><div class="an-known"></div></div>` +
+    `<div class="an-ruler" aria-hidden="true"></div>` +
+    `<div class="an-ctl"><button type="button" class="an-pause">Pauza</button><button type="button" class="an-replay">Přehrát znovu</button></div>` +
+    `<div class="an-hint">táhnutím otočit · kolečkem přiblížit · klik na bod = osoba v rodokmenu</div>` +
+    `<div class="an-labels"></div><div class="an-tip" hidden></div><div class="an-sum" hidden></div>`;
+  const $ = s => host.querySelector(s);
+  const hudKick = $('.an-kick'), hudNum = $('.an-num'), hudKnown = $('.an-known'), ruler = $('.an-ruler'),
+    tip = $('.an-tip'), sum = $('.an-sum'), labelsBox = $('.an-labels'), btnPause = $('.an-pause');
+  ruler.innerHTML = gen.slice(1).map((s, i) =>
+    `<div data-g="${i + 1}"><span>${Math.round(s.y)}</span><i>–</i><span>${fmt(s.slots)}</span><span>${s.k ? s.k + ' známe' : ''}</span></div>`).join('');
+  const rulerRows = [...ruler.children];
+
+  const yearsSpan = Math.round(rootYear - gen[G].y);
+  const implexNames = implex.map(x => byId.get(x.id).name);
+  const nm = implexNames.length;
+  const implexTxt = !nm
+    ? 'Implex (ztrátu předků) jsme zatím nenašli – každý známý předek se ve stromu vyskytuje jen jednou.'
+    : (nm === 1 ? implexNames[0] + ' se ve stromu vyskytuje' : nm === 2 ? implexNames.join(' a ') + ' se ve stromu vyskytují' : nm + ' předků (např. ' + implexNames.slice(0, 2).join(', ') + ') se ve stromu vyskytuje') +
+      ' vícekrát – jejich potomci z různých větví se později vzali. Tomu se říká <span class="blue">implex</span> (modré body a oblouky): skutečných lidí je proto méně, než kolik je míst.';
+  sum.innerHTML = `<button type="button" class="x" aria-label="Zavřít shrnutí">×</button>` +
+    `<p>Za <b>${G} generací</b> (asi ${yearsSpan} let) je v rodokmenu <b>${fmt(2 ** (G + 1) - 2)}</b> míst – a každý pár se musel potkat, aby ${fem ? 'se narodila' : 'se narodil'} ${esc(first)}.</p>` +
+    `<p>Jménem známe <b>${knownAnc.size}</b> ${knownAnc.size === 1 ? 'předka' : 'předků'}.` +
+    (oldest ? ` Nejstarší doložený předek: <b>${esc(oldest.name)}</b> (*${yrTxt(oldest.b)}).` : '') + `</p>` +
+    `<p>${esc(implexTxt).replace(/&lt;(\/?)span( class=&quot;blue&quot;)?&gt;/g, (m, sl, c) => '<' + sl + 'span' + (c ? ' class="blue"' : '') + '>')}</p>`;
+  let sumClosed = false;
+  sum.querySelector('.x').onclick = () => { sumClosed = true; sum.hidden = true; };
+
+  // ---------- state ----------
+  const reduce = window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const END = G + 0.6;
+  let prog = reduce ? END : 0, paused = false, running = false, raf = 0, lastT = 0, clock = 0, autoClock = 0;
+  let three = null, loading = null, failed = false;
+  let renderer, scene, camera, composer, bloom, lineMat, ptsMat;
+  const cam = { th: 0, ph: 1.62, d: 12, ty: 0 };
+  const user = { th: 0, ph: 0, zoom: 1, last: -1e9 };
+  let shownG = -1, numFrom = 1, numTo = 1, numT = 1;
+  const labels = [];
+  const hot = [];   // known slots for hover/click
+
+  function cssColor(line) {
+    let c = '';
+    try { c = getComputedStyle(document.documentElement).getPropertyValue('--l-' + line).trim(); } catch (e) { c = ''; }
+    if (!c) { const l = (D.lines || []).find(x => x.id === line); c = l ? l.color : '#d9b46a'; }
+    const cx = document.createElement('canvas').getContext('2d');
+    cx.fillStyle = '#d9b46a'; cx.fillStyle = c;
+    const h = cx.fillStyle;
+    if (/^#[0-9a-f]{6}$/i.test(h)) return [parseInt(h.slice(1, 3), 16) / 255, parseInt(h.slice(3, 5), 16) / 255, parseInt(h.slice(5, 7), 16) / 255];
+    const m = h.match(/[\d.]+/g) || [217, 180, 106];
+    return [m[0] / 255, m[1] / 255, m[2] / 255];
+  }
+  const GOLD = [1.0, 0.78, 0.38];
+  const mix = (a, b, t) => [a[0] * (1 - t) + b[0] * t, a[1] * (1 - t) + b[1] * t, a[2] * (1 - t) + b[2] * t];
+  const lineCol = new Map();
+  const colOf = p => { if (!lineCol.has(p.line)) lineCol.set(p.line, mix(cssColor(p.line), GOLD, 0.5)); return lineCol.get(p.line); };
+
+  // ---------- scene ----------
+  const VS_L = `attribute float aT; attribute vec3 aCol; attribute float aA; uniform float uProg; uniform float uGain; varying vec3 vCol; varying float vA;
+    void main(){ float d = uProg - aT; float on = smoothstep(0.0, 0.04, d);
+      float head = step(0.0, d) * exp(-max(d, 0.0) * 3.0);
+      vA = aA * on * (1.0 + 1.6 * head) * (aA < 0.2 ? uGain : 1.0); vCol = aCol;
+      gl_Position = projectionMatrix * modelViewMatrix * vec4(position, 1.0); }`;
+  const FS_L = `varying vec3 vCol; varying float vA; void main(){ if (vA < 0.001) discard; gl_FragColor = vec4(vCol * vA, 1.0); }`;
+  const VS_P = `attribute float aT; attribute float aSize; attribute vec3 aCol; attribute float aKind;
+    uniform float uProg; uniform float uScale; uniform float uTime; varying vec3 vCol; varying float vA;
+    void main(){ vec4 mv = modelViewMatrix * vec4(position, 1.0); float age = uProg - aT; float on = step(0.0, age);
+      float pop = 1.0 + 1.6 * exp(-max(age, 0.0) * 5.0);
+      float s = aSize * pop; if (aKind < 0.5) s *= 1.0 + 0.09 * sin(uTime * 2.2);
+      gl_PointSize = on * clamp(s * uScale / -mv.z, 1.4, 90.0);
+      vCol = aCol; vA = on * clamp(age * 2.5, 0.0, 1.0); gl_Position = projectionMatrix * mv; }`;
+  const FS_P = `varying vec3 vCol; varying float vA; void main(){ vec2 c = gl_PointCoord - 0.5; float d = length(c) * 2.0; if (d > 1.0) discard;
+      float g = pow(1.0 - d, 2.2) + 0.7 * smoothstep(0.38, 0.0, d); gl_FragColor = vec4(vCol * g * vA, 1.0); }`;
+
+  function build() {
+    const T = three.T;
+    renderer = new T.WebGLRenderer({ antialias: true, powerPreference: 'high-performance' });
+    renderer.setPixelRatio(Math.min(2, window.devicePixelRatio || 1));
+    renderer.setClearColor(0x000000, 1);
+    host.prepend(renderer.domElement);
+    scene = new T.Scene();
+    camera = new T.PerspectiveCamera(50, 1, 0.1, 2000);
+
+    // threads child -> parent
+    const lp = [], lt = [], lc = [], la = [];
+    const push = (p, t, c, a) => { lp.push(p[0], p[1], p[2]); lt.push(t); lc.push(c[0], c[1], c[2]); la.push(a); };
+    for (let n = 2; n < N; n++) {
+      const g = genOf(n), p0 = pos(n >> 1), p1 = pos(n);
+      const known = slotId.has(n);
+      const a = known ? 0.55 : g <= 6 ? 0.10 : g <= 10 ? 0.045 : g <= 11 ? 0.022 : 0.013;
+      const c = known ? colOf(byId.get(slotId.get(n))) : GOLD;
+      const segs = g <= 8 ? 12 : g <= 10 ? 8 : 4;
+      const an = ang(n), amp = known ? 0 : 0.05 * g, ph = noise(n) * 6.283;
+      const at = t => {
+        const s = 3 * t * t - 2 * t * t * t, w = amp * Math.sin(Math.PI * t) * Math.sin(3 * Math.PI * t + ph);
+        return [p0[0] + (p1[0] - p0[0]) * s - Math.sin(an) * w, p0[1] + (p1[1] - p0[1]) * t, p0[2] + (p1[2] - p0[2]) * s + Math.cos(an) * w];
+      };
+      let prev = at(0);
+      for (let i = 1; i <= segs; i++) {
+        const t0 = (i - 1) / segs, t1 = i / segs, cur = at(t1);
+        push(prev, g - 1 + t0, c, a); push(cur, g - 1 + t1, c, a); prev = cur;
+      }
+    }
+    // generation rings
+    for (let g = 1; g <= G; g++) {
+      const y = genY(g), r = R(g), K = 160;
+      for (let i = 0; i < K; i++) {
+        const a0 = i / K * 6.2832, a1 = (i + 1) / K * 6.2832;
+        push([r * Math.cos(a0), y, r * Math.sin(a0)], g - 0.3, [0.5, 0.5, 0.5], 0.09);
+        push([r * Math.cos(a1), y, r * Math.sin(a1)], g - 0.3, [0.5, 0.5, 0.5], 0.09);
+      }
+    }
+    // implex arcs (3 parallel strands for thickness)
+    const BLUE = [0.38, 0.62, 1.0];
+    for (const x of implex) {
+      for (let i = 0; i + 1 < x.ns.length; i++) {
+        const A = pos(x.ns[i]), B = pos(x.ns[i + 1]), gg = Math.max(genOf(x.ns[i]), genOf(x.ns[i + 1]));
+        const lift = 1.2 + 0.25 * Math.hypot(A[0] - B[0], A[2] - B[2]);
+        for (const off of [-0.035, 0, 0.035]) {
+          const K = 28; let prev = null;
+          for (let k = 0; k <= K; k++) {
+            const t = k / K, q = [A[0] + (B[0] - A[0]) * t, A[1] + (B[1] - A[1]) * t + lift * 4 * t * (1 - t) + off, A[2] + (B[2] - A[2]) * t];
+            if (prev) { push(prev, gg + 0.3, BLUE, 0.6); push(q, gg + 0.3, BLUE, 0.6); }
+            prev = q;
+          }
+        }
+      }
+    }
+    const lg = new T.BufferGeometry();
+    lg.setAttribute('position', new T.Float32BufferAttribute(lp, 3));
+    lg.setAttribute('aT', new T.Float32BufferAttribute(lt, 1));
+    lg.setAttribute('aCol', new T.Float32BufferAttribute(lc, 3));
+    lg.setAttribute('aA', new T.Float32BufferAttribute(la, 1));
+    lineMat = new T.ShaderMaterial({ uniforms: { uProg: { value: 0 }, uGain: { value: 1 } }, vertexShader: VS_L, fragmentShader: FS_L,
+      transparent: true, depthWrite: false, blending: T.AdditiveBlending });
+    const lines = new T.LineSegments(lg, lineMat); lines.frustumCulled = false; scene.add(lines);
+
+    // points
+    const pp = [], pt = [], ps = [], pc = [], pk = [];
+    for (let n = 1; n < N; n++) {
+      const id = slotId.get(n), p = id && byId.get(id), g = genOf(n), P = pos(n);
+      pp.push(P[0], P[1], P[2]); pt.push(n === 1 ? 0 : g - 0.02);
+      let kind, size, col;
+      if (n === 1) { kind = 0; size = 0.95; col = [1.0, 0.92, 0.7]; }
+      else if (implexSlots.has(n)) { kind = 3; size = 0.62; col = [0.42, 0.66, 1.0]; }
+      else if (p) { kind = 1; size = 0.4; col = colOf(p); }
+      else { kind = 2; size = g > 10 ? 0.1 : 0.13; const f = g > 10 ? 0.4 : 1; col = [0.5 * f, 0.38 * f, 0.17 * f]; }
+      ps.push(size); pc.push(col[0], col[1], col[2]); pk.push(kind);
+      if (p) hot.push({ n, id, P, g });
+    }
+    const pg = new T.BufferGeometry();
+    pg.setAttribute('position', new T.Float32BufferAttribute(pp, 3));
+    pg.setAttribute('aT', new T.Float32BufferAttribute(pt, 1));
+    pg.setAttribute('aSize', new T.Float32BufferAttribute(ps, 1));
+    pg.setAttribute('aCol', new T.Float32BufferAttribute(pc, 3));
+    pg.setAttribute('aKind', new T.Float32BufferAttribute(pk, 1));
+    ptsMat = new T.ShaderMaterial({ uniforms: { uProg: { value: 0 }, uScale: { value: 800 }, uTime: { value: 0 } }, vertexShader: VS_P, fragmentShader: FS_P,
+      transparent: true, depthWrite: false, blending: T.AdditiveBlending });
+    const pts = new T.Points(pg, ptsMat); pts.frustumCulled = false; scene.add(pts);
+
+    // faint disc under the root
+    const disc = new T.Mesh(new T.CircleGeometry(3.2, 64), new T.MeshBasicMaterial({ color: 0x3a2c10, transparent: true, opacity: 0.35, blending: T.AdditiveBlending, depthWrite: false }));
+    disc.rotation.x = -Math.PI / 2; disc.position.y = -0.03; scene.add(disc);
+
+    composer = new three.EffectComposer(renderer);
+    composer.addPass(new three.RenderPass(scene, camera));
+    bloom = new three.UnrealBloomPass(new T.Vector2(256, 256), 0.7, 0.5, 0.25);
+    composer.addPass(bloom);
+    composer.addPass(new three.OutputPass());
+
+    // 3D name labels: root + two nearest generations
+    for (const h of hot) {
+      if (h.g > 2) continue;
+      const p = byId.get(h.id), el = document.createElement('div');
+      el.className = 'an-lbl' + (h.n === 1 ? ' root' : '');
+      el.textContent = h.n === 1 ? p.name : p.name.replace(/\s*\(.*?\)\s*/g, ' ').trim() + (p.b && p.b.year ? ' · ' + yrTxt(p.b) : '');
+      labelsBox.appendChild(el); labels.push({ el, h });
+    }
+    const rootH = hot.find(h => h.n === 1);
+    if (rootH && !labels.some(l => l.h.n === 1)) { /* root always included above */ }
+    bindInput();
+    resize();
+    new ResizeObserver(resize).observe(host);
+  }
+
+  function resize() {
+    if (!renderer) return;
+    const w = Math.max(1, host.clientWidth), h = Math.max(1, host.clientHeight), pr = renderer.getPixelRatio();
+    renderer.setSize(w, h, false); composer.setSize(w, h); bloom.resolution.set(w, h);
+    camera.aspect = w / h; camera.updateProjectionMatrix();
+    ptsMat.uniforms.uScale.value = h * pr / 2 / Math.tan(camera.fov * Math.PI / 360);
+    lineMat.uniforms.uGain.value = Math.min(1, Math.max(0.35, Math.pow(Math.min(w, h * 1.4) / 1150, 1.1)));
+  }
+
+  // ---------- camera choreography ----------
+  function goal() {
+    const f = Math.min(G, Math.max(1.4, prog));
+    const top = genYf(f), r = Rf(f);
+    const tan = Math.tan(camera.fov * Math.PI / 360), asp = camera.aspect;
+    // the HUD covers the top ~30 %: put the growing ring ~35 % from the top, the root ~85 %
+    const dist = Math.max((top + 1.5) / tan * 1.05, r / (tan * asp * 0.85)) + r * 0.5 + 2;
+    const t = Math.min(1, prog / G);
+    return { th: autoClock * 0.06, ph: 1.62 - 0.25 * t, d: Math.max(7, dist), ty: top * 0.66 };
+  }
+  function updateCamera(dt) {
+    const g = goal(), idle = clock - user.last > 2.5;
+    if (idle && !reduce) autoClock += dt;
+    const k = Math.min(1, dt * (idle ? 1.6 : 0));
+    cam.th += (g.th - cam.th) * k; cam.ph += (g.ph - cam.ph) * k; cam.d += (g.d - cam.d) * k; cam.ty += (g.ty - cam.ty) * k;
+    const th = cam.th + user.th, ph = Math.min(2.6, Math.max(0.25, cam.ph + user.ph)), d = cam.d * user.zoom;
+    camera.position.set(d * Math.sin(ph) * Math.sin(th), cam.ty + d * Math.cos(ph), d * Math.sin(ph) * Math.cos(th));
+    camera.lookAt(0, cam.ty, 0);
+    camera.updateMatrixWorld();
+    return d;
+  }
+
+  // ---------- HUD ----------
+  function updateHud(dt) {
+    const g = Math.max(0, Math.min(G, Math.floor(prog + 1e-6)));
+    if (g !== shownG) {
+      shownG = g;
+      numFrom = numTo + (numFrom - numTo) * (1 - numT); numTo = 2 ** g; numT = 0;
+      const s = gen[g];
+      if (g === 0) hudKick.textContent = `${fem ? 'Narozena' : 'Narozen'} ${yrTxt(root.b) || rootYear}`;
+      else hudKick.textContent = `${genName(g)} · ` + (s.minY <= s.maxY ? (s.minY === s.maxY ? `narozeni ${s.minY}` : `narozeni ${s.minY}–${s.maxY}`) : `narozeni kolem ${Math.round(s.y / 10) * 10}`);
+      hudKnown.textContent = g === 0 ? '' : s.k ? `jménem doloženo ${fmt(s.k)} z ${fmt(s.slots)}` : 'tady už jména nikdo nezapsal – nebo se nedochovala';
+      rulerRows.forEach((r, i) => { r.classList.toggle('lit', i + 1 < g); r.classList.toggle('cur', i + 1 === g); });
+    }
+    numT = Math.min(1, numT + dt / 0.6);
+    const e = 1 - Math.pow(1 - numT, 3);
+    hudNum.textContent = fmt(numFrom + (numTo - numFrom) * e);
+    const done = prog >= END - 0.01;
+    if (done && !sumClosed && sum.hidden) sum.hidden = false;
+    btnPause.textContent = paused ? 'Přehrát' : 'Pauza';
+  }
+  function updateLabels(dist) {
+    const w = host.clientWidth, h = host.clientHeight, v = new three.T.Vector3();
+    const narrowSum = w < 640 && !sum.hidden;
+    for (const { el, h: k } of labels) {
+      v.set(k.P[0], k.P[1], k.P[2]).project(camera);
+      const vis = prog >= k.g + 0.15 && v.z < 1 && (k.n === 1 ? !narrowSum : dist < 34);
+      el.style.opacity = vis ? '1' : '0';
+      el.style.left = ((v.x + 1) / 2 * w).toFixed(1) + 'px';
+      el.style.top = ((1 - v.y) / 2 * h).toFixed(1) + 'px';
+    }
+  }
+
+  // ---------- input ----------
+  let drag = null, pinch = null, hoverH = null;
+  const pointers = new Map();
+  function pick(x, y) {
+    const w = host.clientWidth, h = host.clientHeight, v = new three.T.Vector3();
+    let best = null, bd = 18 * 18;
+    for (const k of hot) {
+      if (prog < k.g) continue;
+      v.set(k.P[0], k.P[1], k.P[2]).project(camera);
+      if (v.z > 1) continue;
+      const dx = (v.x + 1) / 2 * w - x, dy = (1 - v.y) / 2 * h - y, d = dx * dx + dy * dy;
+      if (d < bd) { bd = d; best = k; }
+    }
+    return best;
+  }
+  function showTip(k, x, y) {
+    if (!k) { tip.hidden = true; return; }
+    const p = byId.get(k.id), dt = e => e ? [e.date || yrTxt(e), e.place].filter(Boolean).join(', ') : '';
+    tip.innerHTML = `<b>${esc(p.name)}</b>` + (p.maiden ? `<br>roz. ${esc(p.maiden)}` : '') +
+      (dt(p.b) ? `<br>* ${esc(dt(p.b))}` : '') + (p.d && dt(p.d) ? `<br>† ${esc(dt(p.d))}` : '') +
+      `<em>kliknutím otevřete v rodokmenu</em>`;
+    tip.hidden = false;
+    const w = host.clientWidth, tw = tip.offsetWidth, th = tip.offsetHeight;
+    tip.style.left = Math.min(w - tw - 8, x + 14) + 'px';
+    tip.style.top = Math.max(8, y - th - 10) + 'px';
+  }
+  function bindInput() {
+    const cv = renderer.domElement;
+    const local = e => { const r = cv.getBoundingClientRect(); return [e.clientX - r.left, e.clientY - r.top]; };
+    cv.addEventListener('pointerdown', e => {
+      cv.setPointerCapture(e.pointerId);
+      pointers.set(e.pointerId, local(e));
+      if (pointers.size === 1) drag = { x: e.clientX, y: e.clientY, sx: e.clientX, sy: e.clientY };
+      if (pointers.size === 2) { const [a, b] = [...pointers.values()]; pinch = { d: Math.hypot(a[0] - b[0], a[1] - b[1]), z: user.zoom }; drag = null; }
+    });
+    cv.addEventListener('pointermove', e => {
+      const [x, y] = local(e);
+      if (pointers.has(e.pointerId)) pointers.set(e.pointerId, [x, y]);
+      if (pinch && pointers.size === 2) {
+        const [a, b] = [...pointers.values()], d = Math.hypot(a[0] - b[0], a[1] - b[1]);
+        user.zoom = Math.min(4, Math.max(0.25, pinch.z * pinch.d / Math.max(10, d))); user.last = clock; return;
+      }
+      if (drag) {
+        const dx = e.clientX - drag.x, dy = e.clientY - drag.y;
+        if (Math.hypot(e.clientX - drag.sx, e.clientY - drag.sy) > 5) { cv.classList.add('drag'); tip.hidden = true; }
+        user.th -= dx * 0.006; user.ph -= dy * 0.005; drag.x = e.clientX; drag.y = e.clientY; user.last = clock;
+        if (!running) frame(performance.now());
+        return;
+      }
+      if (e.pointerType === 'mouse') {
+        hoverH = pick(x, y); showTip(hoverH, x, y); cv.classList.toggle('hot', !!hoverH); if (hoverH) user.last = clock;
+      }
+    });
+    const end = e => {
+      const wasClick = drag && Math.hypot(e.clientX - drag.sx, e.clientY - drag.sy) < 6 && pointers.size === 1;
+      pointers.delete(e.pointerId);
+      if (pointers.size < 2) pinch = null;
+      cv.classList.remove('drag');
+      if (wasClick && e.type === 'pointerup') {
+        const [x, y] = local(e), k = pick(x, y);
+        if (k && window.RV_focus) { tip.hidden = true; window.RV_focus(k.id); }
+      }
+      drag = null;
+    };
+    cv.addEventListener('pointerup', end);
+    cv.addEventListener('pointercancel', end);
+    cv.addEventListener('pointerleave', () => { if (!drag) { tip.hidden = true; cv.classList.remove('hot'); } });
+    cv.addEventListener('wheel', e => {
+      e.preventDefault();
+      user.zoom = Math.min(4, Math.max(0.25, user.zoom * Math.exp(e.deltaY * 0.0012))); user.last = clock;
+      if (!running) frame(performance.now());
+    }, { passive: false });
+    btnPause.onclick = () => { if (prog >= END - 0.01) replay(); else paused = !paused; };
+    $('.an-replay').onclick = replay;
+  }
+  function replay() {
+    prog = reduce ? END : 0; paused = false; sumClosed = false; sum.hidden = true; shownG = -1; numFrom = numTo = 1; numT = 1;
+    user.th = 0; user.ph = 0; user.zoom = 1; autoClock = 0; cam.th = 0; cam.ph = 1.62; cam.ty = 0;
+    if (!running) start();
+  }
+
+  // ---------- loop ----------
+  function frame(now) {
+    const dt = Math.min(0.1, Math.max(0, (now - lastT) / 1000)); lastT = now;
+    clock += dt;
+    if (!paused && prog < END) prog = Math.min(END, prog + dt / (prog < 3 ? 2.1 : 1.35));
+    lineMat.uniforms.uProg.value = prog;
+    ptsMat.uniforms.uProg.value = prog;
+    ptsMat.uniforms.uTime.value = clock;
+    const d = updateCamera(dt);
+    composer.render();
+    updateHud(dt);
+    updateLabels(d);
+  }
+  function loop(now) { if (!running) return; frame(now); raf = requestAnimationFrame(loop); }
+  function load() {
+    if (loading) return loading;
+    const B = 'https://cdn.jsdelivr.net/npm/three@0.160.0/';
+    loading = Promise.all([
+      import(B + '+esm'),
+      import(B + 'examples/jsm/postprocessing/EffectComposer.js/+esm'),
+      import(B + 'examples/jsm/postprocessing/RenderPass.js/+esm'),
+      import(B + 'examples/jsm/postprocessing/UnrealBloomPass.js/+esm'),
+      import(B + 'examples/jsm/postprocessing/OutputPass.js/+esm')
+    ]).then(([T, ec, rp, ub, op]) => {
+      three = { T, EffectComposer: ec.EffectComposer, RenderPass: rp.RenderPass, UnrealBloomPass: ub.UnrealBloomPass, OutputPass: op.OutputPass };
+      build();
+    });
+    return loading;
+  }
+  function fail(err) {
+    failed = true; running = false;
+    if (window.console) console.warn('[animace]', err);
+    host.innerHTML = '<div class="an-err">3D animaci se nepodařilo načíst (je potřeba připojení k internetu a WebGL).</div>';
+  }
+  function start() {
+    if (failed || running) return;
+    running = true;
+    load().then(() => {
+      if (!running) return;
+      resize(); lastT = performance.now(); cancelAnimationFrame(raf); raf = requestAnimationFrame(loop);
+    }).catch(fail);
+  }
+  function stop() { running = false; cancelAnimationFrame(raf); if (tip) tip.hidden = true; }
+  window.RV_anim = { start, stop, replay, get prog() { return prog; }, get running() { return running; }, G, implex: implex.map(x => x.id), known: knownAnc.size };
+  if (host.classList.contains('on')) start();
 })();
 </script>
 </body>
