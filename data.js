@@ -3732,7 +3732,8 @@ window.RODOKMEN = {
     "fs_old146: „Honza“ v zápise 1757 čteno M−, jde o příjmení (D) – písař jinak píše křestní jméno v akuzativu + příjmení; křestní jméno otce neuvedeno. Sňatky Fryštát 1708–1722 bez Honzy (D; 1710–11 kniha chybí); křty 1723 bez Mariny Honzové (D). Kandidát K: 1721 † Jan „Howka/Honka“ z fryštátského předměstí (dcera Anna ∞ 1721) – neztotožněno.",
     "fs_old147: křty Fryštát (vol. 2731) VII 1721 – VII 1728 souvisle bez Mariny Honzové (D). Jediná rodina toho jména: 28. 4. 1728 pokřtěna Anna, dcera Pavla Hontze a Anny z Fryštátu (sn74 L; čtení D+) – kandidátní rodiče Mariny (K/R). Zbývá VIII 1728 – 1732 (sn75–92) a 1718 – VII 1721 (sn37–47).",
     "fs_old148: křty Fryštát vol. 2731 prohledány souvisle 25. 2. 1720 – 31. 12. 1732 (konec knihy) – Marina Honzová/Hontzová není (D); rodina Hontz jen 1× (Anna 1728). Zbývá 1718 – II 1720 (sn37–43); jinak narozena jinde.",
-    "fs_old149: křty Fryštát doplněny 22. 9. 1717 – II 1720 bez Hontze (D) → vol. 2731 souvisle IX 1717 – XII 1732 jen Anna Hontz 1728. Sňatek Pavel Hontz × Anna ve Fryštátě I 1708 – XI 1727 není (D). Zbývá O XII 1727 – IV 1728 (vol. 2734 sn22) a zemřelí Fryštát."
+    "fs_old149: křty Fryštát doplněny 22. 9. 1717 – II 1720 bez Hontze (D) → vol. 2731 souvisle IX 1717 – XII 1732 jen Anna Hontz 1728. Sňatek Pavel Hontz × Anna ve Fryštátě I 1708 – XI 1727 není (D). Zbývá O XII 1727 – IV 1728 (vol. 2734 sn22) a zemřelí Fryštát.",
+    "fs_old150: sňatky Fryštát (vol. 2734) prohledány 1708 – VII 1734 (mimo mezeru V–XII 1710) – Hontz × Anna není (D). Pohřby vol. 2736 V 1728 – VII 1730 bez Hontze. Zbývá pohřby 1730–1757 a paralelní svazky (N vol. 2998/2999, O 2730/3002, Z 3003/3005 – snad jiné části fary)."
    ],
    "sources": [
     "ZA Opava, fara Dolní Lutyně, Z 1779–1803, oddíl Dětmarovice – FamilySearch DGS 5387447, fol. 10, snímek 73 vpravo",
