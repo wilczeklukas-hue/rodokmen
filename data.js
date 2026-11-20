@@ -4923,7 +4923,8 @@ window.RODOKMEN = {
     "Děti (caak_dr33): Anna 1770, Josef 1772, Marina Johanna Paulina 1775, Helena Praxeda 1778 († 1785), Zuzana Marta 1781, Terezie Kateřina 1785. Domkář 1772–75, zahradník č. 21 1778–85, podruh od 1785/86.",
     "Úmrtí 1795 (VIII–XII), Horní Žibřidovice č. 26: „Johann Mižek ein Inmann, 52 Jahr, beständiges Fieber“ (M; ztotožnění D). Věk → nar. ~1743.",
     "Vazba na Terezii Drazzovou je K (přes ztotožnění Terezie D−).",
-    "caak_dr33: vsuvka ve sňatku 1768 „… cum annutu Senioris Provinciae sub scheda apud Dominum demonstrat.“ – zvláštní povolení (snad přistěhovalec), výklad K."
+    "caak_dr33: vsuvka ve sňatku 1768 „… cum annutu Senioris Provinciae sub scheda apud Dominum demonstrat.“ – zvláštní povolení (snad přistěhovalec), výklad K.",
+    "caak_dr35: srov. 1755 „Martinus Harazny … Zorā Emigrans, annuente … Senioratus Provinciae Teschinensis“ – stejná formule u přistěhovalce z pruského Slezska; Miczkové snad přišli odjinud (K)."
    ],
    "sources": [
     "Archiwum Diecezji Bielsko-Żywieckiej, fara Zebrzydowice, PWNMPZ 3 – CAAK, oddaní I 1768, snímek 304",
@@ -4969,7 +4970,8 @@ window.RODOKMEN = {
     "caak_dr29: křest 24. 10. 1743: „Marina Jacobi Stachnik vulgo Kålus et Marinae … e Superiori Seiberd.“ (M; ověřeno na výřezu). Ztotožnění s nevěstou 1768 K+: jméno, obec, otec Jakub, věk 24; jediná dcera Jakuba Kabuse/Kaluse v křtech 1738–1750. Rod Kabus (Matěj Kabus ∞ 1735, syn Jakub *1739 žil ještě 1798) se nehodí – Jakub z 1768 byl už mrtvý → „Kabus“ ve sňatku je nejspíš Kalus.",
     "caak_dr30: starší sestra Eva, pokřtěna 15. 11. 1734 Horní Žibřidovice (D).",
     "caak_dr33: rodné jméno doloženo přímo při křtech dětí: 1778 „Marina gebohr. Kallussin“, 1775 „Marina gebohr. Kondziolkin“ (M; ověřeno koordinátorem na výřezech) – obě jména odpovídají rodičům Jakubu Kalusovi a Marině Kondziołkové → ztotožnění s Marinou *24. 10. 1743 zlepšeno na D. Děti s Janem Mižkem (vše Horní Žibřidovice, od 1772 č. 21): Anna 13. 4. 1770, Josef ~27. 12. 1772, Marina Johanna Paulina 26. 6. 1775, Helena Praxeda 21. 7. 1778 († 1785), Zuzana Marta 1781, Terezie Kateřina 28. 3. 1785. V r. 1770 kmotrou u syna Evy roz. Kalusové (sestra? K). Kateřina Waliczková NENÍ dcera – je to Kateřina Muzyková (∞ 1769).",
-    "caak_dr34: pozor – písař psal „geb. Kondziolkin“ i u Evy, dcery Vavřince Kaluse (1773) → rody Kalus/Kondziołka v zápisech splývají; zápis 1775 není samostatný důkaz. Rozhodující zůstává 1778 „geb. Kallussin“. Dcera Marina Johanna Paulina † 25. 4. 1783 v 6 letech (M)."
+    "caak_dr34: pozor – písař psal „geb. Kondziolkin“ i u Evy, dcery Vavřince Kaluse (1773) → rody Kalus/Kondziołka v zápisech splývají; zápis 1775 není samostatný důkaz. Rozhodující zůstává 1778 „geb. Kallussin“. Dcera Marina Johanna Paulina † 25. 4. 1783 v 6 letech (M).",
+    "caak_dr35: sestra Eva (*1734) ∞ 2. 10. 1752 Jakub Parger/Pargel(?): „cum honesta puella Eva post def. Jacobum Kalus filia … è Superiori Seiberdorff“, svědek Vavřinec Kalus (zápis M, ztotožnění D); 1773 kmotrem jejich dítěte Jan Mižek (K+). Eva Kondziołková (†1775) je nejspíš rozená Siwková – ne sestra."
    ],
    "sources": [
     "Archiwum Diecezji Bielsko-Żywieckiej, fara Zebrzydowice, PWNMPZ 3 – CAAK, oddaní I 1768, snímek 304",
@@ -5054,7 +5056,8 @@ window.RODOKMEN = {
     "Otec Marie Kabusové podle oddacího zápisu 1768 („post def. Jacobum Kabus“, D) – v té době již nežil. Horní Žibřidovice. Rok narození je odhad.",
     "caak_dr29: úmrtí 6. 12. 1751: „Jacobus Kalus e Superiori Seiberdorf alias Opilio aetatis prope 58 annorum“ (M; ověřeno na výřezu) → nar. ~1693. Jediný dospělý Jakub Kalus/Kabus zemřelý 1742–1768 (D−). Při křtu dcery 1743 „Jacobus Stachnik vulgo Kalus“.",
     "caak_dr30: ∞ 16. 6. 1733 Marina Kondziołková (D−). Při křtu dcery Evy 15. 11. 1734 „Jacobi Stachnik [Acatholici] et Mariannae Cath.“ – otec nekatolík (luterán), proto možná další děti v luterských matrikách Těšín. Děti: Eva (1734), Marina (1743).",
-    "caak_dr31: Jakub Stachnik v katolických křtech 1693–1699 není; příjmení Stachnik ve farnosti 1693–1721 nezachyceno → pravděpodobně luterán odjinud (K)."
+    "caak_dr31: Jakub Stachnik v katolických křtech 1693–1699 není; příjmení Stachnik ve farnosti 1693–1721 nezachyceno → pravděpodobně luterán odjinud (K).",
+    "caak_dr35: dcera Eva ∞ 1752 Jakub Parger/Pargel (D). Druhý sňatek vdovy Mariny 1750–1772 nenalezen."
    ],
    "sources": [
     "Archiwum Diecezji Bielsko-Żywieckiej, fara Zebrzydowice, PWNMPZ 3 – CAAK, oddaní I 1768, snímek 304",
