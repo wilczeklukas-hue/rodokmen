@@ -4754,7 +4754,8 @@ window.RODOKMEN = {
     "fs_old126: Fryštát O I 1752 – XI 1757 bez sňatku Františka Grimy (D); on sám svědkem 1755(?), 24. 1. a 6. 6. 1757 „ex Roÿ“ (M). Fryštát N I–IV 1762 bez Mariny; jiný Grim: Pavel Grimann × Anna, Pěrná (syn Jan 20. 3. 1762).",
     "fs_old127: Fryštát O VIII 1745 – XI 1761 souvisle bez sňatku Grim(a) (D) → sňatek Františka Grimy × Kateřiny před 1745 nebo ve faře nevěsty.",
     "fs_old128: Fryštát N VIII 1755 – XII 1762 souvisle bez Mariny Grimové (D); František Grima jen kmotr (1755, 1757), v Ráji i Jakub Grima (kmotr 1755, 1757). Křest Mariny tedy před 1755, po 1762 (věky v Závadě bývají nadsazené – Josef *1789 → Marina *≤1770), nebo jinde.",
-    "fs_old129: Fryštát N I 1763 – VI 1765 bez Mariny Grimové (D); celkem prošlo VIII 1755 – VI 1765. Další Grimové: Pavel Grima × Anna, Pěrná (Anna 1. 5. 1764), kmotr Nicolaus Grimer(?) 1765."
+    "fs_old129: Fryštát N I 1763 – VI 1765 bez Mariny Grimové (D); celkem prošlo VIII 1755 – VI 1765. Další Grimové: Pavel Grima × Anna, Pěrná (Anna 1. 5. 1764), kmotr Nicolaus Grimer(?) 1765.",
+    "fs_old130 (★ stopa, K–D): 26. 8. 1767 kmotra „Marianna Virgo filia Nicolai Grim ex Zovada“ (Fryštát N, vol. 2732 sn196 P, ark 3:1:3QS7-89MW-M9JV-R; M/D) – svobodná dcera Mikuláše Grima ze Závady, *≤~1755 → kandidátka na naši Marinu (jméno, rodné příjmení, obec; ověřit sňatkem). V Závadě 1766 také Jakub Grim × Ester. Fryštát N VI 1765 – IX 1767 bez křtu Mariny Grimové."
    ],
    "sources": [
     "ZA Opava, Závada – josefínská matrika N/O/Z 1785–1797 – FamilySearch vol. 2790, křty 1789, 1790, 1793 (snímky 4–6)",
