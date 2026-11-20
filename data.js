@@ -4161,10 +4161,9 @@ window.RODOKMEN = {
    "cert": "K",
    "alive": false,
    "b": {
-    "date": "",
+    "date": "10. 8. 1683",
     "year": 1683,
-    "place": "",
-    "approx": true
+    "place": "Žibřidovice (Zebrzydowice)"
    },
    "notes": [
     "Otec Vavřince ml.: „Laurentius Drapa, Susanna“ (křest 1715, M). Patrně týž „honestus viduus Laurentius Drappa“, který se 8. 6. 1738 oženil s vdovou Annou(?) (PWNMPZ 3 s242, D); „Anna Drapin vidua“ 1746 by pak byla jeho vdova (K–D). Zemřel tedy 1738–1746.",
@@ -4172,13 +4171,15 @@ window.RODOKMEN = {
     "caak_dr7: ženat třikrát – 1) Zuzana (∞ 1714, † 10. 4. 1723); 2) Rosina (kmotra 1724–26; † 29. 4. 1737, 60 let, PWNMPZ 3 s346: „Rosina Laurentij Drappa uxor … Annorum 60“, M/D); 3) Anna, vdova (∞ 8. 6. 1738). Sňatek s Rosinou patrně IV 1723 – VII 1724. Úmrtí VI 1738 – V 1746 v zemřelých nenalezeno (K–D).",
     "caak_dr8: 2. sňatek 4. 2. 1724 (PWNMPZ 3 s216): „Laurentius Drapa Viduus cum honesta Vidua Rosina Kopelowa“ (M, D–M).",
     "caak_dr9: úmrtí 22. 6. 1749 (PWNMPZ 3 s373): „obijt Sacramentis provisus Laurentius Drappa è Seiberdorff aetatis 66 annorum“ (M, ověřeno koordinátorem; ztotožnění D – syn *1715 by měl 34). Věk 66 → nar. ~1683. Rozpor: „Anna Drapin vidua“ 13. 1. 1746 – ověřit. Bratr(?) Bartoloměj † před 1759 (vdova Žofie † 1759, 66 let).",
-    "caak_dr11: Bartoloměj Drapa † 3. 1. 1730, Žibřidovice (PWNMPZ 3 s326, M)."
+    "caak_dr11: Bartoloměj Drapa † 3. 1. 1730, Žibřidovice (PWNMPZ 3 s326, M).",
+    "caak_dr36: křest 10. 8. 1683: „Baptisavi infantem puerum Laurentium Sebastiani Drapa et Annae C. L. de Zybrzyd.“ (M; ověřeno koordinátorem na výřezu). Ztotožnění D: věk 66 při úmrtí 1749 sedí, jediný Vavřinec Drapa v křtech 1683–1697. Sourozenci: Bartoloměj 1. 8. 1688 (∞1717, †1730; D−), Jakub 28. 4. 1692, Anna 30. 3. 1694."
    ],
    "sources": [
     "Archiwum Diecezji Bielsko-Żywieckiej, fara Zebrzydowice, PWNMPZ 2 (1693–1721) – CAAK, křty VII 1715, snímek 68",
     "Archiwum Diecezji Bielsko-Żywieckiej, fara Zebrzydowice, PWNMPZ 3 (1722–1773) – CAAK, oddaní VI 1738, snímek 242",
     "Archiwum Diecezji Bielsko-Żywieckiej, fara Zebrzydowice, PWNMPZ 2 (1693–1721) – CAAK, oddaní I 1714, snímek 116",
-    "Archiwum Diecezji Bielsko-Żywieckiej, fara Zebrzydowice, PWNMPZ 3 (1722–1773) – CAAK, zemřelí VI 1749, snímek 373"
+    "Archiwum Diecezji Bielsko-Żywieckiej, fara Zebrzydowice, PWNMPZ 3 (1722–1773) – CAAK, zemřelí VI 1749, snímek 373",
+    "fara Zebrzydowice, PWNMPZ 1 (1661–1693) – CAAK, křty 1683 (s84), 1688 (s98), 1692 (s107); PWNMPZ 2 s14 (1694)"
    ],
    "scans": [
     {
@@ -4192,13 +4193,19 @@ window.RODOKMEN = {
     {
      "f": "img/1749_umrti_vavrinec_drapa_st.jpg",
      "t": "Úmrtí Vavřince Drappy, 66 let, Žibřidovice 22. 6. 1749"
+    },
+    {
+     "f": "img/1683_krest_vavrinec_drapa.jpg",
+     "t": "Křest Vavřince, syna Šebestiána Drapy a Anny, Žibřidovice 10. 8. 1683; kmotři Jiří Skowronek a Kateřina Urbasiová"
     }
    ],
    "d": {
     "date": "22. 6. 1749",
     "year": 1749,
     "place": "Dolní Žibřidovice"
-   }
+   },
+   "father": "sebastianDrapaSt",
+   "mother": "annaDrapaSst"
   },
   {
    "id": "susannaDrapaSt",
@@ -4221,7 +4228,8 @@ window.RODOKMEN = {
    "notes": [
     "Matka Vavřince ml. (křest 1715, M). Rok narození je odhad.",
     "caak_dr6: sňatek 22. 1. 1714 s Vavřincem Drapou: „Susan: Schimo-na(?)“ – koordinátor čte na výřezu „Schimo“ + pod řádkem „na“ (snad Šimonova dcera/„Szymonka“); rodné jméno K.",
-    "caak_dr7: úmrtí 10. 4. 1723 (PWNMPZ 3 s281): „Obijt Susanna Laurentij Drapa uxor Sacramentis munita ex Seiberdorff“ (M; ztotožnění D). Syn Jan pokř. 23. 4. 1722 (s14, kmotři Jan Střibek a Eva Somerliková jako 1715)."
+    "caak_dr7: úmrtí 10. 4. 1723 (PWNMPZ 3 s281): „Obijt Susanna Laurentij Drapa uxor Sacramentis munita ex Seiberdorff“ (M; ztotožnění D). Syn Jan pokř. 23. 4. 1722 (s14, kmotři Jan Střibek a Eva Somerliková jako 1715).",
+    "caak_dr36: rodné jméno nerozhodnuto – kandidátky (K): Zuzana, dcera Šimona Skowronka a Mariny, * 16. 2. 1690 (PWNMPZ 1 s101; „Schimo-na“ = Šimonova?), nebo Zuzana, dcera Ondřeje Schimy a Anny, * 30. 6. 1695 (PWNMPZ 2 s17). Výřez 1714 čten „Schimo“ (ne Skowronek)."
    ],
    "sources": [
     "Archiwum Diecezji Bielsko-Żywieckiej, fara Zebrzydowice, PWNMPZ 2 (1693–1721) – CAAK, křty VII 1715, snímek 68",
@@ -4291,7 +4299,8 @@ window.RODOKMEN = {
    },
    "notes": [
     "Otec kandidátního křtu Šimona (X 1719, Marklovice): „Bartholomaei Witek et Hedvigis“ (M). Děti: Anna 18. 4. 1713, Marianna 1. 4. 1716, Matěj II 1718, Šimon X 1719 (PWNMPZ 2 s63, s70, s74, s81; kmotr vždy Bartoloměj Sikora); kmotr už 30. 11. 1712. 10. 8. 1722 Bartoloměj, syn „Joannis Vitek et Hedvigis“ (K – chyba písaře?). Sňatek 1693–1717 ve farnosti není. Jistota K: ztotožnění Šimona Witka s hajným † 1779 není přímo doloženo. Rok narození je odhad.",
-    "caak_dr11: další děti Žofie 27. 4. 1708 a Zuzana 14. 9. 1711 (PWNMPZ 2 s49, s58; M) → sňatek ~1706–07 mimo farnost. Úmrtí Bartoloměje ani Hedviky v zemřelých 1722–1760 nejsou; rodina po 1722 z matrik mizí (odchod?). Přímé spojení se Šimonem hajným stále chybí (K)."
+    "caak_dr11: další děti Žofie 27. 4. 1708 a Zuzana 14. 9. 1711 (PWNMPZ 2 s49, s58; M) → sňatek ~1706–07 mimo farnost. Úmrtí Bartoloměje ani Hedviky v zemřelých 1722–1760 nejsou; rodina po 1722 z matrik mizí (odchod?). Přímé spojení se Šimonem hajným stále chybí (K).",
+    "caak_dr36: kandidátní křest (K–D) 15. 8. 1683 Marklovice: „Bartholomaeum Viti Wi[t/l]ek et Evae“ (PWNMPZ 1 s84) → otec Vít Witek × Eva?"
    ],
    "sources": [
     "Archiwum Diecezji Bielsko-Żywieckiej, fara Zebrzydowice, PWNMPZ 2 (1693–1721) – CAAK, křty 1713–1719"
@@ -5155,6 +5164,72 @@ window.RODOKMEN = {
      "f": "img/1779_umrti_zofie_mickova.jpg",
      "t": "Úmrtí Žofie Mižkové, podruhyně, vdovy po † Martinovi, 65 let, Horní Žibřidovice č. 21, 27. 1. 1779"
     }
+   ]
+  },
+  {
+   "line": "grzonka",
+   "cert": "K",
+   "alive": false,
+   "maiden": "",
+   "father": "",
+   "mother": "",
+   "sources": [
+    "fara Zebrzydowice, PWNMPZ 1 (1661–1693) – CAAK, křty 1683 (s84), 1688 (s98), 1692 (s107); PWNMPZ 2 s14 (1694)"
+   ],
+   "scans": [
+    {
+     "f": "img/1683_krest_vavrinec_drapa.jpg",
+     "t": "Křest Vavřince, syna Šebestiána Drapy a Anny, Žibřidovice 10. 8. 1683; kmotři Jiří Skowronek a Kateřina Urbasiová"
+    }
+   ],
+   "id": "sebastianDrapaSt",
+   "name": "Šebestián (Sebastian) Drapa",
+   "b": {
+    "date": "",
+    "year": 1655,
+    "place": "",
+    "approx": true
+   },
+   "d": {
+    "date": "",
+    "year": null,
+    "place": ""
+   },
+   "notes": [
+    "Otec Vavřince (1683), Bartoloměje (1688), Jakuba (1692) a Anny (1694), Žibřidovice (M). Kmotr 1686–1692. Sňatek s Annou před 1683 (oddaní PWNMPZ 1 1674–1684 zatím nečteny). Rok narození je odhad."
+   ]
+  },
+  {
+   "line": "grzonka",
+   "cert": "K",
+   "alive": false,
+   "maiden": "",
+   "father": "",
+   "mother": "",
+   "sources": [
+    "fara Zebrzydowice, PWNMPZ 1 (1661–1693) – CAAK, křty 1683 (s84), 1688 (s98), 1692 (s107); PWNMPZ 2 s14 (1694)"
+   ],
+   "scans": [
+    {
+     "f": "img/1683_krest_vavrinec_drapa.jpg",
+     "t": "Křest Vavřince, syna Šebestiána Drapy a Anny, Žibřidovice 10. 8. 1683; kmotři Jiří Skowronek a Kateřina Urbasiová"
+    }
+   ],
+   "id": "annaDrapaSst",
+   "name": "Anna Drapová",
+   "b": {
+    "date": "",
+    "year": 1660,
+    "place": "",
+    "approx": true
+   },
+   "d": {
+    "date": "",
+    "year": null,
+    "place": ""
+   },
+   "notes": [
+    "Matka Vavřince (1683) a sourozenců 1688–1694, Žibřidovice (M). Rodné příjmení neznámé. Kmotra „Anna Drapowa/Drapina“ 1685–1693. Možná „Anna Drapin vidua“ 1746 (viz Vavřinec) – K. Rok narození je odhad."
    ]
   }
  ],
