@@ -4916,7 +4916,7 @@ window.RODOKMEN = {
     "place": "Horní Žibřidovice (Ober Seibersdorf), č. 26"
    },
    "father": "martinMiczekSt",
-   "mother": "",
+   "mother": "sophiaMiczekSt",
    "occ": "zahradník (Gärtner), později podruh (Inmann)",
    "notes": [
     "Sňatek 26. 1. 1768 v Zebrzydowicích: „Joannes Miczek, honestus adolescens catholicus post def. Martinum Miczek … e Superiori Seiberdorf … cum honesta puella Maria post def. Jacobum Kabus filia“ (čtení M, „Kabus“ D; ověřeno koordinátorem na výřezu).",
@@ -4968,7 +4968,8 @@ window.RODOKMEN = {
     "Sňatek 26. 1. 1768 (viz Jan Miček): „honesta puella Maria post def. Jacobum Kabus filia catholica e Superiori Seib.“ (D). Při křtu dcery 1785 „Marina“, rodné jméno nevyplněno. Úmrtí 1784–1800 v Horních ani Dolních Žibřidovicích není – zemřela po 1800 nebo mimo faru. Rok narození je odhad. Rod Kabuss je 1784 a 1798 doložen v Horních Žibřidovicích č. 6.",
     "caak_dr29: křest 24. 10. 1743: „Marina Jacobi Stachnik vulgo Kålus et Marinae … e Superiori Seiberd.“ (M; ověřeno na výřezu). Ztotožnění s nevěstou 1768 K+: jméno, obec, otec Jakub, věk 24; jediná dcera Jakuba Kabuse/Kaluse v křtech 1738–1750. Rod Kabus (Matěj Kabus ∞ 1735, syn Jakub *1739 žil ještě 1798) se nehodí – Jakub z 1768 byl už mrtvý → „Kabus“ ve sňatku je nejspíš Kalus.",
     "caak_dr30: starší sestra Eva, pokřtěna 15. 11. 1734 Horní Žibřidovice (D).",
-    "caak_dr33: rodné jméno doloženo přímo při křtech dětí: 1778 „Marina gebohr. Kallussin“, 1775 „Marina gebohr. Kondziolkin“ (M; ověřeno koordinátorem na výřezech) – obě jména odpovídají rodičům Jakubu Kalusovi a Marině Kondziołkové → ztotožnění s Marinou *24. 10. 1743 zlepšeno na D. Děti s Janem Mižkem (vše Horní Žibřidovice, od 1772 č. 21): Anna 13. 4. 1770, Josef ~27. 12. 1772, Marina Johanna Paulina 26. 6. 1775, Helena Praxeda 21. 7. 1778 († 1785), Zuzana Marta 1781, Terezie Kateřina 28. 3. 1785. V r. 1770 kmotrou u syna Evy roz. Kalusové (sestra? K). Kateřina Waliczková NENÍ dcera – je to Kateřina Muzyková (∞ 1769)."
+    "caak_dr33: rodné jméno doloženo přímo při křtech dětí: 1778 „Marina gebohr. Kallussin“, 1775 „Marina gebohr. Kondziolkin“ (M; ověřeno koordinátorem na výřezech) – obě jména odpovídají rodičům Jakubu Kalusovi a Marině Kondziołkové → ztotožnění s Marinou *24. 10. 1743 zlepšeno na D. Děti s Janem Mižkem (vše Horní Žibřidovice, od 1772 č. 21): Anna 13. 4. 1770, Josef ~27. 12. 1772, Marina Johanna Paulina 26. 6. 1775, Helena Praxeda 21. 7. 1778 († 1785), Zuzana Marta 1781, Terezie Kateřina 28. 3. 1785. V r. 1770 kmotrou u syna Evy roz. Kalusové (sestra? K). Kateřina Waliczková NENÍ dcera – je to Kateřina Muzyková (∞ 1769).",
+    "caak_dr34: pozor – písař psal „geb. Kondziolkin“ i u Evy, dcery Vavřince Kaluse (1773) → rody Kalus/Kondziołka v zápisech splývají; zápis 1775 není samostatný důkaz. Rozhodující zůstává 1778 „geb. Kallussin“. Dcera Marina Johanna Paulina † 25. 4. 1783 v 6 letech (M)."
    ],
    "sources": [
     "Archiwum Diecezji Bielsko-Żywieckiej, fara Zebrzydowice, PWNMPZ 3 – CAAK, oddaní I 1768, snímek 304",
@@ -5016,7 +5017,8 @@ window.RODOKMEN = {
    "father": "",
    "mother": "",
    "notes": [
-    "Otec Jana Miczka podle oddacího zápisu 1768 („post def. Martinum Miczek …“, M) – v té době již nežil; slovo za příjmením („Hottza?“) nepřečteno. Rok narození je odhad."
+    "Otec Jana Miczka podle oddacího zápisu 1768 („post def. Martinum Miczek …“, M) – v té době již nežil; slovo za příjmením („Hottza?“) nepřečteno. Rok narození je odhad.",
+    "caak_dr34: vdova Žofie † 27. 1. 1779 ve 65 letech v domě syna Jana č. 21 (D)."
    ],
    "sources": [
     "Archiwum Diecezji Bielsko-Żywieckiej, fara Zebrzydowice, PWNMPZ 3 – CAAK, oddaní I 1768, snímek 304"
@@ -5099,7 +5101,8 @@ window.RODOKMEN = {
     "Matka Mariny při křtu 24. 10. 1743 („et Marinae“, M). Rodné příjmení neznámé; sňatek s Jakubem Stachnikem/Kalusem 1735–II 1748 v Zebrzydowicích není (hledat před 1735). Rok narození je odhad.",
     "caak_dr30: sňatek 16. 6. 1733: „inter adolescentem Jacobum Kalus Cathol. et Puellam Marinam Kondziełkianam Cathol. Praesentibus testibus Jacobo Sirek et Georgio Kondziołka omnes ex Seiberdorf“ (M; ověřeno na výřezu). Otec nevěsty neuveden; svědek Jiří Kondziołka snad otec/bratr. Jediný sňatek Jakuba Kaluse/Stachnika 1722–1748 (ztotožnění D−). Úmrtí do II 1768 v Žibřidovicích nenalezeno. Rok narození je odhad.",
     "caak_dr31: křest v katolických křtech Zebrzydowic I 1693 – XII 1721 není (M). Hypotéza (K): dcera vdovy Mariny Kondziołkové, luteránky, která před sňatkem 13. 1. 1722 s Vavřincem Kalusem přestoupila ke katolictví („ante Copulam Catholica facta“, M) – Marina tedy snad pokřtěna lutersky (Těšín, Ježíšův kostel, od 1709); zesnulý manžel vdovy snad Vavřinec Kondziołka (žil ještě V 1720, K–D). Vavřinec Kalus by byl nevlastní otec → odtud „Stachnik vulgo Kalus“. Svědek 1733 Jiří Kondziołka *8. 3. 1705 (syn Vavřince a Marianny), † 24. 11. 1747 ve 44 letech (D) – nanejvýš bratr.",
-    "caak_dr32: oprava – Vavřinec Kondziołka † 2. 2. 1721 a jeho vdova Marina se 16. 10. 1721 vdala za Šimona Kowalského (M) → konvertitka, která si 13. 1. 1722 vzala Vavřince Kaluse, je nejspíš vdova po Michalu Kondziołkovi († 13. 3. 1720; děti 1715, 1719) (D−). Hypotéza (K): naše Marina je dcerou Michala × Mariny, pokřtěna lutersky ~1710–1715. Dcera Jana Kondziołky Marina † 1725 jako dítě (vyloučena). Úmrtí Mariny Kalusové 1722–1741 nenalezeno; kandidátka † 26. 3. 1735 „neoconversa à secta Lutherana … Marina Wawrzonka(?)“ ~50 l. (K)."
+    "caak_dr32: oprava – Vavřinec Kondziołka † 2. 2. 1721 a jeho vdova Marina se 16. 10. 1721 vdala za Šimona Kowalského (M) → konvertitka, která si 13. 1. 1722 vzala Vavřince Kaluse, je nejspíš vdova po Michalu Kondziołkovi († 13. 3. 1720; děti 1715, 1719) (D−). Hypotéza (K): naše Marina je dcerou Michala × Mariny, pokřtěna lutersky ~1710–1715. Dcera Jana Kondziołky Marina † 1725 jako dítě (vyloučena). Úmrtí Mariny Kalusové 1722–1741 nenalezeno; kandidátka † 26. 3. 1735 „neoconversa à secta Lutherana … Marina Wawrzonka(?)“ ~50 l. (K).",
+    "caak_dr34: kandidátka na úmrtí † 8. 2. 1779, Horní Žibřidovice č. 5: „Kabus Marina des Mann weyl. Jacob Inmannin“, 59 let (zápis M, ztotožnění K+: dům č. 5, kde 1785 zemřela vnučka Helena; proti: věk 59 → *~1720, na nevěstu 1733 nízký)."
    ],
    "sources": [
     "fara Zebrzydowice, PWNMPZ 3 – CAAK, křty X 1743 (snímek 105), zemřelí XII 1751 (snímek 378)",
@@ -5113,6 +5116,39 @@ window.RODOKMEN = {
     {
      "f": "img/1733_snatek_jakub_kalus_marina_kondziolkova.jpg",
      "t": "Sňatek mládence Jakuba Kaluse s pannou Marinou Kondziołkovou, svědci Jakub Sirek(?) a Jiří Kondziołka, Žibřidovice 16. 6. 1733"
+    }
+   ]
+  },
+  {
+   "id": "sophiaMiczekSt",
+   "name": "Žofie (Sophia) Mižková (Mičková)",
+   "maiden": "",
+   "line": "grzonka",
+   "cert": "K",
+   "alive": false,
+   "b": {
+    "date": "",
+    "year": 1714,
+    "place": "",
+    "approx": true
+   },
+   "d": {
+    "date": "27. 1. 1779",
+    "year": 1779,
+    "place": "Horní Žibřidovice (Ober Seibersdorf), č. 21"
+   },
+   "father": "",
+   "mother": "",
+   "notes": [
+    "caak_dr34: úmrtí 27. 1. 1779: „Mižek Sophia Inmannin des Mann weyl. Martin begr.“, 65 let, Horní Žibřidovice č. 21 (M; ověřeno koordinátorem na výřezu) → nar. ~1714. Bydlela v domě č. 21 Jana Mižka, syna † Martina → matka Jana (D). Pozn.: při narození Jana (~1743) by jí bylo ~29. Rodné příjmení neznámé."
+   ],
+   "sources": [
+    "fara Zebrzydowice – CAAK, PWNMPZ 4 zemřelí 1779 (s335), 1783 (s358)"
+   ],
+   "scans": [
+    {
+     "f": "img/1779_umrti_zofie_mickova.jpg",
+     "t": "Úmrtí Žofie Mižkové, podruhyně, vdovy po † Martinovi, 65 let, Horní Žibřidovice č. 21, 27. 1. 1779"
     }
    ]
   }
