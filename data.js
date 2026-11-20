@@ -208,7 +208,8 @@ window.RODOKMEN = {
    "maiden": "",
    "cert": "R",
    "notes": [
-    "Lukáš (e-mail 19. 11. 2026): zemřel 13. 12. 2014, bydlištěm Strahovice."
+    "Lukáš (e-mail 19. 11. 2026): zemřel 13. 12. 2014, bydlištěm Strahovice.",
+    "web_opi1: rodiče z veřejného webu nezjištěni (Strahovický zpravodaj od 2018, hroby, parte – nic). Prameny: fara Strahovice až od 1921 (dříve fara Krzanowice, PL); civilní matrika Standesamt Kuchelna (Chuchelná), civ. matriky Hlučínska 1874–1937 na FamilySearch (sbírka 2207717, bez indexu). Narození 1938 → jen matriční úřad / fara Strahovice; potřeba jména rodičů od rodiny (Darja: rodný/oddací list Vladislava)."
    ],
    "sources": [
     "Rodinná paměť – sdělení Lukáše Wilczka (15. 10. 2026)",
