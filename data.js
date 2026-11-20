@@ -527,7 +527,8 @@ window.RODOKMEN = {
   {
    "alive": false,
    "notes": [
-    "Otec Františka (nar. 1927), uveden jako prarodič v zápisu o narození vnuka Aloise 1954. Rok narození je odhad podle syna."
+    "Otec Františka (nar. 1927), uveden jako prarodič v zápisu o narození vnuka Aloise 1954. Rok narození je odhad podle syna.",
+    "gen_w1: Geneteka – pár Wilczek × Nosek/Noska/Naska 1915–30 (śląskie, małopolskie, opolskie) není; Franciszek Wilczek sňatky 1915–30 (32) bez Noskové. České Těšínsko v Genetece není vůbec, polský Cieszyn po 1848 také ne → negativ málo říká. Kandidáti narození ~1900 (K, bez vazby): Bielsko-Komorowice 1897 a 1901, Aleksandrowice 1898, Kaniów 1905. Klíčem zůstává rodný zápis syna 1927 (MÚ Karviná)."
    ],
    "sources": [
     "Zápis o narození Aloise Wilczka, MÚ Karviná, kniha narození 1954, poř. č. 460 (kopie zápisu zaslaná úřadem, 11. 11. 2026)"
@@ -553,7 +554,8 @@ window.RODOKMEN = {
   {
    "alive": false,
    "notes": [
-    "Matka Františka (nar. 1927), v zápisu 1954 „Růžena rozená Nosková“ (čtení ?, možná Nasková). Rok narození je odhad podle syna."
+    "Matka Františka (nar. 1927), v zápisu 1954 „Růžena rozená Nosková“ (čtení ?, možná Nasková). Rok narození je odhad podle syna.",
+    "gen_w1: Rozalia/Róża Nosek * 1895–1908 v Těšínsku/Bielsku v Genetece není (85 křtů Nosek ve Slezsku prošlo); tvar Nosková spíš český → hledat v ZA Opava (Orlová, Doubrava, Petřvald, Stonava, Těrlicko, ev. fary)."
    ],
    "sources": [
     "Zápis o narození Aloise Wilczka, MÚ Karviná, kniha narození 1954, poř. č. 460 (kopie zápisu zaslaná úřadem, 11. 11. 2026)"
