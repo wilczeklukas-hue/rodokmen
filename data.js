@@ -2361,7 +2361,8 @@ window.RODOKMEN = {
     "fs_old101: Ondřej Kaluža v úmrtích Závady 1785–97 ani v rejstříku K 1786–1800 není; jen sňatek 24. 6. 1788 „Andreas Kalzar(?)“, vdovec 62 let, č. 17 (příjmení K). Kalužové v Závadě 1785–97: Urban (Häusler č. 8, † 1797, 50 l.), Vavřinec (∞ 1791 vdova Anna Cyronová), Pavel st. (žena Anna † 1792, 83 l.).",
     "fs_old102: Pavel Kaluža, podruh, Závada č. 10, † 10. 10. 1798, 80 let (*~1718) – svědek „Paulus Kaluza ex Zowada“ 1738–49? (K). Ondřej Kaluža v rejstříku K 1798–1812 není.",
     "fs_old104: v rejstříku zemřelých K 1785–1849 dospělý Jan Kaluža není (jen „Kaluscha Joannes 1787“ = spíš Josef, ovčák, 40 l., Závada č. 1 – K). Anna Schittková: „Schotek Anna 1825“ je jiná (manželka Václava, Petrovice 18).",
-    "fs_old105: při sňatku dcery Anny 29. 1. 1799 („Anna gebohrne Kalußin des Johannes“) otec NENÍ označen jako zemřelý → v r. 1799 spíš žil (D). 21. 3. 1821 zemřel v Závadě č. 12 kojenec Pavel, syn domkáře Josefa Kalužy (snad příbuzný, K)."
+    "fs_old105: při sňatku dcery Anny 29. 1. 1799 („Anna gebohrne Kalußin des Johannes“) otec NENÍ označen jako zemřelý → v r. 1799 spíš žil (D). 21. 3. 1821 zemřel v Závadě č. 12 kojenec Pavel, syn domkáře Josefa Kalužy (snad příbuzný, K).",
+    "fs_old133: Kalužové ze Závady ve Fryštátu 1774: 30. 1. Anna, dcera † Ondřeje Kalužy ze Závady ∞ Jiří Bainka (Staré Město); 15. 5. Zuzana, dcera Ondřeje Kalužy, sedláka ze Závady ∞ vdovec Jiří Satwatz(?) – oddával farář z Godowa (potvrzuje vazbu Závada–Godów); 1771 svědek Pavel Kaluža, sedlák ze Závady."
    ],
    "sources": [
     "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F VIII 6, inv. 2793, O Petrovice u Karviné 1797–1858, oddíl Závada, snímek 61, pravá strana (pag. 1), 1. zápis, sňatek 29. 1. 1799 (digi.archives.cz)"
@@ -4757,7 +4758,8 @@ window.RODOKMEN = {
     "fs_old128: Fryštát N VIII 1755 – XII 1762 souvisle bez Mariny Grimové (D); František Grima jen kmotr (1755, 1757), v Ráji i Jakub Grima (kmotr 1755, 1757). Křest Mariny tedy před 1755, po 1762 (věky v Závadě bývají nadsazené – Josef *1789 → Marina *≤1770), nebo jinde.",
     "fs_old129: Fryštát N I 1763 – VI 1765 bez Mariny Grimové (D); celkem prošlo VIII 1755 – VI 1765. Další Grimové: Pavel Grima × Anna, Pěrná (Anna 1. 5. 1764), kmotr Nicolaus Grimer(?) 1765.",
     "fs_old130 (★ stopa, K–D): 26. 8. 1767 kmotra „Marianna Virgo filia Nicolai Grim ex Zovada“ (Fryštát N, vol. 2732 sn196 P, ark 3:1:3QS7-89MW-M9JV-R; M/D) – svobodná dcera Mikuláše Grima ze Závady, *≤~1755 → kandidátka na naši Marinu (jméno, rodné příjmení, obec; ověřit sňatkem). V Závadě 1766 také Jakub Grim × Ester. Fryštát N VI 1765 – IX 1767 bez křtu Mariny Grimové.",
-    "fs_old132: Fryštát O VII 1776 – X 1783 (vol. 2735 sn59–79) bez sňatku Marina Grim × Dzięgiel (D). Rodina Mikuláše Grima: 25. 2. 1781 Roj – „Simon des Verst. Johann Schottek Sohn mit der Anna des Nicolai Grim Tochter“ (sn74 L, M) → Anna, patrně sestra Marianny (K); Mikuláš 1781 asi živ."
+    "fs_old132: Fryštát O VII 1776 – X 1783 (vol. 2735 sn59–79) bez sňatku Marina Grim × Dzięgiel (D). Rodina Mikuláše Grima: 25. 2. 1781 Roj – „Simon des Verst. Johann Schottek Sohn mit der Anna des Nicolai Grim Tochter“ (sn74 L, M) → Anna, patrně sestra Marianny (K); Mikuláš 1781 asi živ.",
+    "fs_old133: Fryštát O VII 1771 – VII 1776 bez sňatku Grim × Dzięgiel (D). Fryštát O je tak na tento sňatek prošlá souvisle VII 1771 – 1788 → sňatek patrně v Godowě (offline). Další Grimové v Ráji: Matouš, syn Jana Grimy šafáře, ∞ 9. 2. 1774."
    ],
    "sources": [
     "ZA Opava, Závada – josefínská matrika N/O/Z 1785–1797 – FamilySearch vol. 2790, křty 1789, 1790, 1793 (snímky 4–6)",
