@@ -5054,7 +5054,8 @@ window.RODOKMEN = {
     "caak_dr34: vdova Žofie † 27. 1. 1779 ve 65 letech v domě syna Jana č. 21 (D).",
     "caak_dr47: slovo za příjmením v oddacím zápisu 1768 = „Jastrza-biò“ (ablativ, Jastrzębie, dnes Jastrzębie-Zdrój; D, ověřeno koordinátorem na nativním výřezu) – dřívější čtení „Hottza?“ chybné. Souhlas „Senioris Provinciae“ = formule u příchozích z pruské strany → rodina z Jastrzębí (D−). V zemřelých Žibřidovic XI 1735 – II 1768 není → zemřel nejspíš v Jastrzębí.",
     "sbc_kon5: Těšín ev. křty XI 1732 – IV 1752, oddaní IX 1729 – X 1744, zemřelí X 1742 – V 1767 – Martin Miček × Žofie ani křest Jana nenalezeny (D/K) → rodina spíš katolická z Jastrzębí.",
-    "gen_mic1: fara Jastrzębie Górne (sv. Kateřiny) – matriky 18. stol. online nejsou (Geneteka až 1842+); Geneteka celé Slezsko 1700–1800 bez Martina × Zofie / křtu Jana. Originály případně AA Katowice (dotaz) nebo FS „Ober Jastrzemb“ (login)."
+    "gen_mic1: fara Jastrzębie Górne (sv. Kateřiny) – matriky 18. stol. online nejsou (Geneteka až 1842+); Geneteka celé Slezsko 1700–1800 bez Martina × Zofie / křtu Jana. Originály případně AA Katowice (dotaz) nebo FS „Ober Jastrzemb“ (login).",
+    "caak_dr48: Miček ve farnosti mimo sňatek 1768 vůbec není (zemřelí III 1722 – II 1768, svědci 1754–68, kmotři 1753–57) → zemřel mimo farnost, nejspíš v Jastrzębí (D). Další příchozí z Jastrzębí 1756–65 se stejnou formulí („Jastrzebiò“, souhlas seniora) – Schajer 1765, Hlosek 1763 → čtení „Jastrzabiò“ D+."
    ],
    "sources": [
     "Archiwum Diecezji Bielsko-Żywieckiej, fara Zebrzydowice, PWNMPZ 3 – CAAK, oddaní I 1768, snímek 304",
