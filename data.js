@@ -4923,7 +4923,8 @@ window.RODOKMEN = {
     "fs_old145: Petřvald (u Karviné) má na FamilySearch jen N/O/Z 1660–1698 (DGS 5387863) a knihy od 1785 – mezera 1699–1784, Martinův křest ani sňatek Františka tam dohledat nelze. V křtech 1689–99 Kuźnik není (D); podobně znějící rody Kożinek a Kuzyra (souvislost jen R).",
     "fs_old157–162: fara Šenov (kam Petřvald patřil do 1784) na FS – křty I 1719 – XI 1738 a oddaní XI 1704 – VIII 1714 a I 1719 – IX 1737 bez Kuźnika (D) → Martin pokřtěn jinde, rodina snad přišla odjinud. Otevřené: oddaní 1714–18 (vol. 3111 sn165–168), 23. I 1725 ženich neuveden × Hedvika Kusková (K).",
     "fs_old163: Šenov oddaní XI 1704 – IX 1737 kompletně bez Kuźnika (D); Fryštát křty XII 1725 – III 1729 bez Kuźnika (D) → původ rodiny mimo Šenov i Fryštát (K).",
-    "fs_old166: Šenov křty VII 1708 – IX 1718 také bez Kuźnika (D; pár vybledlých řádků K) → Šenov N 1708–1738 kompletně negativ; František přišel do Petřvaldu nejspíš odjinud (K)."
+    "fs_old166: Šenov křty VII 1708 – IX 1718 také bez Kuźnika (D; pár vybledlých řádků K) → Šenov N 1708–1738 kompletně negativ; František přišel do Petřvaldu nejspíš odjinud (K).",
+    "fs_old167–168: Šenov zemřelí II 1736 – 1762 bez Kuźnika (D); 1748 „Joes Kuniczni“ = Konieczny. Šenov N 1708–38, O 1704–37, Z 1736–62 negativ."
    ],
    "sources": [
     "ZA Opava, fara Fryštát, O 1708–1761 – FamilySearch vol. 2734, pag. 160, snímek 83 vlevo (ark 3:1:3QS7-89MW-JS7D)"
