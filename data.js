@@ -4872,7 +4872,8 @@ window.RODOKMEN = {
     "fs_old130 (★ stopa, K–D): 26. 8. 1767 kmotra „Marianna Virgo filia Nicolai Grim ex Zovada“ (Fryštát N, vol. 2732 sn196 P, ark 3:1:3QS7-89MW-M9JV-R; M/D) – svobodná dcera Mikuláše Grima ze Závady, *≤~1755 → kandidátka na naši Marinu (jméno, rodné příjmení, obec; ověřit sňatkem). V Závadě 1766 také Jakub Grim × Ester. Fryštát N VI 1765 – IX 1767 bez křtu Mariny Grimové.",
     "fs_old132: Fryštát O VII 1776 – X 1783 (vol. 2735 sn59–79) bez sňatku Marina Grim × Dzięgiel (D). Rodina Mikuláše Grima: 25. 2. 1781 Roj – „Simon des Verst. Johann Schottek Sohn mit der Anna des Nicolai Grim Tochter“ (sn74 L, M) → Anna, patrně sestra Marianny (K); Mikuláš 1781 asi živ.",
     "fs_old133: Fryštát O VII 1771 – VII 1776 bez sňatku Grim × Dzięgiel (D). Fryštát O je tak na tento sňatek prošlá souvisle VII 1771 – 1788 → sňatek patrně v Godowě (offline). Další Grimové v Ráji: Matouš, syn Jana Grimy šafáře, ∞ 9. 2. 1774.",
-    "zao_r105: Fryštát oddaní F IV 7 (= FS vol. 2735, FS = ZA+1) V 1769 – IX 1771 bez Grim × Dzięgiel → kniha souvisle V 1769 – X 1788 negativ; Závada patřila 1771 k faře Godów (D) → sňatek nejspíš v Godowě."
+    "zao_r105: Fryštát oddaní F IV 7 (= FS vol. 2735, FS = ZA+1) V 1769 – IX 1771 bez Grim × Dzięgiel → kniha souvisle V 1769 – X 1788 negativ; Závada patřila 1771 k faře Godów (D) → sňatek nejspíš v Godowě.",
+    "caak_god1: matriky Godów 1740–1790 veřejně online nejsou (CAAK 0, Geneteka jen 1843–46, metryki nic); originály v AA Katowice (śluby 1705–1937, chrzty 1740–84)."
    ],
    "sources": [
     "ZA Opava, Závada – josefínská matrika N/O/Z 1785–1797 – FamilySearch vol. 2790, křty 1789, 1790, 1793 (snímky 4–6)",
