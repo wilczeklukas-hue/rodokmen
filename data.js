@@ -4345,7 +4345,8 @@ window.RODOKMEN = {
     "Matka kandidátního křtu Šimona (X 1719) a jeho sourozenců 1713–1718, Marklovice (M). Rodné příjmení neuvedeno. Jistota K (viz Bartoloměj Witek). Rok narození je odhad.",
     "caak_dr41: ovdověla 19. 3. 1720; dítě VIII 1722 s otcem „Joannes“ → snad 2. sňatek (K).",
     "caak_dr42: 2. sňatek 10. 2. 1722 (PWNMPZ 3 s213): „Joannes Kraizik … cum honesta Vidua Hedvige Witkova … per dispensationem Episcopalem in tertio Gradu affinitatis … Sponsi ex Marklovitz“ (M) – Jan Kraizik byl příbuzný zesnulého Bartoloměje; dítě 10. 8. 1722 „Joannis Vite[k] et Hedvigis“ je nejspíš jeho (K–D). Rodné příjmení Hedviky neuvedeno. Sňatek s Bartolomějem 1693–1717 ve faře není (mezera II 1694 – XI 1695 nedigitalizována).",
-    "caak_dr43: 2. manžel Jan Kraizik † 16. 5. 1726 Marklovice (PWNMPZ 3 s286, D); 3. sňatek X 1728 s mládencem Baltazarem Gerżonem („Hedvigem Viduam Kraitzikyanam“, s223, M); syn Jan * 1. 6. 1729 (D). Rodné příjmení nikde; úmrtí 1722–1760 nenalezeno."
+    "caak_dr43: 2. manžel Jan Kraizik † 16. 5. 1726 Marklovice (PWNMPZ 3 s286, D); 3. sňatek X 1728 s mládencem Baltazarem Gerżonem („Hedvigem Viduam Kraitzikyanam“, s223, M); syn Jan * 1. 6. 1729 (D). Rodné příjmení nikde; úmrtí 1722–1760 nenalezeno.",
+    "caak_dr44: po křtu syna Jana 1. 6. 1729 (otec „Bartholomeus Gerżon“, M) rodina Gerżon ve farnosti mizí; úmrtí 1729–1771 ani další děti 1729–1741 nejsou. Rodné příjmení nedohledáno (zbývá jen 1. sňatek ~1706 mimo farnost / dispenzní akty 1722)."
    ],
    "sources": [
     "Archiwum Diecezji Bielsko-Żywieckiej, fara Zebrzydowice, PWNMPZ 2 (1693–1721) – CAAK, křty 1713–1719"
