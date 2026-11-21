@@ -4293,27 +4293,39 @@ window.RODOKMEN = {
    "cert": "K",
    "alive": false,
    "b": {
-    "date": "",
-    "year": 1685,
-    "place": "",
-    "approx": true
+    "date": "15. 8. 1683",
+    "year": 1683,
+    "place": "Marklovice (?)"
    },
    "notes": [
     "Otec kandidátního křtu Šimona (X 1719, Marklovice): „Bartholomaei Witek et Hedvigis“ (M). Děti: Anna 18. 4. 1713, Marianna 1. 4. 1716, Matěj II 1718, Šimon X 1719 (PWNMPZ 2 s63, s70, s74, s81; kmotr vždy Bartoloměj Sikora); kmotr už 30. 11. 1712. 10. 8. 1722 Bartoloměj, syn „Joannis Vitek et Hedvigis“ (K – chyba písaře?). Sňatek 1693–1717 ve farnosti není. Jistota K: ztotožnění Šimona Witka s hajným † 1779 není přímo doloženo. Rok narození je odhad.",
     "caak_dr11: další děti Žofie 27. 4. 1708 a Zuzana 14. 9. 1711 (PWNMPZ 2 s49, s58; M) → sňatek ~1706–07 mimo farnost. Úmrtí Bartoloměje ani Hedviky v zemřelých 1722–1760 nejsou; rodina po 1722 z matrik mizí (odchod?). Přímé spojení se Šimonem hajným stále chybí (K).",
     "caak_dr36: kandidátní křest (K–D) 15. 8. 1683 Marklovice: „Bartholomaeum Viti Wi[t/l]ek et Evae“ (PWNMPZ 1 s84) → otec Vít Witek × Eva?",
     "caak_dr38: Vít × Eva (Marklovice) – děti Jiří 9. 2. 1673, Eva 18. 11. 1674 (otec jen „Viti“, M); „Vitus Thoma“ je spíš patronymikum (Vít Tomášův) a „Witek“ pozdější příjmení (K). Křty V 1677 – VIII 1682 nepřečteny (CAAK server visel).",
-    "caak_dr39: Vít × Eva, Marklovice – další dítě Zuzana 27. 12. 1679 („Viti Hortulanij“ = zahradník, M); 15. 12. 1680 kmotra „Eva Witkowa“ z Marklovic (M) a 1. 12. 1680 kmotr „Vitus Thoma“ → „Thoma“ = patronymikum, „Witek/Witkowa“ přízvisko od Víta (K–D). Spojení s Bartolomějem *1683 tím posíleno na K+."
+    "caak_dr39: Vít × Eva, Marklovice – další dítě Zuzana 27. 12. 1679 („Viti Hortulanij“ = zahradník, M); 15. 12. 1680 kmotra „Eva Witkowa“ z Marklovic (M) a 1. 12. 1680 kmotr „Vitus Thoma“ → „Thoma“ = patronymikum, „Witek/Witkowa“ přízvisko od Víta (K–D). Spojení s Bartolomějem *1683 tím posíleno na K+.",
+    "caak_dr41: úmrtí 19. 3. 1720: „Obijt Bartholomeus Witek derepente mortuus sepultus in Marklovitz“ (M; ověřeno koordinátorem) – náhlá smrt 5 měsíců po narození Šimona (X 1719); oprava caak_dr11. Kandidátní křest 15. 8. 1683 Marklovice „Bartholomaeum Viti Wi[t]ek et Evae“ (K–D) → rodiče Vít × Eva (K)."
    ],
    "sources": [
-    "Archiwum Diecezji Bielsko-Żywieckiej, fara Zebrzydowice, PWNMPZ 2 (1693–1721) – CAAK, křty 1713–1719"
+    "Archiwum Diecezji Bielsko-Żywieckiej, fara Zebrzydowice, PWNMPZ 2 (1693–1721) – CAAK, křty 1713–1719",
+    "fara Zebrzydowice, PWNMPZ 2 – CAAK, zemřelí 1694 (s137), 1704 (s152), 1716 (s174), 1720 (s185)"
    ],
    "scans": [
     {
      "f": "img/1719_krest_simon_witek.jpg",
      "t": "Křest Šimona, syna Bartoloměje Witka a Hedviky, Marklovice X 1719 (kandidát)"
+    },
+    {
+     "f": "img/1720_umrti_bartolomej_witek.jpg",
+     "t": "Úmrtí Bartoloměje Witka (náhlá smrt), Marklovice 19. 3. 1720"
     }
-   ]
+   ],
+   "d": {
+    "date": "19. 3. 1720",
+    "year": 1720,
+    "place": "Marklovice (Marklowice)"
+   },
+   "father": "vitusWitekSt",
+   "mother": "evaWitkowaSt"
   },
   {
    "id": "hedvigisWitek",
@@ -4329,7 +4341,8 @@ window.RODOKMEN = {
     "approx": true
    },
    "notes": [
-    "Matka kandidátního křtu Šimona (X 1719) a jeho sourozenců 1713–1718, Marklovice (M). Rodné příjmení neuvedeno. Jistota K (viz Bartoloměj Witek). Rok narození je odhad."
+    "Matka kandidátního křtu Šimona (X 1719) a jeho sourozenců 1713–1718, Marklovice (M). Rodné příjmení neuvedeno. Jistota K (viz Bartoloměj Witek). Rok narození je odhad.",
+    "caak_dr41: ovdověla 19. 3. 1720; dítě VIII 1722 s otcem „Joannes“ → snad 2. sňatek (K)."
    ],
    "sources": [
     "Archiwum Diecezji Bielsko-Żywieckiej, fara Zebrzydowice, PWNMPZ 2 (1693–1721) – CAAK, křty 1713–1719"
@@ -5178,7 +5191,8 @@ window.RODOKMEN = {
    "mother": "",
    "sources": [
     "fara Zebrzydowice, PWNMPZ 1 (1661–1693) – CAAK, křty 1683 (s84), 1688 (s98), 1692 (s107); PWNMPZ 2 s14 (1694)",
-    "fara Zebrzydowice, PWNMPZ 1 – CAAK, oddaní 14. 1. 1682 (s130)"
+    "fara Zebrzydowice, PWNMPZ 1 – CAAK, oddaní 14. 1. 1682 (s130)",
+    "fara Zebrzydowice, PWNMPZ 2 – CAAK, zemřelí 1694 (s137), 1704 (s152), 1716 (s174), 1720 (s185)"
    ],
    "scans": [
     {
@@ -5188,6 +5202,10 @@ window.RODOKMEN = {
     {
      "f": "img/1682_snatek_sebastian_drapa_anna_szkaradkova.jpg",
      "t": "Sňatek Šebestiána, syna Řehoře Drapy, s Annou, dcerou Ondřeje Szkaradka, Žibřidovice 14. 1. 1682"
+    },
+    {
+     "f": "img/1694_umrti_sebastian_drapa.jpg",
+     "t": "Úmrtí Šebestiána Drapy, „hereticus“, Žibřidovice 13. (9.) 1694"
     }
    ],
    "id": "sebastianDrapaSt",
@@ -5199,13 +5217,14 @@ window.RODOKMEN = {
     "approx": true
    },
    "d": {
-    "date": "",
-    "year": null,
-    "place": ""
+    "date": "13. 9. 1694",
+    "year": 1694,
+    "place": "Žibřidovice (Zebrzydowice)"
    },
    "notes": [
     "Otec Vavřince (1683), Bartoloměje (1688), Jakuba (1692) a Anny (1694), Žibřidovice (M). Kmotr 1686–1692. Sňatek s Annou před 1683 (oddaní PWNMPZ 1 1674–1684 zatím nečteny). Rok narození je odhad.",
-    "caak_dr37: sňatek 14. 1. 1682: „Matrimonium contractum inter Sebastianum filium Gregorij Drapa ex Villa Zybrzydowice, et Annam filiam Andreae Szkaradek ex eadem Villa“, svědci Matěj Zamevlik a Jiří Dzieciak (M; ověřeno koordinátorem na výřezu). Jediný sňatek Drapy 1662–1693 (ztotožnění D). Vavřinec 1683 nejspíš první dítě."
+    "caak_dr37: sňatek 14. 1. 1682: „Matrimonium contractum inter Sebastianum filium Gregorij Drapa ex Villa Zybrzydowice, et Annam filiam Andreae Szkaradek ex eadem Villa“, svědci Matěj Zamevlik a Jiří Dzieciak (M; ověřeno koordinátorem na výřezu). Jediný sňatek Drapy 1662–1693 (ztotožnění D). Vavřinec 1683 nejspíš první dítě.",
+    "caak_dr41: úmrtí (IX) 13. 1694: „Sebastianus Drapa hereticus. altera die in cem. ibid.“ (M, měsíc D; ověřeno koordinátorem na výřezu) – „hereticus“ = nekatolík (luterán), přesto děti křtěny katolicky. Dcera Anna * III 1694 † 2. 5. 1696 jako dítě (D−). Vdova Anna v zemřelých 1694–1734 nenalezena (snad 2. sňatek)."
    ]
   },
   {
@@ -5278,7 +5297,8 @@ window.RODOKMEN = {
     "approx": true
    },
    "notes": [
-    "Otec Šebestiána Drapy podle oddacího zápisu 1682 („Sebastianum filium Gregorij Drapa ex Villa Zybrzydowice“, M); v zápisu není uveden jako zemřelý. Žibřidovice. Rok narození je odhad."
+    "Otec Šebestiána Drapy podle oddacího zápisu 1682 („Sebastianum filium Gregorij Drapa ex Villa Zybrzydowice“, M); v zápisu není uveden jako zemřelý. Žibřidovice. Rok narození je odhad.",
+    "caak_dr41: úmrtí v zemřelých 1693–1734 nenalezeno → zemřel nejspíš před 1693 (kniha zemřelých začíná I 1693)."
    ]
   },
   {
@@ -5314,6 +5334,76 @@ window.RODOKMEN = {
     "Otec Anny podle oddacího zápisu 1682 („Annam filiam Andreae Szkaradek ex eadem Villa“, M). Žibřidovice. Rok narození je odhad.",
     "caak_dr39: kmotr 1662–1668 opakovaně; 9. 11. 1680 syn Adam, matka Žofie (D) – 2. žena nebo jiný Ondřej. Křest Anny 1662–1669 a 1677–1682 nenalezen (narozena před IV 1662 nebo 1669–72). Žil i Jan Szkarodek („alias Blendny“) × Anna (syn Michal 1665)."
    ]
+  },
+  {
+   "line": "grzonka",
+   "cert": "K",
+   "alive": false,
+   "maiden": "",
+   "father": "",
+   "mother": "",
+   "id": "vitusWitekSt",
+   "name": "Vít (Vitus) Witek („Thoma“)",
+   "occ": "zahradník (hortulanus)",
+   "b": {
+    "date": "",
+    "year": 1645,
+    "place": "",
+    "approx": true
+   },
+   "d": {
+    "date": "20. 3. 1704",
+    "year": 1704,
+    "place": "Marklovice (Marklowice)"
+   },
+   "notes": [
+    "Sňatek 20. 11. 1672 Marklovice: „inter Vitum Thoma, et Evam Molitorissam ex Villa Marklowice“ (M; „Thoma“ = patronymikum, K–D). Děti: Jiří 9. 2. 1673, Eva 18. 11. 1674, Zuzana 27. 12. 1679 („Viti Hortulanij“), Bartoloměj 15. 8. 1683 („Viti Wi[t]ek“, K–D). Kmotr jako „Vitus Thoma“ 1677, 1680; žena 1680 „Eva Witkowa“ (M).",
+    "caak_dr41: úmrtí 20. 3. 1704: „Marklo … Vitus Witek. altera die in cemet. ib.“ (M; ztotožnění D). Vazba na Bartoloměje K (křest 1683 K–D). Rok narození je odhad."
+   ],
+   "sources": [
+    "fara Zebrzydowice, PWNMPZ 1 – CAAK, oddaní 20. 11. 1672 (s118), křty 1673–1683 (s50, s55, s70, s84), kmotra 1680 (s75)",
+    "fara Zebrzydowice, PWNMPZ 2 – CAAK, zemřelí 1694 (s137), 1704 (s152), 1716 (s174), 1720 (s185)"
+   ],
+   "scans": [
+    {
+     "f": "img/1704_umrti_vit_witek.jpg",
+     "t": "Úmrtí Víta Witka, Marklovice 20. 3. 1704"
+    },
+    {
+     "f": "img/1683_krest_bartolomej_witek.jpg",
+     "t": "Křest Bartoloměje, syna Víta Wi(t)ka a Evy, Marklovice 15. 8. 1683"
+    }
+   ]
+  },
+  {
+   "line": "grzonka",
+   "cert": "K",
+   "alive": false,
+   "maiden": "„Molitorissa“ (mlynářka / z mlýna?)",
+   "father": "",
+   "mother": "",
+   "id": "evaWitkowaSt",
+   "name": "Eva Witková",
+   "b": {
+    "date": "",
+    "year": 1650,
+    "place": "Marklovice (?)",
+    "approx": true
+   },
+   "d": {
+    "date": "21. 4. 1716",
+    "year": 1716,
+    "place": "Marklovice (Marklowice)"
+   },
+   "notes": [
+    "Sňatek 20. 11. 1672 s Vítem („Evam Molitorissam ex Villa Marklowice“, M) – „Molitorissa“ může být povolání/přízvisko (mlynářka, dcera mlynáře), ne příjmení; kmotra už 1669. Kmotra 1680 jako „Eva Witkowa“.",
+    "caak_dr41: úmrtí 21. 4. 1716 Marklovice: „Eva Vitkowa cathol.“ (M; ztotožnění K–D, věk neuveden). Rok narození je odhad."
+   ],
+   "sources": [
+    "fara Zebrzydowice, PWNMPZ 1 – CAAK, oddaní 20. 11. 1672 (s118), křty 1673–1683 (s50, s55, s70, s84), kmotra 1680 (s75)",
+    "fara Zebrzydowice, PWNMPZ 2 – CAAK, zemřelí 1694 (s137), 1704 (s152), 1716 (s174), 1720 (s185)"
+   ],
+   "scans": []
   }
  ],
  "places": [],
