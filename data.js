@@ -5052,7 +5052,8 @@ window.RODOKMEN = {
    "notes": [
     "Otec Jana Miczka podle oddacího zápisu 1768 („post def. Martinum Miczek …“, M) – v té době již nežil; slovo za příjmením („Hottza?“) nepřečteno. Rok narození je odhad.",
     "caak_dr34: vdova Žofie † 27. 1. 1779 ve 65 letech v domě syna Jana č. 21 (D).",
-    "caak_dr47: slovo za příjmením v oddacím zápisu 1768 = „Jastrza-biò“ (ablativ, Jastrzębie, dnes Jastrzębie-Zdrój; D, ověřeno koordinátorem na nativním výřezu) – dřívější čtení „Hottza?“ chybné. Souhlas „Senioris Provinciae“ = formule u příchozích z pruské strany → rodina z Jastrzębí (D−). V zemřelých Žibřidovic XI 1735 – II 1768 není → zemřel nejspíš v Jastrzębí."
+    "caak_dr47: slovo za příjmením v oddacím zápisu 1768 = „Jastrza-biò“ (ablativ, Jastrzębie, dnes Jastrzębie-Zdrój; D, ověřeno koordinátorem na nativním výřezu) – dřívější čtení „Hottza?“ chybné. Souhlas „Senioris Provinciae“ = formule u příchozích z pruské strany → rodina z Jastrzębí (D−). V zemřelých Žibřidovic XI 1735 – II 1768 není → zemřel nejspíš v Jastrzębí.",
+    "sbc_kon5: Těšín ev. křty XI 1732 – IV 1752, oddaní IX 1729 – X 1744, zemřelí X 1742 – V 1767 – Martin Miček × Žofie ani křest Jana nenalezeny (D/K) → rodina spíš katolická z Jastrzębí."
    ],
    "sources": [
     "Archiwum Diecezji Bielsko-Żywieckiej, fara Zebrzydowice, PWNMPZ 3 – CAAK, oddaní I 1768, snímek 304",
