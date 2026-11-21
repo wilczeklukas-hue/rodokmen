@@ -5244,7 +5244,8 @@ window.RODOKMEN = {
    },
    "notes": [
     "Matka Vavřince (1683) a sourozenců 1688–1694, Žibřidovice (M). Rodné příjmení neznámé. Kmotra „Anna Drapowa/Drapina“ 1685–1693. Možná „Anna Drapin vidua“ 1746 (viz Vavřinec) – K. Rok narození je odhad.",
-    "caak_dr37: dcera Ondřeje Szkaradka ze Žibřidovic (sňatek 1682, M)."
+    "caak_dr37: dcera Ondřeje Szkaradka ze Žibřidovic (sňatek 1682, M).",
+    "caak_dr40: křty PWNMPZ 1 (kniha začíná 12. 11. 1661) přečteny celé – křest Anny Szkaradkové není → narozena před XI 1661 nebo mimo faru. Ondřej Szkaradek kmotr 1662–1678, Eva Szkarodková kmotra 1663–1670 (snad jeho 1. žena, K)."
    ]
   },
   {
