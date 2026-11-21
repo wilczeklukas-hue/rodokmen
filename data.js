@@ -4947,7 +4947,8 @@ window.RODOKMEN = {
     "fs_old166: Šenov křty VII 1708 – IX 1718 také bez Kuźnika (D; pár vybledlých řádků K) → Šenov N 1708–1738 kompletně negativ; František přišel do Petřvaldu nejspíš odjinud (K).",
     "fs_old167–168: Šenov zemřelí II 1736 – 1762 bez Kuźnika (D); 1748 „Joes Kuniczni“ = Konieczny. Šenov N 1708–38, O 1704–37, Z 1736–62 negativ.",
     "fs_old169–171: Šenov zemřelí 1736 – VII 1782 (konec svazku 3117) bez Kuźnika (D, kniha místy neúplná); Fryštát pohřby VII 1757 – VIII 1759 také ne.",
-    "fs_old172: ani v pohřbech Dolní Lutyně (u syna) VII 1757 – VII 1777 (D)."
+    "fs_old172: ani v pohřbech Dolní Lutyně (u syna) VII 1757 – VII 1777 (D).",
+    "zao_r110–111: alternativa Petřvald u Nového Jičína (MO IX 2–4) vyloučena (D) – křty XI 1719 – 1731, rejstřík K 1732–42 a sňatky XII 1716 – 1731 bez Kuźnika. „Petersvaldã“ 1757 = nejspíš Petřvald u Karviné (fara Šenov), kde ale Kuźnik do 1782 nefiguruje – rodina tam asi jen krátce sloužila/bydlela (K)."
    ],
    "sources": [
     "ZA Opava, fara Fryštát, O 1708–1761 – FamilySearch vol. 2734, pag. 160, snímek 83 vlevo (ark 3:1:3QS7-89MW-JS7D)"
