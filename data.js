@@ -533,7 +533,8 @@ window.RODOKMEN = {
     "zao_r89: rejstříky oddaných 1923–27 Doubrava (F III 13), Dětmarovice (F II 10), Český Těšín ř.-k. (Ja VIII 9) a ev. (ET VII 115) bez Františka Wilczka × Noskové (M). Celkem 6 negativních rejstříků. Zbývá Těrlicko Ka VII 21, CČS Orlová/Doubrava/Karviná, civ. CV XI 1/3.",
     "zao_r90: CČS Orlová (Čs-Os III 13) 1924 č. 1–2 a 1926 č. 1–2 bez Wilczka (M); zbytek 1923–27 nečten – obrazový server ZA Opava 20. 11. vracel chyby 500. CV XI 3 = civ. okres Místek (bez Karviné), nízká priorita.",
     "zao_r95: CČS Doubrava oddaní Čs-Os III 3 a III 6 (vč. Fryštátu a Orlové) 1923–1927 kompletně bez Františka Wilczka × Noskové (M).",
-    "zao_r96: CČS Karviná (Čs-Os III 16) 1922 – XI 1927 souvisle bez páru (M); Těrlicko ř.-k. rejstřík W 1919–29 jen „Wilczek Paweł *10. 1. 1901“ ∞ 1926 jiná nevěsta (M – jiná osoba). Sňatek tak není v 11 prošlých knihách/rejstřících; zbývá jen CČS Orlová 1923, 1924–25, 1927 (server chyba)."
+    "zao_r96: CČS Karviná (Čs-Os III 16) 1922 – XI 1927 souvisle bez páru (M); Těrlicko ř.-k. rejstřík W 1919–29 jen „Wilczek Paweł *10. 1. 1901“ ∞ 1926 jiná nevěsta (M – jiná osoba). Sňatek tak není v 11 prošlých knihách/rejstřících; zbývá jen CČS Orlová 1923, 1924–25, 1927 (server chyba).",
+    "zao_r100 (21. 11. 2026): Orlová CČS Čs-Os III 13 sn15–16 (VIII–X 1927) negativ (M). Stále nečteno kvůli chybě serveru (ProArch Server Exception): sn4–5, 7–9, 11, 14, 17."
    ],
    "sources": [
     "Zápis o narození Aloise Wilczka, MÚ Karviná, kniha narození 1954, poř. č. 460 (kopie zápisu zaslaná úřadem, 11. 11. 2026)"
