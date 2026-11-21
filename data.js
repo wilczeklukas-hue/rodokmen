@@ -3761,7 +3761,8 @@ window.RODOKMEN = {
     "fs_old149: křty Fryštát doplněny 22. 9. 1717 – II 1720 bez Hontze (D) → vol. 2731 souvisle IX 1717 – XII 1732 jen Anna Hontz 1728. Sňatek Pavel Hontz × Anna ve Fryštátě I 1708 – XI 1727 není (D). Zbývá O XII 1727 – IV 1728 (vol. 2734 sn22) a zemřelí Fryštát.",
     "fs_old150: sňatky Fryštát (vol. 2734) prohledány 1708 – VII 1734 (mimo mezeru V–XII 1710) – Hontz × Anna není (D). Pohřby vol. 2736 V 1728 – VII 1730 bez Hontze. Zbývá pohřby 1730–1757 a paralelní svazky (N vol. 2998/2999, O 2730/3002, Z 3003/3005 – snad jiné části fary).",
     "fs_old151: paralelní svazky „Karviná“ na FS jsou fara KARVINÁ (ne Fryštát): N vol. 2998 od 1725, O vol. 3003 od XI 1722 (FS chybně „Burials“), vol. 3002 smíšená manželství 1778+. N 1725 – VIII 1726 a O XI 1722 – VIII 1723 bez Hontze (D).",
-    "fs_old152: fara Karviná – sňatky 15. XI 1722 – V 1728 a křty VIII 1726 – II 1728 bez Hontze/Honzy (D). Spolu s Fryštátem (O 1708–1734, N 1717–1732) jsou dostupné knihy obou far vyčerpány → Marina i sňatek Pavla Hontze nejspíš v jiné faře (Orlová, Těrlicko, Bohumín, Těšín) – větev na FS uzavřena."
+    "fs_old152: fara Karviná – sňatky 15. XI 1722 – V 1728 a křty VIII 1726 – II 1728 bez Hontze/Honzy (D). Spolu s Fryštátem (O 1708–1734, N 1717–1732) jsou dostupné knihy obou far vyčerpány → Marina i sňatek Pavla Hontze nejspíš v jiné faře (Orlová, Těrlicko, Bohumín, Těšín) – větev na FS uzavřena.",
+    "fs_old150–156: Fryštát pohřby souvisle V 1728 – VI 1757 bez Hontz/Honza i Kuźnik (D) – rodiče Mariny ani František Kuźnik zde nezemřeli."
    ],
    "sources": [
     "ZA Opava, fara Dolní Lutyně, Z 1779–1803, oddíl Dětmarovice – FamilySearch DGS 5387447, fol. 10, snímek 73 vpravo",
