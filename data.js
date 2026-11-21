@@ -4342,7 +4342,8 @@ window.RODOKMEN = {
    },
    "notes": [
     "Matka kandidátního křtu Šimona (X 1719) a jeho sourozenců 1713–1718, Marklovice (M). Rodné příjmení neuvedeno. Jistota K (viz Bartoloměj Witek). Rok narození je odhad.",
-    "caak_dr41: ovdověla 19. 3. 1720; dítě VIII 1722 s otcem „Joannes“ → snad 2. sňatek (K)."
+    "caak_dr41: ovdověla 19. 3. 1720; dítě VIII 1722 s otcem „Joannes“ → snad 2. sňatek (K).",
+    "caak_dr42: 2. sňatek 10. 2. 1722 (PWNMPZ 3 s213): „Joannes Kraizik … cum honesta Vidua Hedvige Witkova … per dispensationem Episcopalem in tertio Gradu affinitatis … Sponsi ex Marklovitz“ (M) – Jan Kraizik byl příbuzný zesnulého Bartoloměje; dítě 10. 8. 1722 „Joannis Vite[k] et Hedvigis“ je nejspíš jeho (K–D). Rodné příjmení Hedviky neuvedeno. Sňatek s Bartolomějem 1693–1717 ve faře není (mezera II 1694 – XI 1695 nedigitalizována)."
    ],
    "sources": [
     "Archiwum Diecezji Bielsko-Żywieckiej, fara Zebrzydowice, PWNMPZ 2 (1693–1721) – CAAK, křty 1713–1719"
@@ -5264,7 +5265,8 @@ window.RODOKMEN = {
    "notes": [
     "Matka Vavřince (1683) a sourozenců 1688–1694, Žibřidovice (M). Rodné příjmení neznámé. Kmotra „Anna Drapowa/Drapina“ 1685–1693. Možná „Anna Drapin vidua“ 1746 (viz Vavřinec) – K. Rok narození je odhad.",
     "caak_dr37: dcera Ondřeje Szkaradka ze Žibřidovic (sňatek 1682, M).",
-    "caak_dr40: křty PWNMPZ 1 (kniha začíná 12. 11. 1661) přečteny celé – křest Anny Szkaradkové není → narozena před XI 1661 nebo mimo faru. Ondřej Szkaradek kmotr 1662–1678, Eva Szkarodková kmotra 1663–1670 (snad jeho 1. žena, K)."
+    "caak_dr40: křty PWNMPZ 1 (kniha začíná 12. 11. 1661) přečteny celé – křest Anny Szkaradkové není → narozena před XI 1661 nebo mimo faru. Ondřej Szkaradek kmotr 1662–1678, Eva Szkarodková kmotra 1663–1670 (snad jeho 1. žena, K).",
+    "caak_dr42: kandidátní 2. sňatek (K) 7. 2. 1700: „Paulus Gabris, Anna Drapina, Catholici Zibrzidovicen.“ (PWNMPZ 2 s106). Oddaní II 1694 – XI 1695 nejsou naskenovány."
    ]
   },
   {
