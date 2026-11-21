@@ -5038,7 +5038,7 @@ window.RODOKMEN = {
    "b": {
     "date": "",
     "year": 1715,
-    "place": "",
+    "place": "Jastrzębie (?)",
     "approx": true
    },
    "d": {
@@ -5051,15 +5051,21 @@ window.RODOKMEN = {
    "mother": "",
    "notes": [
     "Otec Jana Miczka podle oddacího zápisu 1768 („post def. Martinum Miczek …“, M) – v té době již nežil; slovo za příjmením („Hottza?“) nepřečteno. Rok narození je odhad.",
-    "caak_dr34: vdova Žofie † 27. 1. 1779 ve 65 letech v domě syna Jana č. 21 (D)."
+    "caak_dr34: vdova Žofie † 27. 1. 1779 ve 65 letech v domě syna Jana č. 21 (D).",
+    "caak_dr47: slovo za příjmením v oddacím zápisu 1768 = „Jastrza-biò“ (ablativ, Jastrzębie, dnes Jastrzębie-Zdrój; D, ověřeno koordinátorem na nativním výřezu) – dřívější čtení „Hottza?“ chybné. Souhlas „Senioris Provinciae“ = formule u příchozích z pruské strany → rodina z Jastrzębí (D−). V zemřelých Žibřidovic XI 1735 – II 1768 není → zemřel nejspíš v Jastrzębí."
    ],
    "sources": [
-    "Archiwum Diecezji Bielsko-Żywieckiej, fara Zebrzydowice, PWNMPZ 3 – CAAK, oddaní I 1768, snímek 304"
+    "Archiwum Diecezji Bielsko-Żywieckiej, fara Zebrzydowice, PWNMPZ 3 – CAAK, oddaní I 1768, snímek 304",
+    "fara Zebrzydowice, PWNMPZ 3 – CAAK, oddaní 26. 1. 1768 (s304)"
    ],
    "scans": [
     {
      "f": "img/1768_snatek_jan_miczek_maria_kabus.jpg",
      "t": "Sňatek Jana Miczka, syna † Martina Miczka, s Marií, dcerou † Jakuba Kabuse, Horní Žibřidovice 26. 1. 1768"
+    },
+    {
+     "f": "img/1768_snatek_jan_miczek_otec_z_jastrzebi.jpg",
+     "t": "Sňatek Jana Miczka 1768 – „post def. Martinum Miczek Jastrzabiò“ (z Jastrzębí)"
     }
    ]
   },
