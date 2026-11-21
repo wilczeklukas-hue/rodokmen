@@ -5057,7 +5057,8 @@ window.RODOKMEN = {
     "sbc_kon5: Těšín ev. křty XI 1732 – IV 1752, oddaní IX 1729 – X 1744, zemřelí X 1742 – V 1767 – Martin Miček × Žofie ani křest Jana nenalezeny (D/K) → rodina spíš katolická z Jastrzębí.",
     "gen_mic1: fara Jastrzębie Górne (sv. Kateřiny) – matriky 18. stol. online nejsou (Geneteka až 1842+); Geneteka celé Slezsko 1700–1800 bez Martina × Zofie / křtu Jana. Originály případně AA Katowice (dotaz) nebo FS „Ober Jastrzemb“ (login).",
     "caak_dr48: Miček ve farnosti mimo sňatek 1768 vůbec není (zemřelí III 1722 – II 1768, svědci 1754–68, kmotři 1753–57) → zemřel mimo farnost, nejspíš v Jastrzębí (D). Další příchozí z Jastrzębí 1756–65 se stejnou formulí („Jastrzebiò“, souhlas seniora) – Schajer 1765, Hlosek 1763 → čtení „Jastrzabiò“ D+.",
-    "caak_dr49: křty Žibřidovice IV 1753 – I 1769 kompletně bez Miczků (rodiče ani kmotři) → rodina přišla do farnosti nejspíš krátce před 1768 (D−)."
+    "caak_dr49: křty Žibřidovice IV 1753 – I 1769 kompletně bez Miczků (rodiče ani kmotři) → rodina přišla do farnosti nejspíš krátce před 1768 (D−).",
+    "fs_mic1: FamilySearch katalog pro Jastrzębí/Bzie/Pawłowice/Ruptawu z 18. stol. nic nemá (jen duplikát Ober Jastrzemb 1842–46, DGS 7997935); indexy FS bez Martina/Jana (pár Martin × Sophia Miczek ze Słupi, Poznaňsko, 1766–74 = R). Zbývá jen dotaz do AA Katowice."
    ],
    "sources": [
     "Archiwum Diecezji Bielsko-Żywieckiej, fara Zebrzydowice, PWNMPZ 3 – CAAK, oddaní I 1768, snímek 304",
