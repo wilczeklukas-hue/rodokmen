@@ -4343,7 +4343,8 @@ window.RODOKMEN = {
    "notes": [
     "Matka kandidátního křtu Šimona (X 1719) a jeho sourozenců 1713–1718, Marklovice (M). Rodné příjmení neuvedeno. Jistota K (viz Bartoloměj Witek). Rok narození je odhad.",
     "caak_dr41: ovdověla 19. 3. 1720; dítě VIII 1722 s otcem „Joannes“ → snad 2. sňatek (K).",
-    "caak_dr42: 2. sňatek 10. 2. 1722 (PWNMPZ 3 s213): „Joannes Kraizik … cum honesta Vidua Hedvige Witkova … per dispensationem Episcopalem in tertio Gradu affinitatis … Sponsi ex Marklovitz“ (M) – Jan Kraizik byl příbuzný zesnulého Bartoloměje; dítě 10. 8. 1722 „Joannis Vite[k] et Hedvigis“ je nejspíš jeho (K–D). Rodné příjmení Hedviky neuvedeno. Sňatek s Bartolomějem 1693–1717 ve faře není (mezera II 1694 – XI 1695 nedigitalizována)."
+    "caak_dr42: 2. sňatek 10. 2. 1722 (PWNMPZ 3 s213): „Joannes Kraizik … cum honesta Vidua Hedvige Witkova … per dispensationem Episcopalem in tertio Gradu affinitatis … Sponsi ex Marklovitz“ (M) – Jan Kraizik byl příbuzný zesnulého Bartoloměje; dítě 10. 8. 1722 „Joannis Vite[k] et Hedvigis“ je nejspíš jeho (K–D). Rodné příjmení Hedviky neuvedeno. Sňatek s Bartolomějem 1693–1717 ve faře není (mezera II 1694 – XI 1695 nedigitalizována).",
+    "caak_dr43: 2. manžel Jan Kraizik † 16. 5. 1726 Marklovice (PWNMPZ 3 s286, D); 3. sňatek X 1728 s mládencem Baltazarem Gerżonem („Hedvigem Viduam Kraitzikyanam“, s223, M); syn Jan * 1. 6. 1729 (D). Rodné příjmení nikde; úmrtí 1722–1760 nenalezeno."
    ],
    "sources": [
     "Archiwum Diecezji Bielsko-Żywieckiej, fara Zebrzydowice, PWNMPZ 2 (1693–1721) – CAAK, křty 1713–1719"
@@ -5237,7 +5238,8 @@ window.RODOKMEN = {
    "mother": "",
    "sources": [
     "fara Zebrzydowice, PWNMPZ 1 (1661–1693) – CAAK, křty 1683 (s84), 1688 (s98), 1692 (s107); PWNMPZ 2 s14 (1694)",
-    "fara Zebrzydowice, PWNMPZ 1 – CAAK, oddaní 14. 1. 1682 (s130)"
+    "fara Zebrzydowice, PWNMPZ 1 – CAAK, oddaní 14. 1. 1682 (s130)",
+    "fara Zebrzydowice, PWNMPZ 3 – CAAK, zemřelí 1735 (s333)"
    ],
    "scans": [
     {
@@ -5247,6 +5249,10 @@ window.RODOKMEN = {
     {
      "f": "img/1682_snatek_sebastian_drapa_anna_szkaradkova.jpg",
      "t": "Sňatek Šebestiána, syna Řehoře Drapy, s Annou, dcerou Ondřeje Szkaradka, Žibřidovice 14. 1. 1682"
+    },
+    {
+     "f": "img/1735_umrti_anna_gabryska.jpg",
+     "t": "Úmrtí Anny Gabryśky (~80 let), Žibřidovice 24. 4. 1735 – snad vdova po Šebestiánu Drapovi (K–D)"
     }
    ],
    "id": "annaDrapaSst",
@@ -5258,15 +5264,16 @@ window.RODOKMEN = {
     "approx": true
    },
    "d": {
-    "date": "",
-    "year": null,
-    "place": ""
+    "date": "24. 4. 1735",
+    "year": 1735,
+    "place": "Žibřidovice (Zebrzydowice)"
    },
    "notes": [
     "Matka Vavřince (1683) a sourozenců 1688–1694, Žibřidovice (M). Rodné příjmení neznámé. Kmotra „Anna Drapowa/Drapina“ 1685–1693. Možná „Anna Drapin vidua“ 1746 (viz Vavřinec) – K. Rok narození je odhad.",
     "caak_dr37: dcera Ondřeje Szkaradka ze Žibřidovic (sňatek 1682, M).",
     "caak_dr40: křty PWNMPZ 1 (kniha začíná 12. 11. 1661) přečteny celé – křest Anny Szkaradkové není → narozena před XI 1661 nebo mimo faru. Ondřej Szkaradek kmotr 1662–1678, Eva Szkarodková kmotra 1663–1670 (snad jeho 1. žena, K).",
-    "caak_dr42: kandidátní 2. sňatek (K) 7. 2. 1700: „Paulus Gabris, Anna Drapina, Catholici Zibrzidovicen.“ (PWNMPZ 2 s106). Oddaní II 1694 – XI 1695 nejsou naskenovány."
+    "caak_dr42: kandidátní 2. sňatek (K) 7. 2. 1700: „Paulus Gabris, Anna Drapina, Catholici Zibrzidovicen.“ (PWNMPZ 2 s106). Oddaní II 1694 – XI 1695 nejsou naskenovány.",
+    "caak_dr43 (K–D): „Anna Gabriska ex Seibersdorff … annorum praeter propter 80“ † 24. 4. 1735 (PWNMPZ 3 s333) → * ~1655, sedí na nevěstu 1682. 2. manžel Pavel Gabryś († III 1730), jediné dítě Marianna 28. 12. 1701. Přímý doklad (rodné jméno) chybí."
    ]
   },
   {
