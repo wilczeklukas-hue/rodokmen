@@ -2858,7 +2858,8 @@ window.RODOKMEN = {
     "fs_old143: děti s Marinou 1758–1767 (Německá Lutyně / Věřňovice), viz u dcery marinaKusnik; manželka Marina kmotrou u Javorků 1765.",
     "Sňatek 4. 7. 1757 ve Fryštátě (fs_old144, ověřeno koordinátorem na výřezu): „Martinus honestus famulus, filius Francisci Kuźnik, Petersvaldã cath: cum honesta Ancilla Marina filia post defft. Honza(?) ex Freystadt, cath: testes Joannes Marek ex Roÿ et Wenceslaus Larisch ex Teuto-Lutin.“ – čeledín, syn Františka Kuźnika z Petřvaldu; nevěsta Marina, služebná, dcera † Honzy(?) z Fryštátu (čtení M, „Honza“ D–K). Ztotožnění D+: svědek V. Lariš z Něm. Lutyně je i 1758 v D. Lutyni vedle Martina, první dítě 17. 5. 1758. Příjmení tedy Kuźnik (M).",
     "fs_old172 (výřez ověřen koordinátorem): pohřby dětí v Německé Lutyni – Jan (* 22. X 1759) † pohř. 10. XI 1759, 2 týdny (D–M); František (* 12. XII 1760) pohř. 10. I 1761, 4 týdny (M). Děti s Marinou: Johanna 1758, Jan 1759 †, František 1760 †, Marina 1761, Magdalena 1764 †, Jiří 1765 †, Rozina 1767. Otec František Kuźnik v pohřbech D. Lutyně VII 1757 – VII 1777 není (D).",
-    "fs_old163–175: křest nenalezen – Fryštát N XI 1719 – X 1736, Šenov N 1708–1738, Dolní Lutyně 1724–1731 (D); Orlová před 1738 na FS není. Narozen patrně mimo tyto fary (K)."
+    "fs_old163–175: křest nenalezen – Fryštát N XI 1719 – X 1736, Šenov N 1708–1738, Dolní Lutyně 1724–1731 (D); Orlová před 1738 na FS není. Narozen patrně mimo tyto fary (K).",
+    "fs_old176: Fryštát N doplněn – negativ souvisle IX 1717 – II 1739 (D). Online fary vyčerpány."
    ],
    "sources": [
     "ZA Opava, NAD 165 Sbírka matrik Severomoravského kraje I, sign. F I 4, inv. 2700, N Věřňovice 1782–1803, snímek 12, pravá strana, „In Martio“ 4. zápis, křest 1784 (digi.archives.cz)",
