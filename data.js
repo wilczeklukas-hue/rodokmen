@@ -5437,7 +5437,8 @@ window.RODOKMEN = {
    "notes": [
     "Sňatek 20. 11. 1672 s Vítem („Evam Molitorissam ex Villa Marklowice“, M) – „Molitorissa“ může být povolání/přízvisko (mlynářka, dcera mlynáře), ne příjmení; kmotra už 1669. Kmotra 1680 jako „Eva Witkowa“.",
     "caak_dr41: úmrtí 21. 4. 1716 Marklovice: „Eva Vitkowa cathol.“ (M; ztotožnění K–D, věk neuveden). Rok narození je odhad.",
-    "caak_dr51 (výřez 1670 ověřen koordinátorem): „Eva Molitorissa ex eadem Villa“ kmotrou v Marklovicích 12. 12. 1669 a 5. 1. 1670, „Eva Mlynarka“ 1. 3. 1671 (PWNMPZ 1 s38, s43; M). Ztotožnění s nevěstou Víta (∞ 20. 11. 1672) D−; otec neuveden (dcera, nebo vdova po mlynáři?). PWNMPZ 1 začíná 12. 11. 1661 → křty Šebestiána Drapy a Anny Szkaradkové v něm být nemohou."
+    "caak_dr51 (výřez 1670 ověřen koordinátorem): „Eva Molitorissa ex eadem Villa“ kmotrou v Marklovicích 12. 12. 1669 a 5. 1. 1670, „Eva Mlynarka“ 1. 3. 1671 (PWNMPZ 1 s38, s43; M). Ztotožnění s nevěstou Víta (∞ 20. 11. 1672) D−; otec neuveden (dcera, nebo vdova po mlynáři?). PWNMPZ 1 začíná 12. 11. 1661 → křty Šebestiána Drapy a Anny Szkaradkové v něm být nemohou.",
+    "caak_dr52 (výřezy 1662 a 1665 ověřeny koordinátorem): mlynářem v Marklovicích byl 1662–1669 Matouš Kalemba „Molitor“ × Eva – dvojčata Jan a Jakub 29. 3. 1662 („Matthaeus Molitor Marklo: Kalemba Mr Eva“, M); 28. 1. 1665 kmotra „Eva Kalębina molitorissa“ (M); Matouš naposledy živ 14. 7. 1669. Eva „Molitorissa/Mlynarka“ 1667–71 a nevěsta Víta 1672 = nejspíš vdova po Matouši Kalembovi (D−); proti: ve sňatku 1672 chybí „vidua“. Pokud ano, nar. ≤ ~1644. Zemřelí 1661–1692 online nejsou."
    ],
    "sources": [
     "fara Zebrzydowice, PWNMPZ 1 – CAAK, oddaní 20. 11. 1672 (s118), křty 1673–1683 (s50, s55, s70, s84), kmotra 1680 (s75)",
