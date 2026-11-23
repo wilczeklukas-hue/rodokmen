@@ -40,7 +40,10 @@ for (const p of d.people) {
   }
   if (p.b && p.d && p.b.year && p.d.year && p.d.year < p.b.year) say('ERROR', `${who}: death before birth`);
   const notes = p.notes || [];
-  if (!p.d && notes.some(n => /zemřel|zemřela/i.test(n))) say('WARN', `${who}: notes mention death but field d is missing`);
+  // Agent research-log notes (prefixed with a session tag like "fs_old103:" or "caak_dr26:") mostly
+  // describe deaths of other people (children, spouses, namesakes), so they are excluded here.
+  const AGENT_LOG = /^[a-z]+_[a-z]*\d+\b/;
+  if (!p.d && notes.some(n => /zemřel|zemřela/i.test(n) && !AGENT_LOG.test(n))) say('WARN', `${who}: notes mention death but field d is missing`);
   if (p.cert === 'M' && !(p.sources || []).length && !(p.scans || []).length) say('ERROR', `${who}: cert M without sources or scans`);
   if (p.cert === 'M' && /^kandidát/i.test(notes[0] || '')) say('ERROR', `${who}: cert M but first note is a candidate`);
   if (p.cert === 'K' && !/^kandidát/i.test(notes[0] || '')) say('WARN', `${who}: cert K, first note should start with "KANDIDÁT"`);
