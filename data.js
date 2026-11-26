@@ -123,7 +123,7 @@ window.RODOKMEN = {
    "notes": [
     "Datum a místo narození ze zápisu o narození syna Aloise (1954); vlastní křestní zápis zatím nehledán.",
     "Náhrobek: samostatná deska s portrétem „František Wilczek ✡ 24. III. 1927 † 19. VII. 1990“ u rodinného hrobu svých rodičů Franciszka (1894–1968) a Rozy (1895–1966) Wilczkových. Datum narození na desce se přesně shoduje se zápisem 1954.",
-    "Rodinná paměť uváděla úmrtí „konec 80. nebo začátek 90. let“ – náhrobek to upřesňuje na 19. 7. 1990. Pohřeb: rodina uváděla Urnový háj Karviná-Mizerov, později (e-mail 19. 11. 2026) hřbitov Karviná-Ráj společně s Adelou; Adela je ale na náhrobku se sestrou Annou Drozdowou, František u rodičů. Místo hrobu z fotky 26. 11. 2026 upřesnit.",
+    "Rodinná paměť uváděla úmrtí „konec 80. nebo začátek 90. let“ – náhrobek to upřesňuje na 19. 7. 1990. Pohřben v Urnovém háji Karviná (Mizerov) u rodinného hrobu rodičů (uživatel 26. 11. 2026). Babička Adela leží na témže hřbitově v jiném hrobě se sestrou Annou Drozdowou (dřívější údaj „pohřben spolu s Adelou“ tím upřesněn).",
     "KANDIDÁTKY – sestry (K, jen společný hrob): Gertruda Schrammová ✡ 9. 7. 1924 † 29. 5. 1995 (na téže desce s rodiči; s ní František Schramm ✡ 19. 4. 1937 † 1. 9. 2022) a Růženka Čechová ✡ 3. 6. (?) 1929 † 12. 8. 2006 (?) (spodní deska, s Bohuslavem Čechem ✡ 11. 10. (?) 1928 † 30. 5. 2014). Jméno Růženka po matce Růženě podporuje vazbu, není ale doložena."
    ],
    "sources": [
@@ -572,6 +572,7 @@ window.RODOKMEN = {
    "notes": [
     "Otec Františka (nar. 1927), uveden jako prarodič v zápisu o narození vnuka Aloise 1954.",
     "Náhrobek (polsky): „Franciszek Wilczek ✡ 15. 6. 1894 † 21. 6. 1968“, v jednom hrobě s „Roza Wilczkowa“ (1895–1966) a s deskou syna Františka (24. 3. 1927 – 1990). Ztotožnění: jména obou rodičů shodná se zápisem 1954 a společný hrob se synem, jehož datum narození na desce přesně sedí (D). Polské tvary jmen a nápis „Jezu bądź im miłościw“ ukazují na polsky mluvící rodinu.",
+    "Hrob je v Urnovém háji Karviná (Mizerov) – upřesnění uživatele 26. 11. 2026.",
     "Datum 15. 6. 1894 vylučuje dřívější kandidáty narození (Franz *14. 12. 1898, Franz *20. 1. 1899, Franciszek *18. 1. 1900 Fryštát; Geneteka ~1897–1905). Sňatek s Růženou spíš před 1924 (pokud je Gertruda *1924 jejich dcera – K) – hledání 1923–27 tím ztrácí oporu.",
     "gen_w1: Geneteka – pár Wilczek × Nosek/Noska/Naska 1915–30 (śląskie, małopolskie, opolskie) není; Franciszek Wilczek sňatky 1915–30 (32) bez Noskové. České Těšínsko v Genetece není vůbec, polský Cieszyn po 1848 také ne → negativ málo říká. Kandidáti narození ~1900 (K, bez vazby): Bielsko-Komorowice 1897 a 1901, Aleksandrowice 1898, Kaniów 1905. Klíčem zůstává rodný zápis syna 1927 (MÚ Karviná).",
     "zao_r88: ZA Opava – rejstřík oddaných ř.-k. Orlová+Lazy+Poruba (Ka V 35) II 1923 – II 1928 bez Františka Wilczka i Noskové (M); ev. rejstřík Orlová (ET V 27, fara ~20 obcí vč. Karviné, Fryštátu, Doubravy, Petřvaldu, Stonavy) W 1923–27 bez Františka (D–M). Jiní Wilčkové v Porubě 1923–26 (Josef, Alois, Engelbert). Zbývá Doubrava F III 13, Dětmarovice F II 10, Český Těšín Ja VIII 9 + ev. ET VII 115, Těrlicko Ka VII 21, CČS Orlová/Doubrava.",
@@ -616,6 +617,7 @@ window.RODOKMEN = {
    "notes": [
     "Matka Františka (nar. 1927), v zápisu 1954 „Růžena rozená Nosková“ (čtení ?, možná Nasková).",
     "Náhrobek (polsky): „Roza Wilczkowa ✡ 15. 4. 1895 † 25. 11. 1966“, v jednom hrobě s manželem Franciszkem Wilczkem (1894–1968) a deskou syna Františka (1927–1990) – ztotožnění D (viz karta manžela).",
+    "Hrob je v Urnovém háji Karviná (Mizerov) – upřesnění uživatele 26. 11. 2026.",
     "gen_w1: Rozalia/Róża Nosek * 1895–1908 v Těšínsku/Bielsku v Genetece není (85 křtů Nosek ve Slezsku prošlo); tvar Nosková spíš český → hledat v ZA Opava (Orlová, Doubrava, Petřvald, Stonava, Těrlicko, ev. fary)."
    ],
    "sources": [
