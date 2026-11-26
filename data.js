@@ -122,13 +122,15 @@ window.RODOKMEN = {
    "cert": "D",
    "notes": [
     "Datum a místo narození ze zápisu o narození syna Aloise (1954); vlastní křestní zápis zatím nehledán.",
-    "Pohřben na hřbitově Urnový háj Karviná-Mizerov (rodinná paměť).",
-    "Lukáš (e-mail 19. 11. 2026): pohřben spolu s Adelou na hřbitově Karviná-Ráj; Lukáš čeká na výpis z matriky a hroby nafotí."
+    "Náhrobek: samostatná deska s portrétem „František Wilczek ✡ 24. III. 1927 † 19. VII. 1990“ u rodinného hrobu svých rodičů Franciszka (1894–1968) a Rozy (1895–1966) Wilczkových. Datum narození na desce se přesně shoduje se zápisem 1954.",
+    "Rodinná paměť uváděla úmrtí „konec 80. nebo začátek 90. let“ – náhrobek to upřesňuje na 19. 7. 1990. Pohřeb: rodina uváděla Urnový háj Karviná-Mizerov, později (e-mail 19. 11. 2026) hřbitov Karviná-Ráj společně s Adelou; Adela je ale na náhrobku se sestrou Annou Drozdowou, František u rodičů. Místo hrobu z fotky 26. 11. 2026 upřesnit.",
+    "KANDIDÁTKY – sestry (K, jen společný hrob): Gertruda Schrammová ✡ 9. 7. 1924 † 29. 5. 1995 (na téže desce s rodiči; s ní František Schramm ✡ 19. 4. 1937 † 1. 9. 2022) a Růženka Čechová ✡ 3. 6. (?) 1929 † 12. 8. 2006 (?) (spodní deska, s Bohuslavem Čechem ✡ 11. 10. (?) 1928 † 30. 5. 2014). Jméno Růženka po matce Růženě podporuje vazbu, není ale doložena."
    ],
    "sources": [
     "Zápis o narození Aloise Wilczka, MÚ Karviná, kniha narození 1954, poř. č. 460 (kopie zápisu zaslaná úřadem, 11. 11. 2026)",
     "Rodinná paměť – sdělení Lukáše Wilczka (15. 10. 2026)",
-    "Rodinná paměť – sdělení Lukáše Wilczka (5. 11. 2026): úmrtí a místo pohřbu"
+    "Rodinná paměť – sdělení Lukáše Wilczka (5. 11. 2026): úmrtí a místo pohřbu",
+    "Náhrobek rodiny Wilczkových (Roza Wilczkowa, Franciszek Wilczek, Gertruda Schrammová, František Schramm; deska František Wilczek 1927–1990; spodní deska Růženka Čechová, Bohuslav Čech), foto Lukáš Wilczek 26. 11. 2026"
    ],
    "scans": [
     {
@@ -138,6 +140,18 @@ window.RODOKMEN = {
     {
      "f": "img/2021_umrti_alois_wilczek.jpg",
      "t": "Úmrtní list syna Aloise 2021 (citlivé údaje začerněny)"
+    },
+    {
+     "f": "img/1990_hrob_frantisek_wilczek.jpg",
+     "t": "Deska Františka Wilczka (24. 3. 1927 – 19. 7. 1990) u rodinného hrobu"
+    },
+    {
+     "f": "img/1966_hrob_wilczek_rodina.jpg",
+     "t": "Rodinný hrob Wilczkových: Roza Wilczkowa (1895–1966), Franciszek Wilczek (1894–1968), Gertruda a František Schrammovi"
+    },
+    {
+     "f": "img/2006_hrob_cechovi.jpg",
+     "t": "Spodní deska téhož hrobu: Růženka Čechová (1929–2006 ?) a Bohuslav Čech (1928 ? – 2014)"
     }
    ],
    "id": "frantisekW",
@@ -149,7 +163,9 @@ window.RODOKMEN = {
     "place": "Karviná, Karviná 1 – město"
    },
    "d": {
-    "date": "konec 80. let nebo začátek 90. let (rodinná paměť)"
+    "date": "19. 7. 1990",
+    "year": 1990,
+    "place": ""
    },
    "occ": "horník (1954)",
    "father": "frantisekW1",
@@ -554,7 +570,9 @@ window.RODOKMEN = {
   {
    "alive": false,
    "notes": [
-    "Otec Františka (nar. 1927), uveden jako prarodič v zápisu o narození vnuka Aloise 1954. Rok narození je odhad podle syna.",
+    "Otec Františka (nar. 1927), uveden jako prarodič v zápisu o narození vnuka Aloise 1954.",
+    "Náhrobek (polsky): „Franciszek Wilczek ✡ 15. 6. 1894 † 21. 6. 1968“, v jednom hrobě s „Roza Wilczkowa“ (1895–1966) a s deskou syna Františka (24. 3. 1927 – 1990). Ztotožnění: jména obou rodičů shodná se zápisem 1954 a společný hrob se synem, jehož datum narození na desce přesně sedí (D). Polské tvary jmen a nápis „Jezu bądź im miłościw“ ukazují na polsky mluvící rodinu.",
+    "Datum 15. 6. 1894 vylučuje dřívější kandidáty narození (Franz *14. 12. 1898, Franz *20. 1. 1899, Franciszek *18. 1. 1900 Fryštát; Geneteka ~1897–1905). Sňatek s Růženou spíš před 1924 (pokud je Gertruda *1924 jejich dcera – K) – hledání 1923–27 tím ztrácí oporu.",
     "gen_w1: Geneteka – pár Wilczek × Nosek/Noska/Naska 1915–30 (śląskie, małopolskie, opolskie) není; Franciszek Wilczek sňatky 1915–30 (32) bez Noskové. České Těšínsko v Genetece není vůbec, polský Cieszyn po 1848 také ne → negativ málo říká. Kandidáti narození ~1900 (K, bez vazby): Bielsko-Komorowice 1897 a 1901, Aleksandrowice 1898, Kaniów 1905. Klíčem zůstává rodný zápis syna 1927 (MÚ Karviná).",
     "zao_r88: ZA Opava – rejstřík oddaných ř.-k. Orlová+Lazy+Poruba (Ka V 35) II 1923 – II 1928 bez Františka Wilczka i Noskové (M); ev. rejstřík Orlová (ET V 27, fara ~20 obcí vč. Karviné, Fryštátu, Doubravy, Petřvaldu, Stonavy) W 1923–27 bez Františka (D–M). Jiní Wilčkové v Porubě 1923–26 (Josef, Alois, Engelbert). Zbývá Doubrava F III 13, Dětmarovice F II 10, Český Těšín Ja VIII 9 + ev. ET VII 115, Těrlicko Ka VII 21, CČS Orlová/Doubrava.",
     "zao_r89: rejstříky oddaných 1923–27 Doubrava (F III 13), Dětmarovice (F II 10), Český Těšín ř.-k. (Ja VIII 9) a ev. (ET VII 115) bez Františka Wilczka × Noskové (M) – všechny negativní. Zbývá Těrlicko Ka VII 21, CČS Orlová/Doubrava/Karviná, civ. CV XI 1/3.",
@@ -564,12 +582,17 @@ window.RODOKMEN = {
     "zao_r100 (21. 11. 2026): Orlová CČS Čs-Os III 13 sn15–16 (VIII–X 1927) negativ (M). Stále nečteno kvůli chybě serveru (ProArch Server Exception): sn4–5, 7–9, 11, 14, 17."
    ],
    "sources": [
-    "Zápis o narození Aloise Wilczka, MÚ Karviná, kniha narození 1954, poř. č. 460 (kopie zápisu zaslaná úřadem, 11. 11. 2026)"
+    "Zápis o narození Aloise Wilczka, MÚ Karviná, kniha narození 1954, poř. č. 460 (kopie zápisu zaslaná úřadem, 11. 11. 2026)",
+    "Náhrobek rodiny Wilczkových (Roza Wilczkowa, Franciszek Wilczek, Gertruda Schrammová, František Schramm; deska František Wilczek 1927–1990; spodní deska Růženka Čechová, Bohuslav Čech), foto Lukáš Wilczek 26. 11. 2026"
    ],
    "scans": [
     {
      "f": "img/1954_narozeni_alois_wilczek.jpg",
      "t": "Zápis o narození vnuka Aloise 1954"
+    },
+    {
+     "f": "img/1966_hrob_wilczek_rodina.jpg",
+     "t": "Rodinný hrob Wilczkových: Roza Wilczkowa (1895–1966), Franciszek Wilczek (1894–1968), Gertruda a František Schrammovi"
     }
    ],
    "id": "frantisekW1",
@@ -578,25 +601,35 @@ window.RODOKMEN = {
    "line": "wilczek",
    "cert": "D",
    "b": {
-    "date": "",
-    "year": 1900,
-    "place": "",
-    "approx": true
+    "date": "15. 6. 1894",
+    "year": 1894,
+    "place": ""
+   },
+   "d": {
+    "date": "21. 6. 1968",
+    "year": 1968,
+    "place": ""
    }
   },
   {
    "alive": false,
    "notes": [
-    "Matka Františka (nar. 1927), v zápisu 1954 „Růžena rozená Nosková“ (čtení ?, možná Nasková). Rok narození je odhad podle syna.",
+    "Matka Františka (nar. 1927), v zápisu 1954 „Růžena rozená Nosková“ (čtení ?, možná Nasková).",
+    "Náhrobek (polsky): „Roza Wilczkowa ✡ 15. 4. 1895 † 25. 11. 1966“, v jednom hrobě s manželem Franciszkem Wilczkem (1894–1968) a deskou syna Františka (1927–1990) – ztotožnění D (viz karta manžela).",
     "gen_w1: Rozalia/Róża Nosek * 1895–1908 v Těšínsku/Bielsku v Genetece není (85 křtů Nosek ve Slezsku prošlo); tvar Nosková spíš český → hledat v ZA Opava (Orlová, Doubrava, Petřvald, Stonava, Těrlicko, ev. fary)."
    ],
    "sources": [
-    "Zápis o narození Aloise Wilczka, MÚ Karviná, kniha narození 1954, poř. č. 460 (kopie zápisu zaslaná úřadem, 11. 11. 2026)"
+    "Zápis o narození Aloise Wilczka, MÚ Karviná, kniha narození 1954, poř. č. 460 (kopie zápisu zaslaná úřadem, 11. 11. 2026)",
+    "Náhrobek rodiny Wilczkových (Roza Wilczkowa, Franciszek Wilczek, Gertruda Schrammová, František Schramm; deska František Wilczek 1927–1990; spodní deska Růženka Čechová, Bohuslav Čech), foto Lukáš Wilczek 26. 11. 2026"
    ],
    "scans": [
     {
      "f": "img/1954_narozeni_alois_wilczek.jpg",
      "t": "Zápis o narození vnuka Aloise 1954"
+    },
+    {
+     "f": "img/1966_hrob_wilczek_rodina.jpg",
+     "t": "Rodinný hrob Wilczkových: Roza Wilczkowa (1895–1966), Franciszek Wilczek (1894–1968), Gertruda a František Schrammovi"
     }
    ],
    "id": "ruzenaN",
@@ -605,10 +638,14 @@ window.RODOKMEN = {
    "line": "wilczek",
    "cert": "D",
    "b": {
-    "date": "",
-    "year": 1902,
-    "place": "",
-    "approx": true
+    "date": "15. 4. 1895",
+    "year": 1895,
+    "place": ""
+   },
+   "d": {
+    "date": "25. 11. 1966",
+    "year": 1966,
+    "place": ""
    }
   },
   {
